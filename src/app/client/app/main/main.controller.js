@@ -230,44 +230,45 @@ angular.module('dnftestApp')
       $scope.cy = cy.json();
     };
 
-    $scope.remove = function () {
-      $scope.cy.$('#' + $scope.selected).remove();
-      $scope.showOptions = false;
-    };
+    // $scope.remove = function () {
+    //   $scope.cy.$('#' + $scope.selected).remove();
+    //   $scope.showOptions = false;
+    // };
 
-    $scope.cy.on('tap', 'edge', function (evt) {
+    $scope.cy.on('tap', 'node', function (evt) {
       $scope.selected = evt.cyTarget.id();
-      $scope.showOptions = true;
-      $scope.cy.$('#' + evt.cyTarget.id()).remove();
-      $scope.$apply();
+      //$scope.showOptions = true;
+      //$scope.cy.$('#' + evt.cyTarget.id()).remove();
+      $scope.cy.center('#' + evt.cyTarget.id());
+      //$scope.$apply();
     });
 
-    $scope.addEdge = function () {
-      $scope.cy.add(
-        { group: "edges", data: { id: "e" + parseInt($scope.c), source: $scope.selected, target: $scope.dest }
-        });
+    // $scope.addEdge = function () {
+    //   $scope.cy.add(
+    //     { group: "edges", data: { id: "e" + parseInt($scope.c), source: $scope.selected, target: $scope.dest }
+    //     });
+    //
+    //   $scope.c ++;
+    //
+    //   $scope.showOptions = false;
+    // }
 
-      $scope.c ++;
 
-      $scope.showOptions = false;
-    }
-
-
-    $scope.cy.$('#COL3').qtip({
-      content: 'Hello, my name is COL3',
-      position: {
-        my: 'top center',
-        at: 'bottom center'
-      },
-      style: {
-        classes: 'qtip-bootstrap',
-        tip: {
-          width: 16,
-          height: 8
-        }
-      }
-    });
-
+    // $scope.cy.$('#COL3').qtip({
+    //   content: 'Hello, my name is COL3',
+    //   position: {
+    //     my: 'top center',
+    //     at: 'bottom center'
+    //   },
+    //   style: {
+    //     classes: 'qtip-bootstrap',
+    //     tip: {
+    //       width: 16,
+    //       height: 8
+    //     }
+    //   }
+    // });
+    //
 
     $scope.bringBack = function () {
 
@@ -275,15 +276,12 @@ angular.module('dnftestApp')
 
     };
 
-    $scope.undo = function () {
-      //$scope.cy.load();
-    }
 
     /// init
 
-    $('i, div')
-      .popup()
-    ;
+    // $('i, div')
+    //   .popup()
+    // ;
 
 
 

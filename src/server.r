@@ -9,7 +9,7 @@ shinyServer(function(input, output) {
     source <- c("Jerry", "Jerry", "Jerry", "Elaine", "Elaine", "Kramer", "Kramer", "Kramer", "George")
     target <- c("Elaine", "Kramer", "George", "Jerry", "Kramer", "Jerry", "Elaine", "George", "Jerry")
     edgeData <- data.frame(source, target, stringsAsFactors=FALSE)
-    edgeData$sourceShape <- 
+    #edgeData$sourceShape <-  
       
     output$plot <- renderRcytoscapejs({
       cyNetwork <- createCytoscapeJsNetwork(nodeData, edgeData)
