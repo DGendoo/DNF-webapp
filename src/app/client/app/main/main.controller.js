@@ -5,13 +5,25 @@ angular.module('dnftestApp')
     $scope.selected = null;
     $scope.showOptions = false;
     $scope.dest = null;
+    $scope.nodeToSearch = null;
+
+    $scope.nodes = [{title: 'COL3'}, {title: 'Myriocin'}, {title: 'Oligomycina'}];
+
+
+    $('.ui.search')
+      .search({
+        source : $scope.nodes,
+        searchFields   : [
+          'title'
+        ],
+        searchFullText : false,
+        onSelect : function (result, response) {
+          $scope.search(result.title);
+        }
+      })
+    ;
 
     $scope.c = 3;
-
-    // $http.get('/api/things').success(function(awesomeThings) {
-    //   $scope.awesomeThings = awesomeThings;
-    // });
-
 
       $scope.cy = cytoscape({
 
@@ -126,29 +138,6 @@ angular.module('dnftestApp')
 
       });
 
-
-    // $('#n1').cxtmenu({
-    //   selector: 'node',
-    //   commands: [
-    //     {
-    //       content: '<span class="icon-arrow-right"></span><label>Connect</label>',
-    //       select: function(){
-    //         $('#graph').cytoscapeEdgehandles('start', this.id());
-    //       }
-    //     },
-    //
-    //     {
-    //       content: '<span class="icon-remove destructive-light"></span><label class="">Delete</label>',
-    //       select: function(){
-    //         doc.removeEntity( this.id() );
-    //       }
-    //     }
-    //
-    //   ]
-    // });
-
-
-
     $scope.addNode =  function () {
       $scope.cy.add({
         group: "nodes",
@@ -223,52 +212,18 @@ angular.module('dnftestApp')
     };
 
     $scope.cy.edgehandles( defaults );
-
-    // downloads the JSON data
     $scope.downloadIm = function () {
      var cy = $('#cy').cytoscape('get');
       $scope.cy = cy.json();
     };
 
-    // $scope.remove = function () {
-    //   $scope.cy.$('#' + $scope.selected).remove();
-    //   $scope.showOptions = false;
-    // };
-
     $scope.cy.on('tap', 'node', function (evt) {
       $scope.selected = evt.cyTarget.id();
-      //$scope.showOptions = true;
-      //$scope.cy.$('#' + evt.cyTarget.id()).remove();
+      $scope.cy.zoom(2);
       $scope.cy.center('#' + evt.cyTarget.id());
+
       //$scope.$apply();
     });
-
-    // $scope.addEdge = function () {
-    //   $scope.cy.add(
-    //     { group: "edges", data: { id: "e" + parseInt($scope.c), source: $scope.selected, target: $scope.dest }
-    //     });
-    //
-    //   $scope.c ++;
-    //
-    //   $scope.showOptions = false;
-    // }
-
-
-    // $scope.cy.$('#COL3').qtip({
-    //   content: 'Hello, my name is COL3',
-    //   position: {
-    //     my: 'top center',
-    //     at: 'bottom center'
-    //   },
-    //   style: {
-    //     classes: 'qtip-bootstrap',
-    //     tip: {
-    //       width: 16,
-    //       height: 8
-    //     }
-    //   }
-    // });
-    //
 
     $scope.bringBack = function () {
 
@@ -282,6 +237,13 @@ angular.module('dnftestApp')
     // $('i, div')
     //   .popup()
     // ;
+
+    $scope.search = function (node) {
+      $scope.cy.zoom(2);
+      $scope.cy.center('#' + node);
+    };
+
+
 
 
 
