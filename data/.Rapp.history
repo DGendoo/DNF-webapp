@@ -1,5 +1,0 @@
-load("/Users/tfang/Documents/other/DNF/DNF-webapp/data/dnf.ctrp.RData")
-View()
-load("/Users/tfang/Documents/other/DNF/DNF-webapp/data/dnf.ctrp.RData")
-load("/Users/tfang/Documents/other/DNF/DNF-webapp/data/dnf.nci60.RData")
-View(load("/Users/tfang/Documents/other/DNF/DNF-webapp/data/dnf.nci60.RData"))
