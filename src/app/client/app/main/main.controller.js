@@ -7,6 +7,7 @@ angular.module('dnftestApp')
     $scope.dest = null;
     $scope.nodeToSearch = null;
     $scope.image = null;
+    $scope.networkToShow = 'CTRPV2';
 
     $scope.nodes = [{title: 'COL3'}, {title: 'Myriocin'}, {title: 'Oligomycina'}];
 
@@ -178,7 +179,7 @@ angular.module('dnftestApp')
     $('.ui.dropdown')
       .dropdown({
         onChange: function (result, response) {
-          $scope.graphToShow = response;
+          $scope.networkToShow = response;
           $scope.showNetwork();
           $scope.populateDrugList();
         }
