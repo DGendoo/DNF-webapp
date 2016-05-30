@@ -14,7 +14,7 @@
     "font-awesome": ">=4.1.0",
     "lodash": "~2.4.1",
     "angular-ui-router": "~0.2.15",
-    "cytoscape": "^2.6.10",
+    "cytoscape": "^2.6.12",
     "cytoscape-edgehandles": "^2.4.0",
     "cytoscape-qtip": "^2.4.0",
     "semantic": "semantic-ui#^2.1.8"
