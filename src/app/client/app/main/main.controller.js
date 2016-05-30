@@ -155,6 +155,13 @@ angular.module('dnftestApp')
       downloadLink[0].click();
     };
 
+    $scope.showNetwork = function () {
+
+    };
+
+    $scope.populateDrugList = function () {
+
+    };
 
     $('.ui.search')
       .search({
@@ -169,10 +176,16 @@ angular.module('dnftestApp')
       });
 
     $('.ui.dropdown')
-      .dropdown()
-    ;
+      .dropdown({
+        onChange: function (result, response) {
+          $scope.graphToShow = response;
+          $scope.showNetwork();
+          $scope.populateDrugList();
+        }
+      });
 
-
-
+    /// run this code when controller load
+    $scope.showNetwork();
+    $scope.populateDrugList();
 
   });
