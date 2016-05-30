@@ -164,7 +164,10 @@ angular.module('dnftestApp')
     };
 
     $scope.download = function () {
-      $scope.image = $scope.cy.png();
+      var downloadLink = angular.element('<a></a>');
+      downloadLink.attr('href', $scope.cy.png());
+      downloadLink.attr('download', 'network.png');
+      downloadLink[0].click();
     };
 
 
