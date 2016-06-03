@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('dnftestApp')
-  .controller('MainCtrl', function ($scope, $http) {
+  .controller('MainCtrl', function ($scope, $http, Restangular) {
     $scope.selected = null;
     $scope.showOptions = false;
     $scope.dest = null;
@@ -16,66 +16,53 @@ angular.module('dnftestApp')
 
 
       container: document.getElementById('cy'),
-
-      elements: [
-        { // node n1
-          group: 'nodes', // 'nodes' for a node, 'edges' for an edge
-          // NB the group field can be automatically inferred for you but specifying it
-          // gives you nice debug messages if you mis-init elements
-
-          // NB: id fields must be strings or numbers
-          data: { // element data (put dev data here)
-            id: 'COL3', // mandatory for each element, assigned automatically on undefined
-            parent: 'C26', // indicates the compound node parent id; not defined => no parent
-          },
-
-          // scratchpad data (usually temp or nonserialisable data)
-          scratch: {
-            foo: 'bar'
-          },
-
-          position: { // the model position of the node (optional on init, mandatory after)
-            x: 100,
-            y: 100
-          },
-
-          selected: false, // whether the element is selected (default false)
-
-          selectable: true, // whether the selection state is mutable (default true)
-
-          locked: false, // when locked a node's position is immutable (default false)
-
-          grabbable: true, // whether the node can be grabbed and moved by the user
-
-          classes: 'foo bar' // a space separated list of class names that the element has
-        },
-
-        { // node n2
-          data: {id: 'Oligomycina'},
-          renderedPosition: {x: 200, y: 200} // can alternatively specify position in rendered on-screen pixels
-        },
-
-        { // node n3
-          data: {id: 'Myriocin', parent: 'C26'},
-          position: {x: 123, y: 234}
-        },
-
-        { // node nparent
-          data: {id: 'C26', position: {x: 200, y: 100}}
-        },
-
-        { // edge e1
-          data: {
-            id: 'e1',
-            // inferred as an edge because `source` and `target` are specified:
-            source: 'Myriocin', // the source node id (edge comes from this node)
-            target: 'Oligomycina',  // the target node id (edge goes to this node),
-          }
-        }
+      elements: {nodes: [
+        { data: { id: 'n0' } },
+        { data: { id: 'n1' } },
+        { data: { id: 'n2' } },
+        { data: { id: 'n3' } },
+        { data: { id: 'n4' } },
+        { data: { id: 'n5' } },
+        { data: { id: 'n6' } },
+        { data: { id: 'n7' } },
+        { data: { id: 'n8' } },
+        { data: { id: 'n9' } },
+        { data: { id: 'n10' } },
+        { data: { id: 'n11' } },
+        { data: { id: 'n12' } },
+        { data: { id: 'n13' } },
+        { data: { id: 'n14' } },
+        { data: { id: 'n15' } },
+        { data: { id: 'n16' } }
       ],
+        edges: [
+          { data: { source: 'n0', target: 'n1'} },
+          { data: { source: 'n1', target: 'n2'} },
+          { data: { source: 'n1', target: 'n3' } },
+          { data: { source: 'n4', target: 'n5' } },
+          { data: { source: 'n4', target: 'n6' } },
+          { data: { source: 'n6', target: 'n7' } },
+          { data: { source: 'n6', target: 'n8' } },
+          { data: { source: 'n8', target: 'n9' } },
+          { data: { source: 'n8', target: 'n10' } },
+          { data: { source: 'n11', target: 'n12' } },
+          { data: { source: 'n12', target: 'n13' } },
+          { data: { source: 'n13', target: 'n14' } },
+          { data: { source: 'n13', target: 'n15' } },
+        ]}
+
+      ,
 
       layout: {
-        name: 'preset',
+        name: 'cose',
+        // idealEdgeLength: function( edge ){
+        //   console.log(edge._private.data.source == 'n0');
+        //   if (edge._private.data.source == 'n0' && edge._private.data.target == 'n1') {
+        //     return 1;
+        //   } else {
+        //     return 1000;
+        //   };
+        // }
       },
 
       zoom: 0.5
@@ -125,9 +112,9 @@ angular.module('dnftestApp')
 
     });
 
-    var toolDef = {
-      position: 'right'
-    };
+
+
+
 
     $scope.cy.on('tap', 'node', function (evt) {
       $scope.selected = evt.cyTarget.id();
@@ -188,5 +175,11 @@ angular.module('dnftestApp')
     /// run this code when controller load
     $scope.showNetwork();
     $scope.populateDrugList();
+
+
+    //
+    // Restangular.all('api/things').get('').then(function (serverJson) {
+    //   console.log('yya')
+    // });
 
   });
