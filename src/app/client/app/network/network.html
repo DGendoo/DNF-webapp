@@ -1,0 +1,52 @@
+<!--<a class="btn-cta-freequote" href="#">Get a FREE Quote <i class="fa fa-arrow-right"></i></a>-->
+<div id="searchbar">
+  <!--<label>Select a network to display: </label>-->
+  <!--<select class="ui dropdown">-->
+    <!--<option value="1">CTRP</option>-->
+    <!--<option value="2">CTRPV2</option>-->
+
+    <!--<option value="0">NCI60</option>-->
+  <!--</select>-->
+  <br>
+  <br>
+
+  <div class="ui search">
+    <div class="ui icon input">
+      <input class="prompt" type="text" placeholder="Search for a drug...">
+      <i class="search icon"></i>
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+
+<input type="text" ng-model="selected" uib-typeahead="node for node in nodes | filter:$viewValue | limitTo:8" class="form-control">
+
+<!--<p class="input-group">-->
+<!--<input type="text" ng-model="nodeToSearch" uib-typeahead="node for node in nodes | filter:$viewValue | limitTo:8" class="form-control">-->
+<!--<span class="input-group-btn">-->
+<!--<button type="button" class="btn btn-default" ng-click="search()"><i class="glyphicon glyphicon-search"></i></button>-->
+<!--</span>-->
+<!--</p>-->
+
+</div>
+
+<div id="toolbar">
+  <!--<i  class="fa fa-plus-square fa-4x" aria-hidden="true" data-content="Add a new node" ></i>-->
+
+  <i class="fa fa-download  fa-4x" ng-click="download()" aria-hidden="true"></i>
+  <i class="fa fa-compress fa-4x" ng-click="bringBack()" aria-hidden="true"></i>
+
+  <!--<i class="fa fa-undo fa-4x" ng-click="undo()" aria-hidden="true"></i>-->
+
+</div>
+
+<br>
+
+<!--<div class="ui icon button" data-content="Add users to your feed">-->
+<!--<i class="add icon"></i>-->
+<!--</div>-->
+
+<div class="col-xs-12">
+  <div id="cy"></div>
+
+</div>
