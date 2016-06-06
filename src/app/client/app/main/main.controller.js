@@ -9,6 +9,7 @@ angular.module('dnftestApp')
     $scope.image = null;
     $scope.networkToShow = 'CTRPV2';
     $scope.networkData = null;
+
     $scope.nodes = [{title: 'COL3'}, {title: 'Myriocin'}, {title: 'Oligomycina'}];
 
 
@@ -151,7 +152,23 @@ angular.module('dnftestApp')
 
     $scope.populateDrugList = function () {
 
+      if ($scope.networkToShow == 'CTRP') {
+        $.getJSON( 'assets/ctrp.json', function(json){
+          $scope.nodes = json.data;
+        });
+      }
+      else if ($scope.networkToShow == 'NCI60') {
+        $.getJSON( 'assets/nci60.json', function(json){
+          $scope.nodes = json.data;
+        });
+      }
+      //default 'CTRPV2' network
+      else {
+        $scope.nodes = [{title: 'COL3'}, {title: 'Myriocin'}, {title: 'Oligomycina'}]
+      }
     };
+
+
 
     $('.ui.search')
       .search({
