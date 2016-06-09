@@ -16,11 +16,19 @@
 //}
 
 
-#searchbar {
+#searchbarNodes {
   float: left;
   margin-left: 10px;
   margin-top: 20px;
   width: 200px;
+}
+
+#searchbarGraph {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
 }
 
 #toolbar {
