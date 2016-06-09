@@ -1,0 +1,184 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": "n0"
+        }
+      },
+      {
+        "data": {
+          "id": "n1"
+        }
+      },
+      {
+        "data": {
+          "id": "n2"
+        }
+      },
+      {
+        "data": {
+          "id": "n3"
+        }
+      },
+      {
+        "data": {
+          "id": "n4"
+        }
+      },
+      {
+        "data": {
+          "id": "n5"
+        }
+      },
+      {
+        "data": {
+          "id": "n6"
+        }
+      },
+      {
+        "data": {
+          "id": "n7"
+        }
+      },
+      {
+        "data": {
+          "id": "n8"
+        }
+      },
+      {
+        "data": {
+          "id": "n9"
+        }
+      },
+      {
+        "data": {
+          "id": "n10"
+        }
+      },
+      {
+        "data": {
+          "id": "n11"
+        }
+      },
+      {
+        "data": {
+          "id": "n12"
+        }
+      },
+      {
+        "data": {
+          "id": "n13"
+        }
+      },
+      {
+        "data": {
+          "id": "n14"
+        }
+      },
+      {
+        "data": {
+          "id": "n15"
+        }
+      },
+      {
+        "data": {
+          "id": "n16"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "source": "n0",
+          "target": "n1",
+          "weight": 0.1
+        }
+      },
+      {
+        "data": {
+          "source": "n1",
+          "target": "n2",
+          "weight": 0.3
+        }
+      },
+      {
+        "data": {
+          "source": "n1",
+          "target": "n3",
+          "weight": 1
+        }
+      },
+      {
+        "data": {
+          "source": "n4",
+          "target": "n5",
+          "weight": 0.5
+        }
+      },
+      {
+        "data": {
+          "source": "n4",
+          "target": "n6",
+          "weight": 0.7
+        }
+      },
+      {
+        "data": {
+          "source": "n6",
+          "target": "n7",
+          "weight": 0.2
+        }
+      },
+      {
+        "data": {
+          "source": "n6",
+          "target": "n8",
+          "weight": 0.5
+        }
+      },
+      {
+        "data": {
+          "source": "n8",
+          "target": "n9",
+          "weight": 0.6
+        }
+      },
+      {
+        "data": {
+          "source": "n8",
+          "target": "n10",
+          "weight": 0.1
+        }
+      },
+      {
+        "data": {
+          "source": "n11",
+          "target": "n12",
+          "weight": 0.4
+        }
+      },
+      {
+        "data": {
+          "source": "n12",
+          "target": "n13",
+          "weight": 0.8
+        }
+      },
+      {
+        "data": {
+          "source": "n13",
+          "target": "n14",
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "source": "n13",
+          "target": "n15",
+          "weight": 0.3
+        }
+      }
+    ]
+  }
+}
