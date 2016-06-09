@@ -5,7 +5,7 @@ angular.module('dnftestApp')
     $('.ui.dropdown')
       .dropdown({
         onChange: function (result, response) {
-          $state('network', {id: response});
+          $state.go('network', {id: response});
         }
       });
   });
