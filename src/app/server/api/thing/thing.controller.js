@@ -11,6 +11,71 @@
 
 var _ = require('lodash');
 
+var request = require('request');
+/**
+ * Using Rails-like standard naming convention for endpoints.
+ * GET     /things              ->  index
+ * POST    /things              ->  create
+ * GET     /things/:id          ->  show
+ * PUT     /things/:id          ->  update
+ * DELETE  /things/:id          ->  destroy
+ */
+
+'use strict';
+
+var _ = require('lodash');
+var config = require('../../config/environment');
+// var Parse = require('parse/node').Parse;
+// Parse.initialize(config.PARSE_APPID, config.PARSE_JSKEY);
+// Parse.serverURL = 'https://parseapi.back4app.com'
+//
+//
+// var Solutions = Parse.Object.extend('Solutions');
+// var solutionsQuery = new Parse.Query(Solutions);
+// solutionsQuery.equalTo('level', 1);
+// solutionsQuery.equalTo('user', 'coco');
+// solutionsQuery.equalTo('partial', true);
+//
+// solutionsQuery.first({
+//   success: function (sol) {
+//     console.log('fml');
+//   },
+//   error: function (error) {
+//     console.log('fml2');
+//   }
+// });
+
+
+exports.drugList = function(req, res) {
+  var url = '';
+  if (req.params.id == 'CTRP') {
+    url = 'http://individual.utoronto.ca/myricecrispi/ctrp.json';
+  } else {
+    url = 'http://individual.utoronto.ca/myricecrispi/nci60.json';
+  }
+  request(url, function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+      res.json(body);
+    }
+  });
+};
+
+
+exports.drugNetwork = function(req, res) {
+  var url = '';
+  if (req.params.id == 'CTRP') {
+    url = 'http://individual.utoronto.ca/myricecrispi/sample.json';
+  } else {
+    url = 'http://individual.utoronto.ca/myricecrispi/sample.json';
+  }
+  request(url, function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+      res.json(body);
+    }
+  });
+};
+
+
 // Get list of things
 exports.index = function(req, res) {
   res.json([

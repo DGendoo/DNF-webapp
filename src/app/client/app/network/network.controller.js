@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('dnftestApp')
-  .controller('NetworkCtrl', function ($scope, $http, Restangular, $stateParams) {
+  .controller('NetworkCtrl', function ($scope, $http, $stateParams, Restangular) {
     $scope.selected = null;
     $scope.showOptions = false;
     $scope.dest = null;
@@ -31,37 +31,28 @@ angular.module('dnftestApp')
     };
 
     var getNetworkData = function () {
-      $.getJSON('assets/data/sample.json', function (json) {
-        $scope.networkData = json.elements;
+      Restangular.all('api/things/drug_network/').get($stateParams.id).then(function (data) {
+        $scope.networkData = JSON.parse(data).elements;
         display();
       });
-
-
-      // if ($stateParams.id == 'CTRP') {
-      //   $.getJSON('assets/data/dnf.ctrp.json', function(json){
-      //     $scope.networkData = json.elements;
-      //     display();
-      //   });
-      // } else if ($stateParams.id == 'NCI60') {
-      //   $.getJSON('assets/data/dnf.nci60.json', function(json){
-      //     $scope.networkData = json.elements;
-      //     display();
-      //   });
-      // };
     };
 
     var populateDrugList = function () {
-      if ($stateParams.id == 'CTRP') {
-        $.getJSON('assets/data/ctrp.json', function (json) {
-          $scope.nodes = json.data;
-        });
-      } else if ($stateParams.id == 'NCI60') {
-        $.getJSON('assets/data/nci60.json', function (json) {
-          $scope.nodes = json.data;
-          console.log('hi');
+        Restangular.all('api/things/drug_list/').get($stateParams.id).then(function (data) {
+          $scope.nodes = JSON.parse(data).datac;
+          $('.ui.search')
+            .search({
+              source: $scope.nodes,
+              searchFields: [
+                'title'
+              ],
+              searchFullText: false,
+              onSelect: function (result, response) {
+                $scope.search(result.title);
+              }
+            });
         });
       };
-    };
 
     var displayCluster = function () {
       $scope.cy = cytoscape({
@@ -152,18 +143,6 @@ angular.module('dnftestApp')
         // $scope.cy.center('#' + evt.cyTarget.id());
       });
     };
-
-    $('.ui.search')
-      .search({
-        source: $scope.nodes,
-        searchFields: [
-          'title'
-        ],
-        searchFullText: false,
-        onSelect: function (result, response) {
-          $scope.search(result.title);
-        }
-      });
 
     /// run this code when controller load
     getNetworkData();
