@@ -19,7 +19,7 @@ angular.module('dnftestApp')
     };
 
     $scope.search = function (node) {
-      $scope.cy.zoom(2);
+      $scope.cy.zoom(0.5);
       $scope.cy.center('#' + node);
     };
 
@@ -32,14 +32,14 @@ angular.module('dnftestApp')
 
     var getNetworkData = function () {
       Restangular.all('api/things/drug_network/').get($stateParams.id).then(function (data) {
-        $scope.networkData = JSON.parse(data).elements;
+        $scope.networkData = JSON.parse(data).element;
         display();
       });
     };
 
     var populateDrugList = function () {
         Restangular.all('api/things/drug_list/').get($stateParams.id).then(function (data) {
-          $scope.nodes = JSON.parse(data).datac;
+          $scope.nodes = JSON.parse(data).data;
           $('.ui.search')
             .search({
               source: $scope.nodes,
@@ -137,10 +137,10 @@ angular.module('dnftestApp')
 
       $scope.cy.on('tap', 'node', function (evt) {
 
-        displayCluster();
-        // $scope.selected = evt.cyTarget.id();
-        // $scope.cy.zoom(2);
-        // $scope.cy.center('#' + evt.cyTarget.id());
+        // displayCluster();
+        $scope.selected = evt.cyTarget.id();
+        $scope.cy.zoom(0.5);
+        $scope.cy.center('#' + evt.cyTarget.id());
       });
     };
 
