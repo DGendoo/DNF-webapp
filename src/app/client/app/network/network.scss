@@ -25,19 +25,25 @@
 
 #searchbarGraph {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  //top: 50%;
+  //left: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
+  -webkit-filter:blur(0);
+  -webkit-transform: translateZ(0);
 }
 
 #toolbar {
   i {
     cursor: pointer;
-    float: left;
+    display: inline-block;
     margin-top: 20px;
     margin-left: 10px;
     color: darkgrey;
+  }
+
+  button {
+    margin-left: 10px;
   }
 }
 //

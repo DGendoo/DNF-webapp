@@ -33,7 +33,7 @@ angular.module('dnftestApp')
     var getNetworkData = function () {
       Restangular.all('api/things/drug_network/').get($stateParams.id).then(function (data) {
         $scope.networkData = JSON.parse(data).element;
-        display();
+        $scope.display();
       });
     };
 
@@ -54,59 +54,47 @@ angular.module('dnftestApp')
         });
       };
 
-    var displayCluster = function () {
-      $scope.cy = cytoscape({
-        container: document.getElementById('cy'),
-        elements: {
-        "nodes": [
-          {
-            "data": {
-              "id": "n0"
+    var displayCluster = function (nodeName) {
+      Restangular.all('api/things/drug_clusters/').get($stateParams.id).then(function (data) {
+        $scope.clusters = JSON.parse(data).element;
+        var getClusterNum = function (node) {
+          for (var i = 0; i < $scope.networkData.nodes.length; i++) {
+            var obj = $scope.networkData.nodes[i].data;
+            if (obj.id == node) {
+              return (obj.cluster);
+            }
+          };
+        };
+        var clusterNum = getClusterNum(nodeName);
+        $scope.cy = cytoscape({
+          container: document.getElementById('cy'),
+          elements: $scope.clusters[clusterNum],
+          layout: {
+            name: 'cose',
+            idealEdgeLength: function (edge) {
+              for (var i = 0; i < $scope.networkData.edges.length; i++) {
+                var curEdge = $scope.networkData.edges[i].data;
+                if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
+                  return curEdge.weight * 1000;
+                };
+              };
             }
           },
-          {
-            "data": {
-              "id": "n1"
+          zoom: 0.5,
+          style: [
+            {
+              selector: 'node',
+              style: {
+                'content': 'data(id)',
+                'background-fit': 'cover'
+              }
             }
-          }
-        ],
-          "edges": [
-          {
-            "data": {
-              "source": "n0",
-              "target": "n1",
-              "weight": 0.1
-            }
-          }
-        ]
-      }
-      ,
-        layout: {
-          name: 'cose',
-          idealEdgeLength: function (edge) {
-            for (var i = 0; i < $scope.networkData.edges.length; i++) {
-              var curEdge = $scope.networkData.edges[i].data;
-              if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
-                return curEdge.weight * 1000;
-              };
-            };
-          }
-        },
-        zoom: 0.5
-        ,
-        style: [
-          {
-            selector: 'node',
-            style: {
-              'content': 'data(id)',
-              'background-fit': 'cover'
-            }
-          }
-        ]
+          ]
+        });
       });
     };
 
-    var display = function () {
+    $scope.display = function () {
       $scope.cy = cytoscape({
         container: document.getElementById('cy'),
         elements: $scope.networkData,
@@ -137,15 +125,15 @@ angular.module('dnftestApp')
 
       $scope.cy.on('tap', 'node', function (evt) {
 
-        // displayCluster();
-        $scope.selected = evt.cyTarget.id();
-        $scope.cy.zoom(0.5);
-        $scope.cy.center('#' + evt.cyTarget.id());
+        displayCluster(evt.cyTarget.id());
+        //$scope.selected = evt.cyTarget.id();
+        //$scope.cy.zoom(0.5);
+       // $scope.cy.center('#' + evt.cyTarget.id());
       });
     };
 
     /// run this code when controller load
     getNetworkData();
     populateDrugList();
-    // display();
+    $scope.display();
   });
