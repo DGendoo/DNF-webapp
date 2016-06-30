@@ -1,41 +1,53 @@
-<div id="toolbar">
-  <!--<i  class="fa fa-plus-square fa-4x" aria-hidden="true" data-content="Add a new node" ></i>-->
+<!--<div id="toolbar">-->
+  <!--&lt;!&ndash;<i  class="fa fa-plus-square fa-4x" aria-hidden="true" data-content="Add a new node" ></i>&ndash;&gt;-->
 
-  <i class="fa fa-download  fa-4x" ng-click="download()" aria-hidden="true"></i>
-  <i class="fa fa-compress fa-4x" ng-click="bringBack()" aria-hidden="true"></i>
-  <!--<i class="fa fa-undo fa-4x" ng-click="undo()" aria-hidden="true"></i>-->
-  <br>
-  <button class="ui basic button" ng-click="display()">Display full network</button>
-</div>
-<br>
-<br>
-<br>
-<br>
-
-<div id="searchbarNodes">
-  <!--<label>Select a network to display: </label>-->
-  <!--<select class="ui dropdown">-->
-    <!--<option value="1">CTRP</option>-->
-    <!--<option value="2">CTRPV2</option>-->
-
-    <!--<option value="0">NCI60</option>-->
-
-  <div class="ui search">
-    <div class="ui icon input">
-      <input class="prompt" type="text" placeholder="Search for a drug...">
-      <i class="search icon"></i>
-    </div>
-    <div class="results"></div>
-  </div>
-</div>
-
-<br>
-
-<!--<div class="ui icon button" data-content="Add users to your feed">-->
-<!--<i class="add icon"></i>-->
+  <!--<i class="fa fa-download  fa-3x" ng-click="download()" aria-hidden="true"></i>-->
+  <!--<i class="fa fa-compress fa-3x" ng-click="bringBack()" aria-hidden="true"></i>-->
+  <!--<button class="ui basic button" ng-click="display()">Display full network</button>-->
+  <!--<div id="search-bar-nodes">-->
+    <!--<div class="ui search">-->
+      <!--<div class="ui icon input">-->
+        <!--<input class="prompt" type="text" placeholder="Search for a drug...">-->
+        <!--<i class="search icon"></i>-->
+      <!--</div>-->
+      <!--<div class="results"></div>-->
+    <!--</div>-->
+  <!--</div>-->
 <!--</div>-->
-
-<div class="col-xs-12">
-  <div id="cy"></div>
-
+<div class="toolbar">
+  <div class="ui top attached menu">
+    <div class="ui dropdown icon item">
+      <i class="wrench icon"></i>
+      <div class="menu">
+        <div class="item" ng-click="download()">
+          Export as PNG
+        </div>
+        <div class="item" ng-click="bringBack()">
+          Zoom out
+        </div>
+        <div class="item"  ng-click="display()">
+          Show full network
+        </div>
+      </div>
+    </div>
+    <div class="right menu">
+      <div class="ui right aligned category search item">
+        <div class="ui transparent icon input">
+          <!--<input class="prompt" type="text" placeholder="Search animals...">-->
+          <!--<i class="search link icon"></i>-->
+          <!--<div class="ui search">-->
+          <div class="ui icon input">
+          <input class="prompt" type="text" placeholder="Search for a drug...">
+          <i class="search icon"></i>
+          </div>
+        <!--</div>-->
+      </div>
+    </div>
+  </div>
+  <!--<div class="ui bottom attached segment">-->
+    <!--<p></p>-->
+  <!--</div>-->
 </div>
+
+<div id="cy"></div>
+

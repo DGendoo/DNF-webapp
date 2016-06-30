@@ -19,8 +19,10 @@ angular.module('dnftestApp')
     };
 
     $scope.search = function (node) {
-      $scope.cy.zoom(0.5);
+      displayCluster(node);
       $scope.cy.center('#' + node);
+      // $scope.cy.zoom(0.5);
+      // $scope.cy.center('#' + node);
     };
 
     $scope.download = function () {
@@ -80,7 +82,7 @@ angular.module('dnftestApp')
               };
             }
           },
-          zoom: 0.5,
+          zoom: 1,
           style: [
             {
               selector: 'node',
@@ -109,7 +111,7 @@ angular.module('dnftestApp')
             };
           }
         },
-        zoom: 0.5
+        zoom: 3
         ,
         style: [
           {
@@ -126,11 +128,17 @@ angular.module('dnftestApp')
       $scope.cy.on('tap', 'node', function (evt) {
 
         displayCluster(evt.cyTarget.id());
-        //$scope.selected = evt.cyTarget.id();
-        //$scope.cy.zoom(0.5);
-       // $scope.cy.center('#' + evt.cyTarget.id());
+       //  $scope.selected = evt.cyTarget.id();
+       //  $scope.cy.zoom(0.5);
+       $scope.cy.center('#' + evt.cyTarget.id());
       });
     };
+
+
+
+    $('.ui.dropdown')
+      .dropdown()
+    ;
 
     /// run this code when controller load
     getNetworkData();
