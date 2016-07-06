@@ -15,12 +15,12 @@ angular.module('dnftestApp')
     $scope.cy = null;
 
     $scope.bringBack = function () {
-      $scope.cy.reset();
+      $scope.cy.zoom(0.5);
     };
 
     $scope.search = function (node) {
       displayCluster(node);
-      $scope.cy.center('#' + node);
+      //$scope.cy.center('#' + node);
       // $scope.cy.zoom(0.5);
       // $scope.cy.center('#' + node);
     };
@@ -94,6 +94,9 @@ angular.module('dnftestApp')
           ]
         });
       });
+
+      $scope.cy.maxZoom(1);
+      $scope.cy.minZoom(0.5);
     };
 
     $scope.display = function () {
@@ -111,7 +114,7 @@ angular.module('dnftestApp')
             };
           }
         },
-        zoom: 3
+        zoom: 0.3
         ,
         style: [
           {
@@ -124,16 +127,18 @@ angular.module('dnftestApp')
         ]
       });
 
+      $scope.cy.maxZoom(1);
+      $scope.cy.minZoom(0.3);
 
       $scope.cy.on('tap', 'node', function (evt) {
 
         displayCluster(evt.cyTarget.id());
-       //  $scope.selected = evt.cyTarget.id();
-       //  $scope.cy.zoom(0.5);
-       $scope.cy.center('#' + evt.cyTarget.id());
+        //  $scope.selected = evt.cyTarget.id();
+        //  $scope.cy.zoom(0.5);
+        // $scope.cy.center('#' + evt.cyTarget.id());
       });
-    };
 
+    };
 
 
     $('.ui.dropdown')
