@@ -64,9 +64,24 @@ exports.drugList = function(req, res) {
 exports.drugNetwork = function(req, res) {
   var url = '';
   if (req.params.id == 'CTRP') {
-    url = 'http://individual.utoronto.ca/myricecrispi/sample.json';
+    url = 'http://individual.utoronto.ca/myricecrispi/new.noting.dnf.ctrp.json';
   } else {
-    url = 'http://individual.utoronto.ca/myricecrispi/sample.json';
+    url = 'http://individual.utoronto.ca/myricecrispi/new.noting.dnf.nci60.json';
+  }
+  request(url, function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+      res.json(body);
+    }
+  });
+};
+
+//Drugs in their clusters
+exports.drugClusters = function(req, res) {
+  var url = '';
+  if (req.params.id == 'CTRP') {
+    url = 'http://individual.utoronto.ca/myricecrispi/cluster.as.key.dnf.ctrp.json';
+  } else {
+    url = 'http://individual.utoronto.ca/myricecrispi/cluster.as.key.dnf.nci60.json';
   }
   request(url, function (error, response, body) {
     if (!error && response.statusCode == 200) {
