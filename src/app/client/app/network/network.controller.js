@@ -77,12 +77,14 @@ angular.module('dnftestApp')
               for (var i = 0; i < $scope.networkData.edges.length; i++) {
                 var curEdge = $scope.networkData.edges[i].data;
                 if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
-                  return curEdge.weight * 1000;
+                  return curEdge.weight;
                 };
               };
             }
           },
           zoom: 1,
+          maxZoom: 5,
+          minZoom: 0.3,
           style: [
             {
               selector: 'node',
@@ -95,8 +97,6 @@ angular.module('dnftestApp')
         });
       });
 
-      $scope.cy.maxZoom(1);
-      $scope.cy.minZoom(0.5);
     };
 
     $scope.display = function () {
@@ -109,13 +109,12 @@ angular.module('dnftestApp')
             for (var i = 0; i < $scope.networkData.edges.length; i++) {
               var curEdge = $scope.networkData.edges[i].data;
               if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
-                return curEdge.weight * 1000;
+                return curEdge.weight;
               };
             };
           }
         },
-        zoom: 0.3
-        ,
+        zoom: 0.3,
         style: [
           {
             selector: 'node',
@@ -127,8 +126,8 @@ angular.module('dnftestApp')
         ]
       });
 
-      $scope.cy.maxZoom(1);
-      $scope.cy.minZoom(0.3);
+     $scope.cy.maxZoom(5);
+     $scope.cy.minZoom(0.3);
 
       $scope.cy.on('tap', 'node', function (evt) {
 
