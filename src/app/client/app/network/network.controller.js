@@ -28,7 +28,7 @@ angular.module('dnftestApp')
     $scope.download = function () {
       var downloadLink = angular.element('<a></a>');
       downloadLink.attr('href', $scope.cy.png());
-      downloadLink.attr('download', 'network.png');
+      downloadLink.attr('download', $stateParams.id);
       downloadLink[0].click();
     };
 
@@ -38,6 +38,8 @@ angular.module('dnftestApp')
         $scope.display();
       });
     };
+
+
 
     var populateDrugList = function () {
         Restangular.all('api/things/drug_list/').get($stateParams.id).then(function (data) {
