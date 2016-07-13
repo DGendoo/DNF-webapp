@@ -31,9 +31,6 @@ angular.module('dnftestApp')
       downloadLink.attr('download', $stateParams.id);
       downloadLink[0].click();
     };
-    $scope.names = [{name = "CTRP"}];
-    
-    $scope.john1 = "HELLOS";
 
     var getNetworkData = function () {
       Restangular.all('api/things/drug_network/').get($stateParams.id).then(function (data) {
