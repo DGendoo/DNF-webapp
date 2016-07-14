@@ -33,7 +33,7 @@ angular.module('dnftestApp')
     };
 
     $scope.back = function(){
-      
+      window.history.back();
     }
 
     //This function gets the data--i.e. the nodes and the edges
