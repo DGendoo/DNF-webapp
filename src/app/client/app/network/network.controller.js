@@ -7,9 +7,9 @@ angular.module('dnftestApp')
     $scope.dest = null;
     $scope.nodeToSearch = null;
     $scope.image = null;
-    $scope.networkToShow = 'CTRP';
+    //$scope.networkToShow = 'CTRP';
     $scope.networkData = null;
-    $scope.nodes = {title: 'hiiiiiiii'};
+    //$scope.nodes = {title: 'hiiiiiiii'}; //seems to be extraneous leftover variable
 
 
     $scope.cy = null;
@@ -32,6 +32,11 @@ angular.module('dnftestApp')
       downloadLink[0].click();
     };
 
+    $scope.back = function(){
+      
+    }
+
+    //This function gets the data--i.e. the nodes and the edges
     var getNetworkData = function () {
       Restangular.all('api/things/drug_network/').get($stateParams.id).then(function (data) {
         $scope.networkData = JSON.parse(data).element;
@@ -58,6 +63,7 @@ angular.module('dnftestApp')
         });
       };
 
+      //Analogous to displayNetwork() below (target for refactor)
     var displayCluster = function (nodeName) {
       Restangular.all('api/things/drug_clusters/').get($stateParams.id).then(function (data) {
         $scope.clusters = JSON.parse(data).element;
@@ -70,9 +76,12 @@ angular.module('dnftestApp')
           };
         };
         var clusterNum = getClusterNum(nodeName);
+
+        //Makes a new instance of cy based on the group of nodes given
         $scope.cy = cytoscape({
           container: document.getElementById('cy'),
           elements: $scope.clusters[clusterNum],
+          //autolock: true,
           layout: {
             name: 'cose',
             idealEdgeLength: function (edge) {
@@ -101,10 +110,12 @@ angular.module('dnftestApp')
 
     };
 
-    $scope.display = function () {
-      $scope.cy = cytoscape({
+    $scope.display = function () { 
+       $scope.cy = cytoscape({
         container: document.getElementById('cy'),
         elements: $scope.networkData,
+        autolock: false, //worth looking into later
+        autoungrabify: false,
         layout: {
           name: 'cose',
           idealEdgeLength: function (edge) {
@@ -138,7 +149,7 @@ angular.module('dnftestApp')
         //  $scope.cy.zoom(0.5);
         // $scope.cy.center('#' + evt.cyTarget.id());
       });
-
+      
     };
 
 
@@ -150,4 +161,5 @@ angular.module('dnftestApp')
     getNetworkData();
     populateDrugList();
     $scope.display();
+    //cy.$('ABT737').lock();
   });
