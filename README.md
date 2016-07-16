@@ -11,5 +11,5 @@ Web-application for Drug Network Fusion (DNF)
 
 # Deploy instructions
 1. First create the distribution version of the project by running "grunt". 
-2. Then cd into the dist folder and run, git remote add prod https://git.heroku.com/dnftest.git. 
+2. Then cd into the dist folder and run, git remote add prod https://git.heroku.com/dnftest.git. (only needs to be done once--setting the remote) 
 3. To deploy, run grunt buildcontrol:heroku.
