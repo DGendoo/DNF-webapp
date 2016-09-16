@@ -7,10 +7,9 @@ angular.module('dnftestApp')
     $scope.dest = null;
     $scope.nodeToSearch = null;
     $scope.image = null;
-    $scope.networkToShow = 'CTRP';
+    $scope.networkToShow = $stateParams.id;
     $scope.networkData = null;
     $scope.nodes = {title: 'hiiiiiiii'};
-
 
     $scope.cy = null;
 
@@ -39,8 +38,6 @@ angular.module('dnftestApp')
       });
     };
 
-
-
     var populateDrugList = function () {
         Restangular.all('api/things/drug_list/').get($stateParams.id).then(function (data) {
           $scope.nodes = JSON.parse(data).data;
@@ -57,6 +54,10 @@ angular.module('dnftestApp')
             });
         });
       };
+
+    $scope.displayExemplar = function () {
+
+    };
 
     var displayCluster = function (nodeName) {
       Restangular.all('api/things/drug_clusters/').get($stateParams.id).then(function (data) {

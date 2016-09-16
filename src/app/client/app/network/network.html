@@ -23,17 +23,18 @@
           Export as PNG
         </div>
         <div class="item" ng-click="display()">
-          Reset view
+          Switch to exemplar view
+        </div>
+        <div class="item" ng-click="displayExemplar()">
+          Switch to full network view
         </div>
         <!--<div class="item"  ng-click="display()">-->
           <!--Show full network-->
         <!--</div>-->
       </div>
     </div>
-      
-      <!-- hardcoded and poor style -->
-      <strong><h id="netrek_name"> </h></strong>
-      <script> document.getElementById("netrek_name").innerHTML = window.location.pathname.slice(9);</script>
+
+    <div id="network-title">{{networkToShow}}</div>
 
     <div class="right menu">
       <div class="ui right aligned category search item">
