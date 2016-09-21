@@ -45,6 +45,20 @@ var config = require('../../config/environment');
 //   }
 // });
 
+exports.exemplar = function(req, res) {
+  var url = '';
+  if (req.params.id == 'CTRP') {
+    url = 'http://individual.utoronto.ca/myricecrispi/exemplar_ctrp.json';
+  } else {
+    url = 'http://individual.utoronto.ca/myricecrispi/exemplar_nci60.json';
+  }
+  request(url, function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+      res.json(body);
+    }
+  });
+};
+
 
 exports.drugList = function(req, res) {
   var url = '';

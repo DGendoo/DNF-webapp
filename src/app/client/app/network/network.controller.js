@@ -8,6 +8,7 @@ angular.module('dnftestApp')
     $scope.nodeToSearch = null;
     $scope.image = null;
     $scope.networkToShow = $stateParams.id;
+    $scope.exemplarData = null;
 
     $scope.networkData = null;
     //$scope.nodes = {title: 'hiiiiiiii'}; //seems to be extraneous leftover variable
@@ -61,9 +62,43 @@ angular.module('dnftestApp')
         });
       };
 
+    var getExemplar = function () {
+      Restangular.all('api/things/exemplar/').get($stateParams.id).then(function (data) {
+        $scope.exemplarData = JSON.parse(data).elements;
+
+        console.log('here');
+      });
+    };
+
 
     $scope.displayExemplar = function () {
-
+      $scope.cy = cytoscape({
+        container: document.getElementById('cy'),
+        elements: $scope.exemplarData,
+        autolock: false, //worth looking into later
+        autoungrabify: false,
+        layout: {
+          name: 'cose'
+          // idealEdgeLength: function (edge) {
+          //   for (var i = 0; i < $scope.networkData.edges.length; i++) {
+          //     var curEdge = $scope.networkData.edges[i].data;
+          //     if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
+          //       return curEdge.weight;
+          //     };
+          //   };
+          // }
+        },
+        zoom: 0.3,
+        style: [
+          {
+            selector: 'node',
+            style: {
+              'content': 'data(id)',
+              'background-fit': 'cover'
+            }
+          }
+        ]
+      });
     };
 
     var displayCluster = function (nodeName) {
@@ -112,7 +147,7 @@ angular.module('dnftestApp')
 
     };
 
-    $scope.display = function () { 
+    $scope.display = function () {
        $scope.cy = cytoscape({
         container: document.getElementById('cy'),
         elements: $scope.networkData,
@@ -151,7 +186,7 @@ angular.module('dnftestApp')
         //  $scope.cy.zoom(0.5);
         // $scope.cy.center('#' + evt.cyTarget.id());
       });
-      
+
     };
 
 
@@ -162,6 +197,7 @@ angular.module('dnftestApp')
     /// run this code when controller load
     getNetworkData();
     populateDrugList();
+    getExemplar();
     $scope.display();
     //cy.$('ABT737').lock();
   });
