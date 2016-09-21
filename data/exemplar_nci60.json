@@ -1,0 +1,1430 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.4.0",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "examplar_nci60.json(1)",
+    "name" : "examplar_nci60.json - Kruskal's Spanning Tree",
+    "SUID" : 2716,
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "110",
+        "shared_name" : "VINBLASTINE",
+        "name" : "VINBLASTINE",
+        "cluster" : 49.0,
+        "SUID" : 110,
+        "id_original" : "VINBLASTINE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "109",
+        "shared_name" : "TOPOTECAN",
+        "name" : "TOPOTECAN",
+        "cluster" : 48.0,
+        "SUID" : 109,
+        "id_original" : "TOPOTECAN",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "108",
+        "shared_name" : "THIORPHAN",
+        "name" : "THIORPHAN",
+        "cluster" : 47.0,
+        "SUID" : 108,
+        "id_original" : "THIORPHAN",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "107",
+        "shared_name" : "TERREICACID",
+        "name" : "TERREICACID",
+        "cluster" : 46.0,
+        "SUID" : 107,
+        "id_original" : "TERREICACID",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "106",
+        "shared_name" : "TENIPOSIDE",
+        "name" : "TENIPOSIDE",
+        "cluster" : 45.0,
+        "SUID" : 106,
+        "id_original" : "TENIPOSIDE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "105",
+        "shared_name" : "TEMSIROLIMUS",
+        "name" : "TEMSIROLIMUS",
+        "cluster" : 44.0,
+        "SUID" : 105,
+        "id_original" : "TEMSIROLIMUS",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "104",
+        "shared_name" : "STAUROSPORINE",
+        "name" : "STAUROSPORINE",
+        "cluster" : 43.0,
+        "SUID" : 104,
+        "id_original" : "STAUROSPORINE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "103",
+        "shared_name" : "SELUMETINIB",
+        "name" : "SELUMETINIB",
+        "cluster" : 42.0,
+        "SUID" : 103,
+        "id_original" : "SELUMETINIB",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "102",
+        "shared_name" : "PYRIMETHAMINE",
+        "name" : "PYRIMETHAMINE",
+        "cluster" : 41.0,
+        "SUID" : 102,
+        "id_original" : "PYRIMETHAMINE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "101",
+        "shared_name" : "PROCARBAZINE",
+        "name" : "PROCARBAZINE",
+        "cluster" : 40.0,
+        "SUID" : 101,
+        "id_original" : "PROCARBAZINE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "100",
+        "shared_name" : "PIMOZIDE",
+        "name" : "PIMOZIDE",
+        "cluster" : 39.0,
+        "SUID" : 100,
+        "id_original" : "PIMOZIDE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "99",
+        "shared_name" : "PACLITAXEL",
+        "name" : "PACLITAXEL",
+        "cluster" : 38.0,
+        "SUID" : 99,
+        "id_original" : "PACLITAXEL",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "98",
+        "shared_name" : "OXIDOPAMINE",
+        "name" : "OXIDOPAMINE",
+        "cluster" : 37.0,
+        "SUID" : 98,
+        "id_original" : "OXIDOPAMINE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "97",
+        "shared_name" : "OLIGOMYCINA",
+        "name" : "OLIGOMYCINA",
+        "cluster" : 36.0,
+        "SUID" : 97,
+        "id_original" : "OLIGOMYCINA",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "96",
+        "shared_name" : "NOBILETIN",
+        "name" : "NOBILETIN",
+        "cluster" : 35.0,
+        "SUID" : 96,
+        "id_original" : "NOBILETIN",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "95",
+        "shared_name" : "NILOTINIB",
+        "name" : "NILOTINIB",
+        "cluster" : 34.0,
+        "SUID" : 95,
+        "id_original" : "NILOTINIB",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "94",
+        "shared_name" : "MEVASTATIN",
+        "name" : "MEVASTATIN",
+        "cluster" : 33.0,
+        "SUID" : 94,
+        "id_original" : "MEVASTATIN",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "93",
+        "shared_name" : "MENADIONE",
+        "name" : "MENADIONE",
+        "cluster" : 32.0,
+        "SUID" : 93,
+        "id_original" : "MENADIONE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "92",
+        "shared_name" : "MELPHALAN",
+        "name" : "MELPHALAN",
+        "cluster" : 31.0,
+        "SUID" : 92,
+        "id_original" : "MELPHALAN",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "91",
+        "shared_name" : "MEBENDAZOLE",
+        "name" : "MEBENDAZOLE",
+        "cluster" : 30.0,
+        "SUID" : 91,
+        "id_original" : "MEBENDAZOLE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "90",
+        "shared_name" : "MALONOBEN",
+        "name" : "MALONOBEN",
+        "cluster" : 29.0,
+        "SUID" : 90,
+        "id_original" : "MALONOBEN",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "89",
+        "shared_name" : "LORATADINE",
+        "name" : "LORATADINE",
+        "cluster" : 28.0,
+        "SUID" : 89,
+        "id_original" : "LORATADINE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "88",
+        "shared_name" : "LEFLUNOMIDE",
+        "name" : "LEFLUNOMIDE",
+        "cluster" : 27.0,
+        "SUID" : 88,
+        "id_original" : "LEFLUNOMIDE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "87",
+        "shared_name" : "KINETINRIBOSIDE",
+        "name" : "KINETINRIBOSIDE",
+        "cluster" : 26.0,
+        "SUID" : 87,
+        "id_original" : "KINETINRIBOSIDE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "86",
+        "shared_name" : "ITRACONAZOLE",
+        "name" : "ITRACONAZOLE",
+        "cluster" : 25.0,
+        "SUID" : 86,
+        "id_original" : "ITRACONAZOLE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "85",
+        "shared_name" : "ISOTRETINOIN",
+        "name" : "ISOTRETINOIN",
+        "cluster" : 24.0,
+        "SUID" : 85,
+        "id_original" : "ISOTRETINOIN",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "84",
+        "shared_name" : "HYPERICIN",
+        "name" : "HYPERICIN",
+        "cluster" : 23.0,
+        "SUID" : 84,
+        "id_original" : "HYPERICIN",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "83",
+        "shared_name" : "HONOKIOL",
+        "name" : "HONOKIOL",
+        "cluster" : 22.0,
+        "SUID" : 83,
+        "id_original" : "HONOKIOL",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "82",
+        "shared_name" : "GEMCITABINE",
+        "name" : "GEMCITABINE",
+        "cluster" : 21.0,
+        "SUID" : 82,
+        "id_original" : "GEMCITABINE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81",
+        "shared_name" : "GEFITINIB",
+        "name" : "GEFITINIB",
+        "cluster" : 20.0,
+        "SUID" : 81,
+        "id_original" : "GEFITINIB",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "80",
+        "shared_name" : "FORSKOLIN",
+        "name" : "FORSKOLIN",
+        "cluster" : 19.0,
+        "SUID" : 80,
+        "id_original" : "FORSKOLIN",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "79",
+        "shared_name" : "FLUOROMETHOLONE",
+        "name" : "FLUOROMETHOLONE",
+        "cluster" : 18.0,
+        "SUID" : 79,
+        "id_original" : "FLUOROMETHOLONE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "78",
+        "shared_name" : "ETHINYLESTRADIOL",
+        "name" : "ETHINYLESTRADIOL",
+        "cluster" : 17.0,
+        "SUID" : 78,
+        "id_original" : "ETHINYLESTRADIOL",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "77",
+        "shared_name" : "EMETINE",
+        "name" : "EMETINE",
+        "cluster" : 16.0,
+        "SUID" : 77,
+        "id_original" : "EMETINE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "76",
+        "shared_name" : "DIHYDROERGOCRISTINE",
+        "name" : "DIHYDROERGOCRISTINE",
+        "cluster" : 15.0,
+        "SUID" : 76,
+        "id_original" : "DIHYDROERGOCRISTINE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "75",
+        "shared_name" : "DIGOXIN",
+        "name" : "DIGOXIN",
+        "cluster" : 14.0,
+        "SUID" : 75,
+        "id_original" : "DIGOXIN",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "74",
+        "shared_name" : "DECITABINE",
+        "name" : "DECITABINE",
+        "cluster" : 13.0,
+        "SUID" : 74,
+        "id_original" : "DECITABINE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "73",
+        "shared_name" : "DAUNORUBICIN",
+        "name" : "DAUNORUBICIN",
+        "cluster" : 12.0,
+        "SUID" : 73,
+        "id_original" : "DAUNORUBICIN",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "72",
+        "shared_name" : "DACARBAZINE",
+        "name" : "DACARBAZINE",
+        "cluster" : 11.0,
+        "SUID" : 72,
+        "id_original" : "DACARBAZINE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71",
+        "shared_name" : "CYCLOPHOSPHAMIDE",
+        "name" : "CYCLOPHOSPHAMIDE",
+        "cluster" : 10.0,
+        "SUID" : 71,
+        "id_original" : "CYCLOPHOSPHAMIDE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "70",
+        "shared_name" : "CLADRIBINE",
+        "name" : "CLADRIBINE",
+        "cluster" : 9.0,
+        "SUID" : 70,
+        "id_original" : "CLADRIBINE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "69",
+        "shared_name" : "CINCHONINE",
+        "name" : "CINCHONINE",
+        "cluster" : 8.0,
+        "SUID" : 69,
+        "id_original" : "CINCHONINE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "68",
+        "shared_name" : "CARMOFUR",
+        "name" : "CARMOFUR",
+        "cluster" : 7.0,
+        "SUID" : 68,
+        "id_original" : "CARMOFUR",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "67",
+        "shared_name" : "CAFFEICACID",
+        "name" : "CAFFEICACID",
+        "cluster" : 6.0,
+        "SUID" : 67,
+        "id_original" : "CAFFEICACID",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "66",
+        "shared_name" : "BRDK00910650",
+        "name" : "BRDK00910650",
+        "cluster" : 5.0,
+        "SUID" : 66,
+        "id_original" : "BRDK00910650",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "65",
+        "shared_name" : "ARTEMETHER",
+        "name" : "ARTEMETHER",
+        "cluster" : 4.0,
+        "SUID" : 65,
+        "id_original" : "ARTEMETHER",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "64",
+        "shared_name" : "ALVESPIMYCIN",
+        "name" : "ALVESPIMYCIN",
+        "cluster" : 3.0,
+        "SUID" : 64,
+        "id_original" : "ALVESPIMYCIN",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "63",
+        "shared_name" : "AG957",
+        "name" : "AG957",
+        "cluster" : 2.0,
+        "SUID" : 63,
+        "id_original" : "AG957",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "62",
+        "shared_name" : "6AMINOCHRYSENE",
+        "name" : "6AMINOCHRYSENE",
+        "cluster" : 1.0,
+        "SUID" : 62,
+        "id_original" : "6AMINOCHRYSENE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "112",
+        "shared_name" : "WITHAFERINA",
+        "name" : "WITHAFERINA",
+        "cluster" : 51.0,
+        "SUID" : 112,
+        "id_original" : "WITHAFERINA",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "111",
+        "shared_name" : "VORINOSTAT",
+        "name" : "VORINOSTAT",
+        "cluster" : 50.0,
+        "SUID" : 111,
+        "id_original" : "VORINOSTAT",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "1386",
+        "source" : "110",
+        "target" : "112",
+        "weight" : 270.19341949934284,
+        "SUID" : 1386,
+        "source_original" : "VINBLASTINE",
+        "id_original" : "e28417",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1384",
+        "source" : "109",
+        "target" : "112",
+        "weight" : 279.4644659701195,
+        "SUID" : 1384,
+        "source_original" : "TOPOTECAN",
+        "id_original" : "e28285",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1381",
+        "source" : "108",
+        "target" : "112",
+        "weight" : 264.5275136315586,
+        "SUID" : 1381,
+        "source_original" : "THIORPHAN",
+        "id_original" : "e28228",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1377",
+        "source" : "107",
+        "target" : "112",
+        "weight" : 214.17689341679426,
+        "SUID" : 1377,
+        "source_original" : "TERREICACID",
+        "id_original" : "e28162",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1372",
+        "source" : "106",
+        "target" : "112",
+        "weight" : 274.35314442923624,
+        "SUID" : 1372,
+        "source_original" : "TENIPOSIDE",
+        "id_original" : "e28113",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1366",
+        "source" : "105",
+        "target" : "112",
+        "weight" : 242.09979900475503,
+        "SUID" : 1366,
+        "source_original" : "TEMSIROLIMUS",
+        "id_original" : "e28087",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1359",
+        "source" : "104",
+        "target" : "112",
+        "weight" : 267.685623486691,
+        "SUID" : 1359,
+        "source_original" : "STAUROSPORINE",
+        "id_original" : "e27843",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1351",
+        "source" : "103",
+        "target" : "112",
+        "weight" : 271.0747169952562,
+        "SUID" : 1351,
+        "source_original" : "SELUMETINIB",
+        "id_original" : "e27658",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1342",
+        "source" : "102",
+        "target" : "112",
+        "weight" : 277.28956442728014,
+        "SUID" : 1342,
+        "source_original" : "PYRIMETHAMINE",
+        "id_original" : "e27112",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1332",
+        "source" : "101",
+        "target" : "112",
+        "weight" : 268.56017072350846,
+        "SUID" : 1332,
+        "source_original" : "PROCARBAZINE",
+        "id_original" : "e26785",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1321",
+        "source" : "100",
+        "target" : "112",
+        "weight" : 266.0848200651807,
+        "SUID" : 1321,
+        "source_original" : "PIMOZIDE",
+        "id_original" : "e26293",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1309",
+        "source" : "99",
+        "target" : "112",
+        "weight" : 260.20073522637034,
+        "SUID" : 1309,
+        "source_original" : "PACLITAXEL",
+        "id_original" : "e25588",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1296",
+        "source" : "98",
+        "target" : "112",
+        "weight" : 255.66572670466843,
+        "SUID" : 1296,
+        "source_original" : "OXIDOPAMINE",
+        "id_original" : "e25512",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1282",
+        "source" : "97",
+        "target" : "112",
+        "weight" : 193.80893307631862,
+        "SUID" : 1282,
+        "source_original" : "OLIGOMYCINA",
+        "id_original" : "e25035",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1267",
+        "source" : "96",
+        "target" : "112",
+        "weight" : 263.79087038166307,
+        "SUID" : 1267,
+        "source_original" : "NOBILETIN",
+        "id_original" : "e24433",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1251",
+        "source" : "95",
+        "target" : "112",
+        "weight" : 267.2790500039488,
+        "SUID" : 1251,
+        "source_original" : "NILOTINIB",
+        "id_original" : "e24252",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1234",
+        "source" : "94",
+        "target" : "112",
+        "weight" : 195.16534518629027,
+        "SUID" : 1234,
+        "source_original" : "MEVASTATIN",
+        "id_original" : "e23082",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1216",
+        "source" : "93",
+        "target" : "112",
+        "weight" : 245.90138544328275,
+        "SUID" : 1216,
+        "source_original" : "MENADIONE",
+        "id_original" : "e22660",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1197",
+        "source" : "92",
+        "target" : "112",
+        "weight" : 275.8229898696382,
+        "SUID" : 1197,
+        "source_original" : "MELPHALAN",
+        "id_original" : "e22552",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1177",
+        "source" : "91",
+        "target" : "112",
+        "weight" : 275.92537525894016,
+        "SUID" : 1177,
+        "source_original" : "MEBENDAZOLE",
+        "id_original" : "e22443",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1156",
+        "source" : "90",
+        "target" : "112",
+        "weight" : 269.4645197410971,
+        "SUID" : 1156,
+        "source_original" : "MALONOBEN",
+        "id_original" : "e22333",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1134",
+        "source" : "89",
+        "target" : "112",
+        "weight" : 264.7695107722189,
+        "SUID" : 1134,
+        "source_original" : "LORATADINE",
+        "id_original" : "e21997",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1111",
+        "source" : "88",
+        "target" : "112",
+        "weight" : 263.86667626449986,
+        "SUID" : 1111,
+        "source_original" : "LEFLUNOMIDE",
+        "id_original" : "e21652",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1087",
+        "source" : "87",
+        "target" : "112",
+        "weight" : 235.91224829891073,
+        "SUID" : 1087,
+        "source_original" : "KINETINRIBOSIDE",
+        "id_original" : "e21057",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1062",
+        "source" : "86",
+        "target" : "112",
+        "weight" : 267.2266507538576,
+        "SUID" : 1062,
+        "source_original" : "ITRACONAZOLE",
+        "id_original" : "e20812",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1036",
+        "source" : "85",
+        "target" : "112",
+        "weight" : 248.7054006155773,
+        "SUID" : 1036,
+        "source_original" : "ISOTRETINOIN",
+        "id_original" : "e20688",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1009",
+        "source" : "84",
+        "target" : "112",
+        "weight" : 271.67521124501997,
+        "SUID" : 1009,
+        "source_original" : "HYPERICIN",
+        "id_original" : "e19393",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "981",
+        "source" : "83",
+        "target" : "112",
+        "weight" : 265.5204360377908,
+        "SUID" : 981,
+        "source_original" : "HONOKIOL",
+        "id_original" : "e19258",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "952",
+        "source" : "82",
+        "target" : "112",
+        "weight" : 280.02202148314075,
+        "SUID" : 952,
+        "source_original" : "GEMCITABINE",
+        "id_original" : "e18142",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "922",
+        "source" : "81",
+        "target" : "112",
+        "weight" : 271.36724992036,
+        "SUID" : 922,
+        "source_original" : "GEFITINIB",
+        "id_original" : "e17998",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "891",
+        "source" : "80",
+        "target" : "112",
+        "weight" : 226.99083349892894,
+        "SUID" : 891,
+        "source_original" : "FORSKOLIN",
+        "id_original" : "e17412",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "859",
+        "source" : "79",
+        "target" : "112",
+        "weight" : 254.80716666470437,
+        "SUID" : 859,
+        "source_original" : "FLUOROMETHOLONE",
+        "id_original" : "e16810",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "826",
+        "source" : "78",
+        "target" : "112",
+        "weight" : 274.0345003120332,
+        "SUID" : 826,
+        "source_original" : "ETHINYLESTRADIOL",
+        "id_original" : "e15072",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "792",
+        "source" : "77",
+        "target" : "112",
+        "weight" : 241.11311955754212,
+        "SUID" : 792,
+        "source_original" : "EMETINE",
+        "id_original" : "e14073",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "757",
+        "source" : "76",
+        "target" : "112",
+        "weight" : 264.7246649066257,
+        "SUID" : 757,
+        "source_original" : "DIHYDROERGOCRISTINE",
+        "id_original" : "e13038",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "721",
+        "source" : "75",
+        "target" : "112",
+        "weight" : 195.17141990496822,
+        "SUID" : 721,
+        "source_original" : "DIGOXIN",
+        "id_original" : "e12862",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "684",
+        "source" : "74",
+        "target" : "112",
+        "weight" : 269.0027549591725,
+        "SUID" : 684,
+        "source_original" : "DECITABINE",
+        "id_original" : "e12328",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "646",
+        "source" : "73",
+        "target" : "112",
+        "weight" : 277.6342913966716,
+        "SUID" : 646,
+        "source_original" : "DAUNORUBICIN",
+        "id_original" : "e12148",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "607",
+        "source" : "72",
+        "target" : "112",
+        "weight" : 266.85635481317814,
+        "SUID" : 607,
+        "source_original" : "DACARBAZINE",
+        "id_original" : "e11785",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "567",
+        "source" : "71",
+        "target" : "112",
+        "weight" : 269.4825421400243,
+        "SUID" : 567,
+        "source_original" : "CYCLOPHOSPHAMIDE",
+        "id_original" : "e10860",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "526",
+        "source" : "70",
+        "target" : "112",
+        "weight" : 267.2216420391339,
+        "SUID" : 526,
+        "source_original" : "CLADRIBINE",
+        "id_original" : "e8935",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "484",
+        "source" : "69",
+        "target" : "112",
+        "weight" : 240.4231600277405,
+        "SUID" : 484,
+        "source_original" : "CINCHONINE",
+        "id_original" : "e8538",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "441",
+        "source" : "68",
+        "target" : "112",
+        "weight" : 272.87183457104055,
+        "SUID" : 441,
+        "source_original" : "CARMOFUR",
+        "id_original" : "e7323",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "397",
+        "source" : "67",
+        "target" : "112",
+        "weight" : 239.479421323294,
+        "SUID" : 397,
+        "source_original" : "CAFFEICACID",
+        "id_original" : "e6493",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "352",
+        "source" : "66",
+        "target" : "112",
+        "weight" : 203.1923300653165,
+        "SUID" : 352,
+        "source_original" : "BRDK00910650",
+        "id_original" : "e6072",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "306",
+        "source" : "65",
+        "target" : "112",
+        "weight" : 259.3489180832844,
+        "SUID" : 306,
+        "source_original" : "ARTEMETHER",
+        "id_original" : "e3238",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "259",
+        "source" : "64",
+        "target" : "112",
+        "weight" : 244.08144264955197,
+        "SUID" : 259,
+        "source_original" : "ALVESPIMYCIN",
+        "id_original" : "e2103",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "211",
+        "source" : "63",
+        "target" : "112",
+        "weight" : 209.5054836231055,
+        "SUID" : 211,
+        "source_original" : "AG957",
+        "id_original" : "e1410",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "162",
+        "source" : "62",
+        "target" : "112",
+        "weight" : 268.43133620329644,
+        "SUID" : 162,
+        "source_original" : "6AMINOCHRYSENE",
+        "id_original" : "e235",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "1387",
+        "source" : "111",
+        "target" : "112",
+        "weight" : 240.53901447412045,
+        "SUID" : 1387,
+        "source_original" : "VORINOSTAT",
+        "id_original" : "e28432",
+        "selected" : false,
+        "target_original" : "WITHAFERINA"
+      },
+      "selected" : false
+    } ]
+  }
+}
