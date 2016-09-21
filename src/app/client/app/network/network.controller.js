@@ -145,6 +145,14 @@ angular.module('dnftestApp')
         });
       });
 
+      $scope.cy.on('tap', 'node', function (evt) {
+
+        displayCluster(evt.cyTarget.id());
+        //  $scope.selected = evt.cyTarget.id();
+        //  $scope.cy.zoom(0.5);
+        // $scope.cy.center('#' + evt.cyTarget.id());
+      });
+
     };
 
     $scope.display = function () {
