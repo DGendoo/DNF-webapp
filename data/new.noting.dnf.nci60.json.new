@@ -1,0 +1,6120 @@
+{
+    "element": {
+        "nodes": [
+            {
+                "data": {
+                    "cluster": 1,
+                    "colo": "#31af99",
+                    "id": "6AMINOCHRYSENE",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 24,
+                    "colo": "#a55427",
+                    "id": "ABIRATERONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/71434128"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 15,
+                    "colo": "#e50d73",
+                    "id": "ACETYLCYSTEINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12035"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 11,
+                    "colo": "#8ac105",
+                    "id": "ACTINOMYCIND",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2019"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 19,
+                    "colo": "#490bbc",
+                    "id": "AFATINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10184653"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 2,
+                    "colo": "#7118af",
+                    "id": "AG957",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 38,
+                    "colo": "#9fa812",
+                    "id": "ALLANTOIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/204"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 10,
+                    "colo": "#2be22b",
+                    "id": "ALLOPURINOL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2094"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 43,
+                    "colo": "#fff00c",
+                    "id": "ALVESPIMYCIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9852573"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 11,
+                    "colo": "#8ac105",
+                    "id": "ALVOCIDIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5287969"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 12,
+                    "colo": "#ba9900",
+                    "id": "AMONAFIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/50515"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 35,
+                    "colo": "#2207ed",
+                    "id": "AMPHOTERICINB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280965"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 45,
+                    "colo": "#6010ba",
+                    "id": "AMSACRINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2179"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 3,
+                    "colo": "#e5633b",
+                    "id": "ARTEMETHER",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/46783857"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 3,
+                    "colo": "#e5633b",
+                    "id": "ARTESUNATE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9821433"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 46,
+                    "colo": "#81fc3f",
+                    "id": "ASCORBICACID",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/54670067"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 27,
+                    "colo": "#1b84f9",
+                    "id": "AXITINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6450551"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 12,
+                    "colo": "#ba9900",
+                    "id": "AZACITIDINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9444"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 37,
+                    "colo": "#e51b00",
+                    "id": "BACCATINIII",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/65366"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 50,
+                    "colo": "#39a6d3",
+                    "id": "BELINOSTAT",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6918638"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 1,
+                    "colo": "#31af99",
+                    "id": "BENZO(A)PYRENE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2336"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 9,
+                    "colo": "#00ffb3",
+                    "id": "BERBAMINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/275182"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 13,
+                    "colo": "#17ef96",
+                    "id": "BISACODYL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2391"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 48,
+                    "colo": "#ed152e",
+                    "id": "BISBENZIMIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1464"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 31,
+                    "colo": "#0606a8",
+                    "id": "BORTEZOMIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45038428"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 19,
+                    "colo": "#490bbc",
+                    "id": "BOSUTINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5328940"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 4,
+                    "colo": "#c13858",
+                    "id": "BRDK00910650",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 2,
+                    "colo": "#7118af",
+                    "id": "CADMIUMCHLORIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24633"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 5,
+                    "colo": "#b20ad6",
+                    "id": "CAFFEICACID",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1549111"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 5,
+                    "colo": "#b20ad6",
+                    "id": "CAFFEICACIDPHENETHYLESTER",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 38,
+                    "colo": "#9fa812",
+                    "id": "CALYCANTHINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5392245"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 48,
+                    "colo": "#ed152e",
+                    "id": "CAMPTOTHECIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24360"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 6,
+                    "colo": "#2882c1",
+                    "id": "CARMOFUR",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 51,
+                    "colo": "#951dc6",
+                    "id": "CELASTROL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/122724"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 26,
+                    "colo": "#4167e2",
+                    "id": "CELECOXIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2662"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 29,
+                    "colo": "#28caed",
+                    "id": "CHELIDONINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/197810"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 30,
+                    "colo": "#29b2aa",
+                    "id": "CHLORAMBUCIL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2708"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 11,
+                    "colo": "#8ac105",
+                    "id": "CHROMOMYCINA3",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 7,
+                    "colo": "#c314ce",
+                    "id": "CINCHONINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/90454"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 30,
+                    "colo": "#29b2aa",
+                    "id": "CISPLATIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2767"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 8,
+                    "colo": "#2fbec6",
+                    "id": "CLADRIBINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/20279"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 1,
+                    "colo": "#31af99",
+                    "id": "CLIOQUINOL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2788"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 8,
+                    "colo": "#2fbec6",
+                    "id": "CLOFARABINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/119182"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 27,
+                    "colo": "#1b84f9",
+                    "id": "CLOFAZIMINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2794"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 21,
+                    "colo": "#cc28af",
+                    "id": "CLOTRIMAZOLE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2812"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 49,
+                    "colo": "#4456e2",
+                    "id": "COLCHICINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6167"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 19,
+                    "colo": "#490bbc",
+                    "id": "CRIZOTINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11626560"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 4,
+                    "colo": "#c13858",
+                    "id": "CURCUMIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/969516"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 15,
+                    "colo": "#e50d73",
+                    "id": "CYCLOHEXIMIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6197"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 47,
+                    "colo": "#cc0892",
+                    "id": "CYCLOPAMINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/442972"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 9,
+                    "colo": "#00ffb3",
+                    "id": "CYCLOPHOSPHAMIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2907"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 14,
+                    "colo": "#96ef17",
+                    "id": "CYCLOPIAZONICACID",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/54682463"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 20,
+                    "colo": "#27e882",
+                    "id": "CYTARABINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6253"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 44,
+                    "colo": "#b220a9",
+                    "id": "CYTOCHALASINB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5311281"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 41,
+                    "colo": "#f9367b",
+                    "id": "DABRAFENIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44462760"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 10,
+                    "colo": "#2be22b",
+                    "id": "DACARBAZINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5353562"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 19,
+                    "colo": "#490bbc",
+                    "id": "DASATINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3062316"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 11,
+                    "colo": "#8ac105",
+                    "id": "DAUNORUBICIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/30323"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 12,
+                    "colo": "#ba9900",
+                    "id": "DECITABINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/451668"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 17,
+                    "colo": "#34ad50",
+                    "id": "DEXAMETHASONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5743"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 30,
+                    "colo": "#29b2aa",
+                    "id": "DIBENZOYLMETHANE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8433"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 13,
+                    "colo": "#17ef96",
+                    "id": "DIGOXIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2724385"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 14,
+                    "colo": "#96ef17",
+                    "id": "DIHYDROERGOCRISTINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/444034"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 40,
+                    "colo": "#4ded1c",
+                    "id": "DIPYRIDAMOLE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3108"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 37,
+                    "colo": "#e51b00",
+                    "id": "DOCETAXEL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/148124"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 11,
+                    "colo": "#8ac105",
+                    "id": "DOXORUBICIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/31703"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 2,
+                    "colo": "#7118af",
+                    "id": "ELESCLOMOL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/300471"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 1,
+                    "colo": "#31af99",
+                    "id": "ELLIPTICINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3213"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 15,
+                    "colo": "#e50d73",
+                    "id": "EMETINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10219"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 22,
+                    "colo": "#d66b0c",
+                    "id": "EMODIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3220"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 50,
+                    "colo": "#39a6d3",
+                    "id": "ENTINOSTAT",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 11,
+                    "colo": "#8ac105",
+                    "id": "EPIRUBICIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/41867"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 19,
+                    "colo": "#490bbc",
+                    "id": "ERLOTINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/176870"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 4,
+                    "colo": "#c13858",
+                    "id": "ETACRYNICACID",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 16,
+                    "colo": "#d8f93e",
+                    "id": "ETHINYLESTRADIOL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5991"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 45,
+                    "colo": "#6010ba",
+                    "id": "ETOPOSIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/36462"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 44,
+                    "colo": "#b220a9",
+                    "id": "EVEROLIMUS",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6442177"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 29,
+                    "colo": "#28caed",
+                    "id": "FENBENDAZOLE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3334"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 2,
+                    "colo": "#7118af",
+                    "id": "FENRETINIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5288209"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 20,
+                    "colo": "#27e882",
+                    "id": "FLOXURIDINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5790"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 29,
+                    "colo": "#28caed",
+                    "id": "FLUBENDAZOLE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/35802"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 9,
+                    "colo": "#00ffb3",
+                    "id": "FLUCONAZOLE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3365"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 8,
+                    "colo": "#2fbec6",
+                    "id": "FLUDARABINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/657237"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 17,
+                    "colo": "#34ad50",
+                    "id": "FLUMETHASONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16490"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 17,
+                    "colo": "#34ad50",
+                    "id": "FLUOCINOLONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6215"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 17,
+                    "colo": "#34ad50",
+                    "id": "FLUOROMETHOLONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9878"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 6,
+                    "colo": "#2882c1",
+                    "id": "FLUOROURACIL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3385"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 17,
+                    "colo": "#34ad50",
+                    "id": "FLUPHENAZINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3372"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 32,
+                    "colo": "#eda847",
+                    "id": "FLUVASTATIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/446155"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 18,
+                    "colo": "#fc0596",
+                    "id": "FORSKOLIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/47936"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 19,
+                    "colo": "#490bbc",
+                    "id": "FOSTAMATINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11671467"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 16,
+                    "colo": "#d8f93e",
+                    "id": "FULVESTRANT",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/104741"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 7,
+                    "colo": "#c314ce",
+                    "id": "GEDUNIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12004512"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 19,
+                    "colo": "#490bbc",
+                    "id": "GEFITINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/123631"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 20,
+                    "colo": "#27e882",
+                    "id": "GEMCITABINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/60750"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 13,
+                    "colo": "#17ef96",
+                    "id": "GITOXIGENIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/348482"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 22,
+                    "colo": "#d66b0c",
+                    "id": "GOSSYPOL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3503"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 47,
+                    "colo": "#cc0892",
+                    "id": "HALOPERIDOL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3559"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 51,
+                    "colo": "#951dc6",
+                    "id": "HALOPROGIN",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 28,
+                    "colo": "#5a2af7",
+                    "id": "HEXACHLOROPHENE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3598"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 39,
+                    "colo": "#02e853",
+                    "id": "HEXAMETHYLENEBISACETAMIDE",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 15,
+                    "colo": "#e50d73",
+                    "id": "HOMOHARRINGTONINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/285033"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 21,
+                    "colo": "#cc28af",
+                    "id": "HONOKIOL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72303"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 22,
+                    "colo": "#d66b0c",
+                    "id": "HYPERICIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281051"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 19,
+                    "colo": "#490bbc",
+                    "id": "IBRUTINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24821094"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 11,
+                    "colo": "#8ac105",
+                    "id": "IDARUBICIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/42890"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 17,
+                    "colo": "#34ad50",
+                    "id": "IDEBENONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3686"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 20,
+                    "colo": "#27e882",
+                    "id": "IDOXURIDINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5905"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 9,
+                    "colo": "#00ffb3",
+                    "id": "IFOSFAMIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3690"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 33,
+                    "colo": "#e80b0b",
+                    "id": "IMATINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5291"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 23,
+                    "colo": "#28bc14",
+                    "id": "IMIQUIMOD",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/57469"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 48,
+                    "colo": "#ed152e",
+                    "id": "IRINOTECAN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/60838"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 17,
+                    "colo": "#34ad50",
+                    "id": "ISOFLUPREDONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/127516"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 23,
+                    "colo": "#28bc14",
+                    "id": "ISOTRETINOIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5282379"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 24,
+                    "colo": "#a55427",
+                    "id": "ITRACONAZOLE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/55283"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 11,
+                    "colo": "#8ac105",
+                    "id": "KENPAULLONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3820"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 25,
+                    "colo": "#23ba35",
+                    "id": "KINETINRIBOSIDE",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 13,
+                    "colo": "#17ef96",
+                    "id": "LANATOSIDEC",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3084073"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 19,
+                    "colo": "#490bbc",
+                    "id": "LAPATINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/208908"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 14,
+                    "colo": "#96ef17",
+                    "id": "LASALOCID",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5360807"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 5,
+                    "colo": "#b20ad6",
+                    "id": "LAVENDUSTINA",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3894"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 26,
+                    "colo": "#4167e2",
+                    "id": "LEFLUNOMIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3899"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 42,
+                    "colo": "#d39c19",
+                    "id": "LESTAURTINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45111934"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 29,
+                    "colo": "#28caed",
+                    "id": "LOBENDAZOLE",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 27,
+                    "colo": "#1b84f9",
+                    "id": "LORATADINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/46781820"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 32,
+                    "colo": "#eda847",
+                    "id": "LOVASTATIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/53232"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 44,
+                    "colo": "#b220a9",
+                    "id": "LY294002",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 28,
+                    "colo": "#5a2af7",
+                    "id": "MALONOBEN",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 29,
+                    "colo": "#28caed",
+                    "id": "MEBENDAZOLE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4030"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 30,
+                    "colo": "#29b2aa",
+                    "id": "MELPHALAN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/460612"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 31,
+                    "colo": "#0606a8",
+                    "id": "MENADIONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4055"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 40,
+                    "colo": "#4ded1c",
+                    "id": "METHOTREXATE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/126941"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 35,
+                    "colo": "#2207ed",
+                    "id": "METHYLENEBLUE",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 17,
+                    "colo": "#34ad50",
+                    "id": "METHYLPREDNISOLONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6741"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 32,
+                    "colo": "#eda847",
+                    "id": "MEVASTATIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/64715"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 42,
+                    "colo": "#d39c19",
+                    "id": "MIDOSTAURIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9829523"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 23,
+                    "colo": "#28bc14",
+                    "id": "MIFEPRISTONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/55245"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 10,
+                    "colo": "#2be22b",
+                    "id": "MITOTANE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4211"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 11,
+                    "colo": "#8ac105",
+                    "id": "MITOXANTRONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4212"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 39,
+                    "colo": "#02e853",
+                    "id": "MONASTROL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2987927"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 47,
+                    "colo": "#cc0892",
+                    "id": "NAVITOCLAX",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24978538"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 46,
+                    "colo": "#81fc3f",
+                    "id": "NBROMOACETYLTRYPTAMINE",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 14,
+                    "colo": "#96ef17",
+                    "id": "NELFINAVIR",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/64143"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 26,
+                    "colo": "#4167e2",
+                    "id": "NICLOSAMIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4477"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 17,
+                    "colo": "#34ad50",
+                    "id": "NICOTINAMIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/936"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 40,
+                    "colo": "#4ded1c",
+                    "id": "NIFUROXAZIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5337997"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 33,
+                    "colo": "#e80b0b",
+                    "id": "NILOTINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/644241"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 39,
+                    "colo": "#02e853",
+                    "id": "NITAZOXANIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/41684"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 34,
+                    "colo": "#326bd3",
+                    "id": "NOBILETIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72344"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 29,
+                    "colo": "#28caed",
+                    "id": "NOCODAZOLE",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 35,
+                    "colo": "#2207ed",
+                    "id": "NONOXYNOL9",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 16,
+                    "colo": "#d8f93e",
+                    "id": "NOSCAPINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/275196"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 51,
+                    "colo": "#951dc6",
+                    "id": "OBATOCLAX",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16681698"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 39,
+                    "colo": "#02e853",
+                    "id": "OFLOXACIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4583"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 44,
+                    "colo": "#b220a9",
+                    "id": "OLAPARIB",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 35,
+                    "colo": "#2207ed",
+                    "id": "OLIGOMYCINA",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281899"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 35,
+                    "colo": "#2207ed",
+                    "id": "OLIGOMYCINC",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281899"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 33,
+                    "colo": "#e80b0b",
+                    "id": "OSI027",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44224160"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 13,
+                    "colo": "#17ef96",
+                    "id": "OUABAIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/439501"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 29,
+                    "colo": "#28caed",
+                    "id": "OXFENDAZOLE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/40854"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 29,
+                    "colo": "#28caed",
+                    "id": "OXIBENDAZOLE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4622"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 36,
+                    "colo": "#6ce500",
+                    "id": "OXIDOPAMINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4624"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 37,
+                    "colo": "#e51b00",
+                    "id": "PACLITAXEL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/36314"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 29,
+                    "colo": "#28caed",
+                    "id": "PARBENDAZOLE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/26596"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 51,
+                    "colo": "#951dc6",
+                    "id": "PARTHENOLIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/91873711"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 19,
+                    "colo": "#490bbc",
+                    "id": "PAZOPANIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10113978"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 41,
+                    "colo": "#f9367b",
+                    "id": "PD184352",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 34,
+                    "colo": "#326bd3",
+                    "id": "PD98059",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 40,
+                    "colo": "#4ded1c",
+                    "id": "PEMETREXED",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/446556"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 36,
+                    "colo": "#6ce500",
+                    "id": "PENTAMIDINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4735"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 4,
+                    "colo": "#c13858",
+                    "id": "PHENETHYLISOTHIOCYANATE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16741"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 12,
+                    "colo": "#ba9900",
+                    "id": "PHENYLBUTYRATE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/53428675"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 38,
+                    "colo": "#9fa812",
+                    "id": "PIMOZIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16362"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 22,
+                    "colo": "#d66b0c",
+                    "id": "PIPAMPERONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4830"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 31,
+                    "colo": "#0606a8",
+                    "id": "PLUMBAGIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10205"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 46,
+                    "colo": "#81fc3f",
+                    "id": "PMSF",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4784"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 45,
+                    "colo": "#6010ba",
+                    "id": "PODOPHYLLOTOXIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10607"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 33,
+                    "colo": "#e80b0b",
+                    "id": "PONATINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24826799"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 46,
+                    "colo": "#81fc3f",
+                    "id": "PRIMA1",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 21,
+                    "colo": "#cc28af",
+                    "id": "PROBUCOL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4912"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 39,
+                    "colo": "#02e853",
+                    "id": "PROCARBAZINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4915"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 23,
+                    "colo": "#28bc14",
+                    "id": "PROGESTERONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5994"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 13,
+                    "colo": "#17ef96",
+                    "id": "PROSTRATIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16167428"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 25,
+                    "colo": "#23ba35",
+                    "id": "PUROMYCIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/439530"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 36,
+                    "colo": "#6ce500",
+                    "id": "PURPUROGALLIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281571"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 18,
+                    "colo": "#fc0596",
+                    "id": "PYRAZOLANTHRONE",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 40,
+                    "colo": "#4ded1c",
+                    "id": "PYRIMETHAMINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4993"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 50,
+                    "colo": "#39a6d3",
+                    "id": "PYROXAMIDE",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 2,
+                    "colo": "#7118af",
+                    "id": "RADICICOL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6323491"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 4,
+                    "colo": "#c13858",
+                    "id": "RALOXIFENE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5035"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 20,
+                    "colo": "#27e882",
+                    "id": "RALTITREXED",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/104758"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 45,
+                    "colo": "#6010ba",
+                    "id": "RAZOXANE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/30623"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 34,
+                    "colo": "#326bd3",
+                    "id": "RHAMNETIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281691"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 27,
+                    "colo": "#1b84f9",
+                    "id": "RITONAVIR",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/392622"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 25,
+                    "colo": "#23ba35",
+                    "id": "ROSCOVITINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/160355"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 11,
+                    "colo": "#8ac105",
+                    "id": "ROTENONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6758"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 21,
+                    "colo": "#cc28af",
+                    "id": "RYANODINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11317883"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 31,
+                    "colo": "#0606a8",
+                    "id": "SA792541",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 41,
+                    "colo": "#f9367b",
+                    "id": "SELUMETINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10127622"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 32,
+                    "colo": "#eda847",
+                    "id": "SIMVASTATIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/54454"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 13,
+                    "colo": "#17ef96",
+                    "id": "SOLANINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/262500"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 38,
+                    "colo": "#9fa812",
+                    "id": "SPIPERONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5265"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 2,
+                    "colo": "#7118af",
+                    "id": "STAT3INHIBITORVI",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 42,
+                    "colo": "#d39c19",
+                    "id": "STAUROSPORINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44259"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 7,
+                    "colo": "#c314ce",
+                    "id": "SULFAQUINOXALINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5338"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 39,
+                    "colo": "#02e853",
+                    "id": "SULFATHIAZOLE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5340"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 7,
+                    "colo": "#c314ce",
+                    "id": "SULOCTIDIL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5354"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 18,
+                    "colo": "#fc0596",
+                    "id": "SUNITINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5329102"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 28,
+                    "colo": "#5a2af7",
+                    "id": "TAMOXIFEN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2733526"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 43,
+                    "colo": "#fff00c",
+                    "id": "TANESPIMYCIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6505803"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 6,
+                    "colo": "#2882c1",
+                    "id": "TEGAFUR",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5386"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 44,
+                    "colo": "#b220a9",
+                    "id": "TEMSIROLIMUS",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6918289"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 45,
+                    "colo": "#6010ba",
+                    "id": "TENIPOSIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/452548"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 24,
+                    "colo": "#a55427",
+                    "id": "TERCONAZOLE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/441383"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 46,
+                    "colo": "#81fc3f",
+                    "id": "TERREICACID",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/91437"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 36,
+                    "colo": "#6ce500",
+                    "id": "TERTBUTYLHYDROQUINONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2374"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 51,
+                    "colo": "#951dc6",
+                    "id": "THAPSIGARGIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/446378"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 47,
+                    "colo": "#cc0892",
+                    "id": "THIORPHAN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3132"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 30,
+                    "colo": "#29b2aa",
+                    "id": "THIOTEPA",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 50,
+                    "colo": "#39a6d3",
+                    "id": "THMI94",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 48,
+                    "colo": "#ed152e",
+                    "id": "TOPOTECAN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/60700"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 41,
+                    "colo": "#f9367b",
+                    "id": "TRAMETINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11707110"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 39,
+                    "colo": "#02e853",
+                    "id": "TREMULACIN",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 17,
+                    "colo": "#34ad50",
+                    "id": "TRIAMCINOLONE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/31307"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 25,
+                    "colo": "#23ba35",
+                    "id": "TRICIRIBINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/65399"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 30,
+                    "colo": "#29b2aa",
+                    "id": "TRYPTOPHAN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6305"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 12,
+                    "colo": "#ba9900",
+                    "id": "TUNICAMYCIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/56927832"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 28,
+                    "colo": "#5a2af7",
+                    "id": "TYRPHOSTINA9",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 19,
+                    "colo": "#490bbc",
+                    "id": "TYRPHOSTINAG1478",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 27,
+                    "colo": "#1b84f9",
+                    "id": "VALPROICACID",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3121"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 41,
+                    "colo": "#f9367b",
+                    "id": "VEMURAFENIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/42611257"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 49,
+                    "colo": "#4456e2",
+                    "id": "VINBLASTINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/241903"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 49,
+                    "colo": "#4456e2",
+                    "id": "VINCRISTINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5978"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 49,
+                    "colo": "#4456e2",
+                    "id": "VINORELBINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5311497"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 50,
+                    "colo": "#39a6d3",
+                    "id": "VORINOSTAT",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5311"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 51,
+                    "colo": "#951dc6",
+                    "id": "WITHAFERINA",
+                    "url": "null"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 10,
+                    "colo": "#2be22b",
+                    "id": "WORTMANNIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101764112"
+                }
+            },
+            {
+                "data": {
+                    "cluster": 3,
+                    "colo": "#e5633b",
+                    "id": "YOHIMBINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8969"
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "id": "e20",
+                    "target": "BENZO(A)PYRENE",
+                    "source": "6AMINOCHRYSENE",
+                    "weight": 137.95665349375787
+                }
+            },
+            {
+                "data": {
+                    "id": "e41",
+                    "target": "CLIOQUINOL",
+                    "source": "6AMINOCHRYSENE",
+                    "weight": 174.8761523750587
+                }
+            },
+            {
+                "data": {
+                    "id": "e67",
+                    "target": "ELLIPTICINE",
+                    "source": "6AMINOCHRYSENE",
+                    "weight": 180.34034843572238
+                }
+            },
+            {
+                "data": {
+                    "id": "e4591",
+                    "target": "CLIOQUINOL",
+                    "source": "BENZO(A)PYRENE",
+                    "weight": 213.96043825806927
+                }
+            },
+            {
+                "data": {
+                    "id": "e4617",
+                    "target": "ELLIPTICINE",
+                    "source": "BENZO(A)PYRENE",
+                    "weight": 204.57440265829908
+                }
+            },
+            {
+                "data": {
+                    "id": "e8964",
+                    "target": "ELLIPTICINE",
+                    "source": "CLIOQUINOL",
+                    "weight": 192.6840379680092
+                }
+            },
+            {
+                "data": {
+                    "id": "e1202",
+                    "target": "CADMIUMCHLORIDE",
+                    "source": "AG957",
+                    "weight": 205.85637144465045
+                }
+            },
+            {
+                "data": {
+                    "id": "e1241",
+                    "target": "ELESCLOMOL",
+                    "source": "AG957",
+                    "weight": 176.5028451346122
+                }
+            },
+            {
+                "data": {
+                    "id": "e1253",
+                    "target": "FENRETINIDE",
+                    "source": "AG957",
+                    "weight": 181.80996597092974
+                }
+            },
+            {
+                "data": {
+                    "id": "e1363",
+                    "target": "RADICICOL",
+                    "source": "AG957",
+                    "weight": 171.87947661357367
+                }
+            },
+            {
+                "data": {
+                    "id": "e1377",
+                    "target": "STAT3INHIBITORVI",
+                    "source": "AG957",
+                    "weight": 193.9722601125211
+                }
+            },
+            {
+                "data": {
+                    "id": "e6114",
+                    "target": "ELESCLOMOL",
+                    "source": "CADMIUMCHLORIDE",
+                    "weight": 195.63412081360462
+                }
+            },
+            {
+                "data": {
+                    "id": "e6126",
+                    "target": "FENRETINIDE",
+                    "source": "CADMIUMCHLORIDE",
+                    "weight": 259.2175221484159
+                }
+            },
+            {
+                "data": {
+                    "id": "e6236",
+                    "target": "RADICICOL",
+                    "source": "CADMIUMCHLORIDE",
+                    "weight": 224.97598174672464
+                }
+            },
+            {
+                "data": {
+                    "id": "e6250",
+                    "target": "STAT3INHIBITORVI",
+                    "source": "CADMIUMCHLORIDE",
+                    "weight": 262.39933384514137
+                }
+            },
+            {
+                "data": {
+                    "id": "e13575",
+                    "target": "FENRETINIDE",
+                    "source": "ELESCLOMOL",
+                    "weight": 246.64055287656157
+                }
+            },
+            {
+                "data": {
+                    "id": "e13685",
+                    "target": "RADICICOL",
+                    "source": "ELESCLOMOL",
+                    "weight": 232.52425121832545
+                }
+            },
+            {
+                "data": {
+                    "id": "e13699",
+                    "target": "STAT3INHIBITORVI",
+                    "source": "ELESCLOMOL",
+                    "weight": 249.58662115732295
+                }
+            },
+            {
+                "data": {
+                    "id": "e15671",
+                    "target": "RADICICOL",
+                    "source": "FENRETINIDE",
+                    "weight": 225.50481257553113
+                }
+            },
+            {
+                "data": {
+                    "id": "e15685",
+                    "target": "STAT3INHIBITORVI",
+                    "source": "FENRETINIDE",
+                    "weight": 186.12065576701474
+                }
+            },
+            {
+                "data": {
+                    "id": "e27180",
+                    "target": "STAT3INHIBITORVI",
+                    "source": "RADICICOL",
+                    "weight": 244.01739618114797
+                }
+            },
+            {
+                "data": {
+                    "id": "e3017",
+                    "target": "ARTESUNATE",
+                    "source": "ARTEMETHER",
+                    "weight": 113.85269056570485
+                }
+            },
+            {
+                "data": {
+                    "id": "e3240",
+                    "target": "YOHIMBINE",
+                    "source": "ARTEMETHER",
+                    "weight": 178.33746944578482
+                }
+            },
+            {
+                "data": {
+                    "id": "e3464",
+                    "target": "YOHIMBINE",
+                    "source": "ARTESUNATE",
+                    "weight": 242.42019086365497
+                }
+            },
+            {
+                "data": {
+                    "id": "e5884",
+                    "target": "CURCUMIN",
+                    "source": "BRDK00910650",
+                    "weight": 174.42964910801072
+                }
+            },
+            {
+                "data": {
+                    "id": "e5910",
+                    "target": "ETACRYNICACID",
+                    "source": "BRDK00910650",
+                    "weight": 176.9110999793427
+                }
+            },
+            {
+                "data": {
+                    "id": "e6007",
+                    "target": "PHENETHYLISOTHIOCYANATE",
+                    "source": "BRDK00910650",
+                    "weight": 161.67816562299672
+                }
+            },
+            {
+                "data": {
+                    "id": "e6026",
+                    "target": "RALOXIFENE",
+                    "source": "BRDK00910650",
+                    "weight": 195.76715976663908
+                }
+            },
+            {
+                "data": {
+                    "id": "e10131",
+                    "target": "ETACRYNICACID",
+                    "source": "CURCUMIN",
+                    "weight": 222.36290575485629
+                }
+            },
+            {
+                "data": {
+                    "id": "e10228",
+                    "target": "PHENETHYLISOTHIOCYANATE",
+                    "source": "CURCUMIN",
+                    "weight": 193.54429330770682
+                }
+            },
+            {
+                "data": {
+                    "id": "e10247",
+                    "target": "RALOXIFENE",
+                    "source": "CURCUMIN",
+                    "weight": 240.8393249712189
+                }
+            },
+            {
+                "data": {
+                    "id": "e14843",
+                    "target": "PHENETHYLISOTHIOCYANATE",
+                    "source": "ETACRYNICACID",
+                    "weight": 197.3589667227
+                }
+            },
+            {
+                "data": {
+                    "id": "e14862",
+                    "target": "RALOXIFENE",
+                    "source": "ETACRYNICACID",
+                    "weight": 231.96257334868213
+                }
+            },
+            {
+                "data": {
+                    "id": "e26114",
+                    "target": "RALOXIFENE",
+                    "source": "PHENETHYLISOTHIOCYANATE",
+                    "weight": 242.86599808199108
+                }
+            },
+            {
+                "data": {
+                    "id": "e6287",
+                    "target": "CAFFEICACIDPHENETHYLESTER",
+                    "source": "CAFFEICACID",
+                    "weight": 133.00951399033934
+                }
+            },
+            {
+                "data": {
+                    "id": "e6378",
+                    "target": "LAVENDUSTINA",
+                    "source": "CAFFEICACID",
+                    "weight": 139.4970983224161
+                }
+            },
+            {
+                "data": {
+                    "id": "e6587",
+                    "target": "LAVENDUSTINA",
+                    "source": "CAFFEICACIDPHENETHYLESTER",
+                    "weight": 239.88620732373997
+                }
+            },
+            {
+                "data": {
+                    "id": "e7174",
+                    "target": "FLUOROURACIL",
+                    "source": "CARMOFUR",
+                    "weight": 114.88007016508789
+                }
+            },
+            {
+                "data": {
+                    "id": "e7298",
+                    "target": "TEGAFUR",
+                    "source": "CARMOFUR",
+                    "weight": 109.03556334376006
+                }
+            },
+            {
+                "data": {
+                    "id": "e16937",
+                    "target": "TEGAFUR",
+                    "source": "FLUOROURACIL",
+                    "weight": 137.37481626230993
+                }
+            },
+            {
+                "data": {
+                    "id": "e8395",
+                    "target": "GEDUNIN",
+                    "source": "CINCHONINE",
+                    "weight": 195.55611324159713
+                }
+            },
+            {
+                "data": {
+                    "id": "e8507",
+                    "target": "SULFAQUINOXALINE",
+                    "source": "CINCHONINE",
+                    "weight": 147.69391587292859
+                }
+            },
+            {
+                "data": {
+                    "id": "e8509",
+                    "target": "SULOCTIDIL",
+                    "source": "CINCHONINE",
+                    "weight": 183.87981116816658
+                }
+            },
+            {
+                "data": {
+                    "id": "e17822",
+                    "target": "SULFAQUINOXALINE",
+                    "source": "GEDUNIN",
+                    "weight": 251.0488767146857
+                }
+            },
+            {
+                "data": {
+                    "id": "e17824",
+                    "target": "SULOCTIDIL",
+                    "source": "GEDUNIN",
+                    "weight": 251.45971246543772
+                }
+            },
+            {
+                "data": {
+                    "id": "e27848",
+                    "target": "SULOCTIDIL",
+                    "source": "SULFAQUINOXALINE",
+                    "weight": 257.8571111314125
+                }
+            },
+            {
+                "data": {
+                    "id": "e8742",
+                    "target": "CLOFARABINE",
+                    "source": "CLADRIBINE",
+                    "weight": 81.55909029971161
+                }
+            },
+            {
+                "data": {
+                    "id": "e8782",
+                    "target": "FLUDARABINE",
+                    "source": "CLADRIBINE",
+                    "weight": 93.79353684715485
+                }
+            },
+            {
+                "data": {
+                    "id": "e9175",
+                    "target": "FLUDARABINE",
+                    "source": "CLOFARABINE",
+                    "weight": 96.94702077134333
+                }
+            },
+            {
+                "data": {
+                    "id": "e4817",
+                    "target": "CYCLOPHOSPHAMIDE",
+                    "source": "BERBAMINE",
+                    "weight": 185.50524721094808
+                }
+            },
+            {
+                "data": {
+                    "id": "e4848",
+                    "target": "FLUCONAZOLE",
+                    "source": "BERBAMINE",
+                    "weight": 196.70013168892393
+                }
+            },
+            {
+                "data": {
+                    "id": "e4875",
+                    "target": "IFOSFAMIDE",
+                    "source": "BERBAMINE",
+                    "weight": 254.01021164485584
+                }
+            },
+            {
+                "data": {
+                    "id": "e10706",
+                    "target": "FLUCONAZOLE",
+                    "source": "CYCLOPHOSPHAMIDE",
+                    "weight": 174.03521987455045
+                }
+            },
+            {
+                "data": {
+                    "id": "e10733",
+                    "target": "IFOSFAMIDE",
+                    "source": "CYCLOPHOSPHAMIDE",
+                    "weight": 125.9375481338995
+                }
+            },
+            {
+                "data": {
+                    "id": "e16065",
+                    "target": "IFOSFAMIDE",
+                    "source": "FLUCONAZOLE",
+                    "weight": 246.3300850733069
+                }
+            },
+            {
+                "data": {
+                    "id": "e1693",
+                    "target": "DACARBAZINE",
+                    "source": "ALLOPURINOL",
+                    "weight": 182.41431671150434
+                }
+            },
+            {
+                "data": {
+                    "id": "e1775",
+                    "target": "MITOTANE",
+                    "source": "ALLOPURINOL",
+                    "weight": 222.0729190205689
+                }
+            },
+            {
+                "data": {
+                    "id": "e1874",
+                    "target": "WORTMANNIN",
+                    "source": "ALLOPURINOL",
+                    "weight": 257.3703934898811
+                }
+            },
+            {
+                "data": {
+                    "id": "e11687",
+                    "target": "MITOTANE",
+                    "source": "DACARBAZINE",
+                    "weight": 129.92151316981864
+                }
+            },
+            {
+                "data": {
+                    "id": "e11786",
+                    "target": "WORTMANNIN",
+                    "source": "DACARBAZINE",
+                    "weight": 183.8432268785228
+                }
+            },
+            {
+                "data": {
+                    "id": "e23389",
+                    "target": "WORTMANNIN",
+                    "source": "MITOTANE",
+                    "weight": 184.58613394025022
+                }
+            },
+            {
+                "data": {
+                    "id": "e717",
+                    "target": "ALVOCIDIB",
+                    "source": "ACTINOMYCIND",
+                    "weight": 174.56633426226338
+                }
+            },
+            {
+                "data": {
+                    "id": "e745",
+                    "target": "CHROMOMYCINA3",
+                    "source": "ACTINOMYCIND",
+                    "weight": 151.43285431666527
+                }
+            },
+            {
+                "data": {
+                    "id": "e765",
+                    "target": "DAUNORUBICIN",
+                    "source": "ACTINOMYCIND",
+                    "weight": 146.5587405852607
+                }
+            },
+            {
+                "data": {
+                    "id": "e773",
+                    "target": "DOXORUBICIN",
+                    "source": "ACTINOMYCIND",
+                    "weight": 143.82823267854312
+                }
+            },
+            {
+                "data": {
+                    "id": "e779",
+                    "target": "EPIRUBICIN",
+                    "source": "ACTINOMYCIND",
+                    "weight": 148.49295708702897
+                }
+            },
+            {
+                "data": {
+                    "id": "e813",
+                    "target": "IDARUBICIN",
+                    "source": "ACTINOMYCIND",
+                    "weight": 171.30538575856787
+                }
+            },
+            {
+                "data": {
+                    "id": "e823",
+                    "target": "KENPAULLONE",
+                    "source": "ACTINOMYCIND",
+                    "weight": 224.4906870933126
+                }
+            },
+            {
+                "data": {
+                    "id": "e846",
+                    "target": "MITOXANTRONE",
+                    "source": "ACTINOMYCIND",
+                    "weight": 180.8284048274421
+                }
+            },
+            {
+                "data": {
+                    "id": "e903",
+                    "target": "ROTENONE",
+                    "source": "ACTINOMYCIND",
+                    "weight": 244.77518477877214
+                }
+            },
+            {
+                "data": {
+                    "id": "e2134",
+                    "target": "CHROMOMYCINA3",
+                    "source": "ALVOCIDIB",
+                    "weight": 152.2006980427309
+                }
+            },
+            {
+                "data": {
+                    "id": "e2154",
+                    "target": "DAUNORUBICIN",
+                    "source": "ALVOCIDIB",
+                    "weight": 146.92789950949143
+                }
+            },
+            {
+                "data": {
+                    "id": "e2162",
+                    "target": "DOXORUBICIN",
+                    "source": "ALVOCIDIB",
+                    "weight": 148.40253991085518
+                }
+            },
+            {
+                "data": {
+                    "id": "e2168",
+                    "target": "EPIRUBICIN",
+                    "source": "ALVOCIDIB",
+                    "weight": 173.63906480754102
+                }
+            },
+            {
+                "data": {
+                    "id": "e2202",
+                    "target": "IDARUBICIN",
+                    "source": "ALVOCIDIB",
+                    "weight": 150.07885859039476
+                }
+            },
+            {
+                "data": {
+                    "id": "e2212",
+                    "target": "KENPAULLONE",
+                    "source": "ALVOCIDIB",
+                    "weight": 175.20416755980943
+                }
+            },
+            {
+                "data": {
+                    "id": "e2235",
+                    "target": "MITOXANTRONE",
+                    "source": "ALVOCIDIB",
+                    "weight": 152.02769352939683
+                }
+            },
+            {
+                "data": {
+                    "id": "e2292",
+                    "target": "ROTENONE",
+                    "source": "ALVOCIDIB",
+                    "weight": 217.7754626577683
+                }
+            },
+            {
+                "data": {
+                    "id": "e8160",
+                    "target": "DAUNORUBICIN",
+                    "source": "CHROMOMYCINA3",
+                    "weight": 114.05094390486309
+                }
+            },
+            {
+                "data": {
+                    "id": "e8168",
+                    "target": "DOXORUBICIN",
+                    "source": "CHROMOMYCINA3",
+                    "weight": 112.11959226720269
+                }
+            },
+            {
+                "data": {
+                    "id": "e8174",
+                    "target": "EPIRUBICIN",
+                    "source": "CHROMOMYCINA3",
+                    "weight": 129.89461497917372
+                }
+            },
+            {
+                "data": {
+                    "id": "e8208",
+                    "target": "IDARUBICIN",
+                    "source": "CHROMOMYCINA3",
+                    "weight": 120.69189295676469
+                }
+            },
+            {
+                "data": {
+                    "id": "e8218",
+                    "target": "KENPAULLONE",
+                    "source": "CHROMOMYCINA3",
+                    "weight": 196.3001076605132
+                }
+            },
+            {
+                "data": {
+                    "id": "e8241",
+                    "target": "MITOXANTRONE",
+                    "source": "CHROMOMYCINA3",
+                    "weight": 139.96630494601882
+                }
+            },
+            {
+                "data": {
+                    "id": "e8298",
+                    "target": "ROTENONE",
+                    "source": "CHROMOMYCINA3",
+                    "weight": 195.85388400616887
+                }
+            },
+            {
+                "data": {
+                    "id": "e11978",
+                    "target": "DOXORUBICIN",
+                    "source": "DAUNORUBICIN",
+                    "weight": 78.27723066760831
+                }
+            },
+            {
+                "data": {
+                    "id": "e11984",
+                    "target": "EPIRUBICIN",
+                    "source": "DAUNORUBICIN",
+                    "weight": 87.01885196126234
+                }
+            },
+            {
+                "data": {
+                    "id": "e12018",
+                    "target": "IDARUBICIN",
+                    "source": "DAUNORUBICIN",
+                    "weight": 85.23634155636753
+                }
+            },
+            {
+                "data": {
+                    "id": "e12028",
+                    "target": "KENPAULLONE",
+                    "source": "DAUNORUBICIN",
+                    "weight": 197.63629848007878
+                }
+            },
+            {
+                "data": {
+                    "id": "e12051",
+                    "target": "MITOXANTRONE",
+                    "source": "DAUNORUBICIN",
+                    "weight": 114.14075744750504
+                }
+            },
+            {
+                "data": {
+                    "id": "e12108",
+                    "target": "ROTENONE",
+                    "source": "DAUNORUBICIN",
+                    "weight": 202.07875443817454
+                }
+            },
+            {
+                "data": {
+                    "id": "e13396",
+                    "target": "EPIRUBICIN",
+                    "source": "DOXORUBICIN",
+                    "weight": 87.0286894298347
+                }
+            },
+            {
+                "data": {
+                    "id": "e13430",
+                    "target": "IDARUBICIN",
+                    "source": "DOXORUBICIN",
+                    "weight": 87.34204216915198
+                }
+            },
+            {
+                "data": {
+                    "id": "e13440",
+                    "target": "KENPAULLONE",
+                    "source": "DOXORUBICIN",
+                    "weight": 196.39819014751438
+                }
+            },
+            {
+                "data": {
+                    "id": "e13463",
+                    "target": "MITOXANTRONE",
+                    "source": "DOXORUBICIN",
+                    "weight": 117.70774432586543
+                }
+            },
+            {
+                "data": {
+                    "id": "e13520",
+                    "target": "ROTENONE",
+                    "source": "DOXORUBICIN",
+                    "weight": 201.9785163544736
+                }
+            },
+            {
+                "data": {
+                    "id": "e14447",
+                    "target": "IDARUBICIN",
+                    "source": "EPIRUBICIN",
+                    "weight": 96.28411616879856
+                }
+            },
+            {
+                "data": {
+                    "id": "e14457",
+                    "target": "KENPAULLONE",
+                    "source": "EPIRUBICIN",
+                    "weight": 213.49093059904936
+                }
+            },
+            {
+                "data": {
+                    "id": "e14480",
+                    "target": "MITOXANTRONE",
+                    "source": "EPIRUBICIN",
+                    "weight": 139.08498190451704
+                }
+            },
+            {
+                "data": {
+                    "id": "e14537",
+                    "target": "ROTENONE",
+                    "source": "EPIRUBICIN",
+                    "weight": 201.72749917012925
+                }
+            },
+            {
+                "data": {
+                    "id": "e19540",
+                    "target": "KENPAULLONE",
+                    "source": "IDARUBICIN",
+                    "weight": 194.04006464259217
+                }
+            },
+            {
+                "data": {
+                    "id": "e19563",
+                    "target": "MITOXANTRONE",
+                    "source": "IDARUBICIN",
+                    "weight": 114.71523455240069
+                }
+            },
+            {
+                "data": {
+                    "id": "e19620",
+                    "target": "ROTENONE",
+                    "source": "IDARUBICIN",
+                    "weight": 204.1244117666327
+                }
+            },
+            {
+                "data": {
+                    "id": "e20838",
+                    "target": "MITOXANTRONE",
+                    "source": "KENPAULLONE",
+                    "weight": 195.31284655794258
+                }
+            },
+            {
+                "data": {
+                    "id": "e20895",
+                    "target": "ROTENONE",
+                    "source": "KENPAULLONE",
+                    "weight": 254.74980141905903
+                }
+            },
+            {
+                "data": {
+                    "id": "e23448",
+                    "target": "ROTENONE",
+                    "source": "MITOXANTRONE",
+                    "weight": 245.83097354408457
+                }
+            },
+            {
+                "data": {
+                    "id": "e2342",
+                    "target": "AZACITIDINE",
+                    "source": "AMONAFIDE",
+                    "weight": 220.37873079261644
+                }
+            },
+            {
+                "data": {
+                    "id": "e2383",
+                    "target": "DECITABINE",
+                    "source": "AMONAFIDE",
+                    "weight": 178.7568896980532
+                }
+            },
+            {
+                "data": {
+                    "id": "e2496",
+                    "target": "PHENYLBUTYRATE",
+                    "source": "AMONAFIDE",
+                    "weight": 246.12121942536655
+                }
+            },
+            {
+                "data": {
+                    "id": "e2551",
+                    "target": "TUNICAMYCIN",
+                    "source": "AMONAFIDE",
+                    "weight": 229.77411224588744
+                }
+            },
+            {
+                "data": {
+                    "id": "e3951",
+                    "target": "DECITABINE",
+                    "source": "AZACITIDINE",
+                    "weight": 125.0590789825623
+                }
+            },
+            {
+                "data": {
+                    "id": "e4064",
+                    "target": "PHENYLBUTYRATE",
+                    "source": "AZACITIDINE",
+                    "weight": 254.63641341177515
+                }
+            },
+            {
+                "data": {
+                    "id": "e4119",
+                    "target": "TUNICAMYCIN",
+                    "source": "AZACITIDINE",
+                    "weight": 209.45330006980802
+                }
+            },
+            {
+                "data": {
+                    "id": "e12264",
+                    "target": "PHENYLBUTYRATE",
+                    "source": "DECITABINE",
+                    "weight": 175.86843823367994
+                }
+            },
+            {
+                "data": {
+                    "id": "e12319",
+                    "target": "TUNICAMYCIN",
+                    "source": "DECITABINE",
+                    "weight": 178.2871633047548
+                }
+            },
+            {
+                "data": {
+                    "id": "e26218",
+                    "target": "TUNICAMYCIN",
+                    "source": "PHENYLBUTYRATE",
+                    "weight": 218.30292225494998
+                }
+            },
+            {
+                "data": {
+                    "id": "e5044",
+                    "target": "DIGOXIN",
+                    "source": "BISACODYL",
+                    "weight": 174.07906325096894
+                }
+            },
+            {
+                "data": {
+                    "id": "e5078",
+                    "target": "GITOXIGENIN",
+                    "source": "BISACODYL",
+                    "weight": 171.61999721740278
+                }
+            },
+            {
+                "data": {
+                    "id": "e5100",
+                    "target": "LANATOSIDEC",
+                    "source": "BISACODYL",
+                    "weight": 208.88521360789917
+                }
+            },
+            {
+                "data": {
+                    "id": "e5141",
+                    "target": "OUABAIN",
+                    "source": "BISACODYL",
+                    "weight": 168.1069246823322
+                }
+            },
+            {
+                "data": {
+                    "id": "e5165",
+                    "target": "PROSTRATIN",
+                    "source": "BISACODYL",
+                    "weight": 250.80786601675672
+                }
+            },
+            {
+                "data": {
+                    "id": "e5183",
+                    "target": "SOLANINE",
+                    "source": "BISACODYL",
+                    "weight": 258.1386450569678
+                }
+            },
+            {
+                "data": {
+                    "id": "e12722",
+                    "target": "GITOXIGENIN",
+                    "source": "DIGOXIN",
+                    "weight": 92.04932278747555
+                }
+            },
+            {
+                "data": {
+                    "id": "e12744",
+                    "target": "LANATOSIDEC",
+                    "source": "DIGOXIN",
+                    "weight": 81.76358022736864
+                }
+            },
+            {
+                "data": {
+                    "id": "e12785",
+                    "target": "OUABAIN",
+                    "source": "DIGOXIN",
+                    "weight": 69.8282516281944
+                }
+            },
+            {
+                "data": {
+                    "id": "e12809",
+                    "target": "PROSTRATIN",
+                    "source": "DIGOXIN",
+                    "weight": 177.89193899394178
+                }
+            },
+            {
+                "data": {
+                    "id": "e12827",
+                    "target": "SOLANINE",
+                    "source": "DIGOXIN",
+                    "weight": 198.39695800551235
+                }
+            },
+            {
+                "data": {
+                    "id": "e18167",
+                    "target": "LANATOSIDEC",
+                    "source": "GITOXIGENIN",
+                    "weight": 106.33956872911232
+                }
+            },
+            {
+                "data": {
+                    "id": "e18208",
+                    "target": "OUABAIN",
+                    "source": "GITOXIGENIN",
+                    "weight": 94.12098935609104
+                }
+            },
+            {
+                "data": {
+                    "id": "e18232",
+                    "target": "PROSTRATIN",
+                    "source": "GITOXIGENIN",
+                    "weight": 154.68054025887386
+                }
+            },
+            {
+                "data": {
+                    "id": "e18250",
+                    "target": "SOLANINE",
+                    "source": "GITOXIGENIN",
+                    "weight": 227.75389373984686
+                }
+            },
+            {
+                "data": {
+                    "id": "e21101",
+                    "target": "OUABAIN",
+                    "source": "LANATOSIDEC",
+                    "weight": 81.19626533054019
+                }
+            },
+            {
+                "data": {
+                    "id": "e21125",
+                    "target": "PROSTRATIN",
+                    "source": "LANATOSIDEC",
+                    "weight": 201.39450606033418
+                }
+            },
+            {
+                "data": {
+                    "id": "e21143",
+                    "target": "SOLANINE",
+                    "source": "LANATOSIDEC",
+                    "weight": 198.02925788415104
+                }
+            },
+            {
+                "data": {
+                    "id": "e25225",
+                    "target": "PROSTRATIN",
+                    "source": "OUABAIN",
+                    "weight": 187.47335120173375
+                }
+            },
+            {
+                "data": {
+                    "id": "e25243",
+                    "target": "SOLANINE",
+                    "source": "OUABAIN",
+                    "weight": 199.3300517782905
+                }
+            },
+            {
+                "data": {
+                    "id": "e26863",
+                    "target": "SOLANINE",
+                    "source": "PROSTRATIN",
+                    "weight": 243.98606497420843
+                }
+            },
+            {
+                "data": {
+                    "id": "e10874",
+                    "target": "DIHYDROERGOCRISTINE",
+                    "source": "CYCLOPIAZONICACID",
+                    "weight": 164.74304448494598
+                }
+            },
+            {
+                "data": {
+                    "id": "e10931",
+                    "target": "LASALOCID",
+                    "source": "CYCLOPIAZONICACID",
+                    "weight": 259.5335700085138
+                }
+            },
+            {
+                "data": {
+                    "id": "e10954",
+                    "target": "NELFINAVIR",
+                    "source": "CYCLOPIAZONICACID",
+                    "weight": 215.35204881865897
+                }
+            },
+            {
+                "data": {
+                    "id": "e12922",
+                    "target": "LASALOCID",
+                    "source": "DIHYDROERGOCRISTINE",
+                    "weight": 193.6797767363548
+                }
+            },
+            {
+                "data": {
+                    "id": "e12945",
+                    "target": "NELFINAVIR",
+                    "source": "DIHYDROERGOCRISTINE",
+                    "weight": 196.15546912432927
+                }
+            },
+            {
+                "data": {
+                    "id": "e21324",
+                    "target": "NELFINAVIR",
+                    "source": "LASALOCID",
+                    "weight": 225.53000898045417
+                }
+            },
+            {
+                "data": {
+                    "id": "e521",
+                    "target": "CYCLOHEXIMIDE",
+                    "source": "ACETYLCYSTEINE",
+                    "weight": 220.40959623750138
+                }
+            },
+            {
+                "data": {
+                    "id": "e541",
+                    "target": "EMETINE",
+                    "source": "ACETYLCYSTEINE",
+                    "weight": 198.66088844190406
+                }
+            },
+            {
+                "data": {
+                    "id": "e574",
+                    "target": "HOMOHARRINGTONINE",
+                    "source": "ACETYLCYSTEINE",
+                    "weight": 269.70661262578807
+                }
+            },
+            {
+                "data": {
+                    "id": "e10316",
+                    "target": "EMETINE",
+                    "source": "CYCLOHEXIMIDE",
+                    "weight": 148.8658057502562
+                }
+            },
+            {
+                "data": {
+                    "id": "e10349",
+                    "target": "HOMOHARRINGTONINE",
+                    "source": "CYCLOHEXIMIDE",
+                    "weight": 199.59257844650853
+                }
+            },
+            {
+                "data": {
+                    "id": "e13939",
+                    "target": "HOMOHARRINGTONINE",
+                    "source": "EMETINE",
+                    "weight": 154.44330573018715
+                }
+            },
+            {
+                "data": {
+                    "id": "e14928",
+                    "target": "FULVESTRANT",
+                    "source": "ETHINYLESTRADIOL",
+                    "weight": 175.89763029750776
+                }
+            },
+            {
+                "data": {
+                    "id": "e14988",
+                    "target": "NOSCAPINE",
+                    "source": "ETHINYLESTRADIOL",
+                    "weight": 169.8193672525578
+                }
+            },
+            {
+                "data": {
+                    "id": "e17623",
+                    "target": "NOSCAPINE",
+                    "source": "FULVESTRANT",
+                    "weight": 252.79286072094598
+                }
+            },
+            {
+                "data": {
+                    "id": "e12355",
+                    "target": "FLUMETHASONE",
+                    "source": "DEXAMETHASONE",
+                    "weight": 106.78157717375062
+                }
+            },
+            {
+                "data": {
+                    "id": "e12356",
+                    "target": "FLUOCINOLONE",
+                    "source": "DEXAMETHASONE",
+                    "weight": 133.1348642783835
+                }
+            },
+            {
+                "data": {
+                    "id": "e12357",
+                    "target": "FLUOROMETHOLONE",
+                    "source": "DEXAMETHASONE",
+                    "weight": 111.38092987713
+                }
+            },
+            {
+                "data": {
+                    "id": "e12359",
+                    "target": "FLUPHENAZINE",
+                    "source": "DEXAMETHASONE",
+                    "weight": 180.3982348454222
+                }
+            },
+            {
+                "data": {
+                    "id": "e12378",
+                    "target": "IDEBENONE",
+                    "source": "DEXAMETHASONE",
+                    "weight": 200.48971273377498
+                }
+            },
+            {
+                "data": {
+                    "id": "e12384",
+                    "target": "ISOFLUPREDONE",
+                    "source": "DEXAMETHASONE",
+                    "weight": 122.105025436766
+                }
+            },
+            {
+                "data": {
+                    "id": "e12405",
+                    "target": "METHYLPREDNISOLONE",
+                    "source": "DEXAMETHASONE",
+                    "weight": 119.76970439069909
+                }
+            },
+            {
+                "data": {
+                    "id": "e12416",
+                    "target": "NICOTINAMIDE",
+                    "source": "DEXAMETHASONE",
+                    "weight": 166.3112968249403
+                }
+            },
+            {
+                "data": {
+                    "id": "e12495",
+                    "target": "TRIAMCINOLONE",
+                    "source": "DEXAMETHASONE",
+                    "weight": 125.20325258765918
+                }
+            },
+            {
+                "data": {
+                    "id": "e16352",
+                    "target": "FLUOCINOLONE",
+                    "source": "FLUMETHASONE",
+                    "weight": 125.68279395913383
+                }
+            },
+            {
+                "data": {
+                    "id": "e16353",
+                    "target": "FLUOROMETHOLONE",
+                    "source": "FLUMETHASONE",
+                    "weight": 100.48503628219532
+                }
+            },
+            {
+                "data": {
+                    "id": "e16355",
+                    "target": "FLUPHENAZINE",
+                    "source": "FLUMETHASONE",
+                    "weight": 186.1838990047959
+                }
+            },
+            {
+                "data": {
+                    "id": "e16374",
+                    "target": "IDEBENONE",
+                    "source": "FLUMETHASONE",
+                    "weight": 205.55568796018517
+                }
+            },
+            {
+                "data": {
+                    "id": "e16380",
+                    "target": "ISOFLUPREDONE",
+                    "source": "FLUMETHASONE",
+                    "weight": 104.99555735879527
+                }
+            },
+            {
+                "data": {
+                    "id": "e16401",
+                    "target": "METHYLPREDNISOLONE",
+                    "source": "FLUMETHASONE",
+                    "weight": 111.92549807206903
+                }
+            },
+            {
+                "data": {
+                    "id": "e16412",
+                    "target": "NICOTINAMIDE",
+                    "source": "FLUMETHASONE",
+                    "weight": 151.3688421864493
+                }
+            },
+            {
+                "data": {
+                    "id": "e16491",
+                    "target": "TRIAMCINOLONE",
+                    "source": "FLUMETHASONE",
+                    "weight": 115.12343321611323
+                }
+            },
+            {
+                "data": {
+                    "id": "e16507",
+                    "target": "FLUOROMETHOLONE",
+                    "source": "FLUOCINOLONE",
+                    "weight": 135.80647320157797
+                }
+            },
+            {
+                "data": {
+                    "id": "e16509",
+                    "target": "FLUPHENAZINE",
+                    "source": "FLUOCINOLONE",
+                    "weight": 138.2491392246041
+                }
+            },
+            {
+                "data": {
+                    "id": "e16528",
+                    "target": "IDEBENONE",
+                    "source": "FLUOCINOLONE",
+                    "weight": 209.1853880017967
+                }
+            },
+            {
+                "data": {
+                    "id": "e16534",
+                    "target": "ISOFLUPREDONE",
+                    "source": "FLUOCINOLONE",
+                    "weight": 131.76839663647823
+                }
+            },
+            {
+                "data": {
+                    "id": "e16555",
+                    "target": "METHYLPREDNISOLONE",
+                    "source": "FLUOCINOLONE",
+                    "weight": 132.6155854607567
+                }
+            },
+            {
+                "data": {
+                    "id": "e16566",
+                    "target": "NICOTINAMIDE",
+                    "source": "FLUOCINOLONE",
+                    "weight": 176.9695711402441
+                }
+            },
+            {
+                "data": {
+                    "id": "e16645",
+                    "target": "TRIAMCINOLONE",
+                    "source": "FLUOCINOLONE",
+                    "weight": 103.70472616220471
+                }
+            },
+            {
+                "data": {
+                    "id": "e16662",
+                    "target": "FLUPHENAZINE",
+                    "source": "FLUOROMETHOLONE",
+                    "weight": 183.4091239317947
+                }
+            },
+            {
+                "data": {
+                    "id": "e16681",
+                    "target": "IDEBENONE",
+                    "source": "FLUOROMETHOLONE",
+                    "weight": 203.46207503984127
+                }
+            },
+            {
+                "data": {
+                    "id": "e16687",
+                    "target": "ISOFLUPREDONE",
+                    "source": "FLUOROMETHOLONE",
+                    "weight": 109.792901044538
+                }
+            },
+            {
+                "data": {
+                    "id": "e16708",
+                    "target": "METHYLPREDNISOLONE",
+                    "source": "FLUOROMETHOLONE",
+                    "weight": 106.37338361437179
+                }
+            },
+            {
+                "data": {
+                    "id": "e16719",
+                    "target": "NICOTINAMIDE",
+                    "source": "FLUOROMETHOLONE",
+                    "weight": 141.76656546417576
+                }
+            },
+            {
+                "data": {
+                    "id": "e16798",
+                    "target": "TRIAMCINOLONE",
+                    "source": "FLUOROMETHOLONE",
+                    "weight": 107.03030258014968
+                }
+            },
+            {
+                "data": {
+                    "id": "e16984",
+                    "target": "IDEBENONE",
+                    "source": "FLUPHENAZINE",
+                    "weight": 255.0039877941796
+                }
+            },
+            {
+                "data": {
+                    "id": "e16990",
+                    "target": "ISOFLUPREDONE",
+                    "source": "FLUPHENAZINE",
+                    "weight": 182.84196410735285
+                }
+            },
+            {
+                "data": {
+                    "id": "e17011",
+                    "target": "METHYLPREDNISOLONE",
+                    "source": "FLUPHENAZINE",
+                    "weight": 180.47197013976898
+                }
+            },
+            {
+                "data": {
+                    "id": "e17022",
+                    "target": "NICOTINAMIDE",
+                    "source": "FLUPHENAZINE",
+                    "weight": 183.70687765299328
+                }
+            },
+            {
+                "data": {
+                    "id": "e17101",
+                    "target": "TRIAMCINOLONE",
+                    "source": "FLUPHENAZINE",
+                    "weight": 149.7396261699583
+                }
+            },
+            {
+                "data": {
+                    "id": "e19669",
+                    "target": "ISOFLUPREDONE",
+                    "source": "IDEBENONE",
+                    "weight": 207.22465242676645
+                }
+            },
+            {
+                "data": {
+                    "id": "e19690",
+                    "target": "METHYLPREDNISOLONE",
+                    "source": "IDEBENONE",
+                    "weight": 198.0337474350617
+                }
+            },
+            {
+                "data": {
+                    "id": "e19701",
+                    "target": "NICOTINAMIDE",
+                    "source": "IDEBENONE",
+                    "weight": 250.09781864263886
+                }
+            },
+            {
+                "data": {
+                    "id": "e19780",
+                    "target": "TRIAMCINOLONE",
+                    "source": "IDEBENONE",
+                    "weight": 217.41681337957823
+                }
+            },
+            {
+                "data": {
+                    "id": "e20461",
+                    "target": "METHYLPREDNISOLONE",
+                    "source": "ISOFLUPREDONE",
+                    "weight": 118.8443438504066
+                }
+            },
+            {
+                "data": {
+                    "id": "e20472",
+                    "target": "NICOTINAMIDE",
+                    "source": "ISOFLUPREDONE",
+                    "weight": 142.46750507148323
+                }
+            },
+            {
+                "data": {
+                    "id": "e20551",
+                    "target": "TRIAMCINOLONE",
+                    "source": "ISOFLUPREDONE",
+                    "weight": 106.36612622608213
+                }
+            },
+            {
+                "data": {
+                    "id": "e22887",
+                    "target": "NICOTINAMIDE",
+                    "source": "METHYLPREDNISOLONE",
+                    "weight": 141.16073594285132
+                }
+            },
+            {
+                "data": {
+                    "id": "e22966",
+                    "target": "TRIAMCINOLONE",
+                    "source": "METHYLPREDNISOLONE",
+                    "weight": 118.48841879483463
+                }
+            },
+            {
+                "data": {
+                    "id": "e24055",
+                    "target": "TRIAMCINOLONE",
+                    "source": "NICOTINAMIDE",
+                    "weight": 152.8866918766768
+                }
+            },
+            {
+                "data": {
+                    "id": "e17362",
+                    "target": "PYRAZOLANTHRONE",
+                    "source": "FORSKOLIN",
+                    "weight": 181.87945749700594
+                }
+            },
+            {
+                "data": {
+                    "id": "e17384",
+                    "target": "SUNITINIB",
+                    "source": "FORSKOLIN",
+                    "weight": 182.64672678827628
+                }
+            },
+            {
+                "data": {
+                    "id": "e27032",
+                    "target": "SUNITINIB",
+                    "source": "PYRAZOLANTHRONE",
+                    "weight": 212.44343340952327
+                }
+            },
+            {
+                "data": {
+                    "id": "e967",
+                    "target": "BOSUTINIB",
+                    "source": "AFATINIB",
+                    "weight": 159.1578713018915
+                }
+            },
+            {
+                "data": {
+                    "id": "e988",
+                    "target": "CRIZOTINIB",
+                    "source": "AFATINIB",
+                    "weight": 206.8045960709098
+                }
+            },
+            {
+                "data": {
+                    "id": "e998",
+                    "target": "DASATINIB",
+                    "source": "AFATINIB",
+                    "weight": 166.5355261865354
+                }
+            },
+            {
+                "data": {
+                    "id": "e1014",
+                    "target": "ERLOTINIB",
+                    "source": "AFATINIB",
+                    "weight": 120.51263091870823
+                }
+            },
+            {
+                "data": {
+                    "id": "e1032",
+                    "target": "FOSTAMATINIB",
+                    "source": "AFATINIB",
+                    "weight": 186.00630800558997
+                }
+            },
+            {
+                "data": {
+                    "id": "e1035",
+                    "target": "GEFITINIB",
+                    "source": "AFATINIB",
+                    "weight": 115.50793259803739
+                }
+            },
+            {
+                "data": {
+                    "id": "e1046",
+                    "target": "IBRUTINIB",
+                    "source": "AFATINIB",
+                    "weight": 127.41787344455778
+                }
+            },
+            {
+                "data": {
+                    "id": "e1060",
+                    "target": "LAPATINIB",
+                    "source": "AFATINIB",
+                    "weight": 131.60293808701505
+                }
+            },
+            {
+                "data": {
+                    "id": "e1107",
+                    "target": "PAZOPANIB",
+                    "source": "AFATINIB",
+                    "weight": 193.53116873101973
+                }
+            },
+            {
+                "data": {
+                    "id": "e1170",
+                    "target": "TYRPHOSTINAG1478",
+                    "source": "AFATINIB",
+                    "weight": 116.84686443358954
+                }
+            },
+            {
+                "data": {
+                    "id": "e5671",
+                    "target": "CRIZOTINIB",
+                    "source": "BOSUTINIB",
+                    "weight": 205.84235828987505
+                }
+            },
+            {
+                "data": {
+                    "id": "e5681",
+                    "target": "DASATINIB",
+                    "source": "BOSUTINIB",
+                    "weight": 170.41316485914862
+                }
+            },
+            {
+                "data": {
+                    "id": "e5697",
+                    "target": "ERLOTINIB",
+                    "source": "BOSUTINIB",
+                    "weight": 153.27415763693912
+                }
+            },
+            {
+                "data": {
+                    "id": "e5715",
+                    "target": "FOSTAMATINIB",
+                    "source": "BOSUTINIB",
+                    "weight": 190.9271068420636
+                }
+            },
+            {
+                "data": {
+                    "id": "e5718",
+                    "target": "GEFITINIB",
+                    "source": "BOSUTINIB",
+                    "weight": 150.31808901152382
+                }
+            },
+            {
+                "data": {
+                    "id": "e5729",
+                    "target": "IBRUTINIB",
+                    "source": "BOSUTINIB",
+                    "weight": 180.05430761398503
+                }
+            },
+            {
+                "data": {
+                    "id": "e5743",
+                    "target": "LAPATINIB",
+                    "source": "BOSUTINIB",
+                    "weight": 161.52677696688067
+                }
+            },
+            {
+                "data": {
+                    "id": "e5790",
+                    "target": "PAZOPANIB",
+                    "source": "BOSUTINIB",
+                    "weight": 210.98471249301156
+                }
+            },
+            {
+                "data": {
+                    "id": "e5853",
+                    "target": "TYRPHOSTINAG1478",
+                    "source": "BOSUTINIB",
+                    "weight": 157.82494498582813
+                }
+            },
+            {
+                "data": {
+                    "id": "e9923",
+                    "target": "DASATINIB",
+                    "source": "CRIZOTINIB",
+                    "weight": 226.10422411826968
+                }
+            },
+            {
+                "data": {
+                    "id": "e9939",
+                    "target": "ERLOTINIB",
+                    "source": "CRIZOTINIB",
+                    "weight": 202.57414687377667
+                }
+            },
+            {
+                "data": {
+                    "id": "e9957",
+                    "target": "FOSTAMATINIB",
+                    "source": "CRIZOTINIB",
+                    "weight": 180.3419038518775
+                }
+            },
+            {
+                "data": {
+                    "id": "e9960",
+                    "target": "GEFITINIB",
+                    "source": "CRIZOTINIB",
+                    "weight": 185.84225505393084
+                }
+            },
+            {
+                "data": {
+                    "id": "e9971",
+                    "target": "IBRUTINIB",
+                    "source": "CRIZOTINIB",
+                    "weight": 207.18791442999535
+                }
+            },
+            {
+                "data": {
+                    "id": "e9985",
+                    "target": "LAPATINIB",
+                    "source": "CRIZOTINIB",
+                    "weight": 204.68462740042017
+                }
+            },
+            {
+                "data": {
+                    "id": "e10032",
+                    "target": "PAZOPANIB",
+                    "source": "CRIZOTINIB",
+                    "weight": 186.2055276515407
+                }
+            },
+            {
+                "data": {
+                    "id": "e10095",
+                    "target": "TYRPHOSTINAG1478",
+                    "source": "CRIZOTINIB",
+                    "weight": 221.8158508088123
+                }
+            },
+            {
+                "data": {
+                    "id": "e11804",
+                    "target": "ERLOTINIB",
+                    "source": "DASATINIB",
+                    "weight": 157.77244332342542
+                }
+            },
+            {
+                "data": {
+                    "id": "e11822",
+                    "target": "FOSTAMATINIB",
+                    "source": "DASATINIB",
+                    "weight": 181.0039400572116
+                }
+            },
+            {
+                "data": {
+                    "id": "e11825",
+                    "target": "GEFITINIB",
+                    "source": "DASATINIB",
+                    "weight": 162.08979121058178
+                }
+            },
+            {
+                "data": {
+                    "id": "e11836",
+                    "target": "IBRUTINIB",
+                    "source": "DASATINIB",
+                    "weight": 181.66282275687038
+                }
+            },
+            {
+                "data": {
+                    "id": "e11850",
+                    "target": "LAPATINIB",
+                    "source": "DASATINIB",
+                    "weight": 185.35298847476955
+                }
+            },
+            {
+                "data": {
+                    "id": "e11897",
+                    "target": "PAZOPANIB",
+                    "source": "DASATINIB",
+                    "weight": 163.12514237066344
+                }
+            },
+            {
+                "data": {
+                    "id": "e11960",
+                    "target": "TYRPHOSTINAG1478",
+                    "source": "DASATINIB",
+                    "weight": 164.94432150962749
+                }
+            },
+            {
+                "data": {
+                    "id": "e14598",
+                    "target": "FOSTAMATINIB",
+                    "source": "ERLOTINIB",
+                    "weight": 182.6358028152938
+                }
+            },
+            {
+                "data": {
+                    "id": "e14601",
+                    "target": "GEFITINIB",
+                    "source": "ERLOTINIB",
+                    "weight": 109.20267459351675
+                }
+            },
+            {
+                "data": {
+                    "id": "e14612",
+                    "target": "IBRUTINIB",
+                    "source": "ERLOTINIB",
+                    "weight": 137.07330676453745
+                }
+            },
+            {
+                "data": {
+                    "id": "e14626",
+                    "target": "LAPATINIB",
+                    "source": "ERLOTINIB",
+                    "weight": 139.2515651151814
+                }
+            },
+            {
+                "data": {
+                    "id": "e14673",
+                    "target": "PAZOPANIB",
+                    "source": "ERLOTINIB",
+                    "weight": 153.31637094430653
+                }
+            },
+            {
+                "data": {
+                    "id": "e14736",
+                    "target": "TYRPHOSTINAG1478",
+                    "source": "ERLOTINIB",
+                    "weight": 112.41062488900621
+                }
+            },
+            {
+                "data": {
+                    "id": "e17418",
+                    "target": "GEFITINIB",
+                    "source": "FOSTAMATINIB",
+                    "weight": 179.398409905608
+                }
+            },
+            {
+                "data": {
+                    "id": "e17429",
+                    "target": "IBRUTINIB",
+                    "source": "FOSTAMATINIB",
+                    "weight": 226.45035743821472
+                }
+            },
+            {
+                "data": {
+                    "id": "e17443",
+                    "target": "LAPATINIB",
+                    "source": "FOSTAMATINIB",
+                    "weight": 198.9758719837558
+                }
+            },
+            {
+                "data": {
+                    "id": "e17490",
+                    "target": "PAZOPANIB",
+                    "source": "FOSTAMATINIB",
+                    "weight": 175.71292756507734
+                }
+            },
+            {
+                "data": {
+                    "id": "e17553",
+                    "target": "TYRPHOSTINAG1478",
+                    "source": "FOSTAMATINIB",
+                    "weight": 190.79472138640395
+                }
+            },
+            {
+                "data": {
+                    "id": "e17867",
+                    "target": "IBRUTINIB",
+                    "source": "GEFITINIB",
+                    "weight": 142.0114862681886
+                }
+            },
+            {
+                "data": {
+                    "id": "e17881",
+                    "target": "LAPATINIB",
+                    "source": "GEFITINIB",
+                    "weight": 129.8590229879536
+                }
+            },
+            {
+                "data": {
+                    "id": "e17928",
+                    "target": "PAZOPANIB",
+                    "source": "GEFITINIB",
+                    "weight": 168.11525276582594
+                }
+            },
+            {
+                "data": {
+                    "id": "e17991",
+                    "target": "TYRPHOSTINAG1478",
+                    "source": "GEFITINIB",
+                    "weight": 114.69421927723612
+                }
+            },
+            {
+                "data": {
+                    "id": "e19410",
+                    "target": "LAPATINIB",
+                    "source": "IBRUTINIB",
+                    "weight": 144.91122109667666
+                }
+            },
+            {
+                "data": {
+                    "id": "e19457",
+                    "target": "PAZOPANIB",
+                    "source": "IBRUTINIB",
+                    "weight": 198.7813935059074
+                }
+            },
+            {
+                "data": {
+                    "id": "e19520",
+                    "target": "TYRPHOSTINAG1478",
+                    "source": "IBRUTINIB",
+                    "weight": 139.35663081885002
+                }
+            },
+            {
+                "data": {
+                    "id": "e21228",
+                    "target": "PAZOPANIB",
+                    "source": "LAPATINIB",
+                    "weight": 201.1760213593604
+                }
+            },
+            {
+                "data": {
+                    "id": "e21291",
+                    "target": "TYRPHOSTINAG1478",
+                    "source": "LAPATINIB",
+                    "weight": 136.39369421046206
+                }
+            },
+            {
+                "data": {
+                    "id": "e25803",
+                    "target": "TYRPHOSTINAG1478",
+                    "source": "PAZOPANIB",
+                    "weight": 190.80775635183932
+                }
+            },
+            {
+                "data": {
+                    "id": "e11077",
+                    "target": "FLOXURIDINE",
+                    "source": "CYTARABINE",
+                    "weight": 130.59538871964526
+                }
+            },
+            {
+                "data": {
+                    "id": "e11092",
+                    "target": "GEMCITABINE",
+                    "source": "CYTARABINE",
+                    "weight": 107.64011412848204
+                }
+            },
+            {
+                "data": {
+                    "id": "e11105",
+                    "target": "IDOXURIDINE",
+                    "source": "CYTARABINE",
+                    "weight": 181.52233935588407
+                }
+            },
+            {
+                "data": {
+                    "id": "e11188",
+                    "target": "RALTITREXED",
+                    "source": "CYTARABINE",
+                    "weight": 162.8863106065533
+                }
+            },
+            {
+                "data": {
+                    "id": "e15736",
+                    "target": "GEMCITABINE",
+                    "source": "FLOXURIDINE",
+                    "weight": 133.0378682897775
+                }
+            },
+            {
+                "data": {
+                    "id": "e15749",
+                    "target": "IDOXURIDINE",
+                    "source": "FLOXURIDINE",
+                    "weight": 152.94709267037476
+                }
+            },
+            {
+                "data": {
+                    "id": "e15832",
+                    "target": "RALTITREXED",
+                    "source": "FLOXURIDINE",
+                    "weight": 161.39844834817475
+                }
+            },
+            {
+                "data": {
+                    "id": "e18014",
+                    "target": "IDOXURIDINE",
+                    "source": "GEMCITABINE",
+                    "weight": 173.1340768658928
+                }
+            },
+            {
+                "data": {
+                    "id": "e18097",
+                    "target": "RALTITREXED",
+                    "source": "GEMCITABINE",
+                    "weight": 159.73580626009587
+                }
+            },
+            {
+                "data": {
+                    "id": "e19878",
+                    "target": "RALTITREXED",
+                    "source": "IDOXURIDINE",
+                    "weight": 244.24463969703731
+                }
+            },
+            {
+                "data": {
+                    "id": "e9584",
+                    "target": "HONOKIOL",
+                    "source": "CLOTRIMAZOLE",
+                    "weight": 166.14845684170868
+                }
+            },
+            {
+                "data": {
+                    "id": "e9661",
+                    "target": "PROBUCOL",
+                    "source": "CLOTRIMAZOLE",
+                    "weight": 249.33993113804524
+                }
+            },
+            {
+                "data": {
+                    "id": "e9678",
+                    "target": "RYANODINE",
+                    "source": "CLOTRIMAZOLE",
+                    "weight": 215.4813267871645
+                }
+            },
+            {
+                "data": {
+                    "id": "e19202",
+                    "target": "PROBUCOL",
+                    "source": "HONOKIOL",
+                    "weight": 181.35758981877606
+                }
+            },
+            {
+                "data": {
+                    "id": "e19219",
+                    "target": "RYANODINE",
+                    "source": "HONOKIOL",
+                    "weight": 178.30617839532448
+                }
+            },
+            {
+                "data": {
+                    "id": "e26688",
+                    "target": "RYANODINE",
+                    "source": "PROBUCOL",
+                    "weight": 162.8504069748757
+                }
+            },
+            {
+                "data": {
+                    "id": "e14103",
+                    "target": "GOSSYPOL",
+                    "source": "EMODIN",
+                    "weight": 193.160959828082
+                }
+            },
+            {
+                "data": {
+                    "id": "e14110",
+                    "target": "HYPERICIN",
+                    "source": "EMODIN",
+                    "weight": 171.9904007387158
+                }
+            },
+            {
+                "data": {
+                    "id": "e14180",
+                    "target": "PIPAMPERONE",
+                    "source": "EMODIN",
+                    "weight": 260.560429677918
+                }
+            },
+            {
+                "data": {
+                    "id": "e18295",
+                    "target": "HYPERICIN",
+                    "source": "GOSSYPOL",
+                    "weight": 171.31375213332657
+                }
+            },
+            {
+                "data": {
+                    "id": "e18365",
+                    "target": "PIPAMPERONE",
+                    "source": "GOSSYPOL",
+                    "weight": 264.12852100993695
+                }
+            },
+            {
+                "data": {
+                    "id": "e19331",
+                    "target": "PIPAMPERONE",
+                    "source": "HYPERICIN",
+                    "weight": 182.5126776737532
+                }
+            },
+            {
+                "data": {
+                    "id": "e20188",
+                    "target": "ISOTRETINOIN",
+                    "source": "IMIQUIMOD",
+                    "weight": 179.62048309012346
+                }
+            },
+            {
+                "data": {
+                    "id": "e20211",
+                    "target": "MIFEPRISTONE",
+                    "source": "IMIQUIMOD",
+                    "weight": 208.15794721986344
+                }
+            },
+            {
+                "data": {
+                    "id": "e20256",
+                    "target": "PROGESTERONE",
+                    "source": "IMIQUIMOD",
+                    "weight": 213.41004363336776
+                }
+            },
+            {
+                "data": {
+                    "id": "e20589",
+                    "target": "MIFEPRISTONE",
+                    "source": "ISOTRETINOIN",
+                    "weight": 189.2907661575603
+                }
+            },
+            {
+                "data": {
+                    "id": "e20634",
+                    "target": "PROGESTERONE",
+                    "source": "ISOTRETINOIN",
+                    "weight": 136.7219872274441
+                }
+            },
+            {
+                "data": {
+                    "id": "e23233",
+                    "target": "PROGESTERONE",
+                    "source": "MIFEPRISTONE",
+                    "weight": 196.6482957367649
+                }
+            },
+            {
+                "data": {
+                    "id": "e351",
+                    "target": "ITRACONAZOLE",
+                    "source": "ABIRATERONE",
+                    "weight": 201.07407352671717
+                }
+            },
+            {
+                "data": {
+                    "id": "e450",
+                    "target": "TERCONAZOLE",
+                    "source": "ABIRATERONE",
+                    "weight": 251.2385300562105
+                }
+            },
+            {
+                "data": {
+                    "id": "e20790",
+                    "target": "TERCONAZOLE",
+                    "source": "ITRACONAZOLE",
+                    "weight": 120.59964657804478
+                }
+            },
+            {
+                "data": {
+                    "id": "e21005",
+                    "target": "PUROMYCIN",
+                    "source": "KINETINRIBOSIDE",
+                    "weight": 159.34586443618454
+                }
+            },
+            {
+                "data": {
+                    "id": "e21016",
+                    "target": "ROSCOVITINE",
+                    "source": "KINETINRIBOSIDE",
+                    "weight": 188.36386943324715
+                }
+            },
+            {
+                "data": {
+                    "id": "e21046",
+                    "target": "TRICIRIBINE",
+                    "source": "KINETINRIBOSIDE",
+                    "weight": 141.44349982680978
+                }
+            },
+            {
+                "data": {
+                    "id": "e26912",
+                    "target": "ROSCOVITINE",
+                    "source": "PUROMYCIN",
+                    "weight": 208.53245105099452
+                }
+            },
+            {
+                "data": {
+                    "id": "e26942",
+                    "target": "TRICIRIBINE",
+                    "source": "PUROMYCIN",
+                    "weight": 189.92683761344514
+                }
+            },
+            {
+                "data": {
+                    "id": "e27481",
+                    "target": "TRICIRIBINE",
+                    "source": "ROSCOVITINE",
+                    "weight": 213.85991074223588
+                }
+            },
+            {
+                "data": {
+                    "id": "e7618",
+                    "target": "LEFLUNOMIDE",
+                    "source": "CELECOXIB",
+                    "weight": 206.12760604530004
+                }
+            },
+            {
+                "data": {
+                    "id": "e7640",
+                    "target": "NICLOSAMIDE",
+                    "source": "CELECOXIB",
+                    "weight": 261.5716553208791
+                }
+            },
+            {
+                "data": {
+                    "id": "e21560",
+                    "target": "NICLOSAMIDE",
+                    "source": "LEFLUNOMIDE",
+                    "weight": 187.63798985743213
+                }
+            },
+            {
+                "data": {
+                    "id": "e3715",
+                    "target": "CLOFAZIMINE",
+                    "source": "AXITINIB",
+                    "weight": 255.5556110478446
+                }
+            },
+            {
+                "data": {
+                    "id": "e3796",
+                    "target": "LORATADINE",
+                    "source": "AXITINIB",
+                    "weight": 205.87165236941547
+                }
+            },
+            {
+                "data": {
+                    "id": "e3865",
+                    "target": "RITONAVIR",
+                    "source": "AXITINIB",
+                    "weight": 255.343261142775
+                }
+            },
+            {
+                "data": {
+                    "id": "e3901",
+                    "target": "VALPROICACID",
+                    "source": "AXITINIB",
+                    "weight": 245.13650235574468
+                }
+            },
+            {
+                "data": {
+                    "id": "e9412",
+                    "target": "LORATADINE",
+                    "source": "CLOFAZIMINE",
+                    "weight": 182.53024653677522
+                }
+            },
+            {
+                "data": {
+                    "id": "e9481",
+                    "target": "RITONAVIR",
+                    "source": "CLOFAZIMINE",
+                    "weight": 207.72346672575205
+                }
+            },
+            {
+                "data": {
+                    "id": "e9517",
+                    "target": "VALPROICACID",
+                    "source": "CLOFAZIMINE",
+                    "weight": 227.46207445885418
+                }
+            },
+            {
+                "data": {
+                    "id": "e21955",
+                    "target": "RITONAVIR",
+                    "source": "LORATADINE",
+                    "weight": 164.70718736968254
+                }
+            },
+            {
+                "data": {
+                    "id": "e21991",
+                    "target": "VALPROICACID",
+                    "source": "LORATADINE",
+                    "weight": 176.24420197820885
+                }
+            },
+            {
+                "data": {
+                    "id": "e27442",
+                    "target": "VALPROICACID",
+                    "source": "RITONAVIR",
+                    "weight": 256.1978587239185
+                }
+            },
+            {
+                "data": {
+                    "id": "e18739",
+                    "target": "MALONOBEN",
+                    "source": "HEXACHLOROPHENE",
+                    "weight": 154.9127436006377
+                }
+            },
+            {
+                "data": {
+                    "id": "e18820",
+                    "target": "TAMOXIFEN",
+                    "source": "HEXACHLOROPHENE",
+                    "weight": 247.1904307328819
+                }
+            },
+            {
+                "data": {
+                    "id": "e18839",
+                    "target": "TYRPHOSTINA9",
+                    "source": "HEXACHLOROPHENE",
+                    "weight": 155.88576149035302
+                }
+            },
+            {
+                "data": {
+                    "id": "e22306",
+                    "target": "TAMOXIFEN",
+                    "source": "MALONOBEN",
+                    "weight": 185.13579198269667
+                }
+            },
+            {
+                "data": {
+                    "id": "e22325",
+                    "target": "TYRPHOSTINA9",
+                    "source": "MALONOBEN",
+                    "weight": 76.94720280152961
+                }
+            },
+            {
+                "data": {
+                    "id": "e27995",
+                    "target": "TYRPHOSTINA9",
+                    "source": "TAMOXIFEN",
+                    "weight": 200.89900292425102
+                }
+            },
+            {
+                "data": {
+                    "id": "e7777",
+                    "target": "FENBENDAZOLE",
+                    "source": "CHELIDONINE",
+                    "weight": 167.37659286463406
+                }
+            },
+            {
+                "data": {
+                    "id": "e7780",
+                    "target": "FLUBENDAZOLE",
+                    "source": "CHELIDONINE",
+                    "weight": 181.94585178548417
+                }
+            },
+            {
+                "data": {
+                    "id": "e7823",
+                    "target": "LOBENDAZOLE",
+                    "source": "CHELIDONINE",
+                    "weight": 177.88149517841654
+                }
+            },
+            {
+                "data": {
+                    "id": "e7828",
+                    "target": "MEBENDAZOLE",
+                    "source": "CHELIDONINE",
+                    "weight": 155.48001134468032
+                }
+            },
+            {
+                "data": {
+                    "id": "e7849",
+                    "target": "NOCODAZOLE",
+                    "source": "CHELIDONINE",
+                    "weight": 179.96266205665933
+                }
+            },
+            {
+                "data": {
+                    "id": "e7859",
+                    "target": "OXFENDAZOLE",
+                    "source": "CHELIDONINE",
+                    "weight": 203.236797932109
+                }
+            },
+            {
+                "data": {
+                    "id": "e7860",
+                    "target": "OXIBENDAZOLE",
+                    "source": "CHELIDONINE",
+                    "weight": 204.17384101634607
+                }
+            },
+            {
+                "data": {
+                    "id": "e7863",
+                    "target": "PARBENDAZOLE",
+                    "source": "CHELIDONINE",
+                    "weight": 161.58296044708322
+                }
+            },
+            {
+                "data": {
+                    "id": "e15403",
+                    "target": "FLUBENDAZOLE",
+                    "source": "FENBENDAZOLE",
+                    "weight": 130.48549684672136
+                }
+            },
+            {
+                "data": {
+                    "id": "e15446",
+                    "target": "LOBENDAZOLE",
+                    "source": "FENBENDAZOLE",
+                    "weight": 133.03468356801838
+                }
+            },
+            {
+                "data": {
+                    "id": "e15451",
+                    "target": "MEBENDAZOLE",
+                    "source": "FENBENDAZOLE",
+                    "weight": 124.57266095041979
+                }
+            },
+            {
+                "data": {
+                    "id": "e15472",
+                    "target": "NOCODAZOLE",
+                    "source": "FENBENDAZOLE",
+                    "weight": 150.2801434863139
+                }
+            },
+            {
+                "data": {
+                    "id": "e15482",
+                    "target": "OXFENDAZOLE",
+                    "source": "FENBENDAZOLE",
+                    "weight": 107.3075635098687
+                }
+            },
+            {
+                "data": {
+                    "id": "e15483",
+                    "target": "OXIBENDAZOLE",
+                    "source": "FENBENDAZOLE",
+                    "weight": 131.23808805070297
+                }
+            },
+            {
+                "data": {
+                    "id": "e15486",
+                    "target": "PARBENDAZOLE",
+                    "source": "FENBENDAZOLE",
+                    "weight": 138.90126553727598
+                }
+            },
+            {
+                "data": {
+                    "id": "e15923",
+                    "target": "LOBENDAZOLE",
+                    "source": "FLUBENDAZOLE",
+                    "weight": 140.16940097141318
+                }
+            },
+            {
+                "data": {
+                    "id": "e15928",
+                    "target": "MEBENDAZOLE",
+                    "source": "FLUBENDAZOLE",
+                    "weight": 104.81653271639992
+                }
+            },
+            {
+                "data": {
+                    "id": "e15949",
+                    "target": "NOCODAZOLE",
+                    "source": "FLUBENDAZOLE",
+                    "weight": 144.78256758455686
+                }
+            },
+            {
+                "data": {
+                    "id": "e15959",
+                    "target": "OXFENDAZOLE",
+                    "source": "FLUBENDAZOLE",
+                    "weight": 143.46335417313833
+                }
+            },
+            {
+                "data": {
+                    "id": "e15960",
+                    "target": "OXIBENDAZOLE",
+                    "source": "FLUBENDAZOLE",
+                    "weight": 128.33408341195147
+                }
+            },
+            {
+                "data": {
+                    "id": "e15963",
+                    "target": "PARBENDAZOLE",
+                    "source": "FLUBENDAZOLE",
+                    "weight": 116.90327165172579
+                }
+            },
+            {
+                "data": {
+                    "id": "e21776",
+                    "target": "MEBENDAZOLE",
+                    "source": "LOBENDAZOLE",
+                    "weight": 131.82971047512916
+                }
+            },
+            {
+                "data": {
+                    "id": "e21797",
+                    "target": "NOCODAZOLE",
+                    "source": "LOBENDAZOLE",
+                    "weight": 162.07518319455934
+                }
+            },
+            {
+                "data": {
+                    "id": "e21807",
+                    "target": "OXFENDAZOLE",
+                    "source": "LOBENDAZOLE",
+                    "weight": 138.84980421005068
+                }
+            },
+            {
+                "data": {
+                    "id": "e21808",
+                    "target": "OXIBENDAZOLE",
+                    "source": "LOBENDAZOLE",
+                    "weight": 146.98673968990312
+                }
+            },
+            {
+                "data": {
+                    "id": "e21811",
+                    "target": "PARBENDAZOLE",
+                    "source": "LOBENDAZOLE",
+                    "weight": 133.92950380888044
+                }
+            },
+            {
+                "data": {
+                    "id": "e22357",
+                    "target": "NOCODAZOLE",
+                    "source": "MEBENDAZOLE",
+                    "weight": 141.59484146881303
+                }
+            },
+            {
+                "data": {
+                    "id": "e22367",
+                    "target": "OXFENDAZOLE",
+                    "source": "MEBENDAZOLE",
+                    "weight": 147.84662663384535
+                }
+            },
+            {
+                "data": {
+                    "id": "e22368",
+                    "target": "OXIBENDAZOLE",
+                    "source": "MEBENDAZOLE",
+                    "weight": 144.0950542054189
+                }
+            },
+            {
+                "data": {
+                    "id": "e22371",
+                    "target": "PARBENDAZOLE",
+                    "source": "MEBENDAZOLE",
+                    "weight": 114.90896809414724
+                }
+            },
+            {
+                "data": {
+                    "id": "e24446",
+                    "target": "OXFENDAZOLE",
+                    "source": "NOCODAZOLE",
+                    "weight": 175.88768189453842
+                }
+            },
+            {
+                "data": {
+                    "id": "e24447",
+                    "target": "OXIBENDAZOLE",
+                    "source": "NOCODAZOLE",
+                    "weight": 162.68472350624853
+                }
+            },
+            {
+                "data": {
+                    "id": "e24450",
+                    "target": "PARBENDAZOLE",
+                    "source": "NOCODAZOLE",
+                    "weight": 143.46195479717068
+                }
+            },
+            {
+                "data": {
+                    "id": "e25282",
+                    "target": "OXIBENDAZOLE",
+                    "source": "OXFENDAZOLE",
+                    "weight": 129.8537204897665
+                }
+            },
+            {
+                "data": {
+                    "id": "e25285",
+                    "target": "PARBENDAZOLE",
+                    "source": "OXFENDAZOLE",
+                    "weight": 160.02997879109685
+                }
+            },
+            {
+                "data": {
+                    "id": "e25363",
+                    "target": "PARBENDAZOLE",
+                    "source": "OXIBENDAZOLE",
+                    "weight": 159.14256039443904
+                }
+            },
+            {
+                "data": {
+                    "id": "e7941",
+                    "target": "CISPLATIN",
+                    "source": "CHLORAMBUCIL",
+                    "weight": 179.10558495970426
+                }
+            },
+            {
+                "data": {
+                    "id": "e7962",
+                    "target": "DIBENZOYLMETHANE",
+                    "source": "CHLORAMBUCIL",
+                    "weight": 208.87715388380587
+                }
+            },
+            {
+                "data": {
+                    "id": "e8031",
+                    "target": "MELPHALAN",
+                    "source": "CHLORAMBUCIL",
+                    "weight": 105.87856444918555
+                }
+            },
+            {
+                "data": {
+                    "id": "e8120",
+                    "target": "THIOTEPA",
+                    "source": "CHLORAMBUCIL",
+                    "weight": 163.57054201699268
+                }
+            },
+            {
+                "data": {
+                    "id": "e8127",
+                    "target": "TRYPTOPHAN",
+                    "source": "CHLORAMBUCIL",
+                    "weight": 192.61856193618277
+                }
+            },
+            {
+                "data": {
+                    "id": "e8562",
+                    "target": "DIBENZOYLMETHANE",
+                    "source": "CISPLATIN",
+                    "weight": 257.84708384181533
+                }
+            },
+            {
+                "data": {
+                    "id": "e8631",
+                    "target": "MELPHALAN",
+                    "source": "CISPLATIN",
+                    "weight": 177.7836500381089
+                }
+            },
+            {
+                "data": {
+                    "id": "e8720",
+                    "target": "THIOTEPA",
+                    "source": "CISPLATIN",
+                    "weight": 160.56802851060016
+                }
+            },
+            {
+                "data": {
+                    "id": "e8727",
+                    "target": "TRYPTOPHAN",
+                    "source": "CISPLATIN",
+                    "weight": 258.774216609916
+                }
+            },
+            {
+                "data": {
+                    "id": "e12579",
+                    "target": "MELPHALAN",
+                    "source": "DIBENZOYLMETHANE",
+                    "weight": 197.12768799797323
+                }
+            },
+            {
+                "data": {
+                    "id": "e12668",
+                    "target": "THIOTEPA",
+                    "source": "DIBENZOYLMETHANE",
+                    "weight": 245.07856941650448
+                }
+            },
+            {
+                "data": {
+                    "id": "e12675",
+                    "target": "TRYPTOPHAN",
+                    "source": "DIBENZOYLMETHANE",
+                    "weight": 219.6590145536607
+                }
+            },
+            {
+                "data": {
+                    "id": "e22535",
+                    "target": "THIOTEPA",
+                    "source": "MELPHALAN",
+                    "weight": 163.69948228669074
+                }
+            },
+            {
+                "data": {
+                    "id": "e22542",
+                    "target": "TRYPTOPHAN",
+                    "source": "MELPHALAN",
+                    "weight": 176.7437161130076
+                }
+            },
+            {
+                "data": {
+                    "id": "e28238",
+                    "target": "TRYPTOPHAN",
+                    "source": "THIOTEPA",
+                    "weight": 254.5768862122191
+                }
+            },
+            {
+                "data": {
+                    "id": "e5542",
+                    "target": "MENADIONE",
+                    "source": "BORTEZOMIB",
+                    "weight": 201.45162521769723
+                }
+            },
+            {
+                "data": {
+                    "id": "e5586",
+                    "target": "PLUMBAGIN",
+                    "source": "BORTEZOMIB",
+                    "weight": 252.73644580860955
+                }
+            },
+            {
+                "data": {
+                    "id": "e5609",
+                    "target": "SA792541",
+                    "source": "BORTEZOMIB",
+                    "weight": 255.22731406422
+                }
+            },
+            {
+                "data": {
+                    "id": "e22599",
+                    "target": "PLUMBAGIN",
+                    "source": "MENADIONE",
+                    "weight": 136.93013231367007
+                }
+            },
+            {
+                "data": {
+                    "id": "e22622",
+                    "target": "SA792541",
+                    "source": "MENADIONE",
+                    "weight": 154.83502325660135
+                }
+            },
+            {
+                "data": {
+                    "id": "e26384",
+                    "target": "SA792541",
+                    "source": "PLUMBAGIN",
+                    "weight": 187.90731753406772
+                }
+            },
+            {
+                "data": {
+                    "id": "e17153",
+                    "target": "LOVASTATIN",
+                    "source": "FLUVASTATIN",
+                    "weight": 150.82353271205935
+                }
+            },
+            {
+                "data": {
+                    "id": "e17162",
+                    "target": "MEVASTATIN",
+                    "source": "FLUVASTATIN",
+                    "weight": 133.02146549087246
+                }
+            },
+            {
+                "data": {
+                    "id": "e17227",
+                    "target": "SIMVASTATIN",
+                    "source": "FLUVASTATIN",
+                    "weight": 167.32932845795472
+                }
+            },
+            {
+                "data": {
+                    "id": "e22009",
+                    "target": "MEVASTATIN",
+                    "source": "LOVASTATIN",
+                    "weight": 107.98481542151089
+                }
+            },
+            {
+                "data": {
+                    "id": "e22074",
+                    "target": "SIMVASTATIN",
+                    "source": "LOVASTATIN",
+                    "weight": 108.70757297335305
+                }
+            },
+            {
+                "data": {
+                    "id": "e23046",
+                    "target": "SIMVASTATIN",
+                    "source": "MEVASTATIN",
+                    "weight": 114.97413939117952
+                }
+            },
+            {
+                "data": {
+                    "id": "e20093",
+                    "target": "NILOTINIB",
+                    "source": "IMATINIB",
+                    "weight": 124.44424378924892
+                }
+            },
+            {
+                "data": {
+                    "id": "e20104",
+                    "target": "OSI027",
+                    "source": "IMATINIB",
+                    "weight": 207.79026614593718
+                }
+            },
+            {
+                "data": {
+                    "id": "e20124",
+                    "target": "PONATINIB",
+                    "source": "IMATINIB",
+                    "weight": 168.73866276244448
+                }
+            },
+            {
+                "data": {
+                    "id": "e24174",
+                    "target": "OSI027",
+                    "source": "NILOTINIB",
+                    "weight": 180.95221601776433
+                }
+            },
+            {
+                "data": {
+                    "id": "e24194",
+                    "target": "PONATINIB",
+                    "source": "NILOTINIB",
+                    "weight": 162.58992559024844
+                }
+            },
+            {
+                "data": {
+                    "id": "e25140",
+                    "target": "PONATINIB",
+                    "source": "OSI027",
+                    "weight": 183.62613886791286
+                }
+            },
+            {
+                "data": {
+                    "id": "e24365",
+                    "target": "PD98059",
+                    "source": "NOBILETIN",
+                    "weight": 160.66775848587176
+                }
+            },
+            {
+                "data": {
+                    "id": "e24390",
+                    "target": "RHAMNETIN",
+                    "source": "NOBILETIN",
+                    "weight": 156.54571266360188
+                }
+            },
+            {
+                "data": {
+                    "id": "e25910",
+                    "target": "RHAMNETIN",
+                    "source": "PD98059",
+                    "weight": 164.11348443195536
+                }
+            },
+            {
+                "data": {
+                    "id": "e2684",
+                    "target": "METHYLENEBLUE",
+                    "source": "AMPHOTERICINB",
+                    "weight": 261.37046311161004
+                }
+            },
+            {
+                "data": {
+                    "id": "e2702",
+                    "target": "NONOXYNOL9",
+                    "source": "AMPHOTERICINB",
+                    "weight": 249.71620311960356
+                }
+            },
+            {
+                "data": {
+                    "id": "e2707",
+                    "target": "OLIGOMYCINA",
+                    "source": "AMPHOTERICINB",
+                    "weight": 193.90991022375863
+                }
+            },
+            {
+                "data": {
+                    "id": "e2708",
+                    "target": "OLIGOMYCINC",
+                    "source": "AMPHOTERICINB",
+                    "weight": 194.79385584999264
+                }
+            },
+            {
+                "data": {
+                    "id": "e22788",
+                    "target": "NONOXYNOL9",
+                    "source": "METHYLENEBLUE",
+                    "weight": 196.3569050802864
+                }
+            },
+            {
+                "data": {
+                    "id": "e22793",
+                    "target": "OLIGOMYCINA",
+                    "source": "METHYLENEBLUE",
+                    "weight": 169.3924124313272
+                }
+            },
+            {
+                "data": {
+                    "id": "e22794",
+                    "target": "OLIGOMYCINC",
+                    "source": "METHYLENEBLUE",
+                    "weight": 180.91802510659326
+                }
+            },
+            {
+                "data": {
+                    "id": "e24530",
+                    "target": "OLIGOMYCINA",
+                    "source": "NONOXYNOL9",
+                    "weight": 153.728935538281
+                }
+            },
+            {
+                "data": {
+                    "id": "e24531",
+                    "target": "OLIGOMYCINC",
+                    "source": "NONOXYNOL9",
+                    "weight": 159.7584464881717
+                }
+            },
+            {
+                "data": {
+                    "id": "e24956",
+                    "target": "OLIGOMYCINC",
+                    "source": "OLIGOMYCINA",
+                    "weight": 92.45739978095995
+                }
+            },
+            {
+                "data": {
+                    "id": "e25446",
+                    "target": "PENTAMIDINE",
+                    "source": "OXIDOPAMINE",
+                    "weight": 198.16158777810782
+                }
+            },
+            {
+                "data": {
+                    "id": "e25461",
+                    "target": "PURPUROGALLIN",
+                    "source": "OXIDOPAMINE",
+                    "weight": 183.09829202280108
+                }
+            },
+            {
+                "data": {
+                    "id": "e25492",
+                    "target": "TERTBUTYLHYDROQUINONE",
+                    "source": "OXIDOPAMINE",
+                    "weight": 151.44176268839317
+                }
+            },
+            {
+                "data": {
+                    "id": "e26041",
+                    "target": "PURPUROGALLIN",
+                    "source": "PENTAMIDINE",
+                    "weight": 256.116431703117
+                }
+            },
+            {
+                "data": {
+                    "id": "e26072",
+                    "target": "TERTBUTYLHYDROQUINONE",
+                    "source": "PENTAMIDINE",
+                    "weight": 220.18193895771302
+                }
+            },
+            {
+                "data": {
+                    "id": "e26987",
+                    "target": "TERTBUTYLHYDROQUINONE",
+                    "source": "PURPUROGALLIN",
+                    "weight": 238.7496650729148
+                }
+            },
+            {
+                "data": {
+                    "id": "e4177",
+                    "target": "DOCETAXEL",
+                    "source": "BACCATINIII",
+                    "weight": 145.63024189083848
+                }
+            },
+            {
+                "data": {
+                    "id": "e4275",
+                    "target": "PACLITAXEL",
+                    "source": "BACCATINIII",
+                    "weight": 144.26525623423768
+                }
+            },
+            {
+                "data": {
+                    "id": "e13314",
+                    "target": "PACLITAXEL",
+                    "source": "DOCETAXEL",
+                    "weight": 124.79204044540272
+                }
+            },
+            {
+                "data": {
+                    "id": "e1437",
+                    "target": "CALYCANTHINE",
+                    "source": "ALLANTOIN",
+                    "weight": 247.78064427776238
+                }
+            },
+            {
+                "data": {
+                    "id": "e1579",
+                    "target": "PIMOZIDE",
+                    "source": "ALLANTOIN",
+                    "weight": 169.58047585570037
+                }
+            },
+            {
+                "data": {
+                    "id": "e1608",
+                    "target": "SPIPERONE",
+                    "source": "ALLANTOIN",
+                    "weight": 204.90795909893467
+                }
+            },
+            {
+                "data": {
+                    "id": "e6847",
+                    "target": "PIMOZIDE",
+                    "source": "CALYCANTHINE",
+                    "weight": 193.32974322537382
+                }
+            },
+            {
+                "data": {
+                    "id": "e6876",
+                    "target": "SPIPERONE",
+                    "source": "CALYCANTHINE",
+                    "weight": 191.89492784371058
+                }
+            },
+            {
+                "data": {
+                    "id": "e26259",
+                    "target": "SPIPERONE",
+                    "source": "PIMOZIDE",
+                    "weight": 168.0908602953895
+                }
+            },
+            {
+                "data": {
+                    "id": "e18889",
+                    "target": "MONASTROL",
+                    "source": "HEXAMETHYLENEBISACETAMIDE",
+                    "weight": 215.38677985153075
+                }
+            },
+            {
+                "data": {
+                    "id": "e18897",
+                    "target": "NITAZOXANIDE",
+                    "source": "HEXAMETHYLENEBISACETAMIDE",
+                    "weight": 176.1147329086348
+                }
+            },
+            {
+                "data": {
+                    "id": "e18903",
+                    "target": "OFLOXACIN",
+                    "source": "HEXAMETHYLENEBISACETAMIDE",
+                    "weight": 188.23141601982672
+                }
+            },
+            {
+                "data": {
+                    "id": "e18930",
+                    "target": "PROCARBAZINE",
+                    "source": "HEXAMETHYLENEBISACETAMIDE",
+                    "weight": 149.27017461133954
+                }
+            },
+            {
+                "data": {
+                    "id": "e18955",
+                    "target": "SULFATHIAZOLE",
+                    "source": "HEXAMETHYLENEBISACETAMIDE",
+                    "weight": 182.22309591731883
+                }
+            },
+            {
+                "data": {
+                    "id": "e18972",
+                    "target": "TREMULACIN",
+                    "source": "HEXAMETHYLENEBISACETAMIDE",
+                    "weight": 205.30449510274784
+                }
+            },
+            {
+                "data": {
+                    "id": "e23499",
+                    "target": "NITAZOXANIDE",
+                    "source": "MONASTROL",
+                    "weight": 244.86265733424628
+                }
+            },
+            {
+                "data": {
+                    "id": "e23505",
+                    "target": "OFLOXACIN",
+                    "source": "MONASTROL",
+                    "weight": 195.03940770862295
+                }
+            },
+            {
+                "data": {
+                    "id": "e23532",
+                    "target": "PROCARBAZINE",
+                    "source": "MONASTROL",
+                    "weight": 211.7812564721567
+                }
+            },
+            {
+                "data": {
+                    "id": "e23557",
+                    "target": "SULFATHIAZOLE",
+                    "source": "MONASTROL",
+                    "weight": 209.47203828236903
+                }
+            },
+            {
+                "data": {
+                    "id": "e23574",
+                    "target": "TREMULACIN",
+                    "source": "MONASTROL",
+                    "weight": 231.426666783786
+                }
+            },
+            {
+                "data": {
+                    "id": "e24261",
+                    "target": "OFLOXACIN",
+                    "source": "NITAZOXANIDE",
+                    "weight": 224.2628465254124
+                }
+            },
+            {
+                "data": {
+                    "id": "e24288",
+                    "target": "PROCARBAZINE",
+                    "source": "NITAZOXANIDE",
+                    "weight": 183.74460707670636
+                }
+            },
+            {
+                "data": {
+                    "id": "e24313",
+                    "target": "SULFATHIAZOLE",
+                    "source": "NITAZOXANIDE",
+                    "weight": 196.48773720230542
+                }
+            },
+            {
+                "data": {
+                    "id": "e24330",
+                    "target": "TREMULACIN",
+                    "source": "NITAZOXANIDE",
+                    "weight": 243.6301369003924
+                }
+            },
+            {
+                "data": {
+                    "id": "e24813",
+                    "target": "PROCARBAZINE",
+                    "source": "OFLOXACIN",
+                    "weight": 157.24720178583237
+                }
+            },
+            {
+                "data": {
+                    "id": "e24838",
+                    "target": "SULFATHIAZOLE",
+                    "source": "OFLOXACIN",
+                    "weight": 155.97034745832156
+                }
+            },
+            {
+                "data": {
+                    "id": "e24855",
+                    "target": "TREMULACIN",
+                    "source": "OFLOXACIN",
+                    "weight": 190.62679622771282
+                }
+            },
+            {
+                "data": {
+                    "id": "e26755",
+                    "target": "SULFATHIAZOLE",
+                    "source": "PROCARBAZINE",
+                    "weight": 150.1703754834205
+                }
+            },
+            {
+                "data": {
+                    "id": "e26772",
+                    "target": "TREMULACIN",
+                    "source": "PROCARBAZINE",
+                    "weight": 185.79177080956
+                }
+            },
+            {
+                "data": {
+                    "id": "e27897",
+                    "target": "TREMULACIN",
+                    "source": "SULFATHIAZOLE",
+                    "weight": 185.04415566643027
+                }
+            },
+            {
+                "data": {
+                    "id": "e13109",
+                    "target": "METHOTREXATE",
+                    "source": "DIPYRIDAMOLE",
+                    "weight": 217.99224134573933
+                }
+            },
+            {
+                "data": {
+                    "id": "e13123",
+                    "target": "NIFUROXAZIDE",
+                    "source": "DIPYRIDAMOLE",
+                    "weight": 261.54888708566534
+                }
+            },
+            {
+                "data": {
+                    "id": "e13146",
+                    "target": "PEMETREXED",
+                    "source": "DIPYRIDAMOLE",
+                    "weight": 260.5341590409249
+                }
+            },
+            {
+                "data": {
+                    "id": "e13164",
+                    "target": "PYRIMETHAMINE",
+                    "source": "DIPYRIDAMOLE",
+                    "weight": 194.28110091784995
+                }
+            },
+            {
+                "data": {
+                    "id": "e22677",
+                    "target": "NIFUROXAZIDE",
+                    "source": "METHOTREXATE",
+                    "weight": 211.13954350818184
+                }
+            },
+            {
+                "data": {
+                    "id": "e22700",
+                    "target": "PEMETREXED",
+                    "source": "METHOTREXATE",
+                    "weight": 176.79520527999838
+                }
+            },
+            {
+                "data": {
+                    "id": "e22718",
+                    "target": "PYRIMETHAMINE",
+                    "source": "METHOTREXATE",
+                    "weight": 163.8135316013952
+                }
+            },
+            {
+                "data": {
+                    "id": "e24093",
+                    "target": "PEMETREXED",
+                    "source": "NIFUROXAZIDE",
+                    "weight": 243.9183763066848
+                }
+            },
+            {
+                "data": {
+                    "id": "e24111",
+                    "target": "PYRIMETHAMINE",
+                    "source": "NIFUROXAZIDE",
+                    "weight": 197.10522944816748
+                }
+            },
+            {
+                "data": {
+                    "id": "e25974",
+                    "target": "PYRIMETHAMINE",
+                    "source": "PEMETREXED",
+                    "weight": 201.9136175554215
+                }
+            },
+            {
+                "data": {
+                    "id": "e11533",
+                    "target": "PD184352",
+                    "source": "DABRAFENIB",
+                    "weight": 162.885466003349
+                }
+            },
+            {
+                "data": {
+                    "id": "e11565",
+                    "target": "SELUMETINIB",
+                    "source": "DABRAFENIB",
+                    "weight": 162.17901355593142
+                }
+            },
+            {
+                "data": {
+                    "id": "e11588",
+                    "target": "TRAMETINIB",
+                    "source": "DABRAFENIB",
+                    "weight": 177.6825872408136
+                }
+            },
+            {
+                "data": {
+                    "id": "e11597",
+                    "target": "VEMURAFENIB",
+                    "source": "DABRAFENIB",
+                    "weight": 133.35022272972807
+                }
+            },
+            {
+                "data": {
+                    "id": "e25845",
+                    "target": "SELUMETINIB",
+                    "source": "PD184352",
+                    "weight": 119.23984025692057
+                }
+            },
+            {
+                "data": {
+                    "id": "e25868",
+                    "target": "TRAMETINIB",
+                    "source": "PD184352",
+                    "weight": 137.72560452584023
+                }
+            },
+            {
+                "data": {
+                    "id": "e25877",
+                    "target": "VEMURAFENIB",
+                    "source": "PD184352",
+                    "weight": 153.92060211931278
+                }
+            },
+            {
+                "data": {
+                    "id": "e27644",
+                    "target": "TRAMETINIB",
+                    "source": "SELUMETINIB",
+                    "weight": 142.71643758089743
+                }
+            },
+            {
+                "data": {
+                    "id": "e27653",
+                    "target": "VEMURAFENIB",
+                    "source": "SELUMETINIB",
+                    "weight": 135.51953752903665
+                }
+            },
+            {
+                "data": {
+                    "id": "e28297",
+                    "target": "VEMURAFENIB",
+                    "source": "TRAMETINIB",
+                    "weight": 184.83900381890106
+                }
+            },
+            {
+                "data": {
+                    "id": "e21668",
+                    "target": "MIDOSTAURIN",
+                    "source": "LESTAURTINIB",
+                    "weight": 146.26994597421617
+                }
+            },
+            {
+                "data": {
+                    "id": "e21736",
+                    "target": "STAUROSPORINE",
+                    "source": "LESTAURTINIB",
+                    "weight": 144.89101781755707
+                }
+            },
+            {
+                "data": {
+                    "id": "e23153",
+                    "target": "STAUROSPORINE",
+                    "source": "MIDOSTAURIN",
+                    "weight": 107.67994924642431
+                }
+            },
+            {
+                "data": {
+                    "id": "e2077",
+                    "target": "TANESPIMYCIN",
+                    "source": "ALVESPIMYCIN",
+                    "weight": 93.66261879412423
+                }
+            },
+            {
+                "data": {
+                    "id": "e11259",
+                    "target": "EVEROLIMUS",
+                    "source": "CYTOCHALASINB",
+                    "weight": 166.54564576830015
+                }
+            },
+            {
+                "data": {
+                    "id": "e11309",
+                    "target": "LY294002",
+                    "source": "CYTOCHALASINB",
+                    "weight": 209.1623200786666
+                }
+            },
+            {
+                "data": {
+                    "id": "e11337",
+                    "target": "OLAPARIB",
+                    "source": "CYTOCHALASINB",
+                    "weight": 214.07193525507714
+                }
+            },
+            {
+                "data": {
+                    "id": "e11394",
+                    "target": "TEMSIROLIMUS",
+                    "source": "CYTOCHALASINB",
+                    "weight": 141.9306104523937
+                }
+            },
+            {
+                "data": {
+                    "id": "e15288",
+                    "target": "LY294002",
+                    "source": "EVEROLIMUS",
+                    "weight": 180.96329943814933
+                }
+            },
+            {
+                "data": {
+                    "id": "e15316",
+                    "target": "OLAPARIB",
+                    "source": "EVEROLIMUS",
+                    "weight": 185.38777362959576
+                }
+            },
+            {
+                "data": {
+                    "id": "e15373",
+                    "target": "TEMSIROLIMUS",
+                    "source": "EVEROLIMUS",
+                    "weight": 106.49085202961074
+                }
+            },
+            {
+                "data": {
+                    "id": "e22141",
+                    "target": "OLAPARIB",
+                    "source": "LY294002",
+                    "weight": 202.02025630839128
+                }
+            },
+            {
+                "data": {
+                    "id": "e22198",
+                    "target": "TEMSIROLIMUS",
+                    "source": "LY294002",
+                    "weight": 183.56831945680833
+                }
+            },
+            {
+                "data": {
+                    "id": "e24928",
+                    "target": "TEMSIROLIMUS",
+                    "source": "OLAPARIB",
+                    "weight": 195.71556574251102
+                }
+            },
+            {
+                "data": {
+                    "id": "e2853",
+                    "target": "ETOPOSIDE",
+                    "source": "AMSACRINE",
+                    "weight": 164.28987782623125
+                }
+            },
+            {
+                "data": {
+                    "id": "e2954",
+                    "target": "PODOPHYLLOTOXIN",
+                    "source": "AMSACRINE",
+                    "weight": 243.84554821879857
+                }
+            },
+            {
+                "data": {
+                    "id": "e2969",
+                    "target": "RAZOXANE",
+                    "source": "AMSACRINE",
+                    "weight": 201.31576490084848
+                }
+            },
+            {
+                "data": {
+                    "id": "e2990",
+                    "target": "TENIPOSIDE",
+                    "source": "AMSACRINE",
+                    "weight": 131.9856940231773
+                }
+            },
+            {
+                "data": {
+                    "id": "e15176",
+                    "target": "PODOPHYLLOTOXIN",
+                    "source": "ETOPOSIDE",
+                    "weight": 171.83947413944537
+                }
+            },
+            {
+                "data": {
+                    "id": "e15191",
+                    "target": "RAZOXANE",
+                    "source": "ETOPOSIDE",
+                    "weight": 211.13368874421093
+                }
+            },
+            {
+                "data": {
+                    "id": "e15212",
+                    "target": "TENIPOSIDE",
+                    "source": "ETOPOSIDE",
+                    "weight": 124.12052569629721
+                }
+            },
+            {
+                "data": {
+                    "id": "e26503",
+                    "target": "RAZOXANE",
+                    "source": "PODOPHYLLOTOXIN",
+                    "weight": 258.0169258585462
+                }
+            },
+            {
+                "data": {
+                    "id": "e26524",
+                    "target": "TENIPOSIDE",
+                    "source": "PODOPHYLLOTOXIN",
+                    "weight": 162.20857485061958
+                }
+            },
+            {
+                "data": {
+                    "id": "e27334",
+                    "target": "TENIPOSIDE",
+                    "source": "RAZOXANE",
+                    "weight": 206.79651707543644
+                }
+            },
+            {
+                "data": {
+                    "id": "e3591",
+                    "target": "NBROMOACETYLTRYPTAMINE",
+                    "source": "ASCORBICACID",
+                    "weight": 199.63203599409724
+                }
+            },
+            {
+                "data": {
+                    "id": "e3625",
+                    "target": "PMSF",
+                    "source": "ASCORBICACID",
+                    "weight": 261.94029435850285
+                }
+            },
+            {
+                "data": {
+                    "id": "e3628",
+                    "target": "PRIMA1",
+                    "source": "ASCORBICACID",
+                    "weight": 229.98306435859158
+                }
+            },
+            {
+                "data": {
+                    "id": "e3664",
+                    "target": "TERREICACID",
+                    "source": "ASCORBICACID",
+                    "weight": 158.99564689079517
+                }
+            },
+            {
+                "data": {
+                    "id": "e23722",
+                    "target": "PMSF",
+                    "source": "NBROMOACETYLTRYPTAMINE",
+                    "weight": 210.03397065307513
+                }
+            },
+            {
+                "data": {
+                    "id": "e23725",
+                    "target": "PRIMA1",
+                    "source": "NBROMOACETYLTRYPTAMINE",
+                    "weight": 205.79110937646527
+                }
+            },
+            {
+                "data": {
+                    "id": "e23761",
+                    "target": "TERREICACID",
+                    "source": "NBROMOACETYLTRYPTAMINE",
+                    "weight": 188.67147504738952
+                }
+            },
+            {
+                "data": {
+                    "id": "e26428",
+                    "target": "PRIMA1",
+                    "source": "PMSF",
+                    "weight": 258.18529562178156
+                }
+            },
+            {
+                "data": {
+                    "id": "e26464",
+                    "target": "TERREICACID",
+                    "source": "PMSF",
+                    "weight": 196.66820203804073
+                }
+            },
+            {
+                "data": {
+                    "id": "e26647",
+                    "target": "TERREICACID",
+                    "source": "PRIMA1",
+                    "weight": 166.1422854753365
+                }
+            },
+            {
+                "data": {
+                    "id": "e10534",
+                    "target": "HALOPERIDOL",
+                    "source": "CYCLOPAMINE",
+                    "weight": 243.51156152284003
+                }
+            },
+            {
+                "data": {
+                    "id": "e10577",
+                    "target": "NAVITOCLAX",
+                    "source": "CYCLOPAMINE",
+                    "weight": 243.72166821001912
+                }
+            },
+            {
+                "data": {
+                    "id": "e10654",
+                    "target": "THIORPHAN",
+                    "source": "CYCLOPAMINE",
+                    "weight": 121.48744718293159
+                }
+            },
+            {
+                "data": {
+                    "id": "e18473",
+                    "target": "NAVITOCLAX",
+                    "source": "HALOPERIDOL",
+                    "weight": 242.7939217732663
+                }
+            },
+            {
+                "data": {
+                    "id": "e18550",
+                    "target": "THIORPHAN",
+                    "source": "HALOPERIDOL",
+                    "weight": 187.4387663275849
+                }
+            },
+            {
+                "data": {
+                    "id": "e23667",
+                    "target": "THIORPHAN",
+                    "source": "NAVITOCLAX",
+                    "weight": 201.48137014121565
+                }
+            },
+            {
+                "data": {
+                    "id": "e5229",
+                    "target": "CAMPTOTHECIN",
+                    "source": "BISBENZIMIDE",
+                    "weight": 155.33320100625463
+                }
+            },
+            {
+                "data": {
+                    "id": "e5309",
+                    "target": "IRINOTECAN",
+                    "source": "BISBENZIMIDE",
+                    "weight": 206.67229922389023
+                }
+            },
+            {
+                "data": {
+                    "id": "e5418",
+                    "target": "TOPOTECAN",
+                    "source": "BISBENZIMIDE",
+                    "weight": 155.7460798194327
+                }
+            },
+            {
+                "data": {
+                    "id": "e6993",
+                    "target": "IRINOTECAN",
+                    "source": "CAMPTOTHECIN",
+                    "weight": 100.53542154749474
+                }
+            },
+            {
+                "data": {
+                    "id": "e7102",
+                    "target": "TOPOTECAN",
+                    "source": "CAMPTOTHECIN",
+                    "weight": 72.83846924646187
+                }
+            },
+            {
+                "data": {
+                    "id": "e20422",
+                    "target": "TOPOTECAN",
+                    "source": "IRINOTECAN",
+                    "weight": 100.0656511201843
+                }
+            },
+            {
+                "data": {
+                    "id": "e9906",
+                    "target": "VINBLASTINE",
+                    "source": "COLCHICINE",
+                    "weight": 148.96027506390584
+                }
+            },
+            {
+                "data": {
+                    "id": "e9907",
+                    "target": "VINCRISTINE",
+                    "source": "COLCHICINE",
+                    "weight": 136.02757020324339
+                }
+            },
+            {
+                "data": {
+                    "id": "e9908",
+                    "target": "VINORELBINE",
+                    "source": "COLCHICINE",
+                    "weight": 210.72386417015792
+                }
+            },
+            {
+                "data": {
+                    "id": "e28414",
+                    "target": "VINCRISTINE",
+                    "source": "VINBLASTINE",
+                    "weight": 109.50348147125355
+                }
+            },
+            {
+                "data": {
+                    "id": "e28415",
+                    "target": "VINORELBINE",
+                    "source": "VINBLASTINE",
+                    "weight": 121.6055962968077
+                }
+            },
+            {
+                "data": {
+                    "id": "e28421",
+                    "target": "VINORELBINE",
+                    "source": "VINCRISTINE",
+                    "weight": 139.02395666918363
+                }
+            },
+            {
+                "data": {
+                    "id": "e4402",
+                    "target": "ENTINOSTAT",
+                    "source": "BELINOSTAT",
+                    "weight": 215.80536814387077
+                }
+            },
+            {
+                "data": {
+                    "id": "e4519",
+                    "target": "PYROXAMIDE",
+                    "source": "BELINOSTAT",
+                    "weight": 210.52223841470695
+                }
+            },
+            {
+                "data": {
+                    "id": "e4551",
+                    "target": "THMI94",
+                    "source": "BELINOSTAT",
+                    "weight": 213.52151483966537
+                }
+            },
+            {
+                "data": {
+                    "id": "e4566",
+                    "target": "VORINOSTAT",
+                    "source": "BELINOSTAT",
+                    "weight": 198.22896934003842
+                }
+            },
+            {
+                "data": {
+                    "id": "e14362",
+                    "target": "PYROXAMIDE",
+                    "source": "ENTINOSTAT",
+                    "weight": 153.30606790256158
+                }
+            },
+            {
+                "data": {
+                    "id": "e14394",
+                    "target": "THMI94",
+                    "source": "ENTINOSTAT",
+                    "weight": 144.06912511781928
+                }
+            },
+            {
+                "data": {
+                    "id": "e14409",
+                    "target": "VORINOSTAT",
+                    "source": "ENTINOSTAT",
+                    "weight": 137.25264332411112
+                }
+            },
+            {
+                "data": {
+                    "id": "e27147",
+                    "target": "THMI94",
+                    "source": "PYROXAMIDE",
+                    "weight": 114.48433720579852
+                }
+            },
+            {
+                "data": {
+                    "id": "e27162",
+                    "target": "VORINOSTAT",
+                    "source": "PYROXAMIDE",
+                    "weight": 100.30086180889649
+                }
+            },
+            {
+                "data": {
+                    "id": "e28266",
+                    "target": "VORINOSTAT",
+                    "source": "THMI94",
+                    "weight": 116.60860074820545
+                }
+            },
+            {
+                "data": {
+                    "id": "e7391",
+                    "target": "HALOPROGIN",
+                    "source": "CELASTROL",
+                    "weight": 179.6487212064243
+                }
+            },
+            {
+                "data": {
+                    "id": "e7445",
+                    "target": "OBATOCLAX",
+                    "source": "CELASTROL",
+                    "weight": 222.45887018021514
+                }
+            },
+            {
+                "data": {
+                    "id": "e7457",
+                    "target": "PARTHENOLIDE",
+                    "source": "CELASTROL",
+                    "weight": 181.60455796662671
+                }
+            },
+            {
+                "data": {
+                    "id": "e7509",
+                    "target": "THAPSIGARGIN",
+                    "source": "CELASTROL",
+                    "weight": 251.4944759926604
+                }
+            },
+            {
+                "data": {
+                    "id": "e7528",
+                    "target": "WITHAFERINA",
+                    "source": "CELASTROL",
+                    "weight": 164.12369254520684
+                }
+            },
+            {
+                "data": {
+                    "id": "e18625",
+                    "target": "OBATOCLAX",
+                    "source": "HALOPROGIN",
+                    "weight": 202.77108301981897
+                }
+            },
+            {
+                "data": {
+                    "id": "e18637",
+                    "target": "PARTHENOLIDE",
+                    "source": "HALOPROGIN",
+                    "weight": 197.70029740043427
+                }
+            },
+            {
+                "data": {
+                    "id": "e18689",
+                    "target": "THAPSIGARGIN",
+                    "source": "HALOPROGIN",
+                    "weight": 258.46603937802814
+                }
+            },
+            {
+                "data": {
+                    "id": "e18708",
+                    "target": "WITHAFERINA",
+                    "source": "HALOPROGIN",
+                    "weight": 180.34369228541448
+                }
+            },
+            {
+                "data": {
+                    "id": "e24712",
+                    "target": "PARTHENOLIDE",
+                    "source": "OBATOCLAX",
+                    "weight": 221.1588112730993
+                }
+            },
+            {
+                "data": {
+                    "id": "e24764",
+                    "target": "THAPSIGARGIN",
+                    "source": "OBATOCLAX",
+                    "weight": 255.86481456573708
+                }
+            },
+            {
+                "data": {
+                    "id": "e24783",
+                    "target": "WITHAFERINA",
+                    "source": "OBATOCLAX",
+                    "weight": 197.80697446121826
+                }
+            },
+            {
+                "data": {
+                    "id": "e25718",
+                    "target": "THAPSIGARGIN",
+                    "source": "PARTHENOLIDE",
+                    "weight": 180.64247389090653
+                }
+            },
+            {
+                "data": {
+                    "id": "e25737",
+                    "target": "WITHAFERINA",
+                    "source": "PARTHENOLIDE",
+                    "weight": 157.9921282247084
+                }
+            },
+            {
+                "data": {
+                    "id": "e28207",
+                    "target": "WITHAFERINA",
+                    "source": "THAPSIGARGIN",
+                    "weight": 172.56411392172453
+                }
+            }
+        ]
+    }
+}

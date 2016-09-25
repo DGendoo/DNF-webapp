@@ -1,0 +1,1490 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "shared_name": "PIPERLONGUMINE",
+                    "cluster": 36.0,
+                    "name": "PIPERLONGUMINE",
+                    "colo": "#37e8de",
+                    "id": "PIPERLONGUMINE",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/637858",
+                    "SUID": 2926
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "OLIGOMYCINA",
+                    "cluster": 35.0,
+                    "name": "OLIGOMYCINA",
+                    "colo": "#d6f40e",
+                    "id": "OLIGOMYCINA",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281899",
+                    "SUID": 2925
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "NINTEDANIB",
+                    "cluster": 34.0,
+                    "name": "NINTEDANIB",
+                    "colo": "#25ed5a",
+                    "id": "NINTEDANIB",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9809715",
+                    "SUID": 2924
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "NAVITOCLAX",
+                    "cluster": 33.0,
+                    "name": "NAVITOCLAX",
+                    "colo": "#9e07f2",
+                    "id": "NAVITOCLAX",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24978538",
+                    "SUID": 2923
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "MYRIOCIN",
+                    "cluster": 32.0,
+                    "name": "MYRIOCIN",
+                    "colo": "#b2b517",
+                    "id": "MYRIOCIN",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6438394",
+                    "SUID": 2922
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "MANUMYCINA",
+                    "cluster": 31.0,
+                    "name": "MANUMYCINA",
+                    "colo": "#79bc2f",
+                    "id": "MANUMYCINA",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2921
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "LOVASTATIN",
+                    "cluster": 30.0,
+                    "name": "LOVASTATIN",
+                    "colo": "#2dad6c",
+                    "id": "LOVASTATIN",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/53232",
+                    "SUID": 2920
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "KU55933",
+                    "cluster": 29.0,
+                    "name": "KU55933",
+                    "colo": "#2ac41d",
+                    "id": "KU55933",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2919
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "KU0063794",
+                    "cluster": 28.0,
+                    "name": "KU0063794",
+                    "colo": "#b22364",
+                    "id": "KU0063794",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16736978",
+                    "SUID": 2918
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "KO143",
+                    "cluster": 27.0,
+                    "name": "KO143",
+                    "colo": "#934af9",
+                    "id": "KO143",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10322450",
+                    "SUID": 2917
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "ISOX",
+                    "cluster": 26.0,
+                    "name": "ISOX",
+                    "colo": "#416eea",
+                    "id": "ISOX",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/121237857",
+                    "SUID": 2916
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "ISONICOTINOHYDROXAMICACID",
+                    "cluster": 12.0,
+                    "name": "ISONICOTINOHYDROXAMICACID",
+                    "colo": "#087ecc",
+                    "id": "ISONICOTINOHYDROXAMICACID",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72967",
+                    "SUID": 2915
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "ISOLIQUIRITIGENIN",
+                    "cluster": 25.0,
+                    "name": "ISOLIQUIRITIGENIN",
+                    "colo": "#3bb71f",
+                    "id": "ISOLIQUIRITIGENIN",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/638278",
+                    "SUID": 2914
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "IMATINIB",
+                    "cluster": 24.0,
+                    "name": "IMATINIB",
+                    "colo": "#a82341",
+                    "id": "IMATINIB",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5291",
+                    "SUID": 2913
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "GW843682X",
+                    "cluster": 23.0,
+                    "name": "GW843682X",
+                    "colo": "#9bcc08",
+                    "id": "GW843682X",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2912
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "GMX1778",
+                    "cluster": 22.0,
+                    "name": "GMX1778",
+                    "colo": "#0ad685",
+                    "id": "GMX1778",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2911
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "DOCETAXEL",
+                    "cluster": 21.0,
+                    "name": "DOCETAXEL",
+                    "colo": "#fc4814",
+                    "id": "DOCETAXEL",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/148124",
+                    "SUID": 2910
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "DECITABINE",
+                    "cluster": 20.0,
+                    "name": "DECITABINE",
+                    "colo": "#e01129",
+                    "id": "DECITABINE",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/451668",
+                    "SUID": 2909
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "DACARBAZINE",
+                    "cluster": 19.0,
+                    "name": "DACARBAZINE",
+                    "colo": "#55a51c",
+                    "id": "DACARBAZINE",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5353562",
+                    "SUID": 2908
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "DABRAFENIB",
+                    "cluster": 18.0,
+                    "name": "DABRAFENIB",
+                    "colo": "#e59d40",
+                    "id": "DABRAFENIB",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44462760",
+                    "SUID": 2907
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "CYCLOPHOSPHAMIDE",
+                    "cluster": 17.0,
+                    "name": "CYCLOPHOSPHAMIDE",
+                    "colo": "#06d89d",
+                    "id": "CYCLOPHOSPHAMIDE",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2907",
+                    "SUID": 2906
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "CRIZOTINIB",
+                    "cluster": 16.0,
+                    "name": "CRIZOTINIB",
+                    "colo": "#18b4f2",
+                    "id": "CRIZOTINIB",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11626560",
+                    "SUID": 2905
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "COL3",
+                    "cluster": 15.0,
+                    "name": "COL3",
+                    "colo": "#075ff2",
+                    "id": "COL3",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2904
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "CD1530",
+                    "cluster": 14.0,
+                    "name": "CD1530",
+                    "colo": "#9fd63e",
+                    "id": "CD1530",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2903
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "BRDK96431673",
+                    "cluster": 13.0,
+                    "name": "BRDK96431673",
+                    "colo": "#ea2595",
+                    "id": "BRDK96431673",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2902
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "BRDK94991378",
+                    "cluster": 11.0,
+                    "name": "BRDK94991378",
+                    "colo": "#41d4f2",
+                    "id": "BRDK94991378",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2901
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "BRDK33514849",
+                    "cluster": 10.0,
+                    "name": "BRDK33514849",
+                    "colo": "#02ed5a",
+                    "id": "BRDK33514849",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2900
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "BRDK27224038",
+                    "cluster": 9.0,
+                    "name": "BRDK27224038",
+                    "colo": "#9034e2",
+                    "id": "BRDK27224038",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2899
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "BRDK01737880",
+                    "cluster": 8.0,
+                    "name": "BRDK01737880",
+                    "colo": "#e5d21b",
+                    "id": "BRDK01737880",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2898
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "BORTEZOMIB",
+                    "cluster": 7.0,
+                    "name": "BORTEZOMIB",
+                    "colo": "#bca138",
+                    "id": "BORTEZOMIB",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45038428",
+                    "SUID": 2897
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "BMS754807",
+                    "cluster": 6.0,
+                    "name": "BMS754807",
+                    "colo": "#c43131",
+                    "id": "BMS754807",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2896
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "BIX01294",
+                    "cluster": 5.0,
+                    "name": "BIX01294",
+                    "colo": "#23e040",
+                    "id": "BIX01294",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/25150857",
+                    "SUID": 2895
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "AZD6482",
+                    "cluster": 4.0,
+                    "name": "AZD6482",
+                    "colo": "#c65317",
+                    "id": "AZD6482",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44137675",
+                    "SUID": 2894
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "ALVOCIDIB",
+                    "cluster": 3.0,
+                    "name": "ALVOCIDIB",
+                    "colo": "#2707b2",
+                    "id": "ALVOCIDIB",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5287969",
+                    "SUID": 2893
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "AFATINIB",
+                    "cluster": 2.0,
+                    "name": "AFATINIB",
+                    "colo": "#46af18",
+                    "id": "AFATINIB",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10184653",
+                    "SUID": 2892
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "ABIRATERONE",
+                    "cluster": 1.0,
+                    "name": "ABIRATERONE",
+                    "colo": "#0912f2",
+                    "id": "ABIRATERONE",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/71434128",
+                    "SUID": 2891
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "TW37",
+                    "cluster": 53.0,
+                    "name": "TW37",
+                    "colo": "#4802ea",
+                    "id": "TW37",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2943
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "TRIFLUOPERAZINE",
+                    "cluster": 52.0,
+                    "name": "TRIFLUOPERAZINE",
+                    "colo": "#16ffd7",
+                    "id": "TRIFLUOPERAZINE",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5566",
+                    "SUID": 2942
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "TRAMETINIB",
+                    "cluster": 41.0,
+                    "name": "TRAMETINIB",
+                    "colo": "#f9be40",
+                    "id": "TRAMETINIB",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11707110",
+                    "SUID": 2941
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "TPCA1",
+                    "cluster": 51.0,
+                    "name": "TPCA1",
+                    "colo": "#d81557",
+                    "id": "TPCA1",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2940
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "TIVOZANIB",
+                    "cluster": 50.0,
+                    "name": "TIVOZANIB",
+                    "colo": "#1ca521",
+                    "id": "TIVOZANIB",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9911830",
+                    "SUID": 2939
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "TIVANTINIB",
+                    "cluster": 49.0,
+                    "name": "TIVANTINIB",
+                    "colo": "#e016ff",
+                    "id": "TIVANTINIB",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2938
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "THALIDOMIDE",
+                    "cluster": 48.0,
+                    "name": "THALIDOMIDE",
+                    "colo": "#463bcc",
+                    "id": "THALIDOMIDE",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5426",
+                    "SUID": 2937
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "TG101348",
+                    "cluster": 47.0,
+                    "name": "TG101348",
+                    "colo": "#ce02bb",
+                    "id": "TG101348",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2936
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "TEMSIROLIMUS",
+                    "cluster": 46.0,
+                    "name": "TEMSIROLIMUS",
+                    "colo": "#1666ba",
+                    "id": "TEMSIROLIMUS",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6918289",
+                    "SUID": 2935
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "TACEDINALINE",
+                    "cluster": 45.0,
+                    "name": "TACEDINALINE",
+                    "colo": "#f320f7",
+                    "id": "TACEDINALINE",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2934
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "SORAFENIB",
+                    "cluster": 44.0,
+                    "name": "SORAFENIB",
+                    "colo": "#ed250b",
+                    "id": "SORAFENIB",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/216239",
+                    "SUID": 2933
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "SN38",
+                    "cluster": 43.0,
+                    "name": "SN38",
+                    "colo": "#e033a8",
+                    "id": "SN38",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/104842",
+                    "SUID": 2932
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "SITAGLIPTIN",
+                    "cluster": 42.0,
+                    "name": "SITAGLIPTIN",
+                    "colo": "#0827d3",
+                    "id": "SITAGLIPTIN",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4369359",
+                    "SUID": 2931
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "SCH79797",
+                    "cluster": 40.0,
+                    "name": "SCH79797",
+                    "colo": "#2cebf7",
+                    "id": "SCH79797",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45073452",
+                    "SUID": 2930
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "SB431542",
+                    "cluster": 39.0,
+                    "name": "SB431542",
+                    "colo": "#9133af",
+                    "id": "SB431542",
+                    "selected": false,
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4521392",
+                    "SUID": 2929
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "SARACATINIB",
+                    "cluster": 38.0,
+                    "name": "SARACATINIB",
+                    "colo": "#d121ac",
+                    "id": "SARACATINIB",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2928
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "data": {
+                    "shared_name": "PRIMA1MET",
+                    "cluster": 37.0,
+                    "name": "PRIMA1MET",
+                    "colo": "#c15e0b",
+                    "id": "PRIMA1MET",
+                    "selected": false,
+                    "url": "null",
+                    "SUID": 2927
+                },
+                "selected": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "SUID": 4181,
+                    "source": "PIPERLONGUMINE",
+                    "weight": 283.2619732717086,
+                    "id": "e26103",
+                    "selected": false,
+                    "target": "TIVOZANIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4171,
+                    "source": "PIPERLONGUMINE",
+                    "weight": 278.90151248226766,
+                    "id": "e26070",
+                    "selected": false,
+                    "target": "SB431542"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4153,
+                    "source": "OLIGOMYCINA",
+                    "weight": 288.95939810370766,
+                    "id": "e24796",
+                    "selected": false,
+                    "target": "SARACATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4116,
+                    "source": "NAVITOCLAX",
+                    "weight": 278.24513655647576,
+                    "id": "e23574",
+                    "selected": false,
+                    "target": "SARACATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4100,
+                    "source": "MYRIOCIN",
+                    "weight": 276.4596964179716,
+                    "id": "e23385",
+                    "selected": false,
+                    "target": "SN38"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4098,
+                    "source": "MYRIOCIN",
+                    "weight": 275.248548146454,
+                    "id": "e23375",
+                    "selected": false,
+                    "target": "SCH79797"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4075,
+                    "source": "MANUMYCINA",
+                    "weight": 288.5158970296392,
+                    "id": "e22183",
+                    "selected": false,
+                    "target": "SARACATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4064,
+                    "source": "LOVASTATIN",
+                    "weight": 276.5605195722425,
+                    "id": "e21989",
+                    "selected": false,
+                    "target": "TIVOZANIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4015,
+                    "source": "KU0063794",
+                    "weight": 281.03793861074536,
+                    "id": "e21152",
+                    "selected": false,
+                    "target": "THALIDOMIDE"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3918,
+                    "source": "ISONICOTINOHYDROXAMICACID",
+                    "weight": 280.6604968009076,
+                    "id": "e20301",
+                    "selected": false,
+                    "target": "KU0063794"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3890,
+                    "source": "ISOLIQUIRITIGENIN",
+                    "weight": 286.41206191480734,
+                    "id": "e20172",
+                    "selected": false,
+                    "target": "KU0063794"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3860,
+                    "source": "IMATINIB",
+                    "weight": 276.32257112785175,
+                    "id": "e19909",
+                    "selected": false,
+                    "target": "KO143"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3833,
+                    "source": "GW843682X",
+                    "weight": 274.5014370519776,
+                    "id": "e19248",
+                    "selected": false,
+                    "target": "LOVASTATIN"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3793,
+                    "source": "DOCETAXEL",
+                    "weight": 279.4622918969515,
+                    "id": "e15465",
+                    "selected": false,
+                    "target": "TW37"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3745,
+                    "source": "DECITABINE",
+                    "weight": 285.17059597763273,
+                    "id": "e15094",
+                    "selected": false,
+                    "target": "SARACATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3741,
+                    "source": "DECITABINE",
+                    "weight": 278.7116457659017,
+                    "id": "e15054",
+                    "selected": false,
+                    "target": "NINTEDANIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3711,
+                    "source": "DACARBAZINE",
+                    "weight": 280.2685171530517,
+                    "id": "e14596",
+                    "selected": false,
+                    "target": "SARACATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3640,
+                    "source": "CYCLOPHOSPHAMIDE",
+                    "weight": 282.9413844917581,
+                    "id": "e14089",
+                    "selected": false,
+                    "target": "SARACATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3623,
+                    "source": "CYCLOPHOSPHAMIDE",
+                    "weight": 274.9857299241397,
+                    "id": "e14002",
+                    "selected": false,
+                    "target": "GMX1778"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3565,
+                    "source": "COL3",
+                    "weight": 293.5373325293881,
+                    "id": "e13224",
+                    "selected": false,
+                    "target": "SARACATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3556,
+                    "source": "COL3",
+                    "weight": 282.31964617452815,
+                    "id": "e13158",
+                    "selected": false,
+                    "target": "KU55933"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3578,
+                    "source": "COL3",
+                    "weight": 278.2486010091995,
+                    "id": "e13263",
+                    "selected": false,
+                    "target": "TRAMETINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3573,
+                    "source": "COL3",
+                    "weight": 282.7202943498488,
+                    "id": "e13253",
+                    "selected": false,
+                    "target": "TG101348"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3526,
+                    "source": "CD1530",
+                    "weight": 291.56097952100765,
+                    "id": "e11419",
+                    "selected": false,
+                    "target": "SARACATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3497,
+                    "source": "BRDK96431673",
+                    "weight": 281.4632462522277,
+                    "id": "e10131",
+                    "selected": false,
+                    "target": "TIVOZANIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3435,
+                    "source": "BRDK94991378",
+                    "weight": 288.31707169260534,
+                    "id": "e9836",
+                    "selected": false,
+                    "target": "KU0063794"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3430,
+                    "source": "BRDK94991378",
+                    "weight": 281.3269259600217,
+                    "id": "e9827",
+                    "selected": false,
+                    "target": "IMATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3422,
+                    "source": "BRDK94991378",
+                    "weight": 280.8663916623426,
+                    "id": "e9784",
+                    "selected": false,
+                    "target": "CRIZOTINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3459,
+                    "source": "BRDK94991378",
+                    "weight": 279.10409211792626,
+                    "id": "e9944",
+                    "selected": false,
+                    "target": "TRIFLUOPERAZINE"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3456,
+                    "source": "BRDK94991378",
+                    "weight": 286.9188849214287,
+                    "id": "e9938",
+                    "selected": false,
+                    "target": "TIVOZANIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3445,
+                    "source": "BRDK94991378",
+                    "weight": 291.3571062791993,
+                    "id": "e9903",
+                    "selected": false,
+                    "target": "SARACATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3379,
+                    "source": "BRDK33514849",
+                    "weight": 283.84226126068825,
+                    "id": "e8203",
+                    "selected": false,
+                    "target": "COL3"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3375,
+                    "source": "BRDK27224038",
+                    "weight": 279.6710845856417,
+                    "id": "e7962",
+                    "selected": false,
+                    "target": "TW37"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3271,
+                    "source": "BORTEZOMIB",
+                    "weight": 286.8764425286276,
+                    "id": "e6679",
+                    "selected": false,
+                    "target": "SARACATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3241,
+                    "source": "BORTEZOMIB",
+                    "weight": 273.87350432559543,
+                    "id": "e6527",
+                    "selected": false,
+                    "target": "BRDK01737880"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3240,
+                    "source": "BMS754807",
+                    "weight": 279.2040988949336,
+                    "id": "e6513",
+                    "selected": false,
+                    "target": "TW37"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3154,
+                    "source": "BIX01294",
+                    "weight": 280.74880992415353,
+                    "id": "e5499",
+                    "selected": false,
+                    "target": "COL3"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3106,
+                    "source": "AZD6482",
+                    "weight": 286.717948288822,
+                    "id": "e3304",
+                    "selected": false,
+                    "target": "COL3"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3060,
+                    "source": "ALVOCIDIB",
+                    "weight": 276.3334716724762,
+                    "id": "e1483",
+                    "selected": false,
+                    "target": "DABRAFENIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3037,
+                    "source": "AFATINIB",
+                    "weight": 281.795909293904,
+                    "id": "e914",
+                    "selected": false,
+                    "target": "TACEDINALINE"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3019,
+                    "source": "AFATINIB",
+                    "weight": 281.00159820283733,
+                    "id": "e822",
+                    "selected": false,
+                    "target": "ISOX"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 3007,
+                    "source": "AFATINIB",
+                    "weight": 288.6433455964493,
+                    "id": "e774",
+                    "selected": false,
+                    "target": "COL3"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 2996,
+                    "source": "AFATINIB",
+                    "weight": 278.2369258913716,
+                    "id": "e717",
+                    "selected": false,
+                    "target": "ALVOCIDIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 2980,
+                    "source": "ABIRATERONE",
+                    "weight": 277.74069869943605,
+                    "id": "e183",
+                    "selected": false,
+                    "target": "SARACATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4293,
+                    "source": "TEMSIROLIMUS",
+                    "weight": 278.54131180570994,
+                    "id": "e28233",
+                    "selected": false,
+                    "target": "TW37"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4255,
+                    "source": "SITAGLIPTIN",
+                    "weight": 277.0100130444732,
+                    "id": "e27722",
+                    "selected": false,
+                    "target": "TW37"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4205,
+                    "source": "SARACATINIB",
+                    "weight": 288.82610895221745,
+                    "id": "e27098",
+                    "selected": false,
+                    "target": "SN38"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4216,
+                    "source": "SARACATINIB",
+                    "weight": 285.44629381871937,
+                    "id": "e27128",
+                    "selected": false,
+                    "target": "TW37"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4211,
+                    "source": "SARACATINIB",
+                    "weight": 278.00196513556085,
+                    "id": "e27118",
+                    "selected": false,
+                    "target": "TIVANTINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4198,
+                    "source": "PRIMA1MET",
+                    "weight": 276.8608060884549,
+                    "id": "e26316",
+                    "selected": false,
+                    "target": "TPCA1"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4197,
+                    "source": "PRIMA1MET",
+                    "weight": 280.6484762904304,
+                    "id": "e26313",
+                    "selected": false,
+                    "target": "TIVOZANIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 4191,
+                    "source": "PRIMA1MET",
+                    "weight": 278.05370011035666,
+                    "id": "e26293",
+                    "selected": false,
+                    "target": "SORAFENIB"
+                },
+                "selected": false
+            }
+        ]
+    },
+    "data": {
+        "shared_name": "examplar_ctrp.json(1)",
+        "selected": true,
+        "name": "examplar_ctrp.json - Kruskal's Spanning Tree",
+        "SUID": 5755
+    },
+    "target_cytoscapejs_version": "~2.1",
+    "format_version": "1.0",
+    "generated_by": "cytoscape-3.4.0"
+}
