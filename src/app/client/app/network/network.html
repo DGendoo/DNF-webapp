@@ -53,6 +53,8 @@
       </div>
     </div>
   </div>
+
+
   <!--<div class="ui bottom attached segment">-->
     <!--<p></p>-->
   <!--</div>-->
@@ -60,3 +62,8 @@
 
 <div id="cy"></div>
 
+<div ng-show="showInfo" id="info">
+  <span class="title text-center">{{ selectedNode.id }}</span>
+  <br>
+  <span>PubChem: <a target="_blank" ng-href="{{ selectedNode.url }}"> {{ selectedNode.url }} </a> </span>
+</div>

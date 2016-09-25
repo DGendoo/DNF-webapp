@@ -9,6 +9,8 @@ angular.module('dnftestApp')
     $scope.image = null;
     $scope.networkToShow = $stateParams.id;
     $scope.exemplarData = null;
+    $scope.showInfo = false;
+    $scope.selectedNode = false;
 
     $scope.networkData = null;
     //$scope.nodes = {title: 'hiiiiiiii'}; //seems to be extraneous leftover variable
@@ -72,21 +74,24 @@ angular.module('dnftestApp')
 
 
     $scope.displayExemplar = function () {
+      $scope.showInfo = false;
+
       $scope.cy = cytoscape({
         container: document.getElementById('cy'),
         elements: $scope.exemplarData,
         autolock: false, //worth looking into later
         autoungrabify: false,
         layout: {
-          name: 'cose'
-          // idealEdgeLength: function (edge) {
-          //   for (var i = 0; i < $scope.networkData.edges.length; i++) {
-          //     var curEdge = $scope.networkData.edges[i].data;
-          //     if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
-          //       return curEdge.weight;
-          //     };
-          //   };
-          // }
+           name: 'cose',
+          idealEdgeLength: function (edge) {
+            // for (var i = 0; i < $scope.networkData.edges.length; i++) {
+            //   var curEdge = $scope.networkData.edges[i].data;
+            //   if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
+            //     return curEdge.weight;
+            //   };
+            // };
+            return edge._private.data.weight;
+          }
         },
         zoom: 0.3,
         style: [
@@ -94,24 +99,41 @@ angular.module('dnftestApp')
             selector: 'node',
             style: {
               'content': 'data(id)',
-              'background-fit': 'cover'
+              'background-fit': 'cover',
+              'background-color': 'data(colo)',
+              'shape' : 'octagon'
             }
           }
         ]
       });
+
+      $scope.cy.on('tap', 'node', function (evt) {
+        displayCluster(evt.cyTarget.id());
+      });
+    };
+
+    var getCluster = function () {
+      Restangular.all('api/things/drug_clusters/').get($stateParams.id).then(function (data) {
+        $scope.clusters = JSON.parse(data).element;
+      });
+    };
+
+    var getClusterNum = function (node) {
+      for (var i = 0; i < $scope.networkData.nodes.length; i++) {
+        var obj = $scope.networkData.nodes[i].data;
+        if (obj.id == node) {
+          return (obj.cluster);
+        }
+      }
+    };
+
+    var showPubChem = function (node) {
+      $scope.showInfo = true;
+      $scope.selectedNode = {url: node._private.data.url || "Not found.", id: node._private.data.id};
+      $scope.$apply();
     };
 
     var displayCluster = function (nodeName) {
-      Restangular.all('api/things/drug_clusters/').get($stateParams.id).then(function (data) {
-        $scope.clusters = JSON.parse(data).element;
-        var getClusterNum = function (node) {
-          for (var i = 0; i < $scope.networkData.nodes.length; i++) {
-            var obj = $scope.networkData.nodes[i].data;
-            if (obj.id == node) {
-              return (obj.cluster);
-            }
-          };
-        };
         var clusterNum = getClusterNum(nodeName);
 
         //Makes a new instance of cy based on the group of nodes given
@@ -138,24 +160,24 @@ angular.module('dnftestApp')
               selector: 'node',
               style: {
                 'content': 'data(id)',
-                'background-fit': 'cover'
+                'background-fit': 'cover',
+                'background-color': 'data(colo)',
+                'shape' : 'octagon'
               }
             }
           ]
         });
-      });
 
       $scope.cy.on('tap', 'node', function (evt) {
-
-        displayCluster(evt.cyTarget.id());
-        //  $scope.selected = evt.cyTarget.id();
-        //  $scope.cy.zoom(0.5);
-        // $scope.cy.center('#' + evt.cyTarget.id());
+        showPubChem(evt.cyTarget);
       });
+
 
     };
 
     $scope.display = function () {
+      $scope.showInfo = false;
+
        $scope.cy = cytoscape({
         container: document.getElementById('cy'),
         elements: $scope.networkData,
@@ -178,7 +200,9 @@ angular.module('dnftestApp')
             selector: 'node',
             style: {
               'content': 'data(id)',
-              'background-fit': 'cover'
+              'background-fit': 'cover',
+              'background-color': 'data(colo)',
+              'shape' : 'octagon'
             }
           }
         ]
@@ -203,6 +227,7 @@ angular.module('dnftestApp')
     ;
 
     /// run this code when controller load
+    getCluster();
     getNetworkData();
     populateDrugList();
     getExemplar();
