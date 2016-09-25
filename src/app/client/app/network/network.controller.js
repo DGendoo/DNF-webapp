@@ -130,6 +130,10 @@ angular.module('dnftestApp')
     var showPubChem = function (node) {
       $scope.showInfo = true;
       $scope.selectedNode = {url: node._private.data.url || "Not found.", id: node._private.data.id};
+      if ($scope.selectedNode.url == "null") {
+        $scope.selectedNode.url = "Not found.";
+      }
+
       $scope.$apply();
     };
 

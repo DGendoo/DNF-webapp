@@ -65,5 +65,7 @@
 <div ng-show="showInfo" id="info">
   <span class="title text-center">{{ selectedNode.id }}</span>
   <br>
-  <span>PubChem: <a target="_blank" ng-href="{{ selectedNode.url }}"> {{ selectedNode.url }} </a> </span>
+  <span ng-show="selectedNode.url != 'Not found.'">PubChem: <a target="_blank" ng-href="{{ selectedNode.url }}"> {{ selectedNode.url }} </a> </span>
+  <span ng-show="selectedNode.url == 'Not found.'">PubChem:  {{ selectedNode.url }} </span>
+
 </div>
