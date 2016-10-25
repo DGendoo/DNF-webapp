@@ -90,7 +90,7 @@ angular.module('dnftestApp')
             //     return curEdge.weight;
             //   };
             // };
-            return edge._private.data.weight;
+            return 1/edge._private.data.weight;
           }
         },
         zoom: 0.3,
@@ -138,7 +138,9 @@ angular.module('dnftestApp')
     };
 
     var displayCluster = function (nodeName) {
-        var clusterNum = getClusterNum(nodeName);
+      $scope.showInfo = false;
+
+      var clusterNum = getClusterNum(nodeName);
 
         //Makes a new instance of cy based on the group of nodes given
         $scope.cy = cytoscape({
@@ -151,7 +153,7 @@ angular.module('dnftestApp')
               for (var i = 0; i < $scope.networkData.edges.length; i++) {
                 var curEdge = $scope.networkData.edges[i].data;
                 if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
-                  return curEdge.weight;
+                  return 1/curEdge.weight;
                 };
               };
             }
@@ -193,7 +195,7 @@ angular.module('dnftestApp')
             for (var i = 0; i < $scope.networkData.edges.length; i++) {
               var curEdge = $scope.networkData.edges[i].data;
               if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
-                return curEdge.weight;
+                return 1/curEdge.weight;
               };
             };
           }
