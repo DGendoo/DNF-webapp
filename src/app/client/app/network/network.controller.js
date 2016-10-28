@@ -11,6 +11,7 @@ angular.module('dnftestApp')
     $scope.exemplarData = null;
     $scope.showInfo = false;
     $scope.selectedNode = false;
+    $scope.showChart = false;
 
     $scope.networkData = null;
     //$scope.nodes = {title: 'hiiiiiiii'}; //seems to be extraneous leftover variable
@@ -75,6 +76,7 @@ angular.module('dnftestApp')
 
     $scope.displayExemplar = function () {
       $scope.showInfo = false;
+      $scope.showChart = false;
 
       $scope.cy = cytoscape({
         container: document.getElementById('cy'),
@@ -127,6 +129,11 @@ angular.module('dnftestApp')
       }
     };
 
+    // to fill in
+    var showScoreBreakdown = function(edge) {
+
+    };
+
     var showPubChem = function (node) {
       $scope.showInfo = true;
       $scope.selectedNode = {url: node._private.data.url || "Not found.", id: node._private.data.id};
@@ -139,6 +146,7 @@ angular.module('dnftestApp')
 
     var displayCluster = function (nodeName) {
       $scope.showInfo = false;
+      $scope.showChart = false;
 
       var clusterNum = getClusterNum(nodeName);
 
@@ -178,11 +186,19 @@ angular.module('dnftestApp')
         showPubChem(evt.cyTarget);
       });
 
+      $scope.cy.on('tap', 'edge', function (evt) {
+
+        showScoreBreakDown(evt.cyTarget);
+        //  $scope.selected = evt.cyTarget.id();
+        //  $scope.cy.zoom(0.5);
+        // $scope.cy.center('#' + evt.cyTarget.id());
+      });
 
     };
 
     $scope.display = function () {
       $scope.showInfo = false;
+      $scope.showChart = false;
 
        $scope.cy = cytoscape({
         container: document.getElementById('cy'),
@@ -220,11 +236,7 @@ angular.module('dnftestApp')
       $scope.cy.on('tap', 'node', function (evt) {
 
         displayCluster(evt.cyTarget.id());
-        //  $scope.selected = evt.cyTarget.id();
-        //  $scope.cy.zoom(0.5);
-        // $scope.cy.center('#' + evt.cyTarget.id());
       });
-
     };
 
 

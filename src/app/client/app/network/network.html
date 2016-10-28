@@ -62,6 +62,10 @@
 
 <div id="cy"></div>
 
+
+
+
+
 <div ng-show="showInfo" id="info">
   <span class="title text-center">{{ selectedNode.id }}</span>
   <br>
@@ -69,3 +73,10 @@
   <span ng-show="selectedNode.url == 'Not found.'">PubChem:  {{ selectedNode.url }} </span>
 
 </div>
+
+  <div ng-show="showChart" id="chart">
+    <!--please add drug names here-->
+    <span class="title text-center"></span>
+    <br>
+    <!--display chart below, can you also include a legend please-->
+  </div>
