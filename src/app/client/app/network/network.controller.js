@@ -112,6 +112,17 @@ angular.module('dnftestApp')
       $scope.cy.on('tap', 'node', function (evt) {
         displayCluster(evt.cyTarget.id());
       });
+
+      $scope.cy.on('tap', 'edge', function (evt) {
+        $scope.showChart = true;
+        $scope.showInfo = false;
+        $scope.$apply();
+
+        // showScoreBreakDown(evt.cyTarget);
+        //  $scope.selected = evt.cyTarget.id();
+        //  $scope.cy.zoom(0.5);
+        // $scope.cy.center('#' + evt.cyTarget.id());
+      });
     };
 
     var getCluster = function () {
@@ -183,12 +194,15 @@ angular.module('dnftestApp')
         });
 
       $scope.cy.on('tap', 'node', function (evt) {
+        $scope.showChart = false;
         showPubChem(evt.cyTarget);
       });
 
       $scope.cy.on('tap', 'edge', function (evt) {
-
-        showScoreBreakDown(evt.cyTarget);
+        $scope.showChart = true;
+        $scope.showInfo = false;
+        $scope.$apply();
+        // showScoreBreakDown(evt.cyTarget);
         //  $scope.selected = evt.cyTarget.id();
         //  $scope.cy.zoom(0.5);
         // $scope.cy.center('#' + evt.cyTarget.id());
@@ -236,6 +250,17 @@ angular.module('dnftestApp')
       $scope.cy.on('tap', 'node', function (evt) {
 
         displayCluster(evt.cyTarget.id());
+      });
+
+      $scope.cy.on('tap', 'edge', function (evt) {
+        $scope.showChart = true;
+        $scope.showInfo = false;
+        $scope.$apply();
+
+        // showScoreBreakDown(evt.cyTarget);
+        //  $scope.selected = evt.cyTarget.id();
+        //  $scope.cy.zoom(0.5);
+        // $scope.cy.center('#' + evt.cyTarget.id());
       });
     };
 
