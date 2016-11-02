@@ -105,6 +105,46 @@ function pan(core, direction, factors) {
 			break;
 	}
 }
+
+function my_pan(core,direction,distance){
+		switch (direction) {
+		case 0:
+		case 2:
+			core.panBy({ x: distance, y: 0 });
+			break;
+		case 1:
+		case 3:
+			core.panBy({ x: 0, y: distance });
+			break;
+	}
+}
+
+function my_zoom(core,x,y, tozoom){
+	var minZoom = 0.1;
+	var maxZoom = 10;
+
+	var factor = 1 + tozoom;
+
+	var zoom = core.zoom();
+
+	var lvl = zoom * factor;
+
+	if (lvl < minZoom) {
+		lvl = minZoom;
+	}
+
+	if (lvl > maxZoom) {
+		lvl = maxZoom;
+	}
+
+	if ((lvl == maxZoom && zoom == maxZoom) ||
+		(lvl == minZoom && zoom == minZoom)
+	) {
+		return;
+	}
+
+	zoomTo(core, x, y, lvl);
+}
 // end panning
 
 (function ($) {
@@ -335,7 +375,9 @@ function pan(core, direction, factors) {
 
 					// setup default css values
 					var cssOptions = {
-						position: 'absolute',
+						position: 'fixed',
+						// display: block,
+						// float:right,
 						top: 0,
 						left: 0,
 						width: 0,
@@ -361,11 +403,13 @@ function pan(core, direction, factors) {
 						cssOptions.minWidth = $container.outerWidth(true);
 						cssOptions.maxWidth = $container.outerWidth(true);
 					} else if (options.position === 'right') {
-						cssOptions.top = $container.offset().top + $container.outerHeight(true)/2 ;
-						cssOptions.left = $container.offset().left + $container.outerWidth(true) -45;
+						// cssOptions.top = $container.offset().top + $container.outerHeight(true)/2 ;
+						// cssOptions.left = $container.offset().left + $container.outerWidth(true) -45;
 						cssOptions.height = $container.outerHeight(true) - $container.outerHeight(true)/2;
 						cssOptions.minHeight = $container.outerHeight(true) -$container.outerHeight(true)/2;
 						cssOptions.maxHeight = $container.outerHeight(true);
+						// cssOptions.right = -45;
+						cssOptions.top = '30%';
 					} else { // default - it is either 'left' or it is something we don't know so we use the default of 'left'
 						cssOptions.top = $container.offset().top;
 						cssOptions.left = $container.offset().left - 45;
@@ -449,6 +493,8 @@ function pan(core, direction, factors) {
 
 							jElement
 								.mousedown(function () {
+									// element.action[0];
+									// my_pan(data.cy,3,100);
 									startTime = new Date().getTime();
 									endTime = startTime;
 
@@ -458,8 +504,9 @@ function pan(core, direction, factors) {
 											$toolListWrapper.css('overflow', 'visible');
 										}
 									}, options.longClickTime);
+
 								})
-								.mouseup(function () {
+								.mouseup(function (e) {
 									endTime = new Date().getTime();
 
 									if (data.selectedTool != [toolListIndex, toolIndex] && !toolItemLongHold) {
@@ -470,6 +517,30 @@ function pan(core, direction, factors) {
 										$('.' + options.toolbarClass).find('.selected-tool').css('color','#aaa').removeClass('selected-tool');
 										$(this).addClass('selected-tool').css('color', '#000');
 									}
+									var x = $container.outerWidth(true)/2;
+									var y = $container.outerHeight(true)/2;
+									var core = data.cy;
+									switch (toolListIndex) {
+										case 0:
+											my_zoom(core,x,y, 0.1);
+											break;
+										case 1:
+											my_zoom(core,x,y, -0.1);
+											break;
+										case 2:
+											my_pan(core,0,-80);
+											break;
+										case 3:
+											my_pan(core,1,-80);
+											break;
+										case 4:
+											my_pan(core,0,80);
+											break;
+										case 5:
+											my_pan(core,1,80);
+											break;
+									}
+
 								});
 							;
 
@@ -541,31 +612,31 @@ function pan(core, direction, factors) {
 						}
 					};
 
-					function addEventListeners() {
-						$.each(options.tools, function (index, toolList) {
-							$.each(toolList, function (index, toolElement) {
-								var unequalsLengths = false;
+					// function addEventListeners() {
+					// 	$.each(options.tools, function (index, toolList) {
+					// 		$.each(toolList, function (index, toolElement) {
+					// 			var unequalsLengths = false;
 
-								if (toolElement.event.length != toolElement.action.length) {
-									var tooltip = (toolElement.tooltip) ? toolElement.tooltip : "<no tooltip>";
-									console.log("Unequal lengths for event and action variables on " + index + "-" + tooltip);
-									unequalsLengths = true;
-								}
+					// 			if (toolElement.event.length != toolElement.action.length) {
+					// 				var tooltip = (toolElement.tooltip) ? toolElement.tooltip : "<no tooltip>";
+					// 				console.log("Unequal lengths for event and action variables on " + index + "-" + tooltip);
+					// 				unequalsLengths = true;
+					// 			}
 
-								if (!unequalsLengths) {
-									for (var i = 0; i < toolElement.event.length; i++) {
-										bindings.on(toolElement.event[i], toolElement.selector, toolElement.action[i]);
-									}
-								}
-							});
-						});
-					}
+					// 			if (!unequalsLengths) {
+					// 				for (var i = 0; i < toolElement.event.length; i++) {
+					// 					bindings.on(toolElement.event[i], toolElement.selector, toolElement.action[i]);
+					// 				}
+					// 			}
+					// 		});
+					// 	});
+					// }
 
 					$container.cytoscape(function (e) {
 						cy = this;
 						data.cy = cy;
 
-						addEventListeners();
+						// addEventListeners();
 
 						$container.data('cytoscapeToolbar', data);
 					});
