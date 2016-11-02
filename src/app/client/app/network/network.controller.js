@@ -274,7 +274,7 @@ angular.module('dnftestApp')
     populateDrugList();
     getExemplar();
     $scope.display();
-    //This enable the toolbar;
-    $scope.cy.toolbar();
+    //This enable the toolbar; 
+    $scope.cy.toolbar({position: 'right'});
     //cy.$('ABT737').lock();
   });

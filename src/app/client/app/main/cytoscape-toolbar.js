@@ -361,10 +361,10 @@ function pan(core, direction, factors) {
 						cssOptions.minWidth = $container.outerWidth(true);
 						cssOptions.maxWidth = $container.outerWidth(true);
 					} else if (options.position === 'right') {
-						cssOptions.top = $container.offset().top;
-						cssOptions.left = $container.offset().left + $container.outerWidth(true) + 25;
-						cssOptions.height = $container.outerHeight(true);
-						cssOptions.minHeight = $container.outerHeight(true);
+						cssOptions.top = $container.offset().top + $container.outerHeight(true)/2 ;
+						cssOptions.left = $container.offset().left + $container.outerWidth(true) -45;
+						cssOptions.height = $container.outerHeight(true) - $container.outerHeight(true)/2;
+						cssOptions.minHeight = $container.outerHeight(true) -$container.outerHeight(true)/2;
 						cssOptions.maxHeight = $container.outerHeight(true);
 					} else { // default - it is either 'left' or it is something we don't know so we use the default of 'left'
 						cssOptions.top = $container.offset().top;
