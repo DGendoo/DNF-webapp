@@ -148,7 +148,7 @@ angular.module('dnftestApp')
     // to fill in
     var showScoreBreakdown = function(edge) {
       $scope.showChart = true;
-      $scope.selectedEdge = {score: edge._private.data.weight};
+      $scope.selectedEdge = {score: edge._private.data.weight.toFixed(2)};
       $scope.$apply();
     };
 
