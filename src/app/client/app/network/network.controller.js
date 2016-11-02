@@ -37,7 +37,7 @@ angular.module('dnftestApp')
     };
 
     $scope.back = function(){
-      $("div.ui-cytoscape-toolbar").remove();
+      hideToolbar();
       // window.history.back();
       $state.go("main");
     }
@@ -125,6 +125,7 @@ angular.module('dnftestApp')
         //  $scope.cy.zoom(0.5);
         // $scope.cy.center('#' + evt.cyTarget.id());
       });
+      showToolbar();
     };
 
     var getCluster = function () {
@@ -146,6 +147,17 @@ angular.module('dnftestApp')
     var showScoreBreakdown = function(edge) {
 
     };
+
+    var showToolbar = function (){
+      //This enable the toolbar; 
+      console.log("showingToolbar");
+      hideToolbar();
+      $scope.cy.toolbar({position: 'right'});
+    }
+
+    var hideToolbar = function (){
+      $("div.ui-cytoscape-toolbar").remove();
+    }
 
     var showPubChem = function (node) {
       $scope.showInfo = true;
@@ -209,7 +221,7 @@ angular.module('dnftestApp')
         //  $scope.cy.zoom(0.5);
         // $scope.cy.center('#' + evt.cyTarget.id());
       });
-
+      showToolbar();
     };
 
     $scope.display = function () {
@@ -263,6 +275,7 @@ angular.module('dnftestApp')
         //  $scope.cy.zoom(0.5);
         // $scope.cy.center('#' + evt.cyTarget.id());
       });
+      showToolbar();
     };
 
 
@@ -275,9 +288,6 @@ angular.module('dnftestApp')
     getNetworkData();
     populateDrugList();
     getExemplar();
-    $scope.display();
-    //This enable the toolbar; 
-    $("div.ui-cytoscape-toolbar").remove();
-    $scope.cy.toolbar({position: 'right'});
+    // $scope.display();
     //cy.$('ABT737').lock();
   });
