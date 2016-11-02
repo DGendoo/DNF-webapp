@@ -11,6 +11,7 @@ angular.module('dnftestApp')
     $scope.exemplarData = null;
     $scope.showInfo = false;
     $scope.selectedNode = false;
+    $scope.selectedEdge = false;
     $scope.showChart = false;
 
     $scope.networkData = null;
@@ -118,6 +119,7 @@ angular.module('dnftestApp')
       $scope.cy.on('tap', 'edge', function (evt) {
         $scope.showChart = true;
         $scope.showInfo = false;
+        showScoreBreakdown(evt.cyTarget);
         $scope.$apply();
 
         // showScoreBreakDown(evt.cyTarget);
@@ -145,7 +147,9 @@ angular.module('dnftestApp')
 
     // to fill in
     var showScoreBreakdown = function(edge) {
-
+      $scope.showChart = true;
+      $scope.selectedEdge = {score: edge._private.data.weight};
+      $scope.$apply();
     };
 
     var showToolbar = function (){
@@ -215,6 +219,7 @@ angular.module('dnftestApp')
       $scope.cy.on('tap', 'edge', function (evt) {
         $scope.showChart = true;
         $scope.showInfo = false;
+        showScoreBreakdown(evt.cyTarget);
         $scope.$apply();
         // showScoreBreakDown(evt.cyTarget);
         //  $scope.selected = evt.cyTarget.id();
@@ -268,6 +273,7 @@ angular.module('dnftestApp')
       $scope.cy.on('tap', 'edge', function (evt) {
         $scope.showChart = true;
         $scope.showInfo = false;
+        showScoreBreakdown(evt.cyTarget);
         $scope.$apply();
 
         // showScoreBreakDown(evt.cyTarget);
