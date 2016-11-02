@@ -246,7 +246,6 @@ angular.module('dnftestApp')
 
      $scope.cy.maxZoom(5);
      $scope.cy.minZoom(0.3);
-
       $scope.cy.on('tap', 'node', function (evt) {
 
         displayCluster(evt.cyTarget.id());
@@ -275,5 +274,7 @@ angular.module('dnftestApp')
     populateDrugList();
     getExemplar();
     $scope.display();
+    //This enable the toolbar;
+    $scope.cy.toolbar();
     //cy.$('ABT737').lock();
   });
