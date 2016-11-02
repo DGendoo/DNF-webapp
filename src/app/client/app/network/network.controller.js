@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('dnftestApp')
-  .controller('NetworkCtrl', function ($scope, $http, $stateParams, Restangular) {
+  .controller('NetworkCtrl', function ($scope, $state,$http, $stateParams, Restangular) {
     $scope.selected = null;
     $scope.showOptions = false;
     $scope.dest = null;
@@ -37,7 +37,9 @@ angular.module('dnftestApp')
     };
 
     $scope.back = function(){
-      window.history.back();
+      $("div.ui-cytoscape-toolbar").remove();
+      // window.history.back();
+      $state.go("main");
     }
 
     //This function gets the data--i.e. the nodes and the edges
@@ -275,6 +277,7 @@ angular.module('dnftestApp')
     getExemplar();
     $scope.display();
     //This enable the toolbar; 
+    $("div.ui-cytoscape-toolbar").remove();
     $scope.cy.toolbar({position: 'right'});
     //cy.$('ABT737').lock();
   });
