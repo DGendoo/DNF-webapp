@@ -15,6 +15,7 @@ angular.module('dnftestApp')
     $scope.showChart = false;
 
     $scope.networkData = null;
+    var pData = null;
     //$scope.nodes = {title: 'hiiiiiiii'}; //seems to be extraneous leftover variable
 
     $scope.cy = null;
@@ -145,79 +146,83 @@ angular.module('dnftestApp')
       }
     };
 
-    // to fill in
-    var showScoreBreakdown = function(edge) {
-    	//pie
-    	var w = 600,                        
-	    h = 600,                            
-	    r = 200,                            
-	    color = d3.scale.category20c();     
-	
-	    var vis = d3.select("#piechart")
-	    	.append("center")
-	        .append("svg:svg")              
-	        .data([data])   	
-	            .attr("width", w)           
-	            .attr("height", h)
-	            .append("svg:g") // group
-	                .attr("transform", "translate(" + r + "," + r + ")")    //move the center of the pie chart from 0, 0 to radius, radius
-	
-	    var arc = d3.svg.arc()              
-	        .outerRadius(r);
-	
-	    var pie = d3.layout.pie() //arc data given list of values
-	    	
-	        .value(function(d) { 
-	        		return d.genes[edge._private.data.source][edge._private.data.target]; 
-	        }); //each value element in array
-	
-	    var arcs = vis.selectAll("g.slice")
-	        .data(pie)                         
-	        .enter() // create <g> for every object in data
-	            .append("svg:g")
-	            	.attr("transform", "translate(" + 0 + "," + 100 + ")") // position pie chart
-	                .attr("class", "slice");    //to style each slice
-	
-	        arcs.append("svg:path")
-	                .attr("fill", function(d, i) { return color(i); } ) //color for each slice
-	                .attr("d", arc); //svg arc
-	        
-	        //label
-	        arcs.append("svg:text")                                     
-	                .attr("transform", function(d) {  //center
-	                d.innerRadius = 0;
-	                d.outerRadius = r;
-	                var _d = arc.centroid(d); // position outside of arc
-	                _d[0] *= 2.5;	//multiply by a constant factor
-	                _d[1] *= 2.4;	
-	                return "translate(" + _d + ")"; //return coordinates, arc.centroid(d) for inside
-	            })
-	            .attr("dx", "1em") // no attr for inside
-	            .attr("dy", "0em") //0em for inside
-	            .attr("text-anchor", "middle")
-	            .attr("fill", "black")
-	            .text(function(d, i) { 
-	            	return data[i].name;	
-	            });  
-	        
-	        //percentage
-	        arcs.append("svg:text")                                     
-	            .attr("transform", function(d) {  //center
-	            d.innerRadius = 0;
-	            d.outerRadius = r;
-	            return "translate(" + arc.centroid(d) + ")"; //return coordinates
-            })
-            //.attr("dy", "1em") for inside
-	        .attr("text-anchor", "middle")
-	        .attr("fill", "white")
-	        .text(function(d, i) { 
-	        	return data[i].genes[edge._private.data.source][edge._private.data.target] + "%"; 
-	        }); 
-	  //end pie   
-	        
-      $scope.showChart = true;
-      $scope.selectedEdge = {score: edge._private.data.weight.toFixed(2)};
-      $scope.$apply();
+    var showScoreBreakdown = function(edge) {   
+      Restangular.all('api/things/scores').get($stateParams.id).then(function (data) {
+          pData = JSON.parse("[" + data + "]");
+        });
+
+        var w = 600,                        
+          h = 600,                            
+          r = 200;                           
+        //var color = d3.scale.category20c(); 
+          
+        var vis = d3.select("#piechart")
+        .append("center")
+          .append("svg:svg")              
+          .data([pData])     
+              .attr("width", w)           
+              .attr("height", h)
+              .append("svg:g") // group
+                  .attr("transform", "translate(" + r + "," + r + ")")    //move the center of the pie chart from 0, 0 to radius, radius
+  
+        var arc = d3.svg.arc()              
+            .outerRadius(r);
+    
+        var pie = d3.layout.pie() //arc data given list of values
+          
+            .value(function(d) { 
+                return d.genes[edge._private.data.source][edge._private.data.target]; 
+            }); //each value element in array
+    
+        var arcs = vis.selectAll("g.slice")
+            .data(pie)                         
+            .enter() // create <g> for every object in data
+                .append("svg:g")
+                  .attr("transform", "translate(" + 0 + "," + 100 + ")") // position pie chart
+                    .attr("class", "slice");    //to style each slice
+    
+            arcs.append("svg:path")
+                    .attr("fill", "purple" ) //color for each slice function(d, i) { return color(i); }
+                    .attr("d", arc); //svg arc
+            
+            //label
+            arcs.append("svg:text")                                     
+                    .attr("transform", function(d) {  //center
+                    d.innerRadius = 0;
+                    d.outerRadius = r;
+                    var _d = arc.centroid(d); // position outside of arc
+                    _d[0] *= 2.5; //multiply by a constant factor
+                    _d[1] *= 2.4; 
+                    return "translate(" + _d + ")"; //return coordinates, arc.centroid(d) for inside
+                })
+                .attr("dx", "1em") // no attr for inside
+                .attr("dy", "0em") //0em for inside
+                .attr("text-anchor", "middle")
+                .attr("fill", "black")
+                .text(function(d, i) { 
+                  return pData[i].name;  
+                });  
+            
+            //percentage
+            arcs.append("svg:text")                                     
+                .attr("transform", function(d) {  //center
+                d.innerRadius = 0;
+                d.outerRadius = r;
+                return "translate(" + arc.centroid(d) + ")"; //return coordinates
+              })
+              //.attr("dy", "1em") for inside
+            .attr("text-anchor", "middle")
+            .attr("fill", "white")
+            .text(function(d, i) { 
+              return pData[i].genes[edge._private.data.source][edge._private.data.target] + "%"; 
+            });
+        //end pie
+          
+        $scope.showChart = true;
+        $scope.selectedEdge = {score: edge._private.data.weight.toFixed(2)};
+        $scope.$apply();
+      
+        
     };
 
     var showToolbar = function (){
