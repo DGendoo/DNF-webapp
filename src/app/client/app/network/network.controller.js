@@ -15,6 +15,13 @@ angular.module('dnftestApp')
     $scope.showChart = false;
 
     $scope.networkData = null;
+    //the max/min weight of normal graph edges
+    $scope.maxWeight = 0;
+    $scope.minWeight = 0;
+    //the max/min weight of exemplar graph edges
+    $scope.exemplarMaxWeight = 0;
+    $scope.exemplarMinWeight = 0;
+
     var pData = null;
     //$scope.nodes = {title: 'hiiiiiiii'}; //seems to be extraneous leftover variable
 
@@ -48,6 +55,19 @@ angular.module('dnftestApp')
     var getNetworkData = function () {
       Restangular.all('api/things/drug_network/').get($stateParams.id).then(function (data) {
         $scope.networkData = JSON.parse(data).element;
+        var maxWeight = 0;
+        var minWeight = 9999999;
+        for (var i =0; i<$scope.networkData.edges.length;i++){
+          var edge = $scope.networkData.edges[i]
+          if (edge.data.weight > maxWeight){
+            maxWeight = edge.data.weight;
+          }
+          if (edge.data.weight < minWeight){
+            minWeight = edge.data.weight;
+          }
+        }
+        $scope.maxWeight = maxWeight;
+        $scope.minWeight = minWeight;
         $scope.display();
       });
     };
@@ -72,7 +92,19 @@ angular.module('dnftestApp')
     var getExemplar = function () {
       Restangular.all('api/things/exemplar/').get($stateParams.id).then(function (data) {
         $scope.exemplarData = JSON.parse(data).elements;
-
+        var maxWeight = 0;
+        var minWeight = 9999999;
+        for (var i =0; i<$scope.exemplarData.edges.length;i++){
+          var edge = $scope.exemplarData.edges[i]
+          if (edge.data.weight > maxWeight){
+            maxWeight = edge.data.weight;
+          }
+          if (edge.data.weight < minWeight){
+            minWeight = edge.data.weight;
+          }
+        }
+        $scope.exemplarMaxWeight = maxWeight;
+        $scope.exemplarMinWeight = minWeight;
         console.log('here');
       });
     };
@@ -108,6 +140,12 @@ angular.module('dnftestApp')
               'background-fit': 'cover',
               'background-color': 'data(colo)',
               'shape' : 'octagon'
+            }
+          },
+          {
+            selector: 'edge',
+            style:{
+              'line-color': 'mapData(weight,' + $scope.exemplarMinWeight.toString() +' ,' + $scope.exemplarMaxWeight.toString() +', blue, red)'
             }
           }
         ]
@@ -280,6 +318,12 @@ angular.module('dnftestApp')
                 'background-color': 'data(colo)',
                 'shape' : 'octagon'
               }
+            },
+            {
+              selector: 'edge',
+              style:{
+                'line-color': 'mapData(weight,' + $scope.minWeight.toString() +' ,' + $scope.maxWeight.toString() +', blue, red)'
+              }
             }
           ]
         });
@@ -332,6 +376,12 @@ angular.module('dnftestApp')
               'background-color': 'data(colo)',
               'shape' : 'octagon'
             }
+          }, 
+          {
+          	selector: 'edge',
+          	style:{
+          		'line-color': 'mapData(weight,' + $scope.minWeight.toString() +' ,' + $scope.maxWeight.toString() +', blue, red)'
+          	}
           }
         ]
       });
