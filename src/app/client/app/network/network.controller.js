@@ -285,7 +285,8 @@ angular.module('dnftestApp')
             {
               selector: 'edge',
               style:{
-                'line-color': 'mapData(weight,' + $scope.minWeight.toString() +' ,' + $scope.maxWeight.toString() +', blue, red)'
+                'line-color': 'mapData(weight,' + $scope.minWeight.toString() +' ,' + $scope.maxWeight.toString() +', white, black)',
+                'width': 5.0
               }
             }
           ]
@@ -339,11 +340,12 @@ angular.module('dnftestApp')
               'background-color': 'data(colo)',
               'shape' : 'octagon'
             }
-          }, 
+          },
           {
           	selector: 'edge',
           	style:{
-          		'line-color': 'mapData(weight,' + $scope.minWeight.toString() +' ,' + $scope.maxWeight.toString() +', blue, red)'
+          		'line-color': 'mapData(weight,' + $scope.minWeight.toString() +' ,' + $scope.maxWeight.toString() +', white, black)',
+              'width': 3.0
           	}
           }
         ]
