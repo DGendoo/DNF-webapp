@@ -88,12 +88,11 @@
 
   <div ng-show="showChart" id="chart">
     <!--please add drug names here-->
-    <span class="title text-center" ng-show="selectedEdge">Overall Similarity: {{ selectedEdge.score }} </span>
-    <br>
-    <span class="title text-center">Breakdown:</span>
-    <br>
+    <span class="title text-center" ng-show="selectedEdge">Score: {{ selectedEdge.score }} </span>
+    <span class="title text-center"></span>
     <br>
     <!--display chart below, can you also include a legend please-->
+<<<<<<< HEAD
 
     <script type="text/javascript" src="http://mbostock.github.com/d3/d3.v2.js"></script>
     <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -104,6 +103,11 @@
 
     <canvas id="pie" width="400" height="400"></canvas>
 
+=======
+    <div id="piechart">
+      {{lol}}
+    </div>
+>>>>>>> parent of f35acbd... Pie charts
   </div>
   </div>
 <!--</body>-->
