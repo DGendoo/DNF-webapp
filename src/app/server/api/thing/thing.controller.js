@@ -104,20 +104,6 @@ exports.drugClusters = function(req, res) {
   });
 };
 
-exports.scores = function(req, res) {
-  var url = '';
-  if (req.params.id == 'CTRP') {
-    url = 'https://chrchung.github.io/DNF/scores_ctrp.json';
-  } else {
-    url = 'https://chrchung.github.io/DNF/scores_nci60.json';
-  }
-  request(url, function (error, response, body) {
-    if (!error && response.statusCode == 200) {
-      res.json(body);
-    }
-  });
-};
-
 
 // Get list of things
 exports.index = function(req, res) {
