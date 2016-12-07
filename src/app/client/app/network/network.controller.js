@@ -23,7 +23,6 @@ angular.module('dnftestApp')
     $scope.exemplarMinWeight = 0;
 
     var pData = null;
-    
     //$scope.nodes = {title: 'hiiiiiiii'}; //seems to be extraneous leftover variable
 
     $scope.cy = null;
