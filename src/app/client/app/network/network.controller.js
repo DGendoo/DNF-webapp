@@ -184,87 +184,44 @@ angular.module('dnftestApp')
       }
     };
 
-    var showScoreBreakdown = function(edge) {   
-      Restangular.all('api/things/scores').get($stateParams.id).then(function (data) {
-          pData = JSON.parse("[" + data + "]");
-        });
 
-        var w = 600,                        
-          h = 600,                            
-          r = 200;                           
-        //var color = d3.scale.category20c(); 
-          
-        var vis = d3.select("#piechart")
-        .append("center")
-          .append("svg:svg")              
-          .data([pData])     
-              .attr("width", w)           
-              .attr("height", h)
-              .append("svg:g") // group
-                  .attr("transform", "translate(" + r + "," + r + ")")    //move the center of the pie chart from 0, 0 to radius, radius
-  
-        var arc = d3.svg.arc()              
-            .outerRadius(r);
-    
-        var pie = d3.layout.pie() //arc data given list of values
-          
-            .value(function(d) { 
-                return d.genes[edge._private.data.source][edge._private.data.target]; 
-            }); //each value element in array
-    
-        var arcs = vis.selectAll("g.slice")
-            .data(pie)                         
-            .enter() // create <g> for every object in data
-                .append("svg:g")
-                  .attr("transform", "translate(" + 0 + "," + 100 + ")") // position pie chart
-                    .attr("class", "slice");    //to style each slice
-    
-            arcs.append("svg:path")
-                    .attr("fill", "purple" ) //color for each slice function(d, i) { return color(i); }
-                    .attr("d", arc); //svg arc
-            
-            //label
-            arcs.append("svg:text")                                     
-                    .attr("transform", function(d) {  //center
-                    d.innerRadius = 0;
-                    d.outerRadius = r;
-                    var _d = arc.centroid(d); // position outside of arc
-                    _d[0] *= 2.5; //multiply by a constant factor
-                    _d[1] *= 2.4; 
-                    return "translate(" + _d + ")"; //return coordinates, arc.centroid(d) for inside
-                })
-                .attr("dx", "1em") // no attr for inside
-                .attr("dy", "0em") //0em for inside
-                .attr("text-anchor", "middle")
-                .attr("fill", "black")
-                .text(function(d, i) { 
-                  return pData[i].name;  
-                });  
-            
-            //percentage
-            arcs.append("svg:text")                                     
-                .attr("transform", function(d) {  //center
-                d.innerRadius = 0;
-                d.outerRadius = r;
-                return "translate(" + arc.centroid(d) + ")"; //return coordinates
-              })
-              //.attr("dy", "1em") for inside
-            .attr("text-anchor", "middle")
-            .attr("fill", "white")
-            .text(function(d, i) { 
-              return pData[i].genes[edge._private.data.source][edge._private.data.target] + "%"; 
-            });
-        //end pie
-          
+
+
+    var showScoreBreakdown = function(edge) {
         $scope.showChart = true;
         $scope.selectedEdge = {score: edge._private.data.weight.toFixed(2)};
-        $scope.$apply();
-      
-        
+
+
+      $('#pie').remove(); // this is my <canvas> element
+      $('#chart').append('<canvas id="pie"><canvas>');
+
+      var ctx = document.getElementById("pie");
+      var myChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: ["Perturbation", "Sensitibity", "Structure"],
+          datasets: [{
+            data: [edge._private.data['perturbation'], edge._private.data['physical structure'], edge._private.data['sensitivity']],
+            backgroundColor: [
+              'rgba(219, 219, 219, 0.5)',
+              'rgba(183, 183, 183, 0.5)',
+              'rgba(112, 112, 112, 0.5)'
+            ],
+            borderColor: [
+              'rgba(219, 219, 219, 1)',
+              'rgba(183, 183, 183, 1)',
+              'rgba(112, 112, 112, 1)'
+            ],
+            borderWidth: 1
+          }]
+        }
+      });
+
+      $scope.$apply();
     };
 
     var showToolbar = function (){
-      //This enable the toolbar; 
+      //This enable the toolbar;
       console.log("showingToolbar");
       hideToolbar();
       $scope.cy.toolbar({position: 'right'});
@@ -323,7 +280,7 @@ angular.module('dnftestApp')
               selector: 'edge',
               style:{
                 'line-color': 'mapData(weight,' + $scope.minWeight.toString() +' ,' + $scope.maxWeight.toString() +', white, black)',
-                'width': 5.0
+                'width': 3.0
               }
             }
           ]
