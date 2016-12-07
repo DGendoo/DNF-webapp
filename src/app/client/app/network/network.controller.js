@@ -16,6 +16,7 @@ angular.module('dnftestApp')
 
     $scope.networkData = null;
     var pData = null;
+    
     //$scope.nodes = {title: 'hiiiiiiii'}; //seems to be extraneous leftover variable
 
     $scope.cy = null;
@@ -148,41 +149,179 @@ angular.module('dnftestApp')
 
     var showScoreBreakdown = function(edge) {   
       Restangular.all('api/things/scores').get($stateParams.id).then(function (data) {
-          pData = JSON.parse("[" + data + "]");
+          //pData = JSON.parse("[" + data + "]");
+          pData = [data];
         });
 
-        var w = 600,                        
-          h = 600,                            
-          r = 200;                           
-        //var color = d3.scale.category20c(); 
+      //INTERCORRELATION PLOT
+        var testData = [
+          {
+            "name": "physical structure",
+            "genes": {
+              "GDC0879": {
+                "GDC0879": 1.70349236536953,
+                "PAC1": 0.098378713517361993,
+                "BRDK33514849": 0.080471212162904898
+              },
+              "PAC1": {
+                "GDC0879": 0.098378713517361993,
+                "PAC1": 1.7005794382344899,
+                "BRDK33514849": 0.070495638653992401
+              }
+            }
+          },
+          {
+            "name": "perturbation",
+            "genes": {
+              "GDC0879": {
+                "GDC0879": 1.7111234765543899,
+                "PAC1": 0.058085421744542197,
+                "BRDK33514849": 0.060223861111900902
+              },
+              "PAC1": {
+                "GDC0879": 0.058085421744542197,
+                "PAC1": 1.89719899517321,
+                "BRDK33514849": 0.044262981948498897
+              }
+            }
+          },
+          {
+            "name": "sensitivity",
+            "genes": {
+              "GDC0879": {
+                "GDC0879": 1.5931273063764098,
+                "PAC1": 0.038696891020244303,
+                "BRDK33514849": 0.0895449098458794,
+              },
+              "PAC1": {
+                "GDC0879": 0.038696891020244303,
+                "PAC1": 1.9334633180409,
+                "BRDK33514849": 0.056603802858537798
+              }
+            }
+          }
+        ];
+        var i = 0;
+        var sum = 0;
+        var gene1 = 'GDC0879';
+        var gene2 = 'PAC1';
+        for (i = 0; i < 3; i++) {
+            sum = sum + testData[i].genes[gene1][gene2];
+        };
+  
+  
+        var plots = [testData[0].genes[gene1][gene2] / sum, testData[1].genes[gene1][gene2] / sum, testData[2].genes[gene1][gene2] / sum];
+        
+        var newData = [
+                        [testData[0].name, plots[0]], 
+                        [testData[1].name, plots[1]],
+                        [testData[2].name, plots[2]]
+                      ];
+     
+        var margin = {top: 20, right: 30, bottom: 60, left: 60}
+          , width = 400 - margin.left - margin.right //960
+          , height = 300 - margin.top - margin.bottom; //500
+      
+
+        var x = d3.scale.ordinal()
+          .domain([testData[0].name, testData[1].name, testData[2].name])
+          .rangePoints([0, width]);
+
+        // RECTANGLE FOR TESTING PURPOSES - uncomment code and move rectangle below the code
+        // if rectangle does not show then problem
+        //
+        // var svg = d3.select("#piechart")
+        //   .append("svg")
+        //   .attr("width", 200)
+        //   .attr("height", 200);
+
+        // var rect = svg.append("rect")
+        //   .attr("x", 10)
+        //   .attr("y", 10)
+        //   .attr("width", 50)
+        //    .attr("height", 100);
+        
+       
+        
+        var y = d3.scale.linear()
+                .domain([0, d3.max(newData, function(d) { return d[1]; })])
+                .range([ height, 0 ]);
+     
+        var chart = d3.select('#scatter')
+          .append('svg:svg')
+          .attr('width', width + margin.right + margin.left)
+          .attr('height', height + margin.top + margin.bottom)
+          .attr('class', 'chart')
+
+        var main = chart.append('g')
+          .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+          .attr('width', width)
+          .attr('height', height)
+          .attr('class', 'main')   
+            
+        // draw the x axis
+        var xAxis = d3.svg.axis()
+          .scale(x)
+          .orient('bottom');
+
+        main.append('g')
+          .attr('transform', 'translate(0,' + height + ')')
+          .attr('class', 'main axis date')
+          .call(xAxis);
+
+        // draw the y axis
+        var yAxis = d3.svg.axis()
+          .scale(y)
+          .orient('left');
+
+        main.append('g')
+          .attr('transform', 'translate(0,0)')
+          .attr('class', 'main axis date')
+          .call(yAxis);
+
+        var g = main.append("svg:g"); 
+        
+        g.selectAll("scatter-dots")
+          .data(newData)
+          .enter().append("svg:circle")
+              .attr("cx", function (d,i) { return x(d[0]); } )
+              .attr("cy", function (d) { return y(d[1]); } )
+              .attr("r", 8);
+
+        //PIECHART
+
+        var w = 500,                        
+          h = 300,                            
+          r = 80;                           
+        var color = d3.scale.category20c(); 
           
         var vis = d3.select("#piechart")
         .append("center")
           .append("svg:svg")              
-          .data([pData])     
+          .data([testData])     
               .attr("width", w)           
               .attr("height", h)
               .append("svg:g") // group
                   .attr("transform", "translate(" + r + "," + r + ")")    //move the center of the pie chart from 0, 0 to radius, radius
-  
+
         var arc = d3.svg.arc()              
             .outerRadius(r);
     
         var pie = d3.layout.pie() //arc data given list of values
           
             .value(function(d) { 
-                return d.genes[edge._private.data.source][edge._private.data.target]; 
+                return d.genes[gene1][gene2]; 
             }); //each value element in array
     
         var arcs = vis.selectAll("g.slice")
             .data(pie)                         
             .enter() // create <g> for every object in data
                 .append("svg:g")
-                  .attr("transform", "translate(" + 0 + "," + 100 + ")") // position pie chart
+                  .attr("transform", "translate(" + 180 + "," + 50 + ")") // position pie chart
                     .attr("class", "slice");    //to style each slice
     
             arcs.append("svg:path")
-                    .attr("fill", "purple" ) //color for each slice function(d, i) { return color(i); }
+                    .attr("fill", function(d, i) { return color(i); } ) //color for each slice 
                     .attr("d", arc); //svg arc
             
             //label
@@ -191,8 +330,8 @@ angular.module('dnftestApp')
                     d.innerRadius = 0;
                     d.outerRadius = r;
                     var _d = arc.centroid(d); // position outside of arc
-                    _d[0] *= 2.5; //multiply by a constant factor
-                    _d[1] *= 2.4; 
+                    _d[0] *= 3.0; //multiply by a constant factor
+                    _d[1] *= 2.8; 
                     return "translate(" + _d + ")"; //return coordinates, arc.centroid(d) for inside
                 })
                 .attr("dx", "1em") // no attr for inside
@@ -200,22 +339,22 @@ angular.module('dnftestApp')
                 .attr("text-anchor", "middle")
                 .attr("fill", "black")
                 .text(function(d, i) { 
-                  return pData[i].name;  
+                  return testData[i].name;  
                 });  
             
-            //percentage
-            arcs.append("svg:text")                                     
-                .attr("transform", function(d) {  //center
-                d.innerRadius = 0;
-                d.outerRadius = r;
-                return "translate(" + arc.centroid(d) + ")"; //return coordinates
-              })
-              //.attr("dy", "1em") for inside
-            .attr("text-anchor", "middle")
-            .attr("fill", "white")
-            .text(function(d, i) { 
-              return pData[i].genes[edge._private.data.source][edge._private.data.target] + "%"; 
-            });
+            // //percentage
+            // arcs.append("svg:text")                                     
+            //     .attr("transform", function(d) {  //center
+            //     d.innerRadius = 0;
+            //     d.outerRadius = r;
+            //     return "translate(" + arc.centroid(d) + ")"; //return coordinates
+            //   })
+            //   //.attr("dy", "1em") for inside
+            // .attr("text-anchor", "middle")
+            // .attr("fill", "white")
+            // .text(function(d, i) { 
+            //   return testData[i].genes[gene1][gene2] + "%"; 
+            // });
         //end pie
           
         $scope.showChart = true;
