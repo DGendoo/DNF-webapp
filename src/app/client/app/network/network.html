@@ -58,6 +58,7 @@
 
 </div>
 
+
   <div ng-show="showChart" id="chart">
     <!--please add drug names here-->
     <span class="title text-center" ng-show="selectedEdge">Score: {{ selectedEdge.score }} </span>
@@ -65,8 +66,11 @@
     <span class="title text-center">Breakdown:</span>
     <br>
     <br>
+
+
     <!--display chart below, can you also include a legend please-->
     <canvas id="pie" width="400" height="400"></canvas>
+    <canvas id="scatter" width="400" height="400"></canvas>
 
 
   </div>

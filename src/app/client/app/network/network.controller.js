@@ -199,7 +199,7 @@ angular.module('dnftestApp')
       var myChart = new Chart(ctx, {
         type: 'doughnut',
         data: {
-          labels: ["Perturbation", "Sensitibity", "Structure"],
+          labels: ["Perturbation", "Sensitivity", "Structure"],
           datasets: [{
             data: [edge._private.data['perturbation'], edge._private.data['physical structure'], edge._private.data['sensitivity']],
             backgroundColor: [
@@ -216,6 +216,47 @@ angular.module('dnftestApp')
           }]
         }
       });
+
+      //scatter
+      $('#scatter').remove(); // this is my <canvas> element
+      $('#chart').append('<canvas id="scatter" width="400" height="400" style="padding-top:30px;"><canvas>');
+      var stx = document.getElementById("scatter");
+      var scatterChart = new Chart(stx, {
+        type: 'line',
+        data: {
+            labels: ["Structure", "Pertubation", "Sensitivity"],
+            datasets: [{
+                        label: "Percentage",
+                        fill: false,
+                        backgroundColor: "rgba(75,192,192,0.4)",
+                        borderColor: "rgba(75,192,192,1)",
+                        borderCapStyle: 'butt',
+                        borderDash: [],
+                        borderDashOffset: 0.0,
+                        borderJoinStyle: 'miter',
+                        pointBorderColor: "rgba(112, 112, 112, 1)",
+                        pointBackgroundColor: "rgba(112, 112, 112, 0.5)",
+                        pointBorderWidth: 1,
+                        pointHoverRadius: 5,
+                        pointHoverBackgroundColor: "rgba(112, 112, 112, 1)",
+                        pointHoverBorderColor: "rgba(112, 112, 112, 1)",
+                        pointHoverBorderWidth: 2,
+                        pointRadius: 5,
+                        pointHitRadius: 10,
+                        data: [edge._private.data['sensitivity'], edge._private.data['perturbation'], edge._private.data['physical structure']],
+                        showLine: false,
+                        spanGaps: false,
+                    }
+                ]
+            },
+            options: {
+               legend: {
+                  display: false
+               },
+            }
+      });
+      //scatter end
+      
 
       $scope.$apply();
     };
