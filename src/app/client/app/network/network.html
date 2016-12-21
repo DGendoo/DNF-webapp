@@ -1,53 +1,32 @@
 <div class="toolbar">
   <div class="ui top attached menu">
-    <div class="ui dropdown icon item">
-      <i class="wrench icon"></i>
-      <div class="menu">
-        <div class="item b" ng-click="download()">
-          Export as PNG
-        </div>
-        <div class="item" ng-click="displayExemplar()">
-          Switch to exemplar view
-        </div>
-        <div class="item" ng-click="display()">
-          Switch to full network view
-        </div>
-        <div class="item" ng-click="back()">
-          Go back
-        </div>
-        <!--<div class="item"  ng-click="display()">-->
-          <!--Show full network-->
-        <!--</div>-->
-      </div>
-    </div>
+    <a ng-click="displayExemplar()" class="item">
+      Exemplar
+    </a>
+    <a ng-click="display()" class="item">
+      Full network
+    </a>
+    <a ng-click="download()" class="item">
+      <i class="download icon"></i>
+    </a>
 
-    <div id="network-title">{{networkToShow}}</div>
+
+    <div id="network-title">{{networkToShow}} : {{ state }}</div>
 
     <div class="right menu">
       <div class="ui right aligned category search item">
         <div class="ui transparent icon input">
-          <!--<input class="prompt" type="text" placeholder="Search animals...">-->
-          <!--<i class="search link icon"></i>-->
-          <!--<div class="ui search">-->
           <div class="ui icon input">
-          <input class="prompt" type="text" placeholder="Search for a drug...">
-          <i class="search icon"></i>
+            <input class="prompt" type="text" placeholder="Search for a drug...">
+            <i class="search icon"></i>
           </div>
-        <!--</div>-->
+        </div>
       </div>
     </div>
   </div>
-
-
-  <!--<div class="ui bottom attached segment">-->
-    <!--<p></p>-->
-  <!--</div>-->
 </div>
 
 <div id="cy"></div>
-
-
-
 
 
 <div ng-show="showInfo" id="info">
@@ -58,16 +37,13 @@
 
 </div>
 
-  <div ng-show="showChart" id="chart">
-    <!--please add drug names here-->
-    <span class="title text-center" ng-show="selectedEdge">Score: {{ selectedEdge.score }} </span>
-    <br>
-    <span class="title text-center">Breakdown:</span>
-    <br>
-    <br>
-    <!--display chart below, can you also include a legend please-->
-    <canvas id="pie" width="400" height="400"></canvas>
+<div ng-show="showChart" id="chart">
+  <span class="title text-center">{{ selectedEdge.source }} & {{ selectedEdge.target }}</span>
+  <br>
+  <br>
+  <!--display chart below, can you also include a legend please-->
+  <canvas id="pie" width="400" height="400"></canvas>
 
 
-  </div>
+</div>
 

@@ -13,6 +13,7 @@ angular.module('dnftestApp')
     $scope.selectedNode = false;
     $scope.selectedEdge = false;
     $scope.showChart = false;
+    $scope.state = 'Exemplar';
 
     $scope.networkData = null;
     //the max/min weight of normal graph edges
@@ -68,7 +69,7 @@ angular.module('dnftestApp')
         }
         $scope.maxWeight = maxWeight;
         $scope.minWeight = minWeight;
-        $scope.display();
+        // $scope.display();
       });
     };
 
@@ -106,11 +107,13 @@ angular.module('dnftestApp')
         $scope.exemplarMaxWeight = maxWeight;
         $scope.exemplarMinWeight = minWeight;
         console.log('here');
+        $scope.displayExemplar();
       });
     };
 
 
     $scope.displayExemplar = function () {
+      $scope.state = 'Exemplar';
       $scope.showInfo = false;
       $scope.showChart = false;
 
@@ -138,14 +141,14 @@ angular.module('dnftestApp')
             style: {
               'content': 'data(id)',
               'background-fit': 'cover',
-              'background-color': 'data(colo)',
-              'shape' : 'octagon'
+              'background-color': 'data(colo)'
             }
           },
           {
             selector: 'edge',
             style:{
-              'line-color': 'mapData(weight,' + $scope.exemplarMinWeight.toString() +' ,' + $scope.exemplarMaxWeight.toString() +', blue, red)'
+              'line-color': 'mapData(weight,' + $scope.exemplarMinWeight.toString() +' ,' + $scope.exemplarMaxWeight.toString() +', white, black)',
+              'width': 3
             }
           }
         ]
@@ -189,7 +192,8 @@ angular.module('dnftestApp')
 
     var showScoreBreakdown = function(edge) {
         $scope.showChart = true;
-        $scope.selectedEdge = {score: edge._private.data.weight.toFixed(2)};
+
+        $scope.selectedEdge = {score: edge._private.data.weight.toFixed(2), source: edge._private.data.source, target: edge._private.data.target};
 
 
       $('#pie').remove(); // this is my <canvas> element
@@ -225,11 +229,11 @@ angular.module('dnftestApp')
       console.log("showingToolbar");
       hideToolbar();
       $scope.cy.toolbar({position: 'right'});
-    }
+    };
 
     var hideToolbar = function (){
       $("div.ui-cytoscape-toolbar").remove();
-    }
+    };
 
     var showPubChem = function (node) {
       $scope.showInfo = true;
@@ -238,10 +242,24 @@ angular.module('dnftestApp')
         $scope.selectedNode.url = "Not found.";
       }
 
+
+      var c = $scope.selectedNode.url.lastIndexOf("/");
+      var id = $scope.selectedNode.url.substring(c + 1, $scope.selectedNode.url.length - 1);
+      var data = null;
+      Restangular.one('https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/' + id + '/JSON/')
+        .get().then(function (serverJson) {
+        console.log(serverJson);
+
+
+      });
+
+
       $scope.$apply();
     };
 
     var displayCluster = function (nodeName) {
+      $scope.state = 'Cluster';
+      $scope.$apply();
       $scope.showInfo = false;
       $scope.showChart = false;
 
@@ -272,8 +290,7 @@ angular.module('dnftestApp')
               style: {
                 'content': 'data(id)',
                 'background-fit': 'cover',
-                'background-color': 'data(colo)',
-                'shape' : 'octagon'
+                'background-color': 'data(colo)'
               }
             },
             {
@@ -305,6 +322,7 @@ angular.module('dnftestApp')
     };
 
     $scope.display = function () {
+      $scope.state = 'Full Network';
       $scope.showInfo = false;
       $scope.showChart = false;
 
@@ -331,8 +349,7 @@ angular.module('dnftestApp')
             style: {
               'content': 'data(id)',
               'background-fit': 'cover',
-              'background-color': 'data(colo)',
-              'shape' : 'octagon'
+              'background-color': 'data(colo)'
             }
           },
           {
