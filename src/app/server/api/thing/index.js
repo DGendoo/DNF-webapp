@@ -10,5 +10,6 @@ router.get('/drug_list/:id', controller.drugList);
 router.get('/drug_network/:id', controller.drugNetwork);
 router.get('/drug_clusters/:id', controller.drugClusters);
 router.get('/exemplar/:id', controller.exemplar);
+router.get('/pubchem/:id', controller.pubchem);
 
 module.exports = router;

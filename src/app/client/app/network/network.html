@@ -32,6 +32,10 @@
 <div ng-show="showInfo" id="info">
   <span class="title text-center">{{ selectedNode.id }}</span>
   <br>
+  <span ng-show="selectedNode.found">Chemical names: </span>
+  <span ng-show="selectedNode.found">Molecular formula: </span>
+  <span ng-show="selectedNode.found">Molecular weight: </span>
+  <br>
   <span ng-show="selectedNode.url != 'Not found.'">PubChem: <a target="_blank" ng-href="{{ selectedNode.url }}"> {{ selectedNode.url }} </a> </span>
   <span ng-show="selectedNode.url == 'Not found.'">PubChem:  {{ selectedNode.url }} </span>
 
@@ -41,7 +45,6 @@
   <span class="title text-center">{{ selectedEdge.source }} & {{ selectedEdge.target }}</span>
   <br>
   <br>
-  <!--display chart below, can you also include a legend please-->
   <canvas id="pie" width="400" height="400"></canvas>
 
 

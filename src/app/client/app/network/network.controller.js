@@ -220,7 +220,7 @@ angular.module('dnftestApp')
           }]
         }
       });
-      
+
       $scope.$apply();
     };
 
@@ -237,21 +237,29 @@ angular.module('dnftestApp')
 
     var showPubChem = function (node) {
       $scope.showInfo = true;
-      $scope.selectedNode = {url: node._private.data.url || "Not found.", id: node._private.data.id};
-      if ($scope.selectedNode.url == "null") {
+
+      $scope.selectedNode = {};
+      $scop.selectedNode.id = node._private.data.id;
+
+      if (!node._private.data.url) {
+        $scope.selectedNode.found = false;
         $scope.selectedNode.url = "Not found.";
-      }
 
+      } else {
+        $scope.selectedNode.found = true;
+        $scope.selectedNode.url =  node._private.data.url;
 
-      var c = $scope.selectedNode.url.lastIndexOf("/");
-      var id = $scope.selectedNode.url.substring(c + 1, $scope.selectedNode.url.length - 1);
-      var data = null;
-      Restangular.one('https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/' + id + '/JSON/')
-        .get().then(function (serverJson) {
-        console.log(serverJson);
+        var c = $scope.selectedNode.url.lastIndexOf("/");
+        var id = $scope.selectedNode.url.substring(c + 1, $scope.selectedNode.url.length - 1);
+        var data = null;
+        Restangular.all('api/things/pubchem/')
+          .get(id).then(function (serverJson) {
+          $scope.selectedNode.form = null;
+          $scope.selectedNode.names = null;
+          $scope.selectedNode.weight = null;
+        });
+      };
 
-
-      });
 
 
       $scope.$apply();
