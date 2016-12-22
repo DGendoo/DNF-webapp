@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('dnftestApp')
-  .controller('NetworkCtrl', function ($scope, $state, $http, $stateParams, Restangular) {
+  .controller('NetworkCtrl', function ($scope, $state, $sce, $http, $stateParams, Restangular) {
     $scope.selected = null;
     $scope.showOptions = false;
     $scope.dest = null;
@@ -199,7 +199,7 @@ angular.module('dnftestApp')
 
 
       $('#pie').remove(); // this is my <canvas> element
-      $('#chart').append('<canvas id="pie"><canvas>');
+      $('#chart').append('<canvas id="pie"</canvas>');
 
       var ctx = document.getElementById("pie");
       var myChart = new Chart(ctx, {
@@ -267,7 +267,8 @@ angular.module('dnftestApp')
           .get(id).then(function (serverJson) {
           var sec = serverJson['Record']['Section'];
           $scope.selectedNode.found = true;
-          $scope.selectedNode.form = findSection(sec, 'Names and Identifiers')['Section'][2]['Information'][0]['StringValue'];
+          var unsubscripted = findSection(sec, 'Names and Identifiers')['Section'][2]['Information'][0]['StringValue'];
+          $scope.selectedNode.form = $sce.trustAsHtml(unsubscripted.replace(/(\d+)/g, "$1".sub()));
           $scope.selectedNode.names = findSection(sec, 'Names and Identifiers')['Section'][3]['Section'][0]['Information'][0]['StringValueList'];
           $scope.selectedNode.weight = findSection(sec, 'Chemical and Physical Properties')['Section'][0]['Section'][0]['Information'][0]['NumValue'];
 

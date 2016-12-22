@@ -34,7 +34,8 @@
   <br>
   <div ng-if="selectedNode.found">
     <span>Chemical names: <span ng-repeat="name in selectedNode.names">{{name}};</span></span><br>
-    <span>Molecular formula: <span class="entry">{{selectedNode.form}}</span></span><br>
+    <span>Molecular formula: <span class="entry" ng-bind-html="selectedNode.form"></span></span><br> 
+    <!-- <span>Molecular formula: <span class="entry">{{selectedNode.form}}</span></span><br> -->
     <span>Molecular weight: <span class="entry">{{selectedNode.weight}}</span></span><br>
   </div>
   <span ng-show="selectedNode.url != 'Not found.'">PubChem: <a target="_blank" ng-href="{{ selectedNode.url }}"> {{ selectedNode.url }} </a> </span>
