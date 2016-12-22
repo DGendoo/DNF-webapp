@@ -32,13 +32,13 @@
 <div ng-show="showInfo" id="info">
   <span class="title text-center">{{ selectedNode.id }}</span>
   <br>
-  <span ng-show="selectedNode.found">Chemical names: </span>
-  <span ng-show="selectedNode.found">Molecular formula: </span>
-  <span ng-show="selectedNode.found">Molecular weight: </span>
-  <br>
+  <div ng-if="selectedNode.found">
+    <span>Chemical names: <span ng-repeat="name in selectedNode.names">{{name}};</span></span><br>
+    <span>Molecular formula: <span class="entry">{{selectedNode.form}}</span></span><br>
+    <span>Molecular weight: <span class="entry">{{selectedNode.weight}}</span></span><br>
+  </div>
   <span ng-show="selectedNode.url != 'Not found.'">PubChem: <a target="_blank" ng-href="{{ selectedNode.url }}"> {{ selectedNode.url }} </a> </span>
   <span ng-show="selectedNode.url == 'Not found.'">PubChem:  {{ selectedNode.url }} </span>
-
 </div>
 
 <div ng-show="showChart" id="chart">

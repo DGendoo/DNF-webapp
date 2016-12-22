@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('dnftestApp')
-  .controller('NetworkCtrl', function ($scope, $state,$http, $stateParams, Restangular) {
+  .controller('NetworkCtrl', function ($scope, $state, $http, $stateParams, Restangular) {
     $scope.selected = null;
     $scope.showOptions = false;
     $scope.dest = null;
@@ -46,7 +46,7 @@ angular.module('dnftestApp')
       downloadLink[0].click();
     };
 
-    $scope.back = function(){
+    $scope.back = function () {
       hideToolbar();
       // window.history.back();
       $state.go("main");
@@ -58,12 +58,12 @@ angular.module('dnftestApp')
         $scope.networkData = JSON.parse(data).element;
         var maxWeight = 0;
         var minWeight = 9999999;
-        for (var i =0; i<$scope.networkData.edges.length;i++){
+        for (var i = 0; i < $scope.networkData.edges.length; i++) {
           var edge = $scope.networkData.edges[i]
-          if (edge.data.weight > maxWeight){
+          if (edge.data.weight > maxWeight) {
             maxWeight = edge.data.weight;
           }
-          if (edge.data.weight < minWeight){
+          if (edge.data.weight < minWeight) {
             minWeight = edge.data.weight;
           }
         }
@@ -74,33 +74,33 @@ angular.module('dnftestApp')
     };
 
     var populateDrugList = function () {
-        Restangular.all('api/things/drug_list/').get($stateParams.id).then(function (data) {
-          $scope.nodes = JSON.parse(data).data;
-          $('.ui.search')
-            .search({
-              source: $scope.nodes,
-              searchFields: [
-                'title'
-              ],
-              searchFullText: false,
-              onSelect: function (result, response) {
-                $scope.search(result.title);
-              }
-            });
-        });
-      };
+      Restangular.all('api/things/drug_list/').get($stateParams.id).then(function (data) {
+        $scope.nodes = JSON.parse(data).data;
+        $('.ui.search')
+          .search({
+            source: $scope.nodes,
+            searchFields: [
+              'title'
+            ],
+            searchFullText: false,
+            onSelect: function (result, response) {
+              $scope.search(result.title);
+            }
+          });
+      });
+    };
 
     var getExemplar = function () {
       Restangular.all('api/things/exemplar/').get($stateParams.id).then(function (data) {
         $scope.exemplarData = JSON.parse(data).elements;
         var maxWeight = 0;
         var minWeight = 9999999;
-        for (var i =0; i<$scope.exemplarData.edges.length;i++){
+        for (var i = 0; i < $scope.exemplarData.edges.length; i++) {
           var edge = $scope.exemplarData.edges[i]
-          if (edge.data.weight > maxWeight){
+          if (edge.data.weight > maxWeight) {
             maxWeight = edge.data.weight;
           }
-          if (edge.data.weight < minWeight){
+          if (edge.data.weight < minWeight) {
             minWeight = edge.data.weight;
           }
         }
@@ -123,7 +123,7 @@ angular.module('dnftestApp')
         autolock: false, //worth looking into later
         autoungrabify: false,
         layout: {
-           name: 'cose',
+          name: 'cose',
           idealEdgeLength: function (edge) {
             // for (var i = 0; i < $scope.networkData.edges.length; i++) {
             //   var curEdge = $scope.networkData.edges[i].data;
@@ -131,7 +131,7 @@ angular.module('dnftestApp')
             //     return curEdge.weight;
             //   };
             // };
-            return 1/edge._private.data.weight;
+            return 1 / edge._private.data.weight;
           }
         },
         zoom: 0.3,
@@ -146,8 +146,8 @@ angular.module('dnftestApp')
           },
           {
             selector: 'edge',
-            style:{
-              'line-color': 'mapData(weight,' + $scope.exemplarMinWeight.toString() +' ,' + $scope.exemplarMaxWeight.toString() +', white, black)',
+            style: {
+              'line-color': 'mapData(weight,' + $scope.exemplarMinWeight.toString() + ' ,' + $scope.exemplarMaxWeight.toString() + ', white, black)',
               'width': 3
             }
           }
@@ -188,12 +188,14 @@ angular.module('dnftestApp')
     };
 
 
+    var showScoreBreakdown = function (edge) {
+      $scope.showChart = true;
 
-
-    var showScoreBreakdown = function(edge) {
-        $scope.showChart = true;
-
-        $scope.selectedEdge = {score: edge._private.data.weight.toFixed(2), source: edge._private.data.source, target: edge._private.data.target};
+      $scope.selectedEdge = {
+        score: edge._private.data.weight.toFixed(2),
+        source: edge._private.data.source,
+        target: edge._private.data.target
+      };
 
 
       $('#pie').remove(); // this is my <canvas> element
@@ -207,14 +209,14 @@ angular.module('dnftestApp')
           datasets: [{
             data: [edge._private.data['perturbation'], edge._private.data['physical structure'], edge._private.data['sensitivity']],
             backgroundColor: [
-              'rgba(219, 219, 219, 0.5)',
-              'rgba(183, 183, 183, 0.5)',
-              'rgba(112, 112, 112, 0.5)'
+              'rgba(255, 99, 132, 0.2)',
+              'rgba(54, 162, 235, 0.2)',
+              'rgba(255, 206, 86, 0.2)',
             ],
             borderColor: [
-              'rgba(219, 219, 219, 1)',
-              'rgba(183, 183, 183, 1)',
-              'rgba(112, 112, 112, 1)'
+              'rgba(255,99,132,1)',
+              'rgba(54, 162, 235, 1)',
+              'rgba(255, 206, 86, 1)',
             ],
             borderWidth: 1
           }]
@@ -224,44 +226,53 @@ angular.module('dnftestApp')
       $scope.$apply();
     };
 
-    var showToolbar = function (){
+    var showToolbar = function () {
       //This enable the toolbar;
       console.log("showingToolbar");
       hideToolbar();
       $scope.cy.toolbar({position: 'right'});
     };
 
-    var hideToolbar = function (){
+    var hideToolbar = function () {
       $("div.ui-cytoscape-toolbar").remove();
     };
+
+    function findSection(json, sec) {
+      for (var i = 0; i < json.length; i++) {
+        if (json[i]['TOCHeading'].startsWith(sec)) {
+          return json[i];
+        }
+      }
+
+    }
 
     var showPubChem = function (node) {
       $scope.showInfo = true;
 
       $scope.selectedNode = {};
-      $scop.selectedNode.id = node._private.data.id;
+      $scope.selectedNode.id = node._private.data.id;
 
-      if (!node._private.data.url) {
+      if (node._private.data.url === 'null') {
         $scope.selectedNode.found = false;
         $scope.selectedNode.url = "Not found.";
 
       } else {
-        $scope.selectedNode.found = true;
-        $scope.selectedNode.url =  node._private.data.url;
+        $scope.selectedNode.found = false;
+        $scope.selectedNode.url = node._private.data.url;
 
         var c = $scope.selectedNode.url.lastIndexOf("/");
         var id = $scope.selectedNode.url.substring(c + 1, $scope.selectedNode.url.length - 1);
         var data = null;
         Restangular.all('api/things/pubchem/')
           .get(id).then(function (serverJson) {
-          $scope.selectedNode.form = null;
-          $scope.selectedNode.names = null;
-          $scope.selectedNode.weight = null;
+          var sec = serverJson['Record']['Section'];
+          $scope.selectedNode.found = true;
+          $scope.selectedNode.form = findSection(sec, 'Names and Identifiers')['Section'][2]['Information'][0]['StringValue'];
+          $scope.selectedNode.names = findSection(sec, 'Names and Identifiers')['Section'][3]['Section'][0]['Information'][0]['StringValueList'];
+          $scope.selectedNode.weight = findSection(sec, 'Chemical and Physical Properties')['Section'][0]['Section'][0]['Information'][0]['NumValue'];
+
         });
-      };
-
-
-
+      }
       $scope.$apply();
     };
 
@@ -273,43 +284,45 @@ angular.module('dnftestApp')
 
       var clusterNum = getClusterNum(nodeName);
 
-        //Makes a new instance of cy based on the group of nodes given
-        $scope.cy = cytoscape({
-          container: document.getElementById('cy'),
-          elements: $scope.clusters[clusterNum],
-          //autolock: true,
-          layout: {
-            name: 'cose',
-            idealEdgeLength: function (edge) {
-              for (var i = 0; i < $scope.networkData.edges.length; i++) {
-                var curEdge = $scope.networkData.edges[i].data;
-                if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
-                  return 1/curEdge.weight;
-                };
-              };
+      //Makes a new instance of cy based on the group of nodes given
+      $scope.cy = cytoscape({
+        container: document.getElementById('cy'),
+        elements: $scope.clusters[clusterNum],
+        //autolock: true,
+        layout: {
+          name: 'cose',
+          idealEdgeLength: function (edge) {
+            for (var i = 0; i < $scope.networkData.edges.length; i++) {
+              var curEdge = $scope.networkData.edges[i].data;
+              if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
+                return 1 / curEdge.weight;
+              }
+              ;
+            }
+            ;
+          }
+        },
+        zoom: 1,
+        maxZoom: 5,
+        minZoom: 0.3,
+        style: [
+          {
+            selector: 'node',
+            style: {
+              'content': 'data(id)',
+              'background-fit': 'cover',
+              'background-color': 'data(colo)'
             }
           },
-          zoom: 1,
-          maxZoom: 5,
-          minZoom: 0.3,
-          style: [
-            {
-              selector: 'node',
-              style: {
-                'content': 'data(id)',
-                'background-fit': 'cover',
-                'background-color': 'data(colo)'
-              }
-            },
-            {
-              selector: 'edge',
-              style:{
-                'line-color': 'mapData(weight,' + $scope.minWeight.toString() +' ,' + $scope.maxWeight.toString() +', white, black)',
-                'width': 3.0
-              }
+          {
+            selector: 'edge',
+            style: {
+              'line-color': 'mapData(weight,' + $scope.minWeight.toString() + ' ,' + $scope.maxWeight.toString() + ', white, black)',
+              'width': 3.0
             }
-          ]
-        });
+          }
+        ]
+      });
 
       $scope.cy.on('tap', 'node', function (evt) {
         $scope.showChart = false;
@@ -334,7 +347,7 @@ angular.module('dnftestApp')
       $scope.showInfo = false;
       $scope.showChart = false;
 
-       $scope.cy = cytoscape({
+      $scope.cy = cytoscape({
         container: document.getElementById('cy'),
         elements: $scope.networkData,
         autolock: false, //worth looking into later
@@ -345,9 +358,11 @@ angular.module('dnftestApp')
             for (var i = 0; i < $scope.networkData.edges.length; i++) {
               var curEdge = $scope.networkData.edges[i].data;
               if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
-                return 1/curEdge.weight;
-              };
-            };
+                return 1 / curEdge.weight;
+              }
+              ;
+            }
+            ;
           }
         },
         zoom: 0.3,
@@ -361,17 +376,17 @@ angular.module('dnftestApp')
             }
           },
           {
-          	selector: 'edge',
-          	style:{
-          		'line-color': 'mapData(weight,' + $scope.minWeight.toString() +' ,' + $scope.maxWeight.toString() +', white, black)',
+            selector: 'edge',
+            style: {
+              'line-color': 'mapData(weight,' + $scope.minWeight.toString() + ' ,' + $scope.maxWeight.toString() + ', white, black)',
               'width': 3.0
-          	}
+            }
           }
         ]
       });
 
-     $scope.cy.maxZoom(5);
-     $scope.cy.minZoom(0.3);
+      $scope.cy.maxZoom(5);
+      $scope.cy.minZoom(0.3);
       $scope.cy.on('tap', 'node', function (evt) {
 
         displayCluster(evt.cyTarget.id());
