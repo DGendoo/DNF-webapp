@@ -123,16 +123,7 @@ angular.module('dnftestApp')
         autolock: false, //worth looking into later
         autoungrabify: false,
         layout: {
-          name: 'cose',
-          idealEdgeLength: function (edge) {
-            // for (var i = 0; i < $scope.networkData.edges.length; i++) {
-            //   var curEdge = $scope.networkData.edges[i].data;
-            //   if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
-            //     return curEdge.weight;
-            //   };
-            // };
-            return 1 / edge._private.data.weight;
-          }
+          name: 'preset'
         },
         zoom: 0.3,
         style: [
