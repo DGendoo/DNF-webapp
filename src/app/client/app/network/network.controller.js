@@ -183,7 +183,6 @@ angular.module('dnftestApp')
       $scope.showChart = true;
 
       $scope.selectedEdge = {
-        score: edge._private.data.weight.toFixed(2),
         source: edge._private.data.source,
         target: edge._private.data.target
       };
@@ -202,12 +201,12 @@ angular.module('dnftestApp')
             backgroundColor: [
               'rgba(255, 99, 132, 0.2)',
               'rgba(54, 162, 235, 0.2)',
-              'rgba(255, 206, 86, 0.2)',
+              'rgba(255, 206, 86, 0.2)'
             ],
             borderColor: [
               'rgba(255,99,132,1)',
               'rgba(54, 162, 235, 1)',
-              'rgba(255, 206, 86, 1)',
+              'rgba(255, 206, 86, 1)'
             ],
             borderWidth: 1
           }]
@@ -289,9 +288,7 @@ angular.module('dnftestApp')
               if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
                 return 1 / curEdge.weight;
               }
-              ;
             }
-            ;
           }
         },
         zoom: 1,

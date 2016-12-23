@@ -1,737 +1,896 @@
 {
     "data": {
-        "SUID": 2926,
-        "name": "examplar_ctrp.json - Kruskal's Spanning Tree",
-        "selected": false,
-        "shared_name": "examplar_ctrp.json(1)"
+        "SUID": 62,
+        "__Annotations": [
+            ""
+        ],
+        "name": "Exemplars_minweight_MST",
+        "selected": true,
+        "shared_name": "DNF_CTRP.txt(2)"
     },
     "elements": {
         "edges": [
             {
                 "data": {
-                    "SUID": 1456,
-                    "id": "e28038",
-                    "perturbation": 0.0400822699057862,
-                    "physical structure": 0.18457171309907197,
-                    "selected": false,
-                    "sensitivity": 0.0595954715655228,
-                    "source": "TACEDINALINE",
-                    "target": "TW37",
-                    "weight": 203.63199930036427
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1447,
-                    "id": "e27848",
-                    "perturbation": 0.0547024391654637,
-                    "physical structure": 0.14701526189149,
-                    "selected": false,
-                    "sensitivity": 0.24574934527458803,
-                    "source": "SORAFENIB",
-                    "target": "TW37",
-                    "weight": 181.42909293622782
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1444,
-                    "id": "e27842",
-                    "perturbation": 0.30129959667605893,
-                    "physical structure": 0.11464033525272399,
-                    "selected": false,
-                    "sensitivity": 0.0269983826899541,
-                    "source": "SORAFENIB",
-                    "target": "TPCA1",
-                    "weight": 192.0270077936724
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1443,
-                    "id": "e27839",
-                    "perturbation": 0.15791613227662601,
-                    "physical structure": 0.199989695614213,
-                    "selected": false,
-                    "sensitivity": 0.18644686022838297,
-                    "source": "SORAFENIB",
-                    "target": "TIVOZANIB",
-                    "weight": 177.0303349134092
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1383,
-                    "id": "e27119",
-                    "perturbation": 0.13022965537571402,
-                    "physical structure": 0.127535407033703,
-                    "selected": false,
-                    "sensitivity": 0.0443687414755352,
-                    "source": "SARACATINIB",
-                    "target": "TIVOZANIB",
-                    "weight": 202.24582381262485
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1380,
-                    "id": "e27113",
-                    "perturbation": 0.168782429022091,
-                    "physical structure": 0.18868649399748802,
-                    "selected": false,
-                    "sensitivity": 0.14530310131208898,
-                    "source": "SARACATINIB",
-                    "target": "TG101348",
-                    "weight": 182.3872169185292
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1364,
-                    "id": "e26304",
-                    "perturbation": 0.559009185430956,
-                    "physical structure": 0.136294344226742,
-                    "selected": false,
-                    "sensitivity": 0.0323388702553787,
-                    "source": "PRIMA1MET",
-                    "target": "TEMSIROLIMUS",
-                    "weight": 195.52382817447963
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1329,
-                    "id": "e24811",
-                    "perturbation": 0.212114616871307,
-                    "physical structure": 0.0368866668445238,
-                    "selected": false,
-                    "sensitivity": 0.15851710277594597,
-                    "source": "OLIGOMYCINA",
-                    "target": "SORAFENIB",
-                    "weight": 188.13977898507494
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1306,
-                    "id": "e24064",
-                    "perturbation": 0.295356796500591,
-                    "physical structure": 0.0699398348356311,
-                    "selected": false,
-                    "sensitivity": 0.0575664844985264,
-                    "source": "NINTEDANIB",
-                    "target": "SARACATINIB",
-                    "weight": 199.76537684313087
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1266,
-                    "id": "e23358",
-                    "perturbation": 0.24425279740363798,
-                    "physical structure": 0.135083711671562,
-                    "selected": false,
-                    "sensitivity": 0.0728692589393948,
-                    "source": "MYRIOCIN",
-                    "target": "PRIMA1MET",
-                    "weight": 188.52807968708225
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1259,
-                    "id": "e22222",
-                    "perturbation": 0.143677228074584,
-                    "physical structure": 0.118708246460572,
-                    "selected": false,
-                    "sensitivity": 0.0270933697881854,
-                    "source": "MANUMYCINA",
-                    "target": "TRAMETINIB",
-                    "weight": 206.62812673904762
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1250,
-                    "id": "e22197",
-                    "perturbation": 0.0456612457262415,
-                    "physical structure": 0.16705673931717901,
-                    "selected": false,
-                    "sensitivity": 0.10127437364152199,
-                    "source": "MANUMYCINA",
-                    "target": "SN38",
-                    "weight": 214.72410697298588
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1221,
-                    "id": "e21922",
-                    "perturbation": 0.0255543779535802,
-                    "physical structure": 0.49169112876396903,
-                    "selected": false,
-                    "sensitivity": 0.0721116982256328,
-                    "source": "LOVASTATIN",
-                    "target": "OLIGOMYCINA",
-                    "weight": 192.56532697980248
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1218,
-                    "id": "e21907",
-                    "perturbation": 0.0259103486035137,
-                    "physical structure": 0.23926270439231304,
-                    "selected": false,
-                    "sensitivity": 0.11471442613408302,
-                    "source": "LOVASTATIN",
-                    "target": "MYRIOCIN",
-                    "weight": 193.03378800781755
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1184,
-                    "id": "e21147",
-                    "perturbation": 0.137146612945508,
-                    "physical structure": 0.0425043155881452,
-                    "selected": false,
-                    "sensitivity": 0.43250290510476797,
-                    "source": "KU0063794",
-                    "target": "TEMSIROLIMUS",
-                    "weight": 162.50426127036448
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1132,
-                    "id": "e20516",
-                    "perturbation": 0.0192769075656145,
-                    "physical structure": 0.10384942643369198,
-                    "selected": false,
-                    "sensitivity": 0.17994772310355397,
-                    "source": "ISOX",
-                    "target": "TACEDINALINE",
-                    "weight": 194.95639526457035
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1069,
-                    "id": "e20223",
-                    "perturbation": 0.273195887505038,
-                    "physical structure": 0.22010199187888102,
-                    "selected": false,
-                    "sensitivity": 0.0449285893522518,
-                    "source": "ISOLIQUIRITIGENIN",
-                    "target": "PIPERLONGUMINE",
-                    "weight": 166.86970851965913
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1053,
-                    "id": "e20013",
-                    "perturbation": 0.0501192040528508,
-                    "physical structure": 0.0812714096138367,
-                    "selected": false,
-                    "sensitivity": 0.170969055201241,
-                    "source": "IMATINIB",
-                    "target": "TIVOZANIB",
-                    "weight": 206.88786368408444
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 1043,
-                    "id": "e19980",
-                    "perturbation": 0.0227575677056806,
-                    "physical structure": 0.161322464178795,
-                    "selected": false,
-                    "sensitivity": 0.08941976784445,
-                    "source": "IMATINIB",
-                    "target": "SB431542",
-                    "weight": 209.78538228311015
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 982,
-                    "id": "e18473",
-                    "perturbation": 0.262426616150384,
-                    "physical structure": 0.0931697419261969,
-                    "selected": false,
-                    "sensitivity": 0.0877375580436638,
-                    "source": "GMX1778",
-                    "target": "SB431542",
-                    "weight": 202.2470978294546
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 959,
-                    "id": "e15455",
-                    "perturbation": 0.07680712269880499,
-                    "physical structure": 0.0729638377873059,
-                    "selected": false,
-                    "sensitivity": 0.788226511563707,
-                    "source": "DOCETAXEL",
-                    "target": "TIVANTINIB",
-                    "weight": 188.0438039339701
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 942,
-                    "id": "e15363",
-                    "perturbation": 0.101660291188378,
-                    "physical structure": 0.12248447322263198,
-                    "selected": false,
-                    "sensitivity": 0.0367071640809874,
-                    "source": "DOCETAXEL",
-                    "target": "MANUMYCINA",
-                    "weight": 206.35633974378342
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 933,
-                    "id": "e15340",
-                    "perturbation": 0.0344911310793833,
-                    "physical structure": 0.0789529444404454,
-                    "selected": false,
-                    "sensitivity": 0.349393102302003,
-                    "source": "DOCETAXEL",
-                    "target": "GW843682X",
-                    "weight": 205.99386240274205
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 925,
-                    "id": "e15125",
-                    "perturbation": 0.147181846979164,
-                    "physical structure": 0.0895888021129046,
-                    "selected": false,
-                    "sensitivity": 0.0373916164202148,
-                    "source": "DECITABINE",
-                    "target": "THALIDOMIDE",
-                    "weight": 207.1961912882696
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 904,
-                    "id": "e15022",
-                    "perturbation": 0.160558595667529,
-                    "physical structure": 0.10494978604035199,
-                    "selected": false,
-                    "sensitivity": 0.0801151891201307,
-                    "source": "DECITABINE",
-                    "target": "ISOX",
-                    "weight": 207.5297925937264
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 869,
-                    "id": "e14523",
-                    "perturbation": 0.0938145859521589,
-                    "physical structure": 0.106197253884411,
-                    "selected": false,
-                    "sensitivity": 0.0330236419011616,
-                    "source": "DACARBAZINE",
-                    "target": "ISONICOTINOHYDROXAMICACID",
-                    "weight": 205.5832923916002
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 860,
-                    "id": "e14467",
-                    "perturbation": 0.0757327361391704,
-                    "physical structure": 0.0904930318471331,
-                    "selected": false,
-                    "sensitivity": 0.34622425658975103,
-                    "source": "DABRAFENIB",
-                    "target": "TRAMETINIB",
-                    "weight": 174.54207455917714
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 827,
-                    "id": "e14316",
-                    "perturbation": 0.0976615630433258,
-                    "physical structure": 0.0855872166028049,
-                    "selected": false,
-                    "sensitivity": 0.136298614682503,
-                    "source": "DABRAFENIB",
-                    "target": "DACARBAZINE",
-                    "weight": 199.19193398708327
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 824,
-                    "id": "e14128",
-                    "perturbation": 0.171010325718331,
-                    "physical structure": 0.0783472984727289,
-                    "selected": false,
-                    "sensitivity": 0.0474510195286514,
-                    "source": "CYCLOPHOSPHAMIDE",
-                    "target": "TRAMETINIB",
-                    "weight": 212.33989823479428
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 782,
-                    "id": "e13428",
-                    "perturbation": 0.18453035950474198,
-                    "physical structure": 0.10741372753596,
-                    "selected": false,
-                    "sensitivity": 0.27634396802611,
-                    "source": "CRIZOTINIB",
-                    "target": "TG101348",
-                    "weight": 196.21696392242106
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 776,
-                    "id": "e13403",
-                    "perturbation": 0.43167580573839204,
-                    "physical structure": 0.11225232124309,
-                    "selected": false,
-                    "sensitivity": 0.121188342368438,
-                    "source": "CRIZOTINIB",
-                    "target": "SCH79797",
-                    "weight": 216.05780908660353
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 733,
-                    "id": "e13192",
+                    "SUID": 176,
+                    "id": "176",
+                    "interaction": "interacts with",
+                    "name": "COL3 (interacts with) OLIGOMYCINA",
                     "perturbation": 0.292706325577017,
                     "physical structure": 0.060315869950486,
                     "selected": false,
                     "sensitivity": 0.15858877405640198,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "COL3 (interacts with) OLIGOMYCINA",
                     "source": "COL3",
-                    "target": "OLIGOMYCINA",
-                    "weight": 179.50226993622795
+                    "target": "OLIGOMYCINA"
                 },
                 "selected": false
             },
             {
                 "data": {
-                    "SUID": 683,
-                    "id": "e11345",
-                    "perturbation": 0.12933992369803501,
-                    "physical structure": 0.14758227064794502,
-                    "selected": false,
-                    "sensitivity": 0.0628901077584789,
-                    "source": "CD1530",
-                    "target": "ISOLIQUIRITIGENIN",
-                    "weight": 201.09548770708466
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 673,
-                    "id": "e11299",
-                    "perturbation": 0.314359324363258,
-                    "physical structure": 0.260573736882557,
-                    "selected": false,
-                    "sensitivity": 0.19553131954001396,
-                    "source": "CD1530",
-                    "target": "COL3",
-                    "weight": 156.9659379949102
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 660,
-                    "id": "e10108",
-                    "perturbation": 0.0557420665121541,
-                    "physical structure": 0.10162290498927802,
-                    "selected": false,
-                    "sensitivity": 0.223698929938394,
-                    "source": "BRDK96431673",
-                    "target": "SITAGLIPTIN",
-                    "weight": 209.32540197373496
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 637,
-                    "id": "e9984",
-                    "perturbation": 0.0933225529453478,
-                    "physical structure": 0.0592429647015413,
-                    "selected": false,
-                    "sensitivity": 0.1420254299061,
-                    "source": "BRDK96431673",
-                    "target": "DACARBAZINE",
-                    "weight": 204.07219481695728
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 614,
-                    "id": "e9887",
-                    "perturbation": 0.26712625353666103,
-                    "physical structure": 0.0735385170189136,
-                    "selected": false,
-                    "sensitivity": 0.1097049585447,
-                    "source": "BRDK94991378",
-                    "target": "PIPERLONGUMINE",
-                    "weight": 194.75708153310222
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 588,
-                    "id": "e8364",
+                    "SUID": 175,
+                    "id": "175",
+                    "interaction": "interacts with",
+                    "name": "BRDK33514849 (interacts with) TRIFLUOPERAZINE",
                     "perturbation": 0.0734048725403971,
                     "physical structure": 0.0796600090078077,
                     "selected": false,
                     "sensitivity": 0.352927535709065,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "BRDK33514849 (interacts with) TRIFLUOPERAZINE",
                     "source": "BRDK33514849",
-                    "target": "TRIFLUOPERAZINE",
-                    "weight": 193.02149928369238
+                    "target": "TRIFLUOPERAZINE"
                 },
                 "selected": false
             },
             {
                 "data": {
-                    "SUID": 530,
-                    "id": "e7905",
-                    "perturbation": 0.193324892351011,
-                    "physical structure": 0.0828807422948052,
-                    "selected": false,
-                    "sensitivity": 0.20614655552906602,
-                    "source": "BRDK27224038",
-                    "target": "PRIMA1MET",
-                    "weight": 181.88589002965074
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 520,
-                    "id": "e7849",
-                    "perturbation": 0.0865089233497141,
-                    "physical structure": 0.151489983880651,
-                    "selected": false,
-                    "sensitivity": 0.22829782616705202,
-                    "source": "BRDK27224038",
-                    "target": "KO143",
-                    "weight": 195.91294447358507
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 505,
-                    "id": "e7781",
-                    "perturbation": 0.0519141357769424,
-                    "physical structure": 0.17477777311466,
-                    "selected": false,
-                    "sensitivity": 0.31896278089377,
-                    "source": "BRDK27224038",
-                    "target": "BRDK96431673",
-                    "weight": 177.43762091055498
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 503,
-                    "id": "e7772",
-                    "perturbation": 0.0401342872446013,
-                    "physical structure": 0.141310777644372,
-                    "selected": false,
-                    "sensitivity": 0.0202277474431488,
-                    "source": "BRDK27224038",
-                    "target": "BRDK33514849",
-                    "weight": 211.46339888902907
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 482,
-                    "id": "e7051",
-                    "perturbation": 0.11888356538681802,
-                    "physical structure": 0.0939012904365844,
-                    "selected": false,
-                    "sensitivity": 0.24084177435620396,
-                    "source": "BRDK01737880",
-                    "target": "NAVITOCLAX",
-                    "weight": 196.9819728656509
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 461,
-                    "id": "e6959",
-                    "perturbation": 0.0793019392075845,
-                    "physical structure": 0.35127191301875205,
-                    "selected": false,
-                    "sensitivity": 0.0109405992934566,
-                    "source": "BRDK01737880",
-                    "target": "BRDK96431673",
-                    "weight": 204.11315617781685
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 440,
-                    "id": "e6663",
-                    "perturbation": 0.32145601283785197,
-                    "physical structure": 0.117744874932691,
-                    "selected": false,
-                    "sensitivity": 0.0833639826073194,
-                    "source": "BORTEZOMIB",
-                    "target": "PIPERLONGUMINE",
-                    "weight": 181.52949672772291
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 373,
-                    "id": "e6350",
-                    "perturbation": 0.10146647589430999,
-                    "physical structure": 0.12803262097831097,
-                    "selected": false,
-                    "sensitivity": 0.366158107790742,
-                    "source": "BMS754807",
-                    "target": "CRIZOTINIB",
-                    "weight": 191.42365117211523
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 349,
-                    "id": "e5619",
-                    "perturbation": 0.111517746494966,
-                    "physical structure": 0.17898536503051102,
-                    "selected": false,
-                    "sensitivity": 0.04053999869580201,
-                    "source": "BIX01294",
-                    "target": "SARACATINIB",
-                    "weight": 207.8499735869641
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 292,
-                    "id": "e3358",
+                    "SUID": 174,
+                    "id": "174",
+                    "interaction": "interacts with",
+                    "name": "AZD6482 (interacts with) KU55933",
                     "perturbation": 0.371984479850093,
                     "physical structure": 0.12469471790650301,
                     "selected": false,
                     "sensitivity": 0.218373425482159,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "AZD6482 (interacts with) KU55933",
                     "source": "AZD6482",
-                    "target": "KU55933",
-                    "weight": 150.86108153266068
+                    "target": "KU55933"
                 },
                 "selected": false
             },
             {
                 "data": {
-                    "SUID": 291,
-                    "id": "e3357",
+                    "SUID": 173,
+                    "id": "173",
+                    "interaction": "interacts with",
+                    "name": "AZD6482 (interacts with) KU0063794",
                     "perturbation": 0.232708772302736,
                     "physical structure": 0.093111433579423,
                     "selected": false,
                     "sensitivity": 0.21845699753897302,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "AZD6482 (interacts with) KU0063794",
                     "source": "AZD6482",
-                    "target": "KU0063794",
-                    "weight": 160.59444600854505
+                    "target": "KU0063794"
                 },
                 "selected": false
             },
             {
                 "data": {
-                    "SUID": 234,
-                    "id": "e1489",
-                    "perturbation": 0.0152058933831305,
-                    "physical structure": 0.121166105197885,
+                    "SUID": 172,
+                    "id": "172",
+                    "interaction": "interacts with",
+                    "name": "OLIGOMYCINA (interacts with) SORAFENIB",
+                    "perturbation": 0.212114616871307,
+                    "physical structure": 0.0368866668445238,
                     "selected": false,
-                    "sensitivity": 0.255306154461262,
-                    "source": "ALVOCIDIB",
-                    "target": "DOCETAXEL",
-                    "weight": 211.59986269154237
+                    "sensitivity": 0.15851710277594597,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "OLIGOMYCINA (interacts with) SORAFENIB",
+                    "source": "OLIGOMYCINA",
+                    "target": "SORAFENIB"
                 },
                 "selected": false
             },
             {
                 "data": {
-                    "SUID": 202,
-                    "id": "e894",
+                    "SUID": 171,
+                    "id": "171",
+                    "interaction": "interacts with",
+                    "name": "ABIRATERONE (interacts with) ISONICOTINOHYDROXAMICACID",
+                    "perturbation": 0.0548489882853175,
+                    "physical structure": 0.125930721140148,
+                    "selected": false,
+                    "sensitivity": 0.18327295376081398,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "ABIRATERONE (interacts with) ISONICOTINOHYDROXAMICACID",
+                    "source": "ABIRATERONE",
+                    "target": "ISONICOTINOHYDROXAMICACID"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 170,
+                    "id": "170",
+                    "interaction": "interacts with",
+                    "name": "ABIRATERONE (interacts with) CYCLOPHOSPHAMIDE",
+                    "perturbation": 0.0608822447588169,
+                    "physical structure": 0.0801547223499982,
+                    "selected": false,
+                    "sensitivity": 0.110632181704753,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "ABIRATERONE (interacts with) CYCLOPHOSPHAMIDE",
+                    "source": "ABIRATERONE",
+                    "target": "CYCLOPHOSPHAMIDE"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 169,
+                    "id": "169",
+                    "interaction": "interacts with",
+                    "name": "BRDK94991378 (interacts with) PIPERLONGUMINE",
+                    "perturbation": 0.26712625353666103,
+                    "physical structure": 0.0735385170189136,
+                    "selected": false,
+                    "sensitivity": 0.1097049585447,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "BRDK94991378 (interacts with) PIPERLONGUMINE",
+                    "source": "BRDK94991378",
+                    "target": "PIPERLONGUMINE"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 168,
+                    "id": "168",
+                    "interaction": "interacts with",
+                    "name": "KU0063794 (interacts with) TEMSIROLIMUS",
+                    "perturbation": 0.137146612945508,
+                    "physical structure": 0.0425043155881452,
+                    "selected": false,
+                    "sensitivity": 0.43250290510476797,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "KU0063794 (interacts with) TEMSIROLIMUS",
+                    "source": "KU0063794",
+                    "target": "TEMSIROLIMUS"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 167,
+                    "id": "167",
+                    "interaction": "interacts with",
+                    "name": "CD1530 (interacts with) ISOLIQUIRITIGENIN",
+                    "perturbation": 0.12933992369803501,
+                    "physical structure": 0.14758227064794502,
+                    "selected": false,
+                    "sensitivity": 0.0628901077584789,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "CD1530 (interacts with) ISOLIQUIRITIGENIN",
+                    "source": "CD1530",
+                    "target": "ISOLIQUIRITIGENIN"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 166,
+                    "id": "166",
+                    "interaction": "interacts with",
+                    "name": "CD1530 (interacts with) COL3",
+                    "perturbation": 0.314359324363258,
+                    "physical structure": 0.260573736882557,
+                    "selected": false,
+                    "sensitivity": 0.19553131954001396,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "CD1530 (interacts with) COL3",
+                    "source": "CD1530",
+                    "target": "COL3"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 165,
+                    "id": "165",
+                    "interaction": "interacts with",
+                    "name": "NINTEDANIB (interacts with) SARACATINIB",
+                    "perturbation": 0.295356796500591,
+                    "physical structure": 0.0699398348356311,
+                    "selected": false,
+                    "sensitivity": 0.0575664844985264,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "NINTEDANIB (interacts with) SARACATINIB",
+                    "source": "NINTEDANIB",
+                    "target": "SARACATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 164,
+                    "id": "164",
+                    "interaction": "interacts with",
+                    "name": "AFATINIB (interacts with) SELUMETINIB",
+                    "perturbation": 0.0869344458643908,
+                    "physical structure": 0.14838768103160901,
+                    "selected": false,
+                    "sensitivity": 0.10287747050014,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "AFATINIB (interacts with) SELUMETINIB",
+                    "source": "AFATINIB",
+                    "target": "SELUMETINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 163,
+                    "id": "163",
+                    "interaction": "interacts with",
+                    "name": "AFATINIB (interacts with) SARACATINIB",
                     "perturbation": 0.0787352052083893,
                     "physical structure": 0.305200401193854,
                     "selected": false,
                     "sensitivity": 0.4904951077446911,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "AFATINIB (interacts with) SARACATINIB",
                     "source": "AFATINIB",
-                    "target": "SARACATINIB",
-                    "weight": 137.77799904911515
+                    "target": "SARACATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 162,
+                    "id": "162",
+                    "interaction": "interacts with",
+                    "name": "DABRAFENIB (interacts with) SELUMETINIB",
+                    "perturbation": 0.0228227901943657,
+                    "physical structure": 0.10060247067651,
+                    "selected": false,
+                    "sensitivity": 0.311983096474055,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "DABRAFENIB (interacts with) SELUMETINIB",
+                    "source": "DABRAFENIB",
+                    "target": "SELUMETINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 161,
+                    "id": "161",
+                    "interaction": "interacts with",
+                    "name": "DABRAFENIB (interacts with) SB525334",
+                    "perturbation": 0.0482205435851902,
+                    "physical structure": 0.167079073655941,
+                    "selected": false,
+                    "sensitivity": 0.0672654171473692,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "DABRAFENIB (interacts with) SB525334",
+                    "source": "DABRAFENIB",
+                    "target": "SB525334"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 160,
+                    "id": "160",
+                    "interaction": "interacts with",
+                    "name": "DABRAFENIB (interacts with) DACARBAZINE",
+                    "perturbation": 0.0976615630433258,
+                    "physical structure": 0.0855872166028049,
+                    "selected": false,
+                    "sensitivity": 0.136298614682503,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "DABRAFENIB (interacts with) DACARBAZINE",
+                    "source": "DABRAFENIB",
+                    "target": "DACARBAZINE"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 159,
+                    "id": "159",
+                    "interaction": "interacts with",
+                    "name": "GMX1778 (interacts with) TW37",
+                    "perturbation": 0.166510160850711,
+                    "physical structure": 0.0717306784398197,
+                    "selected": false,
+                    "sensitivity": 0.123749039588887,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "GMX1778 (interacts with) TW37",
+                    "source": "GMX1778",
+                    "target": "TW37"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 158,
+                    "id": "158",
+                    "interaction": "interacts with",
+                    "name": "MANUMYCINA (interacts with) SN38",
+                    "perturbation": 0.0456612457262415,
+                    "physical structure": 0.16705673931717901,
+                    "selected": false,
+                    "sensitivity": 0.10127437364152199,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "MANUMYCINA (interacts with) SN38",
+                    "source": "MANUMYCINA",
+                    "target": "SN38"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 157,
+                    "id": "157",
+                    "interaction": "interacts with",
+                    "name": "MANUMYCINA (interacts with) PIPERLONGUMINE",
+                    "perturbation": 0.0745693801382464,
+                    "physical structure": 0.0890897785746138,
+                    "selected": false,
+                    "sensitivity": 0.235276582629265,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "MANUMYCINA (interacts with) PIPERLONGUMINE",
+                    "source": "MANUMYCINA",
+                    "target": "PIPERLONGUMINE"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 156,
+                    "id": "156",
+                    "interaction": "interacts with",
+                    "name": "PRIMA1MET (interacts with) TEMSIROLIMUS",
+                    "perturbation": 0.559009185430956,
+                    "physical structure": 0.136294344226742,
+                    "selected": false,
+                    "sensitivity": 0.0323388702553787,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "PRIMA1MET (interacts with) TEMSIROLIMUS",
+                    "source": "PRIMA1MET",
+                    "target": "TEMSIROLIMUS"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 155,
+                    "id": "155",
+                    "interaction": "interacts with",
+                    "name": "MYRIOCIN (interacts with) PRIMA1MET",
+                    "perturbation": 0.24425279740363798,
+                    "physical structure": 0.135083711671562,
+                    "selected": false,
+                    "sensitivity": 0.0728692589393948,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "MYRIOCIN (interacts with) PRIMA1MET",
+                    "source": "MYRIOCIN",
+                    "target": "PRIMA1MET"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 154,
+                    "id": "154",
+                    "interaction": "interacts with",
+                    "name": "SARACATINIB (interacts with) TIVOZANIB",
+                    "perturbation": 0.13022965537571402,
+                    "physical structure": 0.127535407033703,
+                    "selected": false,
+                    "sensitivity": 0.0443687414755352,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "SARACATINIB (interacts with) TIVOZANIB",
+                    "source": "SARACATINIB",
+                    "target": "TIVOZANIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 153,
+                    "id": "153",
+                    "interaction": "interacts with",
+                    "name": "SARACATINIB (interacts with) TG101348",
+                    "perturbation": 0.168782429022091,
+                    "physical structure": 0.18868649399748802,
+                    "selected": false,
+                    "sensitivity": 0.14530310131208898,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "SARACATINIB (interacts with) TG101348",
+                    "source": "SARACATINIB",
+                    "target": "TG101348"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 152,
+                    "id": "152",
+                    "interaction": "interacts with",
+                    "name": "BRDK01737880 (interacts with) NAVITOCLAX",
+                    "perturbation": 0.11888356538681802,
+                    "physical structure": 0.0939012904365844,
+                    "selected": false,
+                    "sensitivity": 0.24084177435620396,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "BRDK01737880 (interacts with) NAVITOCLAX",
+                    "source": "BRDK01737880",
+                    "target": "NAVITOCLAX"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 151,
+                    "id": "151",
+                    "interaction": "interacts with",
+                    "name": "BRDK01737880 (interacts with) BRDK96431673",
+                    "perturbation": 0.0793019392075845,
+                    "physical structure": 0.35127191301875205,
+                    "selected": false,
+                    "sensitivity": 0.0109405992934566,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "BRDK01737880 (interacts with) BRDK96431673",
+                    "source": "BRDK01737880",
+                    "target": "BRDK96431673"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 150,
+                    "id": "150",
+                    "interaction": "interacts with",
+                    "name": "ALVOCIDIB (interacts with) DOCETAXEL",
+                    "perturbation": 0.0152058933831305,
+                    "physical structure": 0.121166105197885,
+                    "selected": false,
+                    "sensitivity": 0.255306154461262,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "ALVOCIDIB (interacts with) DOCETAXEL",
+                    "source": "ALVOCIDIB",
+                    "target": "DOCETAXEL"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 149,
+                    "id": "149",
+                    "interaction": "interacts with",
+                    "name": "DOCETAXEL (interacts with) TIVANTINIB",
+                    "perturbation": 0.07680712269880499,
+                    "physical structure": 0.0729638377873059,
+                    "selected": false,
+                    "sensitivity": 0.788226511563707,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "DOCETAXEL (interacts with) TIVANTINIB",
+                    "source": "DOCETAXEL",
+                    "target": "TIVANTINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 148,
+                    "id": "148",
+                    "interaction": "interacts with",
+                    "name": "DOCETAXEL (interacts with) MANUMYCINA",
+                    "perturbation": 0.101660291188378,
+                    "physical structure": 0.12248447322263198,
+                    "selected": false,
+                    "sensitivity": 0.0367071640809874,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "DOCETAXEL (interacts with) MANUMYCINA",
+                    "source": "DOCETAXEL",
+                    "target": "MANUMYCINA"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 147,
+                    "id": "147",
+                    "interaction": "interacts with",
+                    "name": "DOCETAXEL (interacts with) GW843682X",
+                    "perturbation": 0.0344911310793833,
+                    "physical structure": 0.0789529444404454,
+                    "selected": false,
+                    "sensitivity": 0.349393102302003,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "DOCETAXEL (interacts with) GW843682X",
+                    "source": "DOCETAXEL",
+                    "target": "GW843682X"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 146,
+                    "id": "146",
+                    "interaction": "interacts with",
+                    "name": "SORAFENIB (interacts with) TW37",
+                    "perturbation": 0.0547024391654637,
+                    "physical structure": 0.14701526189149,
+                    "selected": false,
+                    "sensitivity": 0.24574934527458803,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "SORAFENIB (interacts with) TW37",
+                    "source": "SORAFENIB",
+                    "target": "TW37"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 145,
+                    "id": "145",
+                    "interaction": "interacts with",
+                    "name": "SORAFENIB (interacts with) TPCA1",
+                    "perturbation": 0.30129959667605893,
+                    "physical structure": 0.11464033525272399,
+                    "selected": false,
+                    "sensitivity": 0.0269983826899541,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "SORAFENIB (interacts with) TPCA1",
+                    "source": "SORAFENIB",
+                    "target": "TPCA1"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 144,
+                    "id": "144",
+                    "interaction": "interacts with",
+                    "name": "SORAFENIB (interacts with) TIVOZANIB",
+                    "perturbation": 0.15791613227662601,
+                    "physical structure": 0.199989695614213,
+                    "selected": false,
+                    "sensitivity": 0.18644686022838297,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "SORAFENIB (interacts with) TIVOZANIB",
+                    "source": "SORAFENIB",
+                    "target": "TIVOZANIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 143,
+                    "id": "143",
+                    "interaction": "interacts with",
+                    "name": "BIX01294 (interacts with) SARACATINIB",
+                    "perturbation": 0.111517746494966,
+                    "physical structure": 0.17898536503051102,
+                    "selected": false,
+                    "sensitivity": 0.04053999869580201,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "BIX01294 (interacts with) SARACATINIB",
+                    "source": "BIX01294",
+                    "target": "SARACATINIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 142,
+                    "id": "142",
+                    "interaction": "interacts with",
+                    "name": "ISOLIQUIRITIGENIN (interacts with) PIPERLONGUMINE",
+                    "perturbation": 0.273195887505038,
+                    "physical structure": 0.22010199187888102,
+                    "selected": false,
+                    "sensitivity": 0.0449285893522518,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "ISOLIQUIRITIGENIN (interacts with) PIPERLONGUMINE",
+                    "source": "ISOLIQUIRITIGENIN",
+                    "target": "PIPERLONGUMINE"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 141,
+                    "id": "141",
+                    "interaction": "interacts with",
+                    "name": "ISOX (interacts with) TACEDINALINE",
+                    "perturbation": 0.0192769075656145,
+                    "physical structure": 0.10384942643369198,
+                    "selected": false,
+                    "sensitivity": 0.17994772310355397,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "ISOX (interacts with) TACEDINALINE",
+                    "source": "ISOX",
+                    "target": "TACEDINALINE"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 140,
+                    "id": "140",
+                    "interaction": "interacts with",
+                    "name": "TACEDINALINE (interacts with) TW37",
+                    "perturbation": 0.0400822699057862,
+                    "physical structure": 0.18457171309907197,
+                    "selected": false,
+                    "sensitivity": 0.0595954715655228,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "TACEDINALINE (interacts with) TW37",
+                    "source": "TACEDINALINE",
+                    "target": "TW37"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 139,
+                    "id": "139",
+                    "interaction": "interacts with",
+                    "name": "CRIZOTINIB (interacts with) TG101348",
+                    "perturbation": 0.18453035950474198,
+                    "physical structure": 0.10741372753596,
+                    "selected": false,
+                    "sensitivity": 0.27634396802611,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "CRIZOTINIB (interacts with) TG101348",
+                    "source": "CRIZOTINIB",
+                    "target": "TG101348"
                 },
                 "selected": false
             },
             {
                 "data": {
                     "SUID": 138,
-                    "id": "e110",
-                    "perturbation": 0.0548489882853175,
-                    "physical structure": 0.125930721140148,
+                    "id": "138",
+                    "interaction": "interacts with",
+                    "name": "CRIZOTINIB (interacts with) SCH79797",
+                    "perturbation": 0.43167580573839204,
+                    "physical structure": 0.11225232124309,
                     "selected": false,
-                    "sensitivity": 0.18327295376081398,
-                    "source": "ABIRATERONE",
-                    "target": "ISONICOTINOHYDROXAMICACID",
-                    "weight": 184.79818602672034
+                    "sensitivity": 0.121188342368438,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "CRIZOTINIB (interacts with) SCH79797",
+                    "source": "CRIZOTINIB",
+                    "target": "SCH79797"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 137,
+                    "id": "137",
+                    "interaction": "interacts with",
+                    "name": "BORTEZOMIB (interacts with) PIPERLONGUMINE",
+                    "perturbation": 0.32145601283785197,
+                    "physical structure": 0.117744874932691,
+                    "selected": false,
+                    "sensitivity": 0.0833639826073194,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "BORTEZOMIB (interacts with) PIPERLONGUMINE",
+                    "source": "BORTEZOMIB",
+                    "target": "PIPERLONGUMINE"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 136,
+                    "id": "136",
+                    "interaction": "interacts with",
+                    "name": "IMATINIB (interacts with) TIVOZANIB",
+                    "perturbation": 0.0501192040528508,
+                    "physical structure": 0.0812714096138367,
+                    "selected": false,
+                    "sensitivity": 0.170969055201241,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "IMATINIB (interacts with) TIVOZANIB",
+                    "source": "IMATINIB",
+                    "target": "TIVOZANIB"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 135,
+                    "id": "135",
+                    "interaction": "interacts with",
+                    "name": "DACARBAZINE (interacts with) ISONICOTINOHYDROXAMICACID",
+                    "perturbation": 0.0938145859521589,
+                    "physical structure": 0.106197253884411,
+                    "selected": false,
+                    "sensitivity": 0.0330236419011616,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "DACARBAZINE (interacts with) ISONICOTINOHYDROXAMICACID",
+                    "source": "DACARBAZINE",
+                    "target": "ISONICOTINOHYDROXAMICACID"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 134,
+                    "id": "134",
+                    "interaction": "interacts with",
+                    "name": "BRDK96431673 (interacts with) SITAGLIPTIN",
+                    "perturbation": 0.0557420665121541,
+                    "physical structure": 0.10162290498927802,
+                    "selected": false,
+                    "sensitivity": 0.223698929938394,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "BRDK96431673 (interacts with) SITAGLIPTIN",
+                    "source": "BRDK96431673",
+                    "target": "SITAGLIPTIN"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 133,
+                    "id": "133",
+                    "interaction": "interacts with",
+                    "name": "DECITABINE (interacts with) THALIDOMIDE",
+                    "perturbation": 0.147181846979164,
+                    "physical structure": 0.0895888021129046,
+                    "selected": false,
+                    "sensitivity": 0.0373916164202148,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "DECITABINE (interacts with) THALIDOMIDE",
+                    "source": "DECITABINE",
+                    "target": "THALIDOMIDE"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 132,
+                    "id": "132",
+                    "interaction": "interacts with",
+                    "name": "DECITABINE (interacts with) ISOX",
+                    "perturbation": 0.160558595667529,
+                    "physical structure": 0.10494978604035199,
+                    "selected": false,
+                    "sensitivity": 0.0801151891201307,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "DECITABINE (interacts with) ISOX",
+                    "source": "DECITABINE",
+                    "target": "ISOX"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 131,
+                    "id": "131",
+                    "interaction": "interacts with",
+                    "name": "LOVASTATIN (interacts with) OLIGOMYCINA",
+                    "perturbation": 0.0255543779535802,
+                    "physical structure": 0.49169112876396903,
+                    "selected": false,
+                    "sensitivity": 0.0721116982256328,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "LOVASTATIN (interacts with) OLIGOMYCINA",
+                    "source": "LOVASTATIN",
+                    "target": "OLIGOMYCINA"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 130,
+                    "id": "130",
+                    "interaction": "interacts with",
+                    "name": "LOVASTATIN (interacts with) MYRIOCIN",
+                    "perturbation": 0.0259103486035137,
+                    "physical structure": 0.23926270439231304,
+                    "selected": false,
+                    "sensitivity": 0.11471442613408302,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "LOVASTATIN (interacts with) MYRIOCIN",
+                    "source": "LOVASTATIN",
+                    "target": "MYRIOCIN"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 129,
+                    "id": "129",
+                    "interaction": "interacts with",
+                    "name": "BRDK27224038 (interacts with) PRIMA1MET",
+                    "perturbation": 0.193324892351011,
+                    "physical structure": 0.0828807422948052,
+                    "selected": false,
+                    "sensitivity": 0.20614655552906602,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "BRDK27224038 (interacts with) PRIMA1MET",
+                    "source": "BRDK27224038",
+                    "target": "PRIMA1MET"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 128,
+                    "id": "128",
+                    "interaction": "interacts with",
+                    "name": "BRDK27224038 (interacts with) KO143",
+                    "perturbation": 0.0865089233497141,
+                    "physical structure": 0.151489983880651,
+                    "selected": false,
+                    "sensitivity": 0.22829782616705202,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "BRDK27224038 (interacts with) KO143",
+                    "source": "BRDK27224038",
+                    "target": "KO143"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 127,
+                    "id": "127",
+                    "interaction": "interacts with",
+                    "name": "BRDK27224038 (interacts with) BRDK96431673",
+                    "perturbation": 0.0519141357769424,
+                    "physical structure": 0.17477777311466,
+                    "selected": false,
+                    "sensitivity": 0.31896278089377,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "BRDK27224038 (interacts with) BRDK96431673",
+                    "source": "BRDK27224038",
+                    "target": "BRDK96431673"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 126,
+                    "id": "126",
+                    "interaction": "interacts with",
+                    "name": "BRDK27224038 (interacts with) BRDK33514849",
+                    "perturbation": 0.0401342872446013,
+                    "physical structure": 0.141310777644372,
+                    "selected": false,
+                    "sensitivity": 0.0202277474431488,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "BRDK27224038 (interacts with) BRDK33514849",
+                    "source": "BRDK27224038",
+                    "target": "BRDK33514849"
+                },
+                "selected": false
+            },
+            {
+                "data": {
+                    "SUID": 125,
+                    "id": "125",
+                    "interaction": "interacts with",
+                    "name": "BMS754807 (interacts with) CRIZOTINIB",
+                    "perturbation": 0.10146647589430999,
+                    "physical structure": 0.12803262097831097,
+                    "selected": false,
+                    "sensitivity": 0.366158107790742,
+                    "shared_interaction": "interacts with",
+                    "shared_name": "BMS754807 (interacts with) CRIZOTINIB",
+                    "source": "BMS754807",
+                    "target": "CRIZOTINIB"
                 },
                 "selected": false
             }
@@ -739,607 +898,12 @@
         "nodes": [
             {
                 "data": {
-                    "SUID": 110,
-                    "cluster": 50.0,
-                    "colo": "#1ca521",
-                    "id": "TIVOZANIB",
-                    "name": "TIVOZANIB",
-                    "selected": false,
-                    "shared_name": "TIVOZANIB",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9911830"
-                },
-                "position": {
-                    "x": 929.1431274414062,
-                    "y": 1025.751118270362
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 109,
-                    "cluster": 49.0,
-                    "colo": "#e016ff",
-                    "id": "TIVANTINIB",
-                    "name": "TIVANTINIB",
-                    "selected": false,
-                    "shared_name": "TIVANTINIB",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 428.74209125012896,
-                    "y": 592.6390380859375
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 108,
-                    "cluster": 48.0,
-                    "colo": "#463bcc",
-                    "id": "THALIDOMIDE",
-                    "name": "THALIDOMIDE",
-                    "selected": false,
-                    "shared_name": "THALIDOMIDE",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5426"
-                },
-                "position": {
-                    "x": 456.07534896164435,
-                    "y": 948.5728030001239
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 107,
-                    "cluster": 47.0,
-                    "colo": "#ce02bb",
-                    "id": "TG101348",
-                    "name": "TG101348",
-                    "selected": false,
-                    "shared_name": "TG101348",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 1063.0866797406497,
-                    "y": 1154.5877685546875
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 106,
-                    "cluster": 46.0,
-                    "colo": "#1666ba",
-                    "id": "TEMSIROLIMUS",
-                    "name": "TEMSIROLIMUS",
-                    "selected": false,
-                    "shared_name": "TEMSIROLIMUS",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6918289"
-                },
-                "position": {
-                    "x": 976.81884765625,
-                    "y": 630.6966200587228
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 105,
-                    "cluster": 45.0,
-                    "colo": "#f320f7",
-                    "id": "TACEDINALINE",
-                    "name": "TACEDINALINE",
-                    "selected": false,
-                    "shared_name": "TACEDINALINE",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 677.6209716796875,
-                    "y": 950.3431592859871
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 104,
-                    "cluster": 44.0,
-                    "colo": "#ed250b",
-                    "id": "SORAFENIB",
-                    "name": "SORAFENIB",
-                    "selected": false,
-                    "shared_name": "SORAFENIB",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/216239"
-                },
-                "position": {
-                    "x": 843.4842529296875,
-                    "y": 947.4222608484871
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 103,
-                    "cluster": 43.0,
-                    "colo": "#e033a8",
-                    "id": "SN38",
-                    "name": "SN38",
-                    "selected": false,
-                    "shared_name": "SN38",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/104842"
-                },
-                "position": {
-                    "x": 599.297999453254,
-                    "y": 601.5245361328125
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 102,
-                    "cluster": 42.0,
-                    "colo": "#0827d3",
-                    "id": "SITAGLIPTIN",
-                    "name": "SITAGLIPTIN",
-                    "selected": false,
-                    "shared_name": "SITAGLIPTIN",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4369359"
-                },
-                "position": {
-                    "x": 1329.746826171875,
-                    "y": 740.274587349194
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 101,
-                    "cluster": 40.0,
-                    "colo": "#2cebf7",
-                    "id": "SCH79797",
-                    "name": "SCH79797",
-                    "selected": false,
-                    "shared_name": "SCH79797",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45073452"
-                },
-                "position": {
-                    "x": 1044.7327979047122,
-                    "y": 1228.7672119140625
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 100,
-                    "cluster": 39.0,
-                    "colo": "#9133af",
-                    "id": "SB431542",
-                    "name": "SB431542",
-                    "selected": false,
-                    "shared_name": "SB431542",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4521392"
-                },
-                "position": {
-                    "x": 1261.383159073388,
-                    "y": 1048.541015625
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 99,
-                    "cluster": 38.0,
-                    "colo": "#d121ac",
-                    "id": "SARACATINIB",
-                    "name": "SARACATINIB",
-                    "selected": false,
-                    "shared_name": "SARACATINIB",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 945.7032568890874,
-                    "y": 1112.390380859375
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 98,
-                    "cluster": 37.0,
-                    "colo": "#c15e0b",
-                    "id": "PRIMA1MET",
-                    "name": "PRIMA1MET",
-                    "selected": false,
-                    "shared_name": "PRIMA1MET",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 1106.2160104498637,
-                    "y": 665.7998469341097
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 97,
-                    "cluster": 36.0,
-                    "colo": "#37e8de",
-                    "id": "PIPERLONGUMINE",
-                    "name": "PIPERLONGUMINE",
-                    "selected": false,
-                    "shared_name": "PIPERLONGUMINE",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/637858"
-                },
-                "position": {
-                    "x": 505.1436415430977,
-                    "y": 730.6713256835938
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 96,
-                    "cluster": 35.0,
-                    "colo": "#d6f40e",
-                    "id": "OLIGOMYCINA",
-                    "name": "OLIGOMYCINA",
-                    "selected": false,
-                    "shared_name": "OLIGOMYCINA",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281899"
-                },
-                "position": {
-                    "x": 850.0,
-                    "y": 854.0
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 95,
-                    "cluster": 34.0,
-                    "colo": "#25ed5a",
-                    "id": "NINTEDANIB",
-                    "name": "NINTEDANIB",
-                    "selected": false,
-                    "shared_name": "NINTEDANIB",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9809715"
-                },
-                "position": {
-                    "x": 913.1860449750249,
-                    "y": 1185.8153076171875
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 94,
-                    "cluster": 33.0,
-                    "colo": "#9e07f2",
-                    "id": "NAVITOCLAX",
-                    "name": "NAVITOCLAX",
-                    "selected": false,
-                    "shared_name": "NAVITOCLAX",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24978538"
-                },
-                "position": {
-                    "x": 1493.0731201171875,
-                    "y": 572.4962060015378
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 93,
-                    "cluster": 32.0,
-                    "colo": "#b2b517",
-                    "id": "MYRIOCIN",
-                    "name": "MYRIOCIN",
-                    "selected": false,
-                    "shared_name": "MYRIOCIN",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6438394"
-                },
-                "position": {
-                    "x": 1012.2889985649153,
-                    "y": 731.6425170898438
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 92,
-                    "cluster": 31.0,
-                    "colo": "#79bc2f",
-                    "id": "MANUMYCINA",
-                    "name": "MANUMYCINA",
-                    "selected": false,
-                    "shared_name": "MANUMYCINA",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 525.2806044337227,
-                    "y": 637.5067749023438
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 91,
-                    "cluster": 30.0,
-                    "colo": "#2dad6c",
-                    "id": "LOVASTATIN",
-                    "name": "LOVASTATIN",
-                    "selected": false,
-                    "shared_name": "LOVASTATIN",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/53232"
-                },
-                "position": {
-                    "x": 939.1248750297591,
-                    "y": 800.7901000976562
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 90,
-                    "cluster": 29.0,
-                    "colo": "#2ac41d",
-                    "id": "KU55933",
-                    "name": "KU55933",
-                    "selected": false,
-                    "shared_name": "KU55933",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 765.403224062629,
-                    "y": 568.97607421875
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 89,
-                    "cluster": 28.0,
-                    "colo": "#b22364",
-                    "id": "KU0063794",
-                    "name": "KU0063794",
-                    "selected": false,
-                    "shared_name": "KU0063794",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16736978"
-                },
-                "position": {
-                    "x": 904.5799889070239,
-                    "y": 575.9864314067659
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 88,
-                    "cluster": 27.0,
-                    "colo": "#934af9",
-                    "id": "KO143",
-                    "name": "KO143",
-                    "selected": false,
-                    "shared_name": "KO143",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10322450"
-                },
-                "position": {
-                    "x": 1333.0672607421875,
-                    "y": 534.296315864819
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 87,
-                    "cluster": 26.0,
-                    "colo": "#416eea",
-                    "id": "ISOX",
-                    "name": "ISOX",
-                    "selected": false,
-                    "shared_name": "ISOX",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/121237857"
-                },
-                "position": {
-                    "x": 609.3555810015376,
-                    "y": 995.870849609375
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 86,
-                    "cluster": 12.0,
-                    "colo": "#087ecc",
-                    "id": "ISONICOTINOHYDROXAMICACID",
-                    "name": "ISONICOTINOHYDROXAMICACID",
-                    "selected": false,
-                    "shared_name": "ISONICOTINOHYDROXAMICACID",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72967"
-                },
-                "position": {
-                    "x": 1331.8497412640872,
-                    "y": 897.5546264648438
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 85,
-                    "cluster": 25.0,
-                    "colo": "#3bb71f",
-                    "id": "ISOLIQUIRITIGENIN",
-                    "name": "ISOLIQUIRITIGENIN",
-                    "selected": false,
-                    "shared_name": "ISOLIQUIRITIGENIN",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/638278"
-                },
-                "position": {
-                    "x": 651.1436415430977,
-                    "y": 790.6713256835938
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 84,
-                    "cluster": 24.0,
-                    "colo": "#a82341",
-                    "id": "IMATINIB",
-                    "name": "IMATINIB",
-                    "selected": false,
-                    "shared_name": "IMATINIB",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5291"
-                },
-                "position": {
-                    "x": 1022.1655883789062,
-                    "y": 982.8756910242683
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 83,
-                    "cluster": 23.0,
-                    "colo": "#9bcc08",
-                    "id": "GW843682X",
-                    "name": "GW843682X",
-                    "selected": false,
-                    "shared_name": "GW843682X",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 356.48473651380084,
-                    "y": 485.7760925292969
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 82,
-                    "cluster": 22.0,
-                    "colo": "#0ad685",
-                    "id": "GMX1778",
-                    "name": "GMX1778",
-                    "selected": false,
-                    "shared_name": "GMX1778",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 773.0832421343503,
-                    "y": 1005.5268849250743
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 81,
-                    "cluster": 21.0,
-                    "colo": "#fc4814",
-                    "id": "DOCETAXEL",
-                    "name": "DOCETAXEL",
-                    "selected": false,
-                    "shared_name": "DOCETAXEL",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/148124"
-                },
-                "position": {
-                    "x": 475.02101721705486,
-                    "y": 526.1560927149727
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 80,
-                    "cluster": 20.0,
-                    "colo": "#e01129",
-                    "id": "DECITABINE",
-                    "name": "DECITABINE",
-                    "selected": false,
-                    "shared_name": "DECITABINE",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/451668"
-                },
-                "position": {
-                    "x": 519.6175635297122,
-                    "y": 1002.6268310546875
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 79,
-                    "cluster": 19.0,
-                    "colo": "#55a51c",
-                    "id": "DACARBAZINE",
-                    "name": "DACARBAZINE",
-                    "selected": false,
-                    "shared_name": "DACARBAZINE",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5353562"
-                },
-                "position": {
-                    "x": 1331.5976660687747,
-                    "y": 967.3384911577876
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 78,
-                    "cluster": 18.0,
-                    "colo": "#e59d40",
-                    "id": "DABRAFENIB",
-                    "name": "DABRAFENIB",
-                    "selected": false,
-                    "shared_name": "DABRAFENIB",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44462760"
-                },
-                "position": {
-                    "x": 1216.6523142936755,
-                    "y": 975.0128707217015
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 77,
-                    "cluster": 17.0,
-                    "colo": "#06d89d",
-                    "id": "CYCLOPHOSPHAMIDE",
-                    "name": "CYCLOPHOSPHAMIDE",
-                    "selected": false,
-                    "shared_name": "CYCLOPHOSPHAMIDE",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2907"
-                },
-                "position": {
-                    "x": 1155.0212304156003,
-                    "y": 797.6177564539557
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 76,
-                    "cluster": 16.0,
-                    "colo": "#18b4f2",
-                    "id": "CRIZOTINIB",
-                    "name": "CRIZOTINIB",
-                    "selected": false,
-                    "shared_name": "CRIZOTINIB",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11626560"
-                },
-                "position": {
-                    "x": 1141.3888037640872,
-                    "y": 1198.0850830078125
-                },
-                "selected": false
-            },
-            {
-                "data": {
                     "SUID": 75,
                     "cluster": 15.0,
                     "colo": "#075ff2",
                     "id": "COL3",
                     "name": "COL3",
-                    "selected": false,
+                    "selected": true,
                     "shared_name": "COL3",
                     "url": "null"
                 },
@@ -1347,58 +911,7 @@
                     "x": 823.6992158500716,
                     "y": 777.8978271484375
                 },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 74,
-                    "cluster": 14.0,
-                    "colo": "#9fd63e",
-                    "id": "CD1530",
-                    "name": "CD1530",
-                    "selected": false,
-                    "shared_name": "CD1530",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 742.5516938774153,
-                    "y": 735.7332153320312
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 73,
-                    "cluster": 13.0,
-                    "colo": "#ea2595",
-                    "id": "BRDK96431673",
-                    "name": "BRDK96431673",
-                    "selected": false,
-                    "shared_name": "BRDK96431673",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 1318.0931396484375,
-                    "y": 658.803884224194
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 72,
-                    "cluster": 11.0,
-                    "colo": "#41d4f2",
-                    "id": "BRDK94991378",
-                    "name": "BRDK94991378",
-                    "selected": false,
-                    "shared_name": "BRDK94991378",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 385.14354999036334,
-                    "y": 704.6713256835938
-                },
-                "selected": false
+                "selected": true
             },
             {
                 "data": {
@@ -1407,7 +920,7 @@
                     "colo": "#02ed5a",
                     "id": "BRDK33514849",
                     "name": "BRDK33514849",
-                    "selected": false,
+                    "selected": true,
                     "shared_name": "BRDK33514849",
                     "url": "null"
                 },
@@ -1415,92 +928,7 @@
                     "x": 1211.552490234375,
                     "y": 526.7676293413815
                 },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 70,
-                    "cluster": 9.0,
-                    "colo": "#9034e2",
-                    "id": "BRDK27224038",
-                    "name": "BRDK27224038",
-                    "selected": false,
-                    "shared_name": "BRDK27224038",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 1232.5235595703125,
-                    "y": 593.816091255444
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 69,
-                    "cluster": 8.0,
-                    "colo": "#e5d21b",
-                    "id": "BRDK01737880",
-                    "name": "BRDK01737880",
-                    "selected": false,
-                    "shared_name": "BRDK01737880",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 1479.01904296875,
-                    "y": 640.8152367632565
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 68,
-                    "cluster": 7.0,
-                    "colo": "#bca138",
-                    "id": "BORTEZOMIB",
-                    "name": "BORTEZOMIB",
-                    "selected": false,
-                    "shared_name": "BORTEZOMIB",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45038428"
-                },
-                "position": {
-                    "x": 409.14358050794146,
-                    "y": 808.6713256835938
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 67,
-                    "cluster": 6.0,
-                    "colo": "#c43131",
-                    "id": "BMS754807",
-                    "name": "BMS754807",
-                    "selected": false,
-                    "shared_name": "BMS754807",
-                    "url": "null"
-                },
-                "position": {
-                    "x": 1215.5335791547122,
-                    "y": 1146.8858642578125
-                },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 66,
-                    "cluster": 5.0,
-                    "colo": "#23e040",
-                    "id": "BIX01294",
-                    "name": "BIX01294",
-                    "selected": false,
-                    "shared_name": "BIX01294",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/25150857"
-                },
-                "position": {
-                    "x": 822.7035620648686,
-                    "y": 1146.390380859375
-                },
-                "selected": false
+                "selected": true
             },
             {
                 "data": {
@@ -1509,7 +937,7 @@
                     "colo": "#c65317",
                     "id": "AZD6482",
                     "name": "AZD6482",
-                    "selected": false,
+                    "selected": true,
                     "shared_name": "AZD6482",
                     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44137675"
                 },
@@ -1517,41 +945,24 @@
                     "x": 851.2791137695312,
                     "y": 510.7124891993477
                 },
-                "selected": false
+                "selected": true
             },
             {
                 "data": {
-                    "SUID": 64,
-                    "cluster": 3.0,
-                    "colo": "#2707b2",
-                    "id": "ALVOCIDIB",
-                    "name": "ALVOCIDIB",
-                    "selected": false,
-                    "shared_name": "ALVOCIDIB",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5287969"
+                    "SUID": 96,
+                    "cluster": 35.0,
+                    "colo": "#d6f40e",
+                    "id": "OLIGOMYCINA",
+                    "name": "OLIGOMYCINA",
+                    "selected": true,
+                    "shared_name": "OLIGOMYCINA",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281899"
                 },
                 "position": {
-                    "x": 539.3833876368477,
-                    "y": 466.1212463378906
+                    "x": 850.0,
+                    "y": 854.0
                 },
-                "selected": false
-            },
-            {
-                "data": {
-                    "SUID": 63,
-                    "cluster": 2.0,
-                    "colo": "#46af18",
-                    "id": "AFATINIB",
-                    "name": "AFATINIB",
-                    "selected": false,
-                    "shared_name": "AFATINIB",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10184653"
-                },
-                "position": {
-                    "x": 1053.067930006399,
-                    "y": 1059.8779198687253
-                },
-                "selected": false
+                "selected": true
             },
             {
                 "data": {
@@ -1560,7 +971,7 @@
                     "colo": "#0912f2",
                     "id": "ABIRATERONE",
                     "name": "ABIRATERONE",
-                    "selected": false,
+                    "selected": true,
                     "shared_name": "ABIRATERONE",
                     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/71434128"
                 },
@@ -1568,24 +979,245 @@
                     "x": 1257.435791015625,
                     "y": 839.1191918413815
                 },
-                "selected": false
+                "selected": true
             },
             {
                 "data": {
-                    "SUID": 114,
-                    "cluster": 53.0,
-                    "colo": "#4802ea",
-                    "id": "TW37",
-                    "name": "TW37",
-                    "selected": false,
-                    "shared_name": "TW37",
+                    "SUID": 72,
+                    "cluster": 11.0,
+                    "colo": "#41d4f2",
+                    "id": "BRDK94991378",
+                    "name": "BRDK94991378",
+                    "selected": true,
+                    "shared_name": "BRDK94991378",
                     "url": "null"
                 },
                 "position": {
-                    "x": 732.8877563476562,
-                    "y": 903.7572217859871
+                    "x": 385.14354999036334,
+                    "y": 704.6713256835938
                 },
-                "selected": false
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 90,
+                    "cluster": 29.0,
+                    "colo": "#2ac41d",
+                    "id": "KU55933",
+                    "name": "KU55933",
+                    "selected": true,
+                    "shared_name": "KU55933",
+                    "url": "null"
+                },
+                "position": {
+                    "x": 765.403224062629,
+                    "y": 568.97607421875
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 86,
+                    "cluster": 12.0,
+                    "colo": "#087ecc",
+                    "id": "ISONICOTINOHYDROXAMICACID",
+                    "name": "ISONICOTINOHYDROXAMICACID",
+                    "selected": true,
+                    "shared_name": "ISONICOTINOHYDROXAMICACID",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72967"
+                },
+                "position": {
+                    "x": 1331.8497412640872,
+                    "y": 897.5546264648438
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 94,
+                    "cluster": 33.0,
+                    "colo": "#9e07f2",
+                    "id": "NAVITOCLAX",
+                    "name": "NAVITOCLAX",
+                    "selected": true,
+                    "shared_name": "NAVITOCLAX",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24978538"
+                },
+                "position": {
+                    "x": 1493.0731201171875,
+                    "y": 572.4962060015378
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 89,
+                    "cluster": 28.0,
+                    "colo": "#b22364",
+                    "id": "KU0063794",
+                    "name": "KU0063794",
+                    "selected": true,
+                    "shared_name": "KU0063794",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16736978"
+                },
+                "position": {
+                    "x": 904.5799889070239,
+                    "y": 575.9864314067659
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 77,
+                    "cluster": 17.0,
+                    "colo": "#06d89d",
+                    "id": "CYCLOPHOSPHAMIDE",
+                    "name": "CYCLOPHOSPHAMIDE",
+                    "selected": true,
+                    "shared_name": "CYCLOPHOSPHAMIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2907"
+                },
+                "position": {
+                    "x": 1155.0212304156003,
+                    "y": 797.6177564539557
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 74,
+                    "cluster": 14.0,
+                    "colo": "#9fd63e",
+                    "id": "CD1530",
+                    "name": "CD1530",
+                    "selected": true,
+                    "shared_name": "CD1530",
+                    "url": "null"
+                },
+                "position": {
+                    "x": 742.5516938774153,
+                    "y": 735.7332153320312
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 95,
+                    "cluster": 34.0,
+                    "colo": "#25ed5a",
+                    "id": "NINTEDANIB",
+                    "name": "NINTEDANIB",
+                    "selected": true,
+                    "shared_name": "NINTEDANIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9809715"
+                },
+                "position": {
+                    "x": 913.1860449750249,
+                    "y": 1185.8153076171875
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 63,
+                    "cluster": 2.0,
+                    "colo": "#46af18",
+                    "id": "AFATINIB",
+                    "name": "AFATINIB",
+                    "selected": true,
+                    "shared_name": "AFATINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10184653"
+                },
+                "position": {
+                    "x": 1053.067930006399,
+                    "y": 1059.8779198687253
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 83,
+                    "cluster": 23.0,
+                    "colo": "#9bcc08",
+                    "id": "GW843682X",
+                    "name": "GW843682X",
+                    "selected": true,
+                    "shared_name": "GW843682X",
+                    "url": "null"
+                },
+                "position": {
+                    "x": 356.48473651380084,
+                    "y": 485.7760925292969
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 78,
+                    "cluster": 18.0,
+                    "colo": "#e59d40",
+                    "id": "DABRAFENIB",
+                    "name": "DABRAFENIB",
+                    "selected": true,
+                    "shared_name": "DABRAFENIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44462760"
+                },
+                "position": {
+                    "x": 1216.6523142936755,
+                    "y": 975.0128707217015
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 82,
+                    "cluster": 22.0,
+                    "colo": "#0ad685",
+                    "id": "GMX1778",
+                    "name": "GMX1778",
+                    "selected": true,
+                    "shared_name": "GMX1778",
+                    "url": "null"
+                },
+                "position": {
+                    "x": 773.0832421343503,
+                    "y": 1005.5268849250743
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 92,
+                    "cluster": 31.0,
+                    "colo": "#79bc2f",
+                    "id": "MANUMYCINA",
+                    "name": "MANUMYCINA",
+                    "selected": true,
+                    "shared_name": "MANUMYCINA",
+                    "url": "null"
+                },
+                "position": {
+                    "x": 525.2806044337227,
+                    "y": 637.5067749023438
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 88,
+                    "cluster": 27.0,
+                    "colo": "#934af9",
+                    "id": "KO143",
+                    "name": "KO143",
+                    "selected": true,
+                    "shared_name": "KO143",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10322450"
+                },
+                "position": {
+                    "x": 1333.0672607421875,
+                    "y": 534.296315864819
+                },
+                "selected": true
             },
             {
                 "data": {
@@ -1594,7 +1226,7 @@
                     "colo": "#16ffd7",
                     "id": "TRIFLUOPERAZINE",
                     "name": "TRIFLUOPERAZINE",
-                    "selected": false,
+                    "selected": true,
                     "shared_name": "TRIFLUOPERAZINE",
                     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5566"
                 },
@@ -1602,24 +1234,228 @@
                     "x": 1234.4560546875,
                     "y": 463.70775385310026
                 },
-                "selected": false
+                "selected": true
             },
             {
                 "data": {
-                    "SUID": 112,
-                    "cluster": 41.0,
-                    "colo": "#f9be40",
-                    "id": "TRAMETINIB",
-                    "name": "TRAMETINIB",
-                    "selected": false,
-                    "shared_name": "TRAMETINIB",
-                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11707110"
+                    "SUID": 98,
+                    "cluster": 37.0,
+                    "colo": "#c15e0b",
+                    "id": "PRIMA1MET",
+                    "name": "PRIMA1MET",
+                    "selected": true,
+                    "shared_name": "PRIMA1MET",
+                    "url": "null"
                 },
                 "position": {
-                    "x": 1137.8442579187995,
-                    "y": 1017.5775146484375
+                    "x": 1106.2160104498637,
+                    "y": 665.7998469341097
                 },
-                "selected": false
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 93,
+                    "cluster": 32.0,
+                    "colo": "#b2b517",
+                    "id": "MYRIOCIN",
+                    "name": "MYRIOCIN",
+                    "selected": true,
+                    "shared_name": "MYRIOCIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6438394"
+                },
+                "position": {
+                    "x": 1012.2889985649153,
+                    "y": 731.6425170898438
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 108,
+                    "cluster": 48.0,
+                    "colo": "#463bcc",
+                    "id": "THALIDOMIDE",
+                    "name": "THALIDOMIDE",
+                    "selected": true,
+                    "shared_name": "THALIDOMIDE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5426"
+                },
+                "position": {
+                    "x": 456.07534896164435,
+                    "y": 948.5728030001239
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 99,
+                    "cluster": 38.0,
+                    "colo": "#d121ac",
+                    "id": "SARACATINIB",
+                    "name": "SARACATINIB",
+                    "selected": true,
+                    "shared_name": "SARACATINIB",
+                    "url": "null"
+                },
+                "position": {
+                    "x": 945.7032568890874,
+                    "y": 1112.390380859375
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 69,
+                    "cluster": 8.0,
+                    "colo": "#e5d21b",
+                    "id": "BRDK01737880",
+                    "name": "BRDK01737880",
+                    "selected": true,
+                    "shared_name": "BRDK01737880",
+                    "url": "null"
+                },
+                "position": {
+                    "x": 1479.01904296875,
+                    "y": 640.8152367632565
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 107,
+                    "cluster": 47.0,
+                    "colo": "#ce02bb",
+                    "id": "TG101348",
+                    "name": "TG101348",
+                    "selected": true,
+                    "shared_name": "TG101348",
+                    "url": "null"
+                },
+                "position": {
+                    "x": 1063.0866797406497,
+                    "y": 1154.5877685546875
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 64,
+                    "cluster": 3.0,
+                    "colo": "#2707b2",
+                    "id": "ALVOCIDIB",
+                    "name": "ALVOCIDIB",
+                    "selected": true,
+                    "shared_name": "ALVOCIDIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5287969"
+                },
+                "position": {
+                    "x": 539.3833876368477,
+                    "y": 466.1212463378906
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 110,
+                    "cluster": 50.0,
+                    "colo": "#1ca521",
+                    "id": "TIVOZANIB",
+                    "name": "TIVOZANIB",
+                    "selected": true,
+                    "shared_name": "TIVOZANIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9911830"
+                },
+                "position": {
+                    "x": 929.1431274414062,
+                    "y": 1025.751118270362
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 81,
+                    "cluster": 21.0,
+                    "colo": "#fc4814",
+                    "id": "DOCETAXEL",
+                    "name": "DOCETAXEL",
+                    "selected": true,
+                    "shared_name": "DOCETAXEL",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/148124"
+                },
+                "position": {
+                    "x": 475.02101721705486,
+                    "y": 526.1560927149727
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 104,
+                    "cluster": 44.0,
+                    "colo": "#ed250b",
+                    "id": "SORAFENIB",
+                    "name": "SORAFENIB",
+                    "selected": true,
+                    "shared_name": "SORAFENIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/216239"
+                },
+                "position": {
+                    "x": 843.4842529296875,
+                    "y": 947.4222608484871
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 66,
+                    "cluster": 5.0,
+                    "colo": "#23e040",
+                    "id": "BIX01294",
+                    "name": "BIX01294",
+                    "selected": true,
+                    "shared_name": "BIX01294",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/25150857"
+                },
+                "position": {
+                    "x": 822.7035620648686,
+                    "y": 1146.390380859375
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 101,
+                    "cluster": 40.0,
+                    "colo": "#2cebf7",
+                    "id": "SCH79797",
+                    "name": "SCH79797",
+                    "selected": true,
+                    "shared_name": "SCH79797",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45073452"
+                },
+                "position": {
+                    "x": 1044.7327979047122,
+                    "y": 1228.7672119140625
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 97,
+                    "cluster": 36.0,
+                    "colo": "#37e8de",
+                    "id": "PIPERLONGUMINE",
+                    "name": "PIPERLONGUMINE",
+                    "selected": true,
+                    "shared_name": "PIPERLONGUMINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/637858"
+                },
+                "position": {
+                    "x": 505.1436415430977,
+                    "y": 730.6713256835938
+                },
+                "selected": true
             },
             {
                 "data": {
@@ -1628,7 +1464,7 @@
                     "colo": "#d81557",
                     "id": "TPCA1",
                     "name": "TPCA1",
-                    "selected": false,
+                    "selected": true,
                     "shared_name": "TPCA1",
                     "url": "null"
                 },
@@ -1636,11 +1472,334 @@
                     "x": 950.8020629882812,
                     "y": 898.4913526453621
                 },
-                "selected": false
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 85,
+                    "cluster": 25.0,
+                    "colo": "#3bb71f",
+                    "id": "ISOLIQUIRITIGENIN",
+                    "name": "ISOLIQUIRITIGENIN",
+                    "selected": true,
+                    "shared_name": "ISOLIQUIRITIGENIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/638278"
+                },
+                "position": {
+                    "x": 651.1436415430977,
+                    "y": 790.6713256835938
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 102,
+                    "cluster": 42.0,
+                    "colo": "#0827d3",
+                    "id": "SITAGLIPTIN",
+                    "name": "SITAGLIPTIN",
+                    "selected": true,
+                    "shared_name": "SITAGLIPTIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4369359"
+                },
+                "position": {
+                    "x": 1329.746826171875,
+                    "y": 740.274587349194
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 87,
+                    "cluster": 26.0,
+                    "colo": "#416eea",
+                    "id": "ISOX",
+                    "name": "ISOX",
+                    "selected": true,
+                    "shared_name": "ISOX",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/121237857"
+                },
+                "position": {
+                    "x": 609.3555810015376,
+                    "y": 995.870849609375
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 100,
+                    "cluster": 39.0,
+                    "colo": "#9133af",
+                    "id": "SB525334",
+                    "name": "SB525334",
+                    "selected": true,
+                    "shared_name": "SB525334",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4521392"
+                },
+                "position": {
+                    "x": 1261.383159073388,
+                    "y": 1048.541015625
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 105,
+                    "cluster": 45.0,
+                    "colo": "#f320f7",
+                    "id": "TACEDINALINE",
+                    "name": "TACEDINALINE",
+                    "selected": true,
+                    "shared_name": "TACEDINALINE",
+                    "url": "null"
+                },
+                "position": {
+                    "x": 677.6209716796875,
+                    "y": 950.3431592859871
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 76,
+                    "cluster": 16.0,
+                    "colo": "#18b4f2",
+                    "id": "CRIZOTINIB",
+                    "name": "CRIZOTINIB",
+                    "selected": true,
+                    "shared_name": "CRIZOTINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11626560"
+                },
+                "position": {
+                    "x": 1141.3888037640872,
+                    "y": 1198.0850830078125
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 112,
+                    "cluster": 41.0,
+                    "colo": "#f9be40",
+                    "id": "SELUMETINIB",
+                    "name": "SELUMETINIB",
+                    "selected": true,
+                    "shared_name": "SELUMETINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11707110"
+                },
+                "position": {
+                    "x": 1137.8442579187995,
+                    "y": 1017.5775146484375
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 103,
+                    "cluster": 43.0,
+                    "colo": "#e033a8",
+                    "id": "SN38",
+                    "name": "SN38",
+                    "selected": true,
+                    "shared_name": "SN38",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/104842"
+                },
+                "position": {
+                    "x": 599.297999453254,
+                    "y": 601.5245361328125
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 68,
+                    "cluster": 7.0,
+                    "colo": "#bca138",
+                    "id": "BORTEZOMIB",
+                    "name": "BORTEZOMIB",
+                    "selected": true,
+                    "shared_name": "BORTEZOMIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45038428"
+                },
+                "position": {
+                    "x": 409.14358050794146,
+                    "y": 808.6713256835938
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 106,
+                    "cluster": 46.0,
+                    "colo": "#1666ba",
+                    "id": "TEMSIROLIMUS",
+                    "name": "TEMSIROLIMUS",
+                    "selected": true,
+                    "shared_name": "TEMSIROLIMUS",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6918289"
+                },
+                "position": {
+                    "x": 976.81884765625,
+                    "y": 630.6966200587228
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 84,
+                    "cluster": 24.0,
+                    "colo": "#a82341",
+                    "id": "IMATINIB",
+                    "name": "IMATINIB",
+                    "selected": true,
+                    "shared_name": "IMATINIB",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5291"
+                },
+                "position": {
+                    "x": 1022.1655883789062,
+                    "y": 982.8756910242683
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 114,
+                    "cluster": 53.0,
+                    "colo": "#4802ea",
+                    "id": "TW37",
+                    "name": "TW37",
+                    "selected": true,
+                    "shared_name": "TW37",
+                    "url": "null"
+                },
+                "position": {
+                    "x": 732.8877563476562,
+                    "y": 903.7572217859871
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 79,
+                    "cluster": 19.0,
+                    "colo": "#55a51c",
+                    "id": "DACARBAZINE",
+                    "name": "DACARBAZINE",
+                    "selected": true,
+                    "shared_name": "DACARBAZINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5353562"
+                },
+                "position": {
+                    "x": 1331.5976660687747,
+                    "y": 967.3384911577876
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 73,
+                    "cluster": 13.0,
+                    "colo": "#ea2595",
+                    "id": "BRDK96431673",
+                    "name": "BRDK96431673",
+                    "selected": true,
+                    "shared_name": "BRDK96431673",
+                    "url": "null"
+                },
+                "position": {
+                    "x": 1318.0931396484375,
+                    "y": 658.803884224194
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 80,
+                    "cluster": 20.0,
+                    "colo": "#e01129",
+                    "id": "DECITABINE",
+                    "name": "DECITABINE",
+                    "selected": true,
+                    "shared_name": "DECITABINE",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/451668"
+                },
+                "position": {
+                    "x": 519.6175635297122,
+                    "y": 1002.6268310546875
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 109,
+                    "cluster": 49.0,
+                    "colo": "#e016ff",
+                    "id": "TIVANTINIB",
+                    "name": "TIVANTINIB",
+                    "selected": true,
+                    "shared_name": "TIVANTINIB",
+                    "url": "null"
+                },
+                "position": {
+                    "x": 428.74209125012896,
+                    "y": 592.6390380859375
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 91,
+                    "cluster": 30.0,
+                    "colo": "#2dad6c",
+                    "id": "LOVASTATIN",
+                    "name": "LOVASTATIN",
+                    "selected": true,
+                    "shared_name": "LOVASTATIN",
+                    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/53232"
+                },
+                "position": {
+                    "x": 939.1248750297591,
+                    "y": 800.7901000976562
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 70,
+                    "cluster": 9.0,
+                    "colo": "#9034e2",
+                    "id": "BRDK27224038",
+                    "name": "BRDK27224038",
+                    "selected": true,
+                    "shared_name": "BRDK27224038",
+                    "url": "null"
+                },
+                "position": {
+                    "x": 1232.5235595703125,
+                    "y": 593.816091255444
+                },
+                "selected": true
+            },
+            {
+                "data": {
+                    "SUID": 67,
+                    "cluster": 6.0,
+                    "colo": "#c43131",
+                    "id": "BMS754807",
+                    "name": "BMS754807",
+                    "selected": true,
+                    "shared_name": "BMS754807",
+                    "url": "null"
+                },
+                "position": {
+                    "x": 1215.5335791547122,
+                    "y": 1146.8858642578125
+                },
+                "selected": true
             }
         ]
     },
     "format_version": "1.0",
-    "generated_by": "cytoscape-3.4.0",
+    "generated_by": "cytoscape-3.3.0",
     "target_cytoscapejs_version": "~2.1"
 }
