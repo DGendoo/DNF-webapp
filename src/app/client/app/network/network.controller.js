@@ -138,8 +138,7 @@ angular.module('dnftestApp')
           {
             selector: 'edge',
             style: {
-              // 'line-color': 'mapData(weight,' + $scope.exemplarMinWeight.toString() + ' ,' + $scope.exemplarMaxWeight.toString() + ', white, black)',
-              'width': 3
+              'line-color': '#565656'
             }
           }
         ]
@@ -306,8 +305,8 @@ angular.module('dnftestApp')
           {
             selector: 'edge',
             style: {
+              'line-color': '#565656'
               // 'line-color': 'mapData(weight,' + $scope.minWeight.toString() + ' ,' + $scope.maxWeight.toString() + ', white, black)',
-              'width': 3.0
             }
           }
         ]
@@ -367,8 +366,7 @@ angular.module('dnftestApp')
           {
             selector: 'edge',
             style: {
-              // 'line-color': 'mapData(weight,' + $scope.minWeight.toString() + ' ,' + $scope.maxWeight.toString() + ', white, black)',
-              'width': 3.0
+              'line-color': '#565656'
             }
           }
         ]
@@ -405,6 +403,7 @@ angular.module('dnftestApp')
     getNetworkData();
     populateDrugList();
     getExemplar();
-    // $scope.display();
-    //cy.$('ABT737').lock();
+    
+    window.onbeforeunload = function() { return "You work will be lost."; };
+
   });
