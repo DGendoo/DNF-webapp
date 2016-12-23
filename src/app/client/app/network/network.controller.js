@@ -96,7 +96,7 @@ angular.module('dnftestApp')
         var maxWeight = 0;
         var minWeight = 9999999;
         for (var i = 0; i < $scope.exemplarData.edges.length; i++) {
-          var edge = $scope.exemplarData.edges[i]
+          var edge = $scope.exemplarData.edges[i];
           if (edge.data.weight > maxWeight) {
             maxWeight = edge.data.weight;
           }
@@ -138,7 +138,7 @@ angular.module('dnftestApp')
           {
             selector: 'edge',
             style: {
-              'line-color': 'mapData(weight,' + $scope.exemplarMinWeight.toString() + ' ,' + $scope.exemplarMaxWeight.toString() + ', white, black)',
+              // 'line-color': 'mapData(weight,' + $scope.exemplarMinWeight.toString() + ' ,' + $scope.exemplarMaxWeight.toString() + ', white, black)',
               'width': 3
             }
           }
@@ -309,7 +309,7 @@ angular.module('dnftestApp')
           {
             selector: 'edge',
             style: {
-              'line-color': 'mapData(weight,' + $scope.minWeight.toString() + ' ,' + $scope.maxWeight.toString() + ', white, black)',
+              // 'line-color': 'mapData(weight,' + $scope.minWeight.toString() + ' ,' + $scope.maxWeight.toString() + ', white, black)',
               'width': 3.0
             }
           }
@@ -370,7 +370,7 @@ angular.module('dnftestApp')
           {
             selector: 'edge',
             style: {
-              'line-color': 'mapData(weight,' + $scope.minWeight.toString() + ' ,' + $scope.maxWeight.toString() + ', white, black)',
+              // 'line-color': 'mapData(weight,' + $scope.minWeight.toString() + ' ,' + $scope.maxWeight.toString() + ', white, black)',
               'width': 3.0
             }
           }
