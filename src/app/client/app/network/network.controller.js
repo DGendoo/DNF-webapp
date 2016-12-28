@@ -12,6 +12,7 @@ angular.module('dnftestApp')
     $scope.showInfo = false;
     $scope.selectedNode = false;
     $scope.selectedEdge = false;
+    $scope.showHelp = false;
     $scope.showChart = false;
     $scope.state = 'Exemplar';
 
@@ -23,7 +24,7 @@ angular.module('dnftestApp')
     $scope.exemplarMaxWeight = 0;
     $scope.exemplarMinWeight = 0;
 
-    var pData = null;
+    
     //$scope.nodes = {title: 'hiiiiiiii'}; //seems to be extraneous leftover variable
 
     $scope.cy = null;
@@ -51,6 +52,8 @@ angular.module('dnftestApp')
       // window.history.back();
       $state.go("main");
     }
+
+
 
     //This function gets the data--i.e. the nodes and the edges
     var getNetworkData = function () {
@@ -116,6 +119,7 @@ angular.module('dnftestApp')
       $scope.state = 'Exemplar';
       $scope.showInfo = false;
       $scope.showChart = false;
+      $scope.showHelp = false;
 
       $scope.cy = cytoscape({
         container: document.getElementById('cy'),
@@ -177,6 +181,14 @@ angular.module('dnftestApp')
       }
     };
 
+    $scope.help = function () {
+      $scope.showHelp = true;
+      $scope.state = 'Help';
+      $scope.showInfo = false;
+      $scope.showChart = false;
+      $scope.cy = null;      
+
+    }
 
     var showScoreBreakdown = function (edge) {
       $scope.showChart = true;
@@ -270,6 +282,7 @@ angular.module('dnftestApp')
       $scope.state = 'Cluster';
       $scope.$apply();
       $scope.showInfo = false;
+      $scope.showHelp = false;
       $scope.showChart = false;
 
       var clusterNum = getClusterNum(nodeName);
@@ -334,6 +347,7 @@ angular.module('dnftestApp')
       $scope.state = 'Full Network';
       $scope.showInfo = false;
       $scope.showChart = false;
+      $scope.showHelp = false;
 
       $scope.cy = cytoscape({
         container: document.getElementById('cy'),
