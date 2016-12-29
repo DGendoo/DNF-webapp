@@ -8,4 +8,15 @@ angular.module('dnftestApp')
           $state.go('network', {id: response});
         }
       });
+
+    $scope.showHelp = false;
+
+    $scope.help = function () {
+      $scope.showHelp = true;  
+    }
+
+    $scope.back = function () {
+    	$scope.showHelp = false;
+    }
+
   });
