@@ -186,7 +186,8 @@ angular.module('dnftestApp')
       $scope.state = 'Help';
       $scope.showInfo = false;
       $scope.showChart = false;
-      $scope.cy = null;      
+      $scope.cy = null;
+      hideToolbar();      
 
     }
 

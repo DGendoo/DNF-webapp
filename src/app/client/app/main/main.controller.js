@@ -12,7 +12,8 @@ angular.module('dnftestApp')
     $scope.showHelp = false;
 
     $scope.help = function () {
-      $scope.showHelp = true;  
+      $scope.showHelp = true;
+      hideToolbar();  
     }
 
     $scope.back = function () {
