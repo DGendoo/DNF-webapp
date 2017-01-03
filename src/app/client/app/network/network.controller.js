@@ -24,7 +24,7 @@ angular.module('dnftestApp')
     $scope.exemplarMaxWeight = 0;
     $scope.exemplarMinWeight = 0;
 
-    
+
     //$scope.nodes = {title: 'hiiiiiiii'}; //seems to be extraneous leftover variable
 
     $scope.cy = null;
@@ -186,7 +186,7 @@ angular.module('dnftestApp')
       $scope.state = 'Help';
       $scope.showInfo = false;
       $scope.showChart = false;
-      $scope.cy = null;      
+      $scope.cy = null;
 
     }
 
@@ -417,7 +417,17 @@ angular.module('dnftestApp')
     getNetworkData();
     populateDrugList();
     getExemplar();
-    
-    window.onbeforeunload = function() { return "You work will be lost."; };
+
+
+    $(document).ready(function() {
+
+      if (window.history && window.history.pushState) {
+
+        $(window).on('popstate', function() {
+          //confirmation box
+          confirm('Are you sure?');
+        });
+      }
+    });
 
   });
