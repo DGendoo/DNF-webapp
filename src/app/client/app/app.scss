@@ -15,9 +15,9 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
     padding: 0.2em 0;
 }
 
-body {
-  height: 50% !important;
-}
+//body {
+//  height: 50% !important;
+//}
 
 // Component styles are injected through grunt
 // injector
@@ -25,3 +25,7 @@ body {
 @import 'network/network.scss';
 @import 'modal/modal.scss';
 // endinjector
+
+html, body {
+  height: 100%
+}

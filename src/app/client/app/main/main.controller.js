@@ -13,12 +13,11 @@ angular.module('dnftestApp')
 
     $scope.help = function () {
       $scope.showHelp = true;
-      hideToolbar();  
-    }
+    };
 
     $scope.back = function () {
     	$scope.showHelp = false;
-    }
+    };
 
     //Remove tool bar
     $("div.ui-cytoscape-toolbar").remove();

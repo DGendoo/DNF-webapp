@@ -72,3 +72,49 @@
   text-decoration:underline;
 }
 
+.bglogo {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../assets/images/bg.png);
+}
+
+.main-nav {
+  background: transparent !important;
+}
+
+.main-nav:active {
+  background: none;
+
+}
+
+
+header div {
+  position: absolute;
+  color: white;
+  top: 40%;
+  left: 3%;
+
+  h1 {
+    font-size: 100px;
+  }
+
+  span {
+    font-size: 20px;
+    color: gray;
+  }
+
+  a {
+    margin-top: 4% !important;
+  }
+}
+
+.nav-item {
+  color: grey !important;
+}
+
+.about {
+  padding: 10%;
+
+}
+
