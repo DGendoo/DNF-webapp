@@ -3,7 +3,7 @@ Web-application for Drug Network Fusion (DNF)
 
 
 # Installation Instructions
-1. Install the latest version of node. js (https://nodejs.org/en/).
+1. Install the latest version of Node.js (https://nodejs.org/en/).
 2. On your terminal, cd into src/app/
 3. For Windows machines, run the command 'npm install' on your terminal (or sudo npm install if using a Mac). 
 4. Run the command 'bower install' on your terminal.
@@ -15,4 +15,4 @@ Web-application for Drug Network Fusion (DNF)
 3. To deploy, run grunt buildcontrol:heroku.
 
 # Application Link
-dnf-webapp.herokuapp.com
+dnfwebapp.herokuapp.com
