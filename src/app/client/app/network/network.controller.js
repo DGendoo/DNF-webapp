@@ -181,6 +181,7 @@ angular.module('dnftestApp')
       }
     };
 
+    
     $scope.help = function () {
       $scope.showHelp = true;
       $scope.state = 'Help';
@@ -188,7 +189,9 @@ angular.module('dnftestApp')
       $scope.showChart = false;
       $scope.cy = null;
 
-    }
+      hideToolbar();
+
+    };
 
     var showScoreBreakdown = function (edge) {
       $scope.showChart = true;

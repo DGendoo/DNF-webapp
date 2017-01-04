@@ -8,4 +8,18 @@ angular.module('dnftestApp')
           $state.go('network', {id: response});
         }
       });
+
+    $scope.showHelp = false;
+
+    $scope.help = function () {
+      $scope.showHelp = true;
+      hideToolbar();  
+    }
+
+    $scope.back = function () {
+    	$scope.showHelp = false;
+    }
+
+    //Remove tool bar
+    $("div.ui-cytoscape-toolbar").remove();
   });
