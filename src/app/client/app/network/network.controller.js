@@ -193,6 +193,11 @@ angular.module('dnftestApp')
 
     };
 
+    $scope.back = function () {
+      $scope.showHelp = false;
+      $("div.ui-cytoscape-toolbar").show();
+    }
+
     var showScoreBreakdown = function (edge) {
       $scope.showChart = true;
 
@@ -233,12 +238,13 @@ angular.module('dnftestApp')
     var showToolbar = function () {
       //This enable the toolbar;
       console.log("showingToolbar");
-      hideToolbar();
+      // hideToolbar();
       $scope.cy.toolbar({position: 'right'});
+      $("div.ui-cytoscape-toolbar").show();
     };
 
     var hideToolbar = function () {
-      $("div.ui-cytoscape-toolbar").remove();
+      $("div.ui-cytoscape-toolbar").hide();
     };
 
     function findSection(json, sec) {
