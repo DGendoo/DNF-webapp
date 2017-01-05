@@ -1,198 +1,64 @@
 'use strict';
 
 angular.module('dnftestApp')
-  .controller('NetworkCtrl', function ($scope, $state, $sce, $http, $stateParams, Restangular) {
-    $scope.selected = null;
-    $scope.showOptions = false;
-    $scope.dest = null;
-    $scope.nodeToSearch = null;
-    $scope.image = null;
+  .controller('NetworkCtrl', function ($scope, $state, $sce, $stateParams, Restangular,JsonData, UIChange) {
+    /*
+      Init scope data
+      */
+    //The network id
     $scope.networkToShow = $stateParams.id;
-    $scope.exemplarData = null;
+    //Showing stuff
     $scope.showInfo = false;
-    $scope.selectedNode = false;
-    $scope.selectedEdge = false;
     $scope.showHelp = false;
     $scope.showChart = false;
-    $scope.state = 'Exemplar';
+    //Selecting stuff
+    $scope.selectedNode = false;
+    $scope.selectedEdge = false;
+    //We actually don't need this
+    //TO-DELETE
+    $scope.state = 'Network';
 
+    //All the data
+    $scope.nodes = null;
+    $scope.exemplarData = null;
     $scope.networkData = null;
-    //the max/min weight of normal graph edges
-    $scope.maxWeight = 0;
-    $scope.minWeight = 0;
-    //the max/min weight of exemplar graph edges
-    $scope.exemplarMaxWeight = 0;
-    $scope.exemplarMinWeight = 0;
+    $scope.clusters = null;
 
-
-    //$scope.nodes = {title: 'hiiiiiiii'}; //seems to be extraneous leftover variable
-
+    //Cy container
     $scope.cy = null;
 
-    $scope.bringBack = function () {
-      $scope.cy.zoom(0.5);
-    };
-
+    /*
+      UI related
+      */
+    //Search button
     $scope.search = function (node) {
-      displayCluster(node);
-      //$scope.cy.center('#' + node);
-      // $scope.cy.zoom(0.5);
-      // $scope.cy.center('#' + node);
+      UIChange.search($scope, $state, $stateParams, node)
     };
-
-    $scope.download = function () {
-      var downloadLink = angular.element('<a></a>');
-      downloadLink.attr('href', $scope.cy.png());
-      downloadLink.attr('download', $stateParams.id);
-      downloadLink[0].click();
-    };
-
-    $scope.back = function () {
-      hideToolbar();
-      // window.history.back();
-      $state.go("main");
+    //To Exemplar
+    $scope.goExemplar = function(){
+      UIChange.goExemplar($scope, $state, $stateParams);
     }
-
-
-
-    //This function gets the data--i.e. the nodes and the edges
-    var getNetworkData = function () {
-      Restangular.all('api/things/drug_network/').get($stateParams.id).then(function (data) {
-        $scope.networkData = JSON.parse(data).element;
-        var maxWeight = 0;
-        var minWeight = 9999999;
-        for (var i = 0; i < $scope.networkData.edges.length; i++) {
-          var edge = $scope.networkData.edges[i]
-          if (edge.data.weight > maxWeight) {
-            maxWeight = edge.data.weight;
-          }
-          if (edge.data.weight < minWeight) {
-            minWeight = edge.data.weight;
-          }
-        }
-        $scope.maxWeight = maxWeight;
-        $scope.minWeight = minWeight;
-        // $scope.display();
-      });
+    $scope.goNetwork = function(){
+      UIChange.goNetwork($scope, $state, $stateParams);
+    }
+    //Download button
+    $scope.download = function () {
+      UIChange.download($scope, $state, $stateParams);
     };
-
-    var populateDrugList = function () {
-      Restangular.all('api/things/drug_list/').get($stateParams.id).then(function (data) {
-        $scope.nodes = JSON.parse(data).data;
-        $('.ui.search')
-          .search({
-            source: $scope.nodes,
-            searchFields: [
-              'title'
-            ],
-            searchFullText: false,
-            onSelect: function (result, response) {
-              $scope.search(result.title);
-            }
-          });
-      });
-    };
-
-    var getExemplar = function () {
-      Restangular.all('api/things/exemplar/').get($stateParams.id).then(function (data) {
-        $scope.exemplarData = JSON.parse(data).elements;
-        var maxWeight = 0;
-        var minWeight = 9999999;
-        for (var i = 0; i < $scope.exemplarData.edges.length; i++) {
-          var edge = $scope.exemplarData.edges[i];
-          if (edge.data.weight > maxWeight) {
-            maxWeight = edge.data.weight;
-          }
-          if (edge.data.weight < minWeight) {
-            minWeight = edge.data.weight;
-          }
-        }
-        $scope.exemplarMaxWeight = maxWeight;
-        $scope.exemplarMinWeight = minWeight;
-        console.log('here');
-        $scope.displayExemplar();
-      });
-    };
-
-
-    $scope.displayExemplar = function () {
-      $('#exemplar').addClass('active');
-      $('#network').removeClass('active');
-
-      $scope.state = 'Exemplar';
-      $scope.showInfo = false;
-      $scope.showChart = false;
-      $scope.showHelp = false;
-
-      $scope.cy = cytoscape({
-        container: document.getElementById('cy'),
-        elements: $scope.exemplarData,
-        autolock: false, //worth looking into later
-        autoungrabify: false,
-        layout: {
-          name: 'preset'
-        },
-        zoom: 0.3,
-        style: [
-          {
-            selector: 'node',
-            style: {
-              'content': 'data(id)',
-              'background-fit': 'cover',
-              'background-color': 'data(colo)',
-              'color': 'white'
-            }
-          },
-          {
-            selector: 'edge',
-            style: {
-              'line-color': 'lightgrey'
-            }
-          }
-        ]
-      });
-
-      $scope.cy.on('tap', 'node', function (evt) {
-        displayCluster(evt.cyTarget.id());
-      });
-
-      $scope.cy.on('tap', 'edge', function (evt) {
-        $scope.showChart = true;
-        $scope.showInfo = false;
-        showScoreBreakdown(evt.cyTarget);
-        $scope.$apply();
-
-        // showScoreBreakDown(evt.cyTarget);
-        //  $scope.selected = evt.cyTarget.id();
-        //  $scope.cy.zoom(0.5);
-        // $scope.cy.center('#' + evt.cyTarget.id());
-      });
-      showToolbar();
-    };
-
-    var getCluster = function () {
-      Restangular.all('api/things/drug_clusters/').get($stateParams.id).then(function (data) {
-        $scope.clusters = JSON.parse(data).element;
-      });
-    };
-
-    var getClusterNum = function (node) {
-      for (var i = 0; i < $scope.networkData.nodes.length; i++) {
-        var obj = $scope.networkData.nodes[i].data;
-        if (obj.id == node) {
-          return (obj.cluster);
-        }
-      }
-    };
-
-
+    //Home page button
+    $scope.back = function () {
+      UIChange.back($scope, $state, $stateParams);
+    }
+    //Help button
     $scope.help = function () {
+      UIChange.help($scope, $state, $stateParams);
       hideToolbar();
 
       $state.go('documentation')
 
     };
 
+    //Display the graph
     $scope.back = function () {
       $scope.showHelp = false;
       $("div.ui-cytoscape-toolbar").show();
@@ -419,45 +285,38 @@ angular.module('dnftestApp')
       $scope.cy.maxZoom(5);
       $scope.cy.minZoom(0.3);
       $scope.cy.on('tap', 'node', function (evt) {
-
-        displayCluster(evt.cyTarget.id());
+        $state.go('cluster',{id:$stateParams.id,clusterId:evt.cyTarget.id()});
       });
 
       $scope.cy.on('tap', 'edge', function (evt) {
         $scope.showChart = true;
         $scope.showInfo = false;
-        showScoreBreakdown(evt.cyTarget);
+        UIChange.showScoreBreakdown($scope, $state, $stateParams,evt.cyTarget);
         $scope.$apply();
-
-        // showScoreBreakDown(evt.cyTarget);
-        //  $scope.selected = evt.cyTarget.id();
-        //  $scope.cy.zoom(0.5);
-        // $scope.cy.center('#' + evt.cyTarget.id());
       });
-      showToolbar();
+      UIChange.showToolbar($scope, $state, $stateParams);
     };
-
-
-    $('.ui.dropdown')
-      .dropdown()
-    ;
-
-    /// run this code when controller load
-    getCluster();
-    getNetworkData();
-    populateDrugList();
-    getExemplar();
-
-
-    $(document).ready(function() {
-
-      if (window.history && window.history.pushState) {
-
-        $(window).on('popstate', function() {
-          //confirmation box
-          confirm('Are you sure?');
-        });
-      }
+    /*
+      After download, do display
+    */
+    JsonData.getJson($stateParams.id).then(function(result){
+      console.log(result)
+      $scope.clusters = result.clusters;
+      $scope.networkData = result.networkData;
+      $scope.exemplarData = result.exemplarData;
+      $scope.nodes = result.nodes;
+      $scope.display();
+      $('.ui.search')
+          .search({
+            source: $scope.nodes,
+            searchFields: [
+              'title'
+            ],
+            searchFullText: false,
+            onSelect: function (result, response) {
+              $scope.search(result.title);
+            }
+      });
     });
 
-  });
+});
