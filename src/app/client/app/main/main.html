@@ -3,7 +3,7 @@
     <h1 style="animation-delay:0.8s; -moz-animation-delay:0.8s; -webkit-animation-delay:0.8s;" class="animated fadeInRight">DNF-webapp</h1>
     <span class="">For drug exploration</span>
     <br>
-    <a href="#getstarted" class="ui massive inverted button hvr-pulse">Get Started</a>
+    <a ng-click="scrollTo('getstarted')" class="ui massive inverted button hvr-pulse">Get Started</a>
   </div>
 </header>
 
@@ -12,7 +12,7 @@
     DNF-webapp
   </h1>
 
-  <a href="#getstarted" class="item nav-item">Get Started</a>
+  <a ng-click="scrollTo('getstarted')" class="item nav-item">Get Started</a>
   <a ui-sref="documentation" class="item nav-item">Documentation</a>
 </div>
 
@@ -29,8 +29,8 @@
     <i class="dropdown icon"></i>
     <div class="default text">Select network</div>
     <div class="menu">
-      <div class="item">CTRP</div>
-      <div class="item">NCI60</div>
+      <div style="color: black !important;" class="item">CTRP</div>
+      <div style="color: black !important;" class="item">NCI60</div>
     </div>
     <div class="results"></div>
   </div>

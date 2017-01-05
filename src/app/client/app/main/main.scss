@@ -104,7 +104,7 @@ header div {
 
   span {
     font-size: 20px;
-    color: gray;
+    color: #a8d6ff;
   }
 
   a {
@@ -118,8 +118,10 @@ header div {
 
 .about {
   padding: 10%;
+}
 
-
+#page-title {
+  color: white !important;
 }
 
 footer {

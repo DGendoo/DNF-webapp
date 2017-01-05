@@ -116,6 +116,9 @@ angular.module('dnftestApp')
 
 
     $scope.displayExemplar = function () {
+      $('#exemplar').addClass('active');
+      $('#network').removeClass('active');
+
       $scope.state = 'Exemplar';
       $scope.showInfo = false;
       $scope.showChart = false;
@@ -136,13 +139,14 @@ angular.module('dnftestApp')
             style: {
               'content': 'data(id)',
               'background-fit': 'cover',
-              'background-color': 'data(colo)'
+              'background-color': 'data(colo)',
+              'color': 'white'
             }
           },
           {
             selector: 'edge',
             style: {
-              'line-color': '#565656'
+              'line-color': 'lightgrey'
             }
           }
         ]
@@ -181,7 +185,7 @@ angular.module('dnftestApp')
       }
     };
 
-    
+
     $scope.help = function () {
       $scope.showHelp = true;
       $scope.state = 'Help';
@@ -213,19 +217,24 @@ angular.module('dnftestApp')
       var ctx = document.getElementById("pie");
       var myChart = new Chart(ctx, {
         type: 'doughnut',
+        options: {
+          legend: {
+            labels: {fontColor: 'white'}
+          }
+        },
         data: {
           labels: ["Perturbation", "Sensitivity", "Structure"],
           datasets: [{
             data: [edge._private.data['perturbation'], edge._private.data['physical structure'], edge._private.data['sensitivity']],
             backgroundColor: [
-              'rgba(255, 99, 132, 0.2)',
-              'rgba(54, 162, 235, 0.2)',
-              'rgba(255, 206, 86, 0.2)'
+              'rgba(255, 255, 255, 0.5)',
+              'rgba(54, 162, 235, 0.5)',
+              'rgba(170, 255, 219, 0.5)'
             ],
             borderColor: [
-              'rgba(255,99,132,1)',
+              'rgba(255, 255, 255,1)',
               'rgba(54, 162, 235, 1)',
-              'rgba(255, 206, 86, 1)'
+              'rgba(170, 255, 219, 1.0)'
             ],
             borderWidth: 1
           }]
@@ -321,13 +330,14 @@ angular.module('dnftestApp')
             style: {
               'content': 'data(id)',
               'background-fit': 'cover',
-              'background-color': 'data(colo)'
+              'background-color': 'data(colo)',
+              'color': 'white'
             }
           },
           {
             selector: 'edge',
             style: {
-              'line-color': '#565656'
+              'line-color': 'lightgrey'
               // 'line-color': 'mapData(weight,' + $scope.minWeight.toString() + ' ,' + $scope.maxWeight.toString() + ', white, black)',
             }
           }
@@ -353,6 +363,10 @@ angular.module('dnftestApp')
     };
 
     $scope.display = function () {
+
+      $('#network').addClass('active');
+      $('#exemplar').removeClass('active');
+
       $scope.state = 'Full Network';
       $scope.showInfo = false;
       $scope.showChart = false;
@@ -383,13 +397,14 @@ angular.module('dnftestApp')
             style: {
               'content': 'data(id)',
               'background-fit': 'cover',
-              'background-color': 'data(colo)'
+              'background-color': 'data(colo)',
+              'color': 'white'
             }
           },
           {
             selector: 'edge',
             style: {
-              'line-color': '#565656'
+              'line-color': 'lightgrey'
             }
           }
         ]

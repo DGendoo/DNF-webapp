@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('dnftestApp')
-  .controller('MainCtrl', function ($scope, $state) {
+  .controller('MainCtrl', function ($scope, $state, $location, $anchorScroll) {
     $('.ui.dropdown')
       .dropdown({
         onChange: function (result, response) {
@@ -13,6 +13,17 @@ angular.module('dnftestApp')
 
     $scope.help = function () {
       $scope.showHelp = true;
+    };
+
+    $scope.scrollTo = function(section) {
+      // $location.hash(section);
+      $anchorScroll(section);
+
+        // $('html, body').stop().animate({
+        //   scrollTop: ($(section).offset().top - 50)
+        // }, 1250, 'easeInOutExpo');
+        // event.preventDefault();
+
     };
 
   });

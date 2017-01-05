@@ -1,41 +1,42 @@
-<div class="toolbar">
-  <div class="ui top massive borderless attached menu">
+<section class="network">
+  <div class="toolbar">
+    <div class="ui top massive inverted borderless attached menu network-menu">
 
-    <h1 class="" id="network-title">{{networkToShow}} : {{ state }}</h1>
+      <h1 class="" id="network-title">{{networkToShow}}</h1>
 
-    <div class="right menu">
-      <a ng-click="displayExemplar()" class="item">
-        Exemplar
-      </a>
-      <a ng-click="display()" class="item">
-        Full network
-      </a>
+      <div class="right menu">
+        <a id="exemplar" ng-click="displayExemplar()" class="item">
+          Exemplar
+        </a>
+        <a id="network" ng-click="display()" class="item">
+          Full network
+        </a>
 
-      <a ng-click="help()" class="item">
-        Help
-      </a>
-      <a ng-click="back()" class="item">
-        <i class="home icon"></i>
-      </a>
-      <a ng-click="download()" class="item">
-        <i class="download icon"></i>
-      </a>
+        <a ng-click="help()" class="item">
+          Help
+        </a>
+        <a ng-click="back()" class="item">
+          <i class="home icon"></i>
+        </a>
+        <a ng-click="download()" class="item">
+          <i class="download icon"></i>
+        </a>
 
 
-      <div class="ui right aligned category search item">
-        <div class="ui transparent icon input">
-          <div class="ui icon input">
-            <input class="prompt" type="text" placeholder="Search for a drug...">
-            <i class="search icon"></i>
+        <div class="ui right aligned inverted category search item">
+          <div class="ui transparent icon input">
+            <div class="ui icon input">
+              <input class="prompt" type="text" placeholder="Search for a drug...">
+              <i class="search icon"></i>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<div id="cy"></div>
-
+  <div id="cy"></div>
+</section>
 
 <div ng-show="showInfo" id="info">
   <span class="title text-center">{{ selectedNode.id }}</span>
