@@ -454,7 +454,8 @@ function my_zoom(core,x,y, tozoom){
 												position: 'absolute',
 												width: toolList.length * 55,
 												height: 45,
-												'background-color': '#f9f9f9'
+												'background-color': '#000000',
+												opacity: 0.5
 											});
 
 						$toolListWrapper.append($toolList);
@@ -473,7 +474,7 @@ function my_zoom(core,x,y, tozoom){
 							}
 
 							var clazz = options.toolItemClass + ' icon ' + element.icon;
-							var style = 'cursor: pointer; color: #aaa; width: 35px; height: 35px; font-size: 24px; ' + padding;
+							var style = 'cursor: pointer; color: #FFFFFF; width: 35px; height: 35px; font-size: 24px; ' + padding;
 
 							var jElement = $('<span ' +
 								'id="tool-' + toolListIndex + '-' + toolIndex + '" ' +
@@ -511,11 +512,11 @@ function my_zoom(core,x,y, tozoom){
 
 									if (data.selectedTool != [toolListIndex, toolIndex] && !toolItemLongHold) {
 										if (data.selectedTool != undefined) {
-											data.options.tools[data.selectedTool[0]][data.selectedTool[1]].element.css('color', '#aaa');
+											data.options.tools[data.selectedTool[0]][data.selectedTool[1]].element.css('color', '#FFFFFF');
 										}
 										data.selectedTool = [toolListIndex, toolIndex];
-										$('.' + options.toolbarClass).find('.selected-tool').css('color','#aaa').removeClass('selected-tool');
-										$(this).addClass('selected-tool').css('color', '#000');
+										$('.' + options.toolbarClass).find('.selected-tool').css('color','#FFFFFF').removeClass('selected-tool');
+										$(this).addClass('selected-tool').css('color', '#FFFFFF');
 									}
 									var x = $container.outerWidth(true)/2;
 									var y = $container.outerHeight(true)/2;
@@ -575,12 +576,12 @@ function my_zoom(core,x,y, tozoom){
 								.hover(function () {
 									hoveredTool = $(this);
 
-									hoveredTool.css('color', '#000');
+									hoveredTool.css('color', '#999999');
 								}, function () {
 									if (hoveredTool.hasClass('selected-tool')) {
-										hoveredTool.css('color', '000');
+										hoveredTool.css('color', '#FFFFFF');
 									} else {
-										hoveredTool.css('color', '#aaa');
+										hoveredTool.css('color', '#FFFFFF');
 									}
 								})
 							;

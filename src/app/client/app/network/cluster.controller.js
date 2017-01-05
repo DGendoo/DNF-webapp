@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('dnftestApp')
-  .controller('NetworkCtrl', function ($scope, $state, $sce, $stateParams, Restangular,JsonData, UIChange) {
+	.controller('ClusterCtrl', function ($scope, $state, $sce, $stateParams, Restangular, JsonData, UIChange) {
     /*
       Init scope data
       */
@@ -16,7 +16,7 @@ angular.module('dnftestApp')
     $scope.selectedEdge = false;
     //We actually don't need this
     //TO-DELETE
-    $scope.state = 'Network';
+    $scope.state = 'Cluster';
 
     //All the data
     $scope.nodes = null;
@@ -54,22 +54,29 @@ angular.module('dnftestApp')
       UIChange.help($scope, $state, $stateParams);
     };
 
-    //Display the graph
-    $scope.display = function () {
+    var getClusterNum = function (node) {
+      for (var i = 0; i < $scope.networkData.nodes.length; i++) {
+        var obj = $scope.networkData.nodes[i].data;
+        if (obj.id == node) {
+          return (obj.cluster);
+        }
+      }
+    };
 
-      $('#network').addClass('active');
-      $('#exemplar').removeClass('active');
 
-      $scope.state = 'Full Network';
+
+    $scope.displayCluster = function (nodeName) {
       $scope.showInfo = false;
-      $scope.showChart = false;
       $scope.showHelp = false;
+      $scope.showChart = false;
 
+      var clusterNum = getClusterNum(nodeName);
+
+      //Makes a new instance of cy based on the group of nodes given
       $scope.cy = cytoscape({
         container: document.getElementById('cy'),
-        elements: $scope.networkData,
-        autolock: false, //worth looking into later
-        autoungrabify: false,
+        elements: $scope.clusters[clusterNum],
+        //autolock: true,
         layout: {
           name: 'cose',
           idealEdgeLength: function (edge) {
@@ -78,12 +85,12 @@ angular.module('dnftestApp')
               if (edge._private.data.source == curEdge.source && edge._private.data.target == curEdge.target) {
                 return 1 / curEdge.weight;
               }
-              ;
             }
-            ;
           }
         },
-        zoom: 0.3,
+        zoom: 1,
+        maxZoom: 5,
+        minZoom: 0.3,
         style: [
           {
             selector: 'node',
@@ -98,35 +105,36 @@ angular.module('dnftestApp')
             selector: 'edge',
             style: {
               'line-color': 'lightgrey'
+              // 'line-color': 'mapData(weight,' + $scope.minWeight.toString() + ' ,' + $scope.maxWeight.toString() + ', white, black)',
             }
           }
         ]
       });
 
-      $scope.cy.maxZoom(5);
-      $scope.cy.minZoom(0.3);
       $scope.cy.on('tap', 'node', function (evt) {
-        $state.go('cluster',{id:$stateParams.id,clusterId:evt.cyTarget.id()});
+        $scope.showChart = false;
+        UIChange.showPubChem($scope,$state,$stateParams,evt.cyTarget);
       });
 
       $scope.cy.on('tap', 'edge', function (evt) {
         $scope.showChart = true;
         $scope.showInfo = false;
-        UIChange.showScoreBreakdown($scope, $state, $stateParams,evt.cyTarget);
+        UIChange.showScoreBreakdown($scope,$state,$stateParams,evt.cyTarget);
         $scope.$apply();
+        // showScoreBreakDown(evt.cyTarget);
+        //  $scope.selected = evt.cyTarget.id();
+        //  $scope.cy.zoom(0.5);
+        // $scope.cy.center('#' + evt.cyTarget.id());
       });
-      UIChange.showToolbar($scope, $state, $stateParams);
+      UIChange.showToolbar($scope,$state,$stateParams);
     };
-    /*
-      After download, do display
-    */
+
     JsonData.getJson($stateParams.id).then(function(result){
-      console.log(result)
       $scope.clusters = result.clusters;
       $scope.networkData = result.networkData;
       $scope.exemplarData = result.exemplarData;
       $scope.nodes = result.nodes;
-      $scope.display();
+      $scope.displayCluster($stateParams.clusterId);
       $('.ui.search')
           .search({
             source: $scope.nodes,
