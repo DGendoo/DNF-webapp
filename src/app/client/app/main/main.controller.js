@@ -16,9 +16,10 @@ angular.module('dnftestApp')
     };
 
     $scope.back = function () {
-    	$scope.showHelp = false;
+      $scope.showHelp = false;
     };
 
     //Remove tool bar
     $("div.ui-cytoscape-toolbar").remove();
+    
   });

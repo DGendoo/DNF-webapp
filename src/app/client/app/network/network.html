@@ -1,25 +1,27 @@
 <div class="toolbar">
-  <div class="ui top attached menu">
-    <a ng-click="back()" class="item">
-      Home
-    </a>
-    <a ng-click="displayExemplar()" class="item">
-      Exemplar
-    </a>
-    <a ng-click="display()" class="item">
-      Full network
-    </a>
-    <a ng-click="download()" class="item">
-      <i class="download icon"></i>
-    </a>
-    <a ng-click="help()" class="item">
-      Help
-    </a>
+  <div class="ui top massive borderless attached menu">
 
-
-    <div id="network-title">{{networkToShow}} : {{ state }}</div>
+    <h1 class="" id="network-title">{{networkToShow}} : {{ state }}</h1>
 
     <div class="right menu">
+      <a ng-click="displayExemplar()" class="item">
+        Exemplar
+      </a>
+      <a ng-click="display()" class="item">
+        Full network
+      </a>
+
+      <a ng-click="help()" class="item">
+        Help
+      </a>
+      <a ng-click="back()" class="item">
+        <i class="home icon"></i>
+      </a>
+      <a ng-click="download()" class="item">
+        <i class="download icon"></i>
+      </a>
+
+
       <div class="ui right aligned category search item">
         <div class="ui transparent icon input">
           <div class="ui icon input">
@@ -59,7 +61,7 @@
 
 <div ng-show="showHelp" id="help">
   <h1>App Description</h1>
-    There are two views for the drug networks of both NCI60 and CTRP, Exemplar and Full Network. 
+    There are two views for the drug networks of both NCI60 and CTRP, Exemplar and Full Network.
     <br>
     &emsp;&emsp;Exemplar displays the network of exemplar drugs representative of their corresponding drug communities.<br>
     &emsp;&emsp;Full Network displays the exemplar drugs as well as all the corresponding drug communities.
@@ -69,38 +71,38 @@
     There are two different ways to view the drug networks:<br>
     &emsp;&emsp;1) Click and drag anywhere in the view to move left, right, up or down.<br>
     &emsp;&emsp;2) Use the arrows on the toolbar on the left to move. <br><br>
-    
+
     <!-- &emsp;&emsp;<img src="scrollbar_move.png" style="width:50px"> -->
     &emsp;&emsp;<img src="http://i.imgur.com/GSRx4Qy.png" style="width:50px">
-    
+
     <br><br>
     To zoom into the app, you can either: <br>
     &emsp;&emsp;1) Scroll using your mouse scroll wheel - scrolling up zooms in, scrolling down zooms out.<br>
     &emsp;&emsp;2) Use the magnifying glasses on the toolbar on the left.<br><br>
-    
+
     <!-- &emsp;&emsp;<img src="scrollbar_zoom.png" style="width:50px"> -->
     &emsp;&emsp;<img src="http://i.imgur.com/r2U3dtM.png" style="width:50px">
 
 
-    
+
     <br><br><br>
     <h1>Similarity Scores</h1>
-    Select an edge between two nodes (drugs) to see the similarity scores based on basic drug properties (perturbation, similarity, and physical structure). 
+    Select an edge between two nodes (drugs) to see the similarity scores based on basic drug properties (perturbation, similarity, and physical structure).
     <br>
     The contributions are displayed in a pie chart of all three categories.
-    
+
     <!-- <br><img src="edge_before.png">&emsp;<big><big>→</big></big>&emsp;
-    <img src="edge_during.png"> &emsp;&emsp;<big><big>→</big></big>&emsp; 
+    <img src="edge_during.png"> &emsp;&emsp;<big><big>→</big></big>&emsp;
     <img src="edge_after.png" style="width:500px"> <br><br>  -->
 
     <br><img src="http://i.imgur.com/aHMGntw.png"> &emsp;<big><big>→</big></big>&emsp;
-    <img src="http://i.imgur.com/9I4cJUg.png"> &emsp;&emsp;<big><big>→</big></big>&emsp; 
-    <img src="http://i.imgur.com/WdHvwQc.png" style="width:500px"> 
+    <img src="http://i.imgur.com/9I4cJUg.png"> &emsp;&emsp;<big><big>→</big></big>&emsp;
+    <img src="http://i.imgur.com/WdHvwQc.png" style="width:500px">
 
     <br><br>
 
     Hover over the sections of the pie chart to view the numerical similarity scores.<br>
-    
+
     <!-- <br><img src="pie_hover.png"> -->
     <br><img src="http://i.imgur.com/QI3bG6I.png">
 
@@ -109,29 +111,29 @@
     Select a node (drug) to view its corresponding drug community.<br>
 
     <!-- <br><img src="node_before.png">&emsp;<big><big>→</big></big>&emsp;
-    <img src="node_during.png"> &emsp;&emsp;<big><big>→</big></big>&emsp; 
+    <img src="node_during.png"> &emsp;&emsp;<big><big>→</big></big>&emsp;
     <img src="node_after.png"> <br><br>  -->
 
     <img src="http://i.imgur.com/GrPGfLG.png"> &emsp;<big><big>→</big></big>&emsp;
-    <img src="http://i.imgur.com/bFt7gtj.png"> &emsp;&emsp;<big><big>→</big></big>&emsp; 
-    <img src="http://i.imgur.com/zHd3Arq.png"> 
+    <img src="http://i.imgur.com/bFt7gtj.png"> &emsp;&emsp;<big><big>→</big></big>&emsp;
+    <img src="http://i.imgur.com/zHd3Arq.png">
 
     <br><br><br>
     <h1> Drug Properties</h1>
     After selecting a node to view its drug community, select a node within the community to view its individual properties and PubChem link. <br>
 
     <!-- <img src="drug_before.png"> &emsp;<big><big>→</big></big>&emsp;
-    <img src="drug_during.png"> &emsp;&emsp;<big><big>→</big></big>&emsp; 
+    <img src="drug_during.png"> &emsp;&emsp;<big><big>→</big></big>&emsp;
     <img src="drug_after.png" style="width:500px">  -->
     <img src="http://i.imgur.com/0JP3MvU.png"> &emsp;<big><big>→</big></big>&emsp;
-    <img src="http://i.imgur.com/vcID1gb.png"> &emsp;&emsp;<big><big>→</big></big>&emsp; 
-    <img src="http://i.imgur.com/pSCtcNb.png" style="width:500px"> 
+    <img src="http://i.imgur.com/vcID1gb.png"> &emsp;&emsp;<big><big>→</big></big>&emsp;
+    <img src="http://i.imgur.com/pSCtcNb.png" style="width:500px">
 
     <br><br>
     The drug properties shown include chemical names, the molecular formula, molecular weight, and link to its PubChem page.
     <br><br>
     <!-- <img src="drug_properties.png" style="width:500px"> -->
-    <img src="http://i.imgur.com/pbTsUkw.png" style="width:500px">    
+    <img src="http://i.imgur.com/pbTsUkw.png" style="width:500px">
 
 </div>
 

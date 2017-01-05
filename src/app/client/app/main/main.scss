@@ -76,10 +76,13 @@
   min-height: 100%;
   background-position: center;
   background-size: cover;
-  background-image: url(../../assets/images/bg.png);
+  background-image: url(https://chrchung.github.io/bg.png);
 }
 
 .main-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
   background: transparent !important;
 }
 
@@ -115,6 +118,7 @@ header div {
 
 .about {
   padding: 10%;
+
 
 }
 

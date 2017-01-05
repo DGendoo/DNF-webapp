@@ -1,23 +1,23 @@
-<div class="ui fixed inverted large borderless menu main-nav">
-  <h1 id="page-title" href="#" class="item">
-    DNF-webapp
-  </h1>
-
-  <a href="#about" class="item nav-item">Get Started</a>
-  <a ng-click="help()" class="item nav-item">Documentation</a>
-</div>
-
-<header id="welcome" class="bglogo">
+<header id="welcome" class="bglogo animated fadeInDown">
   <div>
-    <h1>DNF-webapp</h1>
-    <span>For drug exploration</span>
+    <h1 style="animation-delay:0.8s; -moz-animation-delay:0.8s; -webkit-animation-delay:0.8s;" class="animated fadeInRight">DNF-webapp</h1>
+    <span class="">For drug exploration</span>
     <br>
-    <a href="#about" class="ui large inverted button">Get Started</a>
+    <a href="#getstarted" class="ui massive inverted button hvr-pulse">Get Started</a>
   </div>
 </header>
 
-<section id="about" class="about">
-<h1>About DNF-webapp</h1>
+<div class="ui inverted borderless menu main-nav">
+  <h1 id="page-title" class="item">
+    DNF-webapp
+  </h1>
+
+  <!--<a href="#getstarted" class="item nav-item">Get Started</a>-->
+  <a ui-sref="documentation" class="item nav-item">Documentation</a>
+</div>
+
+<section id="getstarted" class="about">
+<h1>Get Started</h1>
   <div>
 
     DNF-webapp serves a previously developed algorithm in our lab: the Drug Network fusion approach (DNF) for querying, downloading and visualization of drug taxonomy data. DNF is a versatile tool that leverages the power of systems biology and pharmacology in order to infer new hypotheses about the mode of action of chemical compounds prior to clinical use. Characterization of a drug mode of action has been a bottleneck in drug development and most of the computational methods rely on prior knowledge such as clinical indications or side effects. DNF uses basic drug properties namely, its structure, sensitivity, and perturbation to identify correspondences between drugs. In contrast, the web application developed by us will help biomedical researchers find unexpected similarities between their own compounds and the plethora of chemical classes hosted on the web application. Our work will contribute to the advancement of knowledge in network pharmacology, an emerging field that holds a great potential for drug repurposing in the era of precision medicine.
