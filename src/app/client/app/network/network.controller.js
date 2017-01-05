@@ -296,6 +296,8 @@ angular.module('dnftestApp')
       $scope.$apply();
     };
 
+
+
     var displayCluster = function (nodeName) {
       $scope.state = 'Cluster';
       $scope.$apply();
@@ -361,6 +363,14 @@ angular.module('dnftestApp')
       });
       showToolbar();
     };
+
+    var highlightNode = function (nodeName) {
+      $scope.showInfo = false;
+      $scope.showChart = false;
+      $scope.showHelp = false;
+      
+
+    }
 
     $scope.display = function () {
 

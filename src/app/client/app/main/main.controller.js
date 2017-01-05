@@ -26,4 +26,7 @@ angular.module('dnftestApp')
 
     };
 
+    //Remove tool bar
+    $("div.ui-cytoscape-toolbar").remove();
+
   });
