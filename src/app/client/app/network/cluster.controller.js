@@ -51,7 +51,10 @@ angular.module('dnftestApp')
     }
     //Help button
     $scope.help = function () {
-      UIChange.help($scope, $state, $stateParams);
+      // $scope.hideToolbar();
+UIChange.help($scope, $state, $stateParams);
+      $state.go('documentation');
+
     };
 
     var getClusterNum = function (node) {

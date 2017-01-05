@@ -52,9 +52,9 @@ angular.module('dnftestApp')
     //Help button
     $scope.help = function () {
       UIChange.help($scope, $state, $stateParams);
-      hideToolbar();
+      //hideToolbar();
 
-      $state.go('documentation')
+      $state.go('documentation');
 
     };
 
@@ -319,4 +319,4 @@ angular.module('dnftestApp')
       });
     });
 
-});
+  });

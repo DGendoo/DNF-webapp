@@ -51,6 +51,10 @@ angular.module('dnftestApp')
     //Help button
     $scope.help = function () {
       UIChange.help($scope, $state, $stateParams);
+
+      // $scope.hideToolbar();
+
+      $state.go('documentation');
     };
 
 
