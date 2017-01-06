@@ -100,17 +100,14 @@ angular.module('dnftestApp').service('UIChange', function($sce,Restangular){
       $("div.ui-cytoscape-toolbar").hide();
   };
   var showToolbar = function ($scope, $state, $stateParams) {
+    $("div.ui-cytoscape-toolbar").remove();
     $scope.cy.toolbar({position: 'right'});
     $("div.ui-cytoscape-toolbar").show();
   };
 
   var help = function ($scope, $state, $stateParams) {
-      $scope.showHelp = true;
-      $scope.state = 'Help';
-      $scope.showInfo = false;
-      $scope.showChart = false;
-      $scope.cy = null;
       hideToolbar();
+      $state.go('documentation');
   };
 
   var back = function ($scope, $state, $stateParams) {
