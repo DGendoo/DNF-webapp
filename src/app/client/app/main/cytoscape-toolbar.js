@@ -455,7 +455,7 @@ function my_zoom(core,x,y, tozoom){
 												width: toolList.length * 55,
 												height: 45,
 												'background-color': '#000000',
-												opacity: 0.5
+												opacity: 1.0
 											});
 
 						$toolListWrapper.append($toolList);
