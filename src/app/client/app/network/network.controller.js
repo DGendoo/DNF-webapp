@@ -94,7 +94,7 @@ angular.module('dnftestApp')
               'color': 'white'
             }
           },
-          {
+          { 
             selector: 'edge',
             style: {
               'line-color': 'lightgrey'

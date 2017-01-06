@@ -82,7 +82,12 @@ angular.module('dnftestApp').service('JsonData', ['$q','Restangular', function($
 //This service is for handling ui changes
 angular.module('dnftestApp').service('UIChange', function($sce,Restangular){
   var search = function ($scope, $state, $stateParams ,node) {
-      $state.go('cluster',{id:$stateParams.id,clusterId:node});
+      if ($scope.state == "Exemplar") {
+        $state.go('cluster',{id:$stateParams.id,clusterId:node});
+      }
+      else {
+        highlightNode($scope, $state, $stateParams, node);
+      }
     };
   var goExemplar = function($scope, $state, $stateParams){
       $state.go('exemplar', {id:$stateParams.id});
@@ -199,7 +204,16 @@ angular.module('dnftestApp').service('UIChange', function($sce,Restangular){
     $scope.showInfo = false;
     $scope.showChart = false;
     $scope.showHelp = false;
+
+    //$scope.cy.filter("nodes[data[id = nodeName]]").animate({style: {backgroundColor: 'blue'}});
+    $scope.cy.nodes().animate(
+    {
+      css: { 'background-color': 'blue' }
+    })
+
+  .delay( 1000 )
   }
+
   return {
       search:search,
       goExemplar:goExemplar,
