@@ -205,13 +205,26 @@ angular.module('dnftestApp').service('UIChange', function($sce,Restangular){
     $scope.showChart = false;
     $scope.showHelp = false;
 
-    //$scope.cy.filter("nodes[data[id = nodeName]]").animate({style: {backgroundColor: 'blue'}});
-    $scope.cy.nodes().animate(
+    $scope.cy.nodes("#" + nodeName).animate(
     {
-      css: { 'background-color': 'blue' }
+      css: { 'background-color': 'lightgreen' }
+    })
+    .delay( 500 )
+    .animate(
+    {
+      css: { 'background-color': 'yellow' }
+    })
+    .delay( 500 )
+    .animate(
+    {
+      css: { 'background-color': 'lightgreen' }
     })
 
-  .delay( 1000 )
+    var pos = $scope.cy.nodes("#" + nodeName).position();
+    $scope.cy.zoom({
+      level: 2.0,
+      position: pos
+    });
   }
 
   return {
