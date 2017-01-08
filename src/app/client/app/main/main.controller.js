@@ -205,7 +205,10 @@ angular.module('dnftestApp').service('UIChange', function($sce,Restangular){
     $scope.showChart = false;
     $scope.showHelp = false;
 
-    $scope.cy.nodes("#" + nodeName).animate(
+
+    $scope.cy.nodes("#" + nodeName)
+    .delay(500)
+    .animate(
     {
       css: { 'background-color': 'lightgreen' }
     })
@@ -219,6 +222,7 @@ angular.module('dnftestApp').service('UIChange', function($sce,Restangular){
     {
       css: { 'background-color': 'lightgreen' }
     })
+    
 
     var pos = $scope.cy.nodes("#" + nodeName).position();
     $scope.cy.zoom({
