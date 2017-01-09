@@ -86,6 +86,8 @@ angular.module('dnftestApp').service('UIChange', function($sce,Restangular){
         $state.go('cluster',{id:$stateParams.id,clusterId:node});
       }
       else {
+        $scope.cy.reset();
+        $scope.cy.zoom(0.1);
         highlightNode($scope, $state, $stateParams, node);
       }
     };
@@ -200,33 +202,37 @@ angular.module('dnftestApp').service('UIChange', function($sce,Restangular){
     $scope.$apply();
   };
 
+ 
   var highlightNode = function ($scope, $state, $stateParams,nodeName) {
     $scope.showInfo = false;
     $scope.showChart = false;
     $scope.showHelp = false;
 
-
     $scope.cy.nodes("#" + nodeName)
-    .delay(500)
+    .delay(200)
     .animate(
     {
-      css: { 'background-color': 'lightgreen' }
+      style: { 'background-color': 'green' }
     })
-    .delay( 500 )
+    .delay( 200 )
     .animate(
     {
-      css: { 'background-color': 'yellow' }
+      style: { 'background-color': 'yellow' }
     })
-    .delay( 500 )
+    .delay( 200 )
     .animate(
     {
-      css: { 'background-color': 'lightgreen' }
+      style: { 'background-color': 'green' }
     })
-    
+    .delay( 200 )
+    .animate(
+    {
+      style: { 'background-color': 'yellow' }
+    })
 
     var pos = $scope.cy.nodes("#" + nodeName).position();
     $scope.cy.zoom({
-      level: 2.0,
+      level: 2.8,
       position: pos
     });
   }
