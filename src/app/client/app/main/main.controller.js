@@ -1,3 +1,4 @@
+
 'use strict';
 
 angular.module('dnftestApp')
@@ -235,6 +236,8 @@ angular.module('dnftestApp').service('UIChange', function($sce,Restangular){
       level: 2.8,
       position: pos
     });
+
+    $scope.$apply();
   }
 
   return {
