@@ -51,7 +51,7 @@ angular.module('dnftestApp').service('JsonData', ['$q','Restangular', function($
       if (!(networkId in clusters)){
         urlCalls.push(Restangular.all('api/things/drug_clusters/').get(networkId).then(function (data) {
           clusters[networkId] = JSON.parse(data).element;
-        }));      
+        }));
       }
       if (!(networkId in exemplarData)){
         urlCalls.push(Restangular.all('api/things/exemplar/').get(networkId).then(function (data) {
@@ -70,7 +70,7 @@ angular.module('dnftestApp').service('JsonData', ['$q','Restangular', function($
               'nodes':nodes[networkId],
               'clusters':clusters[networkId],
               'exemplarData':exemplarData[networkId]
-            }) 
+            })
           });
       return deferred.promise;
     }
@@ -88,7 +88,7 @@ angular.module('dnftestApp').service('UIChange', function($sce,Restangular){
       }
       else {
         $scope.cy.reset();
-        $scope.cy.zoom(0.1);
+        $scope.cy.zoom(0.2);
         highlightNode($scope, $state, $stateParams, node);
       }
     };
@@ -203,7 +203,7 @@ angular.module('dnftestApp').service('UIChange', function($sce,Restangular){
     $scope.$apply();
   };
 
- 
+
   var highlightNode = function ($scope, $state, $stateParams,nodeName) {
     $scope.showInfo = false;
     $scope.showChart = false;
@@ -229,11 +229,12 @@ angular.module('dnftestApp').service('UIChange', function($sce,Restangular){
     .animate(
     {
       style: { 'background-color': 'yellow' }
-    })
+    });
 
     var pos = $scope.cy.nodes("#" + nodeName).position();
+
     $scope.cy.zoom({
-      level: 2.8,
+      level: 2.0,
       position: pos
     });
 
