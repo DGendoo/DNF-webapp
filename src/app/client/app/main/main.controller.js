@@ -144,7 +144,7 @@ angular.module('dnftestApp').service('UIChange', function($sce,Restangular){
         }
       },
       data: {
-        labels: ["Perturbation", "Sensitivity", "Structure"],
+        labels: ["Perturbation", "Structure", "Sensitivity"],
         datasets: [{
           data: [edge._private.data['perturbation'], edge._private.data['physical structure'], edge._private.data['sensitivity']],
           backgroundColor: [
